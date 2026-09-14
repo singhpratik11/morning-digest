@@ -524,23 +524,17 @@
     EDITIONS=buildEditions(rows); CUR=0; renderDeck(); reflectSaved();
   }catch(e){ try{EDITIONS=buildEditions(EMBEDDED);renderDeck();}catch(e2){} }
 
-  // 2) hydrate from the live db when it connects (full history + cross-device saved sync)
+  // 2) hydrate from the published data on Vercel (same-origin fetch, always fresh)
   try{
-    if(window.claude&&typeof window.claude.use==="function"){
-      claude.use("db").then(function(db){
-        if(!db)return; DB=db;
-        db.collection("digests").orderBy("date","desc").limit(90).onSnapshot(function(snap){
-          var rows=[]; snap.forEach(function(d){var v=d.data()||{};rows.push({date:v.date||d.id,markdown:v.markdown||""});});
-          var eds=buildEditions(rows);
-          if(eds.length){EDITIONS=eds;CUR=0;renderDeck();cacheEditions(rows);}
-        },function(){});
-        db.collection("saved").onSnapshot(function(snap){
-          SAVED=new Set();SAVED_ITEMS=[];
-          snap.forEach(function(d){var v=d.data()||{};v.id=v.id||d.id;SAVED.add(v.id);SAVED_ITEMS.push(v);});
-          reflectSaved();persistSaved();if(sheet.classList.contains("on"))renderSheet();
-        },function(){});
-      }).catch(function(){});
-    }
+    fetch("data/digests.json",{cache:"no-store"})
+      .then(function(r){return r.ok?r.json():null;})
+      .then(function(list){
+        if(!list||!list.length)return;
+        var rows=list.map(function(d){return {date:d.date,markdown:d.markdown};});
+        var eds=buildEditions(rows);
+        if(eds.length){EDITIONS=eds;CUR=0;renderDeck();cacheEditions(rows);}
+      })
+      .catch(function(){});
   }catch(e){}
 })();
 </script>
