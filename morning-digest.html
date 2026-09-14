@@ -108,6 +108,12 @@
   .counter[hidden]{display:none}
   .progress{margin:9px 2px 0;height:3px;border-radius:3px;background:var(--hair);overflow:hidden;pointer-events:auto}
   .progress-fill{height:100%;width:0;background:var(--accent);transition:width .18s ease}
+  .filters{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-top:9px;pointer-events:auto}
+  .filters::-webkit-scrollbar{display:none}
+  .filter-chip{flex:none;border:1px solid var(--hair);background:var(--surface);color:var(--ink-mute);
+    font-size:.7rem;font-weight:700;letter-spacing:.02em;padding:.3rem .62rem;border-radius:999px;
+    cursor:pointer;white-space:nowrap;transition:background .15s,color .15s,border-color .15s}
+  .filter-chip.active{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 
   /* ---------- deck ---------- */
   .deck{position:absolute;inset:0;overflow-y:auto;scroll-snap-type:y mandatory;
@@ -116,7 +122,7 @@
 
   .card{height:100%;scroll-snap-align:start;scroll-snap-stop:always;position:relative;
     display:flex;flex-direction:column;
-    padding:calc(env(safe-area-inset-top) + 78px) 22px calc(env(safe-area-inset-bottom) + 26px);}
+    padding:calc(env(safe-area-inset-top) + 110px) 22px calc(env(safe-area-inset-bottom) + 26px);}
   .chip{align-self:flex-start;font-size:.66rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;
     color:var(--accent);background:var(--accent-soft);padding:.34rem .66rem;border-radius:999px}
   .card-body{flex:1;display:flex;flex-direction:column;justify-content:center;gap:.7rem;min-height:0;padding:6px 0}
@@ -238,6 +244,7 @@
       </button>
     </div>
     <div class="progress"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="filters" id="filters" hidden></div>
   </div>
 
   <div class="deck" id="deck" tabindex="0" aria-label="News feed" hidden></div>
@@ -378,6 +385,13 @@
     '</section>';
   }
 
+  function buildFilters(){
+    FILTERS=[]; var prev=null;
+    CARDS.forEach(function(c,i){ if(c.chip){ if(c.chip!==prev){FILTERS.push({label:c.chip,idx:i});} prev=c.chip; } });
+    filters.innerHTML=FILTERS.map(function(f){
+      return '<button class="filter-chip" data-idx="'+f.idx+'">'+esc(f.label)+'</button>';}).join("");
+    filters.hidden=!FILTERS.length; LAST_SEC=-1;
+  }
   function renderDeck(){
     if(!EDITIONS.length){
       deck.hidden=true; hud.hidden=true; state.hidden=false;
@@ -387,6 +401,7 @@
     var ed=EDITIONS[CUR];
     CARDS=toCards(ed);
     deck.innerHTML=CARDS.map(cardHTML).join("");
+    buildFilters();
     deck.hidden=false; state.hidden=true; hud.hidden=false;
     editionDate.textContent=shortDate(ed.date);
     prevDay.disabled=(CUR>=EDITIONS.length-1);
@@ -406,6 +421,14 @@
       if(c.n){counter.textContent=c.n+" / "+c.total;counter.hidden=false;}
       else if(c.kind==="intro"){counter.textContent=(c.total||0)+" stories";counter.hidden=(!c.total);}
       else {counter.hidden=true;}
+    }
+    // highlight the active section in the filter bar (only when it changes)
+    var ai=-1;
+    for(var k=0;k<FILTERS.length;k++){ if(FILTERS[k].idx<=idx) ai=k; else break; }
+    if(ai!==LAST_SEC){
+      LAST_SEC=ai; var chips=filters.children;
+      for(var j=0;j<chips.length;j++){ var on=(j===ai); chips[j].classList.toggle("active",on);
+        if(on){try{chips[j].scrollIntoView({inline:"center",block:"nearest"});}catch(e){}} }
     }
     // hide swipe hint after first move
     if(deck.scrollTop>12){var hint=deck.querySelector(".hint");if(hint)hint.style.opacity="0";}
@@ -434,12 +457,12 @@
   function closeSheetFn(){scrim.classList.remove("on");sheet.classList.remove("on");}
 
   // ---------- state ----------
-  var DB=null,EDITIONS=[],CARDS=[],CUR=0,SAVED=new Set(),SAVED_ITEMS=[],toastT=null;
+  var DB=null,EDITIONS=[],CARDS=[],CUR=0,SAVED=new Set(),SAVED_ITEMS=[],toastT=null,FILTERS=[],LAST_SEC=-1;
   var app=document.getElementById("app"),deck=document.getElementById("deck"),hud=document.getElementById("hud"),
       state=document.getElementById("state"),editionDate=document.getElementById("editionDate"),
       prevDay=document.getElementById("prevDay"),nextDay=document.getElementById("nextDay"),
       openSaved=document.getElementById("openSaved"),savedCount=document.getElementById("savedCount"),
-      progressFill=document.getElementById("progressFill"),counter=document.getElementById("counter"),scrim=document.getElementById("scrim"),
+      progressFill=document.getElementById("progressFill"),counter=document.getElementById("counter"),filters=document.getElementById("filters"),scrim=document.getElementById("scrim"),
       sheet=document.getElementById("sheet"),sheetClose=document.getElementById("sheetClose"),
       sheetList=document.getElementById("sheetList"),toast=document.getElementById("toast");
 
@@ -498,6 +521,8 @@
   prevDay.addEventListener("click",function(){if(CUR<EDITIONS.length-1){CUR++;renderDeck();}});
   nextDay.addEventListener("click",function(){if(CUR>0){CUR--;renderDeck();}});
   editionDate.addEventListener("click",function(){deck.scrollTo({top:0,behavior:"smooth"});});
+  filters.addEventListener("click",function(e){var b=e.target.closest(".filter-chip");if(!b)return;
+    var i=+b.getAttribute("data-idx");deck.scrollTo({top:i*(deck.clientHeight||1),behavior:"smooth"});});
 
   openSaved.addEventListener("click",openSheetFn);
   sheetClose.addEventListener("click",closeSheetFn);
