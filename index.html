@@ -2,7 +2,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&display=swap">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -61,18 +61,17 @@
     margin:0;background:var(--app-bg);color:var(--ink);
     font-family:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
     -webkit-font-smoothing:antialiased;overscroll-behavior:none;
-    display:flex;align-items:center;justify-content:center;
   }
   button{font-family:inherit;color:inherit}
   a{color:inherit;text-decoration:none}
 
   /* ---------- phone frame ---------- */
   .app{
-    position:relative;width:100%;max-width:468px;height:100dvh;height:100vh;
+    position:relative;width:100%;max-width:468px;margin:0 auto;height:100vh;height:100dvh;
     background:var(--ground);overflow:hidden;
   }
   @media (min-width:520px){
-    body{padding:22px}
+    body{padding:22px;display:flex;align-items:center;justify-content:center;min-height:100dvh}
     .app{height:min(920px,calc(100dvh - 44px));border-radius:var(--frame-radius);
       box-shadow:var(--shadow);border:1px solid var(--hair);}
     .deck{border-radius:var(--frame-radius)}
@@ -80,7 +79,8 @@
 
   /* ---------- HUD ---------- */
   .hud{position:absolute;top:0;left:0;right:0;z-index:12;pointer-events:none;
-    padding:calc(env(safe-area-inset-top) + 10px) 14px 0;}
+    background:linear-gradient(var(--ground) 62%, transparent);
+    padding:calc(env(safe-area-inset-top) + 16px) 14px 8px;}
   .bar{display:flex;align-items:center;gap:6px;pointer-events:auto}
   .brandmark{font-family:"Newsreader",Georgia,serif;font-weight:700;font-size:1rem;
     letter-spacing:-.01em;color:var(--ink);display:flex;align-items:center;gap:.35rem;margin-right:2px;}
