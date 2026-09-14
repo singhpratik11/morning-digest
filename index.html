@@ -265,7 +265,7 @@
 
   // ---------- helpers ----------
   function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){
-    return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];});}
+    return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&apos;"}[c];});}
   function safeUrl(u){u=String(u||"").trim();return /^https?:\/\//i.test(u)?u:"";}
   function inlineMd(s){return s.replace(/\*\*([^*]+)\*\*/g,"<strong>$1</strong>")
     .replace(/(^|[^*])\*([^*]+)\*/g,"$1<em>$2</em>").replace(/\*\*/g,"");}
