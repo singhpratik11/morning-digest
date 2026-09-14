@@ -108,12 +108,22 @@
   .counter[hidden]{display:none}
   .progress{margin:9px 2px 0;height:3px;border-radius:3px;background:var(--hair);overflow:hidden;pointer-events:auto}
   .progress-fill{height:100%;width:0;background:var(--accent);transition:width .18s ease}
-  .filters{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-top:9px;pointer-events:auto}
-  .filters::-webkit-scrollbar{display:none}
-  .filter-chip{flex:none;border:1px solid var(--hair);background:var(--surface);color:var(--ink-mute);
-    font-size:.7rem;font-weight:700;letter-spacing:.02em;padding:.3rem .62rem;border-radius:999px;
-    cursor:pointer;white-space:nowrap;transition:background .15s,color .15s,border-color .15s}
-  .filter-chip.active{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+  .secnav{position:relative;margin-top:9px;pointer-events:auto;align-self:flex-start}
+  .sec-trigger{display:inline-flex;align-items:center;gap:.4rem;border:1px solid var(--hair);
+    background:var(--surface);color:var(--ink);font-size:.72rem;font-weight:700;letter-spacing:.02em;
+    padding:.34rem .7rem;border-radius:999px;cursor:pointer;box-shadow:var(--shadow);max-width:80vw}
+  .sec-trigger span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .sec-trigger .chev-d{width:.85rem;height:.85rem;flex:none;color:var(--ink-mute);transition:transform .18s}
+  .sec-trigger[aria-expanded="true"] .chev-d{transform:rotate(180deg)}
+  .sec-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:18;min-width:236px;max-width:88vw;
+    background:var(--surface);border:1px solid var(--hair);border-radius:14px;box-shadow:var(--shadow);
+    padding:5px;max-height:62vh;overflow-y:auto}
+  .sec-item{display:flex;align-items:center;gap:.5rem;width:100%;text-align:left;border:0;background:transparent;
+    color:var(--ink);font-size:.82rem;font-weight:600;padding:.55rem .6rem;border-radius:9px;cursor:pointer}
+  .sec-item::before{content:"";width:6px;height:6px;border-radius:50%;flex:none;background:transparent}
+  .sec-item:hover{background:var(--surface-2)}
+  .sec-item.active{color:var(--accent)}
+  .sec-item.active::before{background:var(--accent)}
 
   /* ---------- deck ---------- */
   .deck{position:absolute;inset:0;overflow-y:auto;scroll-snap-type:y mandatory;
@@ -219,6 +229,14 @@
     transition:opacity .2s,transform .2s;box-shadow:var(--shadow)}
   .toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
 
+  .totop{position:absolute;left:16px;bottom:calc(env(safe-area-inset-bottom) + 92px);z-index:15;
+    width:2.6rem;height:2.6rem;border-radius:50%;border:1px solid var(--hair);background:var(--surface);
+    color:var(--ink-soft);box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;
+    cursor:pointer;opacity:0;transform:translateY(8px);transition:opacity .2s,transform .2s;pointer-events:none}
+  .totop svg{width:1.15rem;height:1.15rem}
+  .totop:hover{color:var(--ink)}
+  .totop.show{opacity:1;transform:none;pointer-events:auto}
+
   :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:8px}
   @media (prefers-reduced-motion:reduce){
     .deck{scroll-behavior:auto}
@@ -244,7 +262,13 @@
       </button>
     </div>
     <div class="progress"><div class="progress-fill" id="progressFill"></div></div>
-    <div class="filters" id="filters" hidden></div>
+    <div class="secnav" id="secnav" hidden>
+      <button class="sec-trigger" id="secTrigger" aria-haspopup="true" aria-expanded="false">
+        <span id="secCurrent">Jump to section</span>
+        <svg class="chev-d" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+      <div class="sec-menu" id="secMenu" hidden></div>
+    </div>
   </div>
 
   <div class="deck" id="deck" tabindex="0" aria-label="News feed" hidden></div>
@@ -264,6 +288,7 @@
   </div>
 
   <div class="toast" id="toast"></div>
+  <button class="totop" id="toTopBtn" aria-label="Jump to top" title="Jump to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
 </div>
 
 <script>
@@ -385,12 +410,14 @@
     '</section>';
   }
 
+  function openMenu(){secMenu.hidden=false;secTrigger.setAttribute("aria-expanded","true");}
+  function closeMenu(){secMenu.hidden=true;secTrigger.setAttribute("aria-expanded","false");}
   function buildFilters(){
     FILTERS=[]; var prev=null;
     CARDS.forEach(function(c,i){ if(c.chip){ if(c.chip!==prev){FILTERS.push({label:c.chip,idx:i});} prev=c.chip; } });
-    filters.innerHTML=FILTERS.map(function(f){
-      return '<button class="filter-chip" data-idx="'+f.idx+'">'+esc(f.label)+'</button>';}).join("");
-    filters.hidden=!FILTERS.length; LAST_SEC=-1;
+    secMenu.innerHTML=FILTERS.map(function(f){
+      return '<button class="sec-item" data-idx="'+f.idx+'">'+esc(f.label)+'</button>';}).join("");
+    secnav.hidden=!FILTERS.length; secCurrent.textContent="Jump to section"; LAST_SEC=-1; closeMenu();
   }
   function renderDeck(){
     if(!EDITIONS.length){
@@ -422,16 +449,18 @@
       else if(c.kind==="intro"){counter.textContent=(c.total||0)+" stories";counter.hidden=(!c.total);}
       else {counter.hidden=true;}
     }
-    // highlight the active section in the filter bar (only when it changes)
+    // reflect the active section in the dropdown (only when it changes)
     var ai=-1;
     for(var k=0;k<FILTERS.length;k++){ if(FILTERS[k].idx<=idx) ai=k; else break; }
     if(ai!==LAST_SEC){
-      LAST_SEC=ai; var chips=filters.children;
-      for(var j=0;j<chips.length;j++){ var on=(j===ai); chips[j].classList.toggle("active",on);
-        if(on){try{chips[j].scrollIntoView({inline:"center",block:"nearest"});}catch(e){}} }
+      LAST_SEC=ai;
+      secCurrent.textContent = ai>=0 ? FILTERS[ai].label : "Jump to section";
+      var items=secMenu.children;
+      for(var j=0;j<items.length;j++){ items[j].classList.toggle("active", j===ai); }
     }
     // hide swipe hint after first move
     if(deck.scrollTop>12){var hint=deck.querySelector(".hint");if(hint)hint.style.opacity="0";}
+    toTopBtn.classList.toggle("show", idx>0);
   }
 
   // ---------- saved sheet ----------
@@ -462,9 +491,13 @@
       state=document.getElementById("state"),editionDate=document.getElementById("editionDate"),
       prevDay=document.getElementById("prevDay"),nextDay=document.getElementById("nextDay"),
       openSaved=document.getElementById("openSaved"),savedCount=document.getElementById("savedCount"),
-      progressFill=document.getElementById("progressFill"),counter=document.getElementById("counter"),filters=document.getElementById("filters"),scrim=document.getElementById("scrim"),
+      progressFill=document.getElementById("progressFill"),counter=document.getElementById("counter"),
+      secnav=document.getElementById("secnav"),secTrigger=document.getElementById("secTrigger"),
+      secCurrent=document.getElementById("secCurrent"),secMenu=document.getElementById("secMenu"),
+      scrim=document.getElementById("scrim"),
       sheet=document.getElementById("sheet"),sheetClose=document.getElementById("sheetClose"),
-      sheetList=document.getElementById("sheetList"),toast=document.getElementById("toast");
+      sheetList=document.getElementById("sheetList"),toast=document.getElementById("toast"),
+      toTopBtn=document.getElementById("toTopBtn");
 
   function showToast(msg){toast.textContent=msg;toast.classList.add("on");
     clearTimeout(toastT);toastT=setTimeout(function(){toast.classList.remove("on");},1400);}
@@ -521,8 +554,11 @@
   prevDay.addEventListener("click",function(){if(CUR<EDITIONS.length-1){CUR++;renderDeck();}});
   nextDay.addEventListener("click",function(){if(CUR>0){CUR--;renderDeck();}});
   editionDate.addEventListener("click",function(){deck.scrollTo({top:0,behavior:"smooth"});});
-  filters.addEventListener("click",function(e){var b=e.target.closest(".filter-chip");if(!b)return;
-    var i=+b.getAttribute("data-idx");deck.scrollTo({top:i*(deck.clientHeight||1),behavior:"smooth"});});
+  secTrigger.addEventListener("click",function(e){e.stopPropagation();if(secMenu.hidden)openMenu();else closeMenu();});
+  secMenu.addEventListener("click",function(e){var b=e.target.closest(".sec-item");if(!b)return;
+    var i=+b.getAttribute("data-idx");closeMenu();deck.scrollTo({top:i*(deck.clientHeight||1),behavior:"smooth"});});
+  document.addEventListener("click",function(e){if(!secMenu.hidden&&!secnav.contains(e.target))closeMenu();});
+  toTopBtn.addEventListener("click",function(){deck.scrollTo({top:0,behavior:"smooth"});});
 
   openSaved.addEventListener("click",openSheetFn);
   sheetClose.addEventListener("click",closeSheetFn);
@@ -532,7 +568,7 @@
     var row=rm.closest(".srow");if(!row)return;
     toggleSave(row.getAttribute("data-id"),null);renderSheet();
   });
-  document.addEventListener("keydown",function(e){if(e.key==="Escape")closeSheetFn();});
+  document.addEventListener("keydown",function(e){if(e.key==="Escape"){closeSheetFn();closeMenu();}});
   window.addEventListener("resize",updateProgress);
 
   // ---------- boot ----------
