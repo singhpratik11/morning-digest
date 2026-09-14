@@ -1,0 +1,532 @@
+<title>Morning Digest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&display=swap">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Digest">
+<meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#191b1e" media="(prefers-color-scheme: dark)">
+<style>
+  :root{
+    --app-bg:#eceae4;
+    --ground:#f7f6f3;
+    --surface:#fffdf8;
+    --surface-2:#f1efe9;
+    --ink:#2b2f36;
+    --ink-soft:#565a62;
+    --ink-mute:#8a8d93;
+    --accent:#5b6aa0;
+    --accent-ink:#ffffff;
+    --accent-soft:#eef0f6;
+    --hair:#e6e2da;
+    --hair-strong:#d8d3c8;
+    --up:#3f7d5b;
+    --down:#b0553f;
+    --shadow:0 1px 2px rgba(43,47,54,.05), 0 10px 34px rgba(43,47,54,.10);
+    --frame-radius:30px;
+  }
+  :root:not([data-theme="light"]){
+    @media (prefers-color-scheme: dark){
+      --app-bg:#0f1113;
+      --ground:#191b1e;
+      --surface:#212429;
+      --surface-2:#262a2f;
+      --ink:#eceae4;
+      --ink-soft:#bcbdc0;
+      --ink-mute:#8a8d93;
+      --accent:#96a2d1;
+      --accent-ink:#15171a;
+      --accent-soft:#2a2f3d;
+      --hair:#33373c;
+      --hair-strong:#3d4249;
+      --up:#6fb98d;
+      --down:#d98a72;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 14px 40px rgba(0,0,0,.45);
+    }
+  }
+  :root[data-theme="dark"]{
+    --app-bg:#0f1113;--ground:#191b1e;--surface:#212429;--surface-2:#262a2f;
+    --ink:#eceae4;--ink-soft:#bcbdc0;--ink-mute:#8a8d93;--accent:#96a2d1;--accent-ink:#15171a;
+    --accent-soft:#2a2f3d;--hair:#33373c;--hair-strong:#3d4249;--up:#6fb98d;--down:#d98a72;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 14px 40px rgba(0,0,0,.45);
+  }
+
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;background:var(--app-bg);color:var(--ink);
+    font-family:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+    -webkit-font-smoothing:antialiased;overscroll-behavior:none;
+    display:flex;align-items:center;justify-content:center;
+  }
+  button{font-family:inherit;color:inherit}
+  a{color:inherit;text-decoration:none}
+
+  /* ---------- phone frame ---------- */
+  .app{
+    position:relative;width:100%;max-width:468px;height:100dvh;height:100vh;
+    background:var(--ground);overflow:hidden;
+  }
+  @media (min-width:520px){
+    body{padding:22px}
+    .app{height:min(920px,calc(100dvh - 44px));border-radius:var(--frame-radius);
+      box-shadow:var(--shadow);border:1px solid var(--hair);}
+    .deck{border-radius:var(--frame-radius)}
+  }
+
+  /* ---------- HUD ---------- */
+  .hud{position:absolute;top:0;left:0;right:0;z-index:12;pointer-events:none;
+    padding:calc(env(safe-area-inset-top) + 10px) 14px 0;}
+  .bar{display:flex;align-items:center;gap:6px;pointer-events:auto}
+  .brandmark{font-family:"Newsreader",Georgia,serif;font-weight:700;font-size:1rem;
+    letter-spacing:-.01em;color:var(--ink);display:flex;align-items:center;gap:.35rem;margin-right:2px;}
+  .brandmark .dot{color:var(--accent)}
+  .edpick{display:flex;align-items:center;gap:1px;background:var(--surface);border:1px solid var(--hair);
+    border-radius:999px;padding:2px;box-shadow:var(--shadow)}
+  .edpick .date{font-size:.72rem;font-weight:700;color:var(--ink-soft);padding:.2rem .5rem;border:0;background:transparent;
+    font-variant-numeric:tabular-nums;white-space:nowrap}
+  .chev{width:1.5rem;height:1.5rem;border-radius:50%;border:0;background:transparent;color:var(--ink-mute);
+    cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
+  .chev:disabled{opacity:.3;cursor:default}
+  .chev:not(:disabled):hover{color:var(--ink)}
+  .spacer{flex:1}
+  .hud-btn{position:relative;width:2.2rem;height:2.2rem;border-radius:50%;border:1px solid var(--hair);
+    background:var(--surface);box-shadow:var(--shadow);color:var(--ink-soft);cursor:pointer;
+    display:inline-flex;align-items:center;justify-content:center}
+  .hud-btn:hover{color:var(--ink)}
+  .hud-btn svg{width:1.15rem;height:1.15rem}
+  .hud-btn .count{position:absolute;top:-4px;right:-4px;min-width:1.05rem;height:1.05rem;padding:0 .25rem;
+    border-radius:999px;background:var(--accent);color:var(--accent-ink);font-size:.62rem;font-weight:700;
+    display:inline-flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
+  .count[hidden]{display:none}
+  .progress{margin:9px 2px 0;height:3px;border-radius:3px;background:var(--hair);overflow:hidden;pointer-events:auto}
+  .progress-fill{height:100%;width:0;background:var(--accent);transition:width .18s ease}
+
+  /* ---------- deck ---------- */
+  .deck{position:absolute;inset:0;overflow-y:auto;scroll-snap-type:y mandatory;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .deck::-webkit-scrollbar{display:none}
+
+  .card{height:100%;scroll-snap-align:start;scroll-snap-stop:always;position:relative;
+    display:flex;flex-direction:column;
+    padding:calc(env(safe-area-inset-top) + 78px) 22px calc(env(safe-area-inset-bottom) + 26px);}
+  .chip{align-self:flex-start;font-size:.66rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--accent);background:var(--accent-soft);padding:.34rem .66rem;border-radius:999px}
+  .card-body{flex:1;display:flex;flex-direction:column;justify-content:center;gap:.7rem;min-height:0;padding:6px 0}
+  .hl{font-family:"Newsreader",Georgia,serif;font-weight:600;letter-spacing:-.01em;line-height:1.16;
+    margin:0;color:var(--ink);text-wrap:balance;
+    font-size:clamp(1.7rem,6.4vw,2.35rem);}
+  .card.long .hl{font-size:clamp(1.45rem,5.4vw,1.95rem)}
+  .sum{margin:0;color:var(--ink-soft);font-size:1.02rem;line-height:1.62;text-wrap:pretty;
+    overflow-y:auto;scrollbar-width:none}
+  .sum::-webkit-scrollbar{display:none}
+  .sum strong{font-weight:600;color:var(--ink)}
+  .num{font-variant-numeric:tabular-nums}
+
+  .card.intro .hl{font-size:clamp(1.9rem,7vw,2.5rem)}
+  .card.intro .kicker{font-family:"Manrope";font-size:.9rem;color:var(--ink-mute);font-weight:600;margin-top:.2rem}
+
+  .card-foot{display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+  .via{font-size:.82rem;color:var(--ink-mute);font-weight:600;max-width:60%}
+  .via b{color:var(--ink-soft);font-weight:700}
+
+  /* action rail */
+  .rail{display:flex;gap:10px}
+  .act{display:flex;flex-direction:column;align-items:center;gap:3px;border:0;background:transparent;cursor:pointer}
+  .act .ic{width:2.9rem;height:2.9rem;border-radius:50%;background:var(--surface);border:1px solid var(--hair);
+    box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;color:var(--ink-soft);
+    transition:transform .16s cubic-bezier(.3,1.4,.5,1),color .16s,background .16s,border-color .16s}
+  .act .ic svg{width:1.3rem;height:1.3rem}
+  .act .lbl{font-size:.62rem;font-weight:700;letter-spacing:.03em;color:var(--ink-mute);text-transform:uppercase}
+  .act:hover .ic{transform:translateY(-2px)}
+  .act.save[aria-pressed="true"] .ic{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+  .act.save[aria-pressed="true"] .ic svg{fill:var(--accent-ink)}
+  .act.save[aria-pressed="true"] .lbl{color:var(--accent)}
+  .act.pop .ic{animation:pop .34s cubic-bezier(.3,1.5,.5,1)}
+  @keyframes pop{0%{transform:scale(1)}45%{transform:scale(1.22)}100%{transform:scale(1)}}
+  .act.open .ic{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+
+  /* swipe hint */
+  .hint{position:absolute;left:0;right:0;bottom:calc(env(safe-area-inset-bottom) + 96px);
+    display:flex;flex-direction:column;align-items:center;gap:2px;color:var(--ink-mute);
+    font-size:.7rem;font-weight:600;letter-spacing:.05em;pointer-events:none;transition:opacity .4s}
+  .hint svg{width:1.1rem;height:1.1rem;animation:bob 1.5s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(5px)}}
+
+  /* end card */
+  .card.end{align-items:center;justify-content:center;text-align:center}
+  .card.end .big{font-family:"Newsreader",Georgia,serif;font-size:1.7rem;color:var(--ink);margin:.4rem 0}
+  .card.end p{color:var(--ink-mute);max-width:15rem;margin:.2rem auto 1.2rem;font-size:.92rem;line-height:1.5}
+  .restart{border:1px solid var(--hair);background:var(--surface);color:var(--ink);border-radius:999px;
+    padding:.6rem 1.2rem;font-weight:700;font-size:.85rem;cursor:pointer;box-shadow:var(--shadow)}
+
+  /* ---------- states ---------- */
+  .state{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;padding:2rem;gap:.5rem;color:var(--ink-mute)}
+  .state .big{font-family:"Newsreader",Georgia,serif;font-size:1.4rem;color:var(--ink-soft)}
+  .spin{width:26px;height:26px;border-radius:50%;border:3px solid var(--hair);border-top-color:var(--accent);
+    animation:spin 1s linear infinite;margin-bottom:.4rem}
+  @keyframes spin{to{transform:rotate(360deg)}}
+
+  /* ---------- saved sheet ---------- */
+  .scrim{position:absolute;inset:0;background:rgba(20,20,22,.42);opacity:0;pointer-events:none;
+    transition:opacity .25s;z-index:20}
+  .scrim.on{opacity:1;pointer-events:auto}
+  .sheet{position:absolute;left:0;right:0;bottom:0;z-index:21;background:var(--ground);
+    border-top-left-radius:22px;border-top-right-radius:22px;box-shadow:0 -10px 40px rgba(0,0,0,.2);
+    transform:translateY(100%);transition:transform .28s cubic-bezier(.2,.8,.2,1);
+    max-height:82%;display:flex;flex-direction:column;padding-bottom:env(safe-area-inset-bottom)}
+  @media (min-width:520px){.sheet{border-bottom-left-radius:var(--frame-radius);border-bottom-right-radius:var(--frame-radius)}}
+  .sheet.on{transform:translateY(0)}
+  .sheet-grip{width:38px;height:4px;border-radius:4px;background:var(--hair-strong);margin:10px auto 4px}
+  .sheet-head{display:flex;align-items:center;justify-content:space-between;padding:.4rem 1.1rem .6rem}
+  .sheet-head h2{font-family:"Newsreader",Georgia,serif;font-size:1.2rem;margin:0}
+  .sheet-close{border:0;background:var(--surface-2);width:2rem;height:2rem;border-radius:50%;cursor:pointer;
+    color:var(--ink-soft);display:inline-flex;align-items:center;justify-content:center}
+  .sheet-list{overflow-y:auto;padding:0 1.1rem 1.1rem}
+  .srow{display:grid;grid-template-columns:1fr auto auto;gap:.4rem .5rem;align-items:center;
+    padding:.85rem 0;border-bottom:1px solid var(--hair)}
+  .srow:last-child{border-bottom:0}
+  .srow .st{grid-column:1;font-family:"Newsreader",Georgia,serif;font-size:1.02rem;line-height:1.28;color:var(--ink)}
+  .srow .smeta{grid-column:1;font-size:.72rem;color:var(--ink-mute);font-weight:600;margin-top:.15rem}
+  .srow .sbtn{width:2rem;height:2rem;border-radius:50%;border:1px solid var(--hair);background:var(--surface);
+    color:var(--ink-soft);cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
+  .srow .sbtn svg{width:1rem;height:1rem}
+  .srow .sbtn:hover{color:var(--ink)}
+  .sheet-empty{text-align:center;color:var(--ink-mute);padding:2.4rem 1rem;line-height:1.5}
+  .sheet-empty .big{font-family:"Newsreader",Georgia,serif;font-size:1.25rem;color:var(--ink-soft);display:block;margin-bottom:.3rem}
+
+  /* toast */
+  .toast{position:absolute;left:50%;transform:translateX(-50%) translateY(20px);
+    bottom:calc(env(safe-area-inset-bottom) + 22px);z-index:30;background:var(--ink);color:var(--ground);
+    font-size:.82rem;font-weight:600;padding:.5rem .95rem;border-radius:999px;opacity:0;pointer-events:none;
+    transition:opacity .2s,transform .2s;box-shadow:var(--shadow)}
+  .toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:8px}
+  @media (prefers-reduced-motion:reduce){
+    .deck{scroll-behavior:auto}
+    .hint svg,.act.pop .ic{animation:none}
+    .sheet,.scrim,.toast{transition:none}
+  }
+</style>
+
+<div class="app" id="app">
+  <div class="hud" id="hud" hidden>
+    <div class="bar">
+      <span class="brandmark"><span class="dot">◆</span>Digest</span>
+      <span class="edpick">
+        <button class="chev" id="prevDay" aria-label="Older edition"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <button class="date" id="editionDate" aria-label="Edition date">—</button>
+        <button class="chev" id="nextDay" aria-label="Newer edition"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+      </span>
+      <span class="spacer"></span>
+      <button class="hud-btn" id="openSaved" aria-label="Saved stories">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h12a1 1 0 0 1 1 1v15l-7-4-7 4V5a1 1 0 0 1 1-1z"/></svg>
+        <span class="count" id="savedCount" hidden>0</span>
+      </button>
+    </div>
+    <div class="progress"><div class="progress-fill" id="progressFill"></div></div>
+  </div>
+
+  <div class="deck" id="deck" tabindex="0" aria-label="News feed" hidden></div>
+
+  <div class="state" id="state">
+    <div class="spin"></div>
+    <div>Loading your digest…</div>
+  </div>
+
+  <div class="scrim" id="scrim"></div>
+  <div class="sheet" id="sheet" role="dialog" aria-label="Saved stories" aria-modal="true">
+    <div class="sheet-grip"></div>
+    <div class="sheet-head"><h2>Saved</h2>
+      <button class="sheet-close" id="sheetClose" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <div class="sheet-list" id="sheetList"></div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  // ---------- helpers ----------
+  function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];});}
+  function safeUrl(u){u=String(u||"").trim();return /^https?:\/\//i.test(u)?u:"";}
+  function inlineMd(s){return s.replace(/\*\*([^*]+)\*\*/g,"<strong>$1</strong>")
+    .replace(/(^|[^*])\*([^*]+)\*/g,"$1<em>$2</em>").replace(/\*\*/g,"");}
+  function slug(s){return String(s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,60)||"item";}
+  function icClose(){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg>';}
+  function icBm(){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h12a1 1 0 0 1 1 1v15l-7-4-7 4V5a1 1 0 0 1 1-1z"/></svg>';}
+  function icOpen(){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M17 7H9M17 7v8"/></svg>';}
+  function icDown(){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>';}
+  function prettyDate(iso){var d=new Date(iso+"T00:00:00");if(isNaN(d))return iso;
+    return d.toLocaleDateString(undefined,{weekday:"long",day:"numeric",month:"long",year:"numeric"});}
+  function shortDate(iso){var d=new Date(iso+"T00:00:00");if(isNaN(d))return iso;
+    return d.toLocaleDateString(undefined,{weekday:"short",day:"numeric",month:"short"});}
+  function host(u){try{return new URL(u).hostname.replace(/^www\./,"");}catch(e){return "";}}
+
+  // ---------- parser ----------
+  function pullLinks(text){var links=[];var stripped=text.replace(/\[([^\]]+)\]\(([^)]+)\)/g,function(_,label,url){
+    links.push({label:label.trim(),url:url.trim()});return "";});return {stripped:stripped,links:links};}
+  function makeItem(text,bucket,date){var pl=pullLinks(text);var body=pl.stripped;var hl="",m=body.match(/\*\*([^*]+)\*\*/);
+    if(m){hl=m[1].trim();body=body.replace(m[0],"");}
+    hl=hl.replace(/^\d+[.)]\s+/,"").trim();
+    body=body.replace(/\s{2,}/g," ").replace(/\s+([.,;:])/g,"$1").trim();
+    if(!hl&&body){hl=body;body="";}if(!hl)return null;
+    return {id:date+"::"+slug(hl),kind:"story",date:date,bucket:bucket,headline:hl,why:body,links:pl.links};}
+  function makeWorth(text,bucket,date){var pl=pullLinks(text);var link=pl.links[0];
+    var title=link?link.label:text.replace(/\*\*/g,"").split("—")[0].trim();
+    var rest=pl.stripped.replace(/^[\s—-]+/,"").trim();var src="";var mm=rest.match(/\(([^)]+)\)\s*$/);
+    if(mm){src=mm[1].trim();rest=rest.replace(mm[0],"").trim();}
+    rest=rest.replace(/^[\s—-]+|[\s—-]+$/g,"");if(!title)return null;
+    return {id:date+"::w::"+slug(title),kind:"worth",date:date,bucket:bucket,headline:title,url:link?link.url:"",why:rest,source:src};}
+  function parseDigest(md,date){var lines=String(md||"").replace(/\r/g,"").split("\n");
+    var displayDate="",introLines=[],sections=[],cur=null,buf=[];
+    function flush(){if(cur&&cur.kind==="normal"&&buf.length){var it=makeItem(buf.join(" ").trim(),cur.title,date);if(it)cur.items.push(it);}buf=[];}
+    for(var i=0;i<lines.length;i++){var line=lines[i].trim();
+      if(/^-{3,}$/.test(line))continue;                       // horizontal rule
+      if(/^##\s+/.test(line)){flush();var title=line.replace(/^##\s+/,"").trim();
+        cur={title:title,kind:/worth opening/i.test(title)?"worth":"normal",items:[]};sections.push(cur);continue;}
+      if(/^#\s+/.test(line)){displayDate=line.replace(/^#\s+/,"").replace(/^Daily Digest\s*[—-]\s*/i,"").trim();continue;}
+      if(!cur){ if(line)introLines.push(line); continue; }    // intro / tone lines before first section
+      if(cur.kind==="worth"){if(/^[-*]\s+/.test(line)){var w=makeWorth(line.replace(/^[-*]\s+/,""),cur.title,date);if(w)cur.items.push(w);}continue;}
+      if(line===""){flush();continue;}
+      if(/^\*\*/.test(line)&&buf.length){flush();}buf.push(line);}
+    flush();
+    var tone=introLines.map(function(l){return l.replace(/^\*\*Tone:?\*\*\s*/i,"").trim();}).filter(Boolean).join("\n");
+    return {date:date,displayDate:displayDate||prettyDate(date),tone:tone,
+      sections:sections.filter(function(s){return s.items.length;})};}
+
+  // flatten an edition into ordered cards
+  function toCards(ed){
+    var cards=[];
+    cards.push({kind:"intro",date:ed.date,displayDate:ed.displayDate,tone:ed.tone});
+    ed.sections.forEach(function(s){
+      var label=/worth opening/i.test(s.title)?"Worth opening":s.title;
+      s.items.forEach(function(it){var c=Object.assign({},it);c.chip=label;cards.push(c);});
+    });
+    cards.push({kind:"end",date:ed.date});
+    return cards;
+  }
+
+  // ---------- render ----------
+  function renderSum(s){return inlineMd(esc(s)).replace(/(-?\d[\d,]*\.?\d*%?)/g,'<span class="num">$1</span>');}
+  function cardHTML(c,idx){
+    if(c.kind==="intro"){
+      return '<section class="card intro" data-idx="'+idx+'">'+
+        '<span class="chip">Morning brief</span>'+
+        '<div class="card-body"><h2 class="hl">'+esc(c.displayDate)+'</h2>'+
+        (c.tone?c.tone.split("\n").map(function(t){return '<p class="sum">'+inlineMd(esc(t))+'</p>';}).join(""):'')+
+        '<div class="kicker">Swipe up to read today’s stories</div></div>'+
+        '<div class="hint">'+icDown()+'<span>SWIPE</span></div>'+
+      '</section>';
+    }
+    if(c.kind==="end"){
+      return '<section class="card end" data-idx="'+idx+'">'+
+        '<div class="big">That’s the brief.</div>'+
+        '<p>You’re all caught up for '+esc(shortDate(c.date))+'. New stories land after the 9 AM run.</p>'+
+        '<button class="restart" data-restart>Back to top</button>'+
+      '</section>';
+    }
+    var isSaved=SAVED.has(c.id);
+    var url=c.kind==="worth"?safeUrl(c.url):(c.links&&c.links[0]?safeUrl(c.links[0].url):"");
+    var srcName=c.kind==="worth"?(c.source||host(url)):(c.links&&c.links[0]?c.links[0].label:host(url));
+    var longCls=(c.headline.length>90||(c.why||"").length>260)?" long":"";
+    var open=url?'<a class="act open" href="'+esc(url)+'" target="_blank" rel="noopener noreferrer" aria-label="Open source"><span class="ic">'+icOpen()+'</span><span class="lbl">Open</span></a>':'';
+    return '<section class="card'+longCls+'" data-idx="'+idx+'" data-id="'+esc(c.id)+'">'+
+      '<span class="chip">'+esc(c.chip||c.bucket||"")+'</span>'+
+      '<div class="card-body"><h2 class="hl">'+inlineMd(esc(c.headline))+'</h2>'+
+      (c.why?'<p class="sum">'+renderSum(c.why)+'</p>':'')+'</div>'+
+      '<div class="card-foot">'+
+        '<div class="via">'+(srcName?'via <b>'+esc(srcName)+'</b>':'')+'</div>'+
+        '<div class="rail">'+
+          '<button class="act save" aria-pressed="'+(isSaved?"true":"false")+'" aria-label="Save story"><span class="ic">'+icBm()+'</span><span class="lbl">'+(isSaved?"Saved":"Save")+'</span></button>'+
+          open+
+        '</div>'+
+      '</div>'+
+    '</section>';
+  }
+
+  function renderDeck(){
+    if(!EDITIONS.length){
+      deck.hidden=true; hud.hidden=true; state.hidden=false;
+      state.innerHTML='<div class="big">No digest yet</div><div>Your next edition lands here after the 9 AM routine runs.</div>';
+      return;
+    }
+    var ed=EDITIONS[CUR];
+    CARDS=toCards(ed);
+    deck.innerHTML=CARDS.map(cardHTML).join("");
+    deck.hidden=false; state.hidden=true; hud.hidden=false;
+    editionDate.textContent=shortDate(ed.date);
+    prevDay.disabled=(CUR>=EDITIONS.length-1);
+    nextDay.disabled=(CUR<=0);
+    deck.scrollTop=0;
+    updateProgress();
+  }
+
+  function updateProgress(){
+    var h=deck.clientHeight||1;
+    var idx=Math.round(deck.scrollTop/h);
+    var max=Math.max(1,(deck.scrollHeight-h));
+    progressFill.style.width=(Math.min(1,deck.scrollTop/max)*100)+"%";
+    // hide swipe hint after first move
+    if(deck.scrollTop>12){var hint=deck.querySelector(".hint");if(hint)hint.style.opacity="0";}
+  }
+
+  // ---------- saved sheet ----------
+  function renderSheet(){
+    var items=SAVED_ITEMS.slice().sort(function(a,b){return (b.savedAt||0)-(a.savedAt||0);});
+    if(!items.length){
+      sheetList.innerHTML='<div class="sheet-empty"><span class="big">Nothing saved yet</span>Tap <b>Save</b> on any story to keep it here. Your saves sync across your devices.</div>';
+      return;
+    }
+    sheetList.innerHTML=items.map(function(it){
+      var url=it.url||(it.links&&it.links[0]?it.links[0].url:"");
+      var meta=(it.bucket?esc(it.bucket):"")+(it.source?" · "+esc(it.source):"")+" · "+esc(shortDate(it.date));
+      var open=safeUrl(url)?'<a class="sbtn" href="'+esc(safeUrl(url))+'" target="_blank" rel="noopener noreferrer" aria-label="Open">'+icOpen()+'</a>':'';
+      return '<div class="srow" data-id="'+esc(it.id)+'">'+
+        '<div class="st">'+esc(it.headline)+'</div>'+
+        '<div class="smeta">'+meta+'</div>'+
+        open+
+        '<button class="sbtn" data-remove aria-label="Remove">'+icClose()+'</button>'+
+      '</div>';
+    }).join("");
+  }
+  function openSheetFn(){renderSheet();scrim.classList.add("on");sheet.classList.add("on");}
+  function closeSheetFn(){scrim.classList.remove("on");sheet.classList.remove("on");}
+
+  // ---------- state ----------
+  var DB=null,EDITIONS=[],CARDS=[],CUR=0,SAVED=new Set(),SAVED_ITEMS=[],toastT=null;
+  var app=document.getElementById("app"),deck=document.getElementById("deck"),hud=document.getElementById("hud"),
+      state=document.getElementById("state"),editionDate=document.getElementById("editionDate"),
+      prevDay=document.getElementById("prevDay"),nextDay=document.getElementById("nextDay"),
+      openSaved=document.getElementById("openSaved"),savedCount=document.getElementById("savedCount"),
+      progressFill=document.getElementById("progressFill"),scrim=document.getElementById("scrim"),
+      sheet=document.getElementById("sheet"),sheetClose=document.getElementById("sheetClose"),
+      sheetList=document.getElementById("sheetList"),toast=document.getElementById("toast");
+
+  function showToast(msg){toast.textContent=msg;toast.classList.add("on");
+    clearTimeout(toastT);toastT=setTimeout(function(){toast.classList.remove("on");},1400);}
+  function refreshSavedCount(){savedCount.textContent=SAVED_ITEMS.length;savedCount.hidden=SAVED_ITEMS.length===0;}
+  function findCard(id){for(var i=0;i<CARDS.length;i++)if(CARDS[i].id===id)return CARDS[i];
+    for(var j=0;j<SAVED_ITEMS.length;j++)if(SAVED_ITEMS[j].id===id)return SAVED_ITEMS[j];return null;}
+
+  function toggleSave(id,btn){
+    var isSaved=SAVED.has(id);
+    if(isSaved){
+      SAVED.delete(id);
+      SAVED_ITEMS=SAVED_ITEMS.filter(function(x){return x.id!==id;});
+      if(DB)DB.doc("saved/"+id).delete().catch(function(){});
+    }else{
+      var it=findCard(id);if(!it)return;
+      SAVED.add(id);
+      var doc={id:it.id,date:it.date,bucket:it.bucket||it.chip||"",headline:it.headline,why:it.why||"",savedAt:Date.now()};
+      if(it.links)doc.links=it.links;if(it.url)doc.url=it.url;if(it.source)doc.source=it.source;
+      SAVED_ITEMS=SAVED_ITEMS.filter(function(x){return x.id!==id;});SAVED_ITEMS.push(doc);
+      if(DB)DB.doc("saved/"+id).set(doc).catch(function(){});
+    }
+    persistSaved();
+    reflectSaved();
+    if(sheet.classList.contains("on"))renderSheet();
+    if(btn){var pressed=!isSaved;btn.setAttribute("aria-pressed",pressed?"true":"false");
+      var lbl=btn.querySelector(".lbl");if(lbl)lbl.textContent=pressed?"Saved":"Save";
+      btn.classList.remove("pop");void btn.offsetWidth;btn.classList.add("pop");}
+    showToast(isSaved?"Removed":"Saved");
+  }
+  function reflectSaved(){
+    refreshSavedCount();
+    deck.querySelectorAll(".card[data-id]").forEach(function(el){
+      var b=el.querySelector(".act.save");if(!b)return;
+      var on=SAVED.has(el.getAttribute("data-id"));
+      b.setAttribute("aria-pressed",on?"true":"false");
+      var lbl=b.querySelector(".lbl");if(lbl)lbl.textContent=on?"Saved":"Save";
+    });
+  }
+
+  // ---------- events ----------
+  var raf=false;
+  deck.addEventListener("scroll",function(){if(raf)return;raf=true;requestAnimationFrame(function(){raf=false;updateProgress();});});
+  deck.addEventListener("click",function(e){
+    var save=e.target.closest(".act.save");
+    if(save){var host=save.closest(".card[data-id]");if(host){toggleSave(host.getAttribute("data-id"),save);}return;}
+    var rs=e.target.closest("[data-restart]");
+    if(rs){deck.scrollTo({top:0,behavior:"smooth"});}
+  });
+  deck.addEventListener("keydown",function(e){
+    if(e.key==="ArrowDown"||e.key==="PageDown"||e.key===" "){e.preventDefault();deck.scrollBy({top:deck.clientHeight,behavior:"smooth"});}
+    else if(e.key==="ArrowUp"||e.key==="PageUp"){e.preventDefault();deck.scrollBy({top:-deck.clientHeight,behavior:"smooth"});}
+  });
+
+  prevDay.addEventListener("click",function(){if(CUR<EDITIONS.length-1){CUR++;renderDeck();}});
+  nextDay.addEventListener("click",function(){if(CUR>0){CUR--;renderDeck();}});
+  editionDate.addEventListener("click",function(){deck.scrollTo({top:0,behavior:"smooth"});});
+
+  openSaved.addEventListener("click",openSheetFn);
+  sheetClose.addEventListener("click",closeSheetFn);
+  scrim.addEventListener("click",closeSheetFn);
+  sheetList.addEventListener("click",function(e){
+    var rm=e.target.closest("[data-remove]");if(!rm)return;
+    var row=rm.closest(".srow");if(!row)return;
+    toggleSave(row.getAttribute("data-id"),null);renderSheet();
+  });
+  document.addEventListener("keydown",function(e){if(e.key==="Escape")closeSheetFn();});
+  window.addEventListener("resize",updateProgress);
+
+  // ---------- boot ----------
+  // Baked-in latest edition so the app ALWAYS shows content instantly — even
+  // before, or entirely without, the live db. The db (when it connects) upgrades
+  // this with the full history and enables saving across devices.
+  var EMBEDDED=[{date:"2026-09-14",markdown:"# Monday, 14 September 2026\n\n**Markets:** Dalal Street is shut for Ganesh Chaturthi after Friday closed near three-month lows \u2014 Sensex down 121 pts, Nifty just under 23,400 \u2014 with Brent above $108 and the 10-year US yield knocking on 5%.\n**Off-market:** Saudi Arabia has shut the East-West pipeline that bypasses the Strait of Hormuz after a drone attack, and an Indian-crewed tanker was hit off Oman with one seafarer still missing.\n\n---\n\n## Top 3 today\n\n**1. Saudi pipeline shut, oil punches through $108**\nRiyadh closed the East-West crude line \u2014 the one artery that lets Gulf barrels skip the Strait of Hormuz \u2014 after a drone strike, and a fresh attack near Qeshm Island killed one crew member on an Iranian vessel. Brent settled at $108.03 (+3.27%), WTI at $103.42 (+3.37%), with Business Standard flagging a scenario where roughly 4% of global supply goes offline.\n*What to watch:* India imports ~85% of its crude, so this runs straight into the CAD, the rupee (95.57/$) and OMC marketing margins \u2014 HPCL is called out as the most exposed. Every extra $10 on Brent is the single biggest variable in the RBI's October MPC call. [The National](https://www.thenationalnews.com/business/energy/2026/09/14/oil-nears-108-after-saudi-arabia-shuts-pipeline-amid-attacks) \u00b7 [Al Jazeera](https://www.aljazeera.com/news/2026/9/12/saudi-arabia-shuts-critical-oil-pipeline-after-drone-attack-what-happened)\n\n**2. Fed week, and the G7 is hiking, not cutting**\nThe FOMC decides Wednesday with market-implied odds of a 25bp *hike* at 85\u201390% after August US CPI printed 3.4%. The ECB already moved on 10 September, lifting rates to 2.5% \u2014 Lagarde called it a \"no brainer\" \u2014 and the BoE and BoJ follow later in the week. Treasury Secretary Bessent is reportedly weighing intervention to stop the 10-year clearing 5% (it closed at 4.982%).\n*What to watch:* A synchronised G7 tightening into an energy shock is the 1970s playbook running in reverse order. For India it compresses the rate differential, pressures the rupee, and makes the RBI's \u20b91 trn liquidity drain look like pre-positioning rather than housekeeping. [CNBC](https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september.html) \u00b7 [CNBC \u2014 ECB](https://www.cnbc.com/2026/09/10/ecb-interest-rate-hike-lagarde-iran.html)\n\n**3. RBI forces the Tata Sons listing question**\nThe Reserve Bank has rejected Tata Sons' application to surrender its Core Investment Company registration \u2014 the manoeuvre that would have let it avoid a mandatory listing. The board meets on 17 September to take up both the IPO and the group's top leadership in the same sitting.\n*What to watch:* This would be the largest listing India has ever seen, and it arrives bundled with a succession question at the holdco. Watch Tata Sons' listed subsidiaries \u2014 the market has historically priced a Tata Sons IPO as a re-rating event for the whole group. [Business Standard](https://www.business-standard.com/companies/news/tata-sons-to-take-up-top-leadership-ipo-issues-on-sep-17-after-rbi-missive-126091300858_1.html) \u00b7 [Moneylife](https://www.moneylife.in/)\n\n---\n\n## Indian markets & macro\n\n**Markets closed today for Ganesh Chaturthi; Friday ended at three-month lows** \u2014 Sensex \u2212121 pts, Nifty a shade below 23,400, with crude and rising yields doing the damage. [Business Standard](https://www.business-standard.com/markets/capital-market-news/sensex-settles-121-pts-lower-nifty-ends-tad-below-23-400-level-126091100824_1.html)\n\n**RBI to drain \u20b91 trillion via OMO bond sales in September** \u2014 against a record ~\u20b911 trillion banking system surplus. A durable-liquidity withdrawal of this size is a tightening signal in everything but name. [Business Standard](https://www.business-standard.com/economy/news/rbi-to-drain-1-trillion-through-bond-sales-to-tackle-surplus-cash-126091101190_1.html)\n\n**August CPI is the week's number** \u2014 a Business Standard poll pencils in 4.5\u20135% against July's 4.45%, and a Reuters poll calls it a 20-month high on food and fuel. Print above 5% and the October MPC conversation changes shape. [Investing.com](https://www.investing.com/news/economy-news/india-august-consumer-inflation-likely-hit-20month-high-on-food-fuel-prices-reuters-poll-4892966)\n\n**Rupee at 95.57/$, down 5 paise** \u2014 traders cite a crude correction plus suspected RBI support on the bid. The defence gets more expensive if Brent holds three figures. [Business Standard](https://www.business-standard.com/economy)\n\n**HDFC Bank at a 52-week low, down ~30% in 2026** \u2014 and management has submitted two names to the RBI to succeed Sashidhar Jagdishan. India's largest private lender de-rating this hard is a systemic story, not a stock story. [Business Standard](https://www.business-standard.com/markets/news/hdfc-bank-hdfc-life-hit-52-week-lows-down-30-in-2026-what-lies-ahead-126090900324_1.html)\n\n**Railway freight loading up 5.4% to 137.9 mt in August** \u2014 one of the few clean high-frequency indicators still pointing up, and useful cover against the demand-slowdown narrative. [Business Standard](https://www.business-standard.com/industry)\n\n**Vodafone Idea denies Airtel and Jio's \"unfair practice\" charge** \u2014 the incumbents are contesting the relief Vi has received; any regulatory tilt here reprices all three. [Business Standard](https://www.business-standard.com/industry/news/vodafone-idea-denies-bharti-airtel-jio-s-charge-of-unfair-practice-126091300696_1.html)\n\n---\n\n## India \u2014 national\n\n**Amit Shah sets a 2029 deadline for UCC in all 21 NDA-ruled states** \u2014 the clearest timeline yet, and framed explicitly against the next Lok Sabha cycle. [The Week](https://www.theweek.in/news/india/2026/09/13/21-nda-ruled-states-to-have-uniform-civil-code-by-2029-amit-shah-s-big-statement-ahead-of-next-lok-sabha-polls.html)\n\n**Indian-crewed tanker 'El Gaia' attacked off Oman: 13 rescued, 1 missing** \u2014 the MEA has condemned the strike. Indian seafarers crew a large share of Gulf tonnage, so the Hormuz conflict now has a direct domestic casualty list. Still developing. [The Week](https://www.theweek.in/news/india/2026/09/13/mea-condemns-attack-on-indian-crewed-tanker-el-gaia-off-oman-coast-13-rescued-after-fire-breaks-out-1-missing.html)\n\n**West Bengal orders 252 madrassas shut after a statewide survey**, with show-cause notices to roughly 100 more; institutions with valid approvals continue. A months-long political fight starts here. [The Tribune](https://www.tribuneindia.com/news/india/bengal-govt-orders-close-of-252-madrassas-sends-show-cause-notice-to-100/)\n\n**US proposes scrapping the H-1B 60-day grace period after job loss** \u2014 laid-off workers would face immediate departure. Indians hold the overwhelming majority of H-1Bs; this is a live risk for anyone planning a US stint. [Business Standard](https://www.business-standard.com/immigration/us-proposes-ending-h-1b-60-day-grace-period-after-job-loss-what-changes-126091100418_1.html)\n\n**BRICS New Delhi Declaration adopted by full consensus** \u2014 Modi pressed on weaponisation of technology and critical minerals; Xi pitched a \"large integrated market\" across the bloc. India banked a genuine diplomatic win as host. [The Tribune](https://www.tribuneindia.com/)\n\n**Harish Rawat resigns from Congress posts** after cash and gold were recovered from an aide \u2014 an unwelcome opening for the party in Uttarakhand. [The Tribune](https://www.tribuneindia.com/)\n\n**Supreme Court seeks the Centre's response on a national pay commission for judges**, while Kapil Sibal urges the Court to revisit the Tenth Schedule's treatment of legislative-party mergers. [LiveLaw](https://www.livelaw.in/top-stories)\n\n---\n\n## Global markets & macro\n\n**Wall Street rallied into the Fed** \u2014 S&P 500 7,656.98 (+0.86%), Dow 52,573.29 (+0.98%), Nasdaq 26,333.04 (+0.96%), VIX down 11.2% to 15.84. Stocks are pricing a hike they think is already survivable. [Investing.com](https://www.investing.com/news/stock-market-news)\n\n**US 10-year at 4.982%, 30-year at 5.367%** \u2014 and Bessent is reportedly weighing intervention if the long end clears 5%. That threshold is now a policy line, not just a chart level. [Investing.com](https://www.investing.com/news/stock-market-news)\n\n**Gold slipped to $4,369/oz (\u22120.90%), silver to $64.39 (\u22121.23%)** \u2014 an odd divergence from the war premium in crude, and worth watching as a tell on whether the oil move is read as supply-shock or escalation. [Investing.com](https://www.investing.com/news/stock-market-news)\n\n**Indonesian ferry capsizes in the Java Sea: 6 dead, about 130 missing** from roughly 240 aboard, with 107 rescued. Search operations continue; numbers still moving. [Al Jazeera](https://www.aljazeera.com/news/2026/9/13/one-dead-102-rescued-after-indonesian-ferry-goes-missing-in-java-sea)\n\n**India supplied 70% of Russia's oil product imports in August**, including 120,000 tonnes of gasoline, as Ukrainian strikes knock out Russian refining. A strange inversion of the usual trade, and a sanctions headache in waiting. [Business Standard](https://www.business-standard.com/world-news)\n\n**India\u2013EU FTA heads to the EU Council; signing expected in December** \u2014 the Commission calls it the largest trade agreement either side has ever concluded. [Business Standard](https://www.business-standard.com/economy/news/india-eu-fta-heads-to-eu-council-for-approval-signing-likely-in-december-126091101402_1.html)\n\n**Korea Exchange extends trading to 8pm** for nearly all local stocks, testing global investor appetite \u2014 a template other Asian exchanges will be watching. [Business Standard](https://www.business-standard.com/world-news)\n\n---\n\n## Deals, IPOs & corporate\n\n**Anthropic picks Nasdaq for an October IPO** \u2014 reporting points to a valuation target around $2 trillion, which would make it one of the largest listings ever attempted. Sam Altman, meanwhile, called an OpenAI IPO in 2026 \"ill-advised\". [The Next Web](https://thenextweb.com/news/anthropic-ipo-nasdaq-october-listing) \u00b7 [TechCrunch](https://techcrunch.com/category/artificial-intelligence/)\n\n**Nvidia's $12.93bn purchase of Hugging Face goes definitive** \u2014 the argument being that the infrastructure around open models is worth more than the models. [TechCrunch](https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/)\n\n**RentoMojo IPO closes subscribed 72.88x, QIB book at 177x** \u2014 the strongest institutional bid in the Indian new-issue market in some time, and a read-through for the rest of the consumer-rental pipeline. [Inc42](https://inc42.com/)\n\n**China's Z.AI raises $5bn** across shares and convertible bonds \u2014 direct pressure on the valuations US labs are taking to market. [Business Standard](https://www.business-standard.com/companies)\n\n**Indian startups raised $321.9mn last week** \u2014 Popo Global took \u20b9532 cr from Artal Asia, Swish $24mn led by Bertelsmann India, Piston $15mn Series A, and Uber led a $10mn Series B into Carrum Mobility. [Entrackr](https://entrackr.com/)\n\n**PwC US and PwC India form an advisory joint venture** \u2014 a structural bet on India as a delivery hub rather than a back office. [Business Standard](https://www.business-standard.com/industry)\n\n**Larry Ellison cancels a plan to sell up to 50mn Oracle shares (~$7.5bn)** \u2014 read as a confidence signal into the AI infrastructure cycle. [Business Standard](https://www.business-standard.com/world-news)\n\n---\n\n## AI, tech & science\n\n**Amodei calls for slowing the frontier \u2014 and Altman and Musk back him** \u2014 a three-step pacing plan from Anthropic's CEO, endorsed by two rivals, which is itself the news. Trump rejected it flatly: \"whoever wins with AI wins.\" Chip stocks wobbled; Business Standard notes the underlying compute demand looks intact. [TechCrunch](https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/) \u00b7 [Business Standard](https://www.business-standard.com/technology/tech-news/why-altman-musk-and-amodei-want-to-slow-the-ai-race-126091400087_1.html)\n\n**Human heart muscle regrows after a heart attack \u2014 shown for the first time** \u2014 overturning the assumption that post-infarct cardiac damage is permanent. If it replicates, it reframes an entire treatment field. [ScienceDaily](https://www.sciencedaily.com/)\n\n**DeepMind's AlphaGenome maps the effects of ~9 billion possible human genetic mutations** \u2014 a variant-effect atlas at a scale no wet lab could reach, and the most consequential AI-for-biology result of the week. [Nature](https://www.nature.com/news)\n\n**Modified bone-marrow cells rebuild bone in osteoporosis patients** in a small early trial \u2014 promising, but small-n and early; treat the effect size with care until a larger cohort reports. [Nature](https://www.nature.com/news)\n\n**DeepSeek-V4.1-Flash claims to beat GPT-5.6 Sol and Claude Opus 5 on price-performance** at $0.003 per 1M cached input tokens off-peak. The claim is the lab's own and unaudited \u2014 but the pricing, if real, is the competitive story. [VentureBeat](https://venturebeat.com/category/ai/)\n\n**KAIST's \"chameleon\" chip cuts AI prediction errors up to 40-fold** by adapting to varying data speeds \u2014 a hardware answer to a problem usually thrown at models. [Phys.org](https://phys.org/)\n\n**Quantum error detection gets a cleaner primitive** \u2014 a two-qubit entangling gate that flags its own failures as detectable photon losses, alongside separate work quadrupling microscope resolution with entangled photons. [Phys.org](https://phys.org/)\n\n---\n\n## Worth opening yourself\n\n- [Oil shock 2026: Milder than the 1970s but reshaping India's energy outlook](https://www.business-standard.com/opinion/columns/oil-shock-2026-milder-than-the-1970s-but-reshaping-india-s-energy-outlook-126042600751_1.html) \u2014 Business Standard. The framing you'll want before the CPI print and the MPC.\n- [HDFC Bank, HDFC Life at 52-wk lows, down 30% in 2026; analyst flags worries](https://www.business-standard.com/markets/news/hdfc-bank-hdfc-life-hit-52-week-lows-down-30-in-2026-what-lies-ahead-126090900324_1.html) \u2014 Business Standard. A proper analyst teardown of the de-rating, not just the headline.\n- [Lenskart, Groww, and the 'doosra' that turns losses into IPO-ready profits](https://the-ken.com/story_morning_email/lenskart-groww-and-the-doosra-that-turns-losses-into-ipo-ready-profits/) \u2014 The Ken. Accounting-forensics on pre-IPO profit engineering; directly useful given the current listing queue.\n- [The succession coaches standing between India's super-rich and their ruin](https://the-ken.com/story_morning_email/the-succession-coaches-standing-between-indias-super-rich-and-their-ruin/) \u2014 The Ken. Timely alongside the Tata Sons leadership question.\n- [Regulatory clarity](https://www.business-standard.com/opinion/editorial/regulatory-clarity-126091300745_1.html) \u2014 Business Standard editorial, on the RBI's line with Tata Sons.\n"}];
+
+  function buildEditions(list){
+    var eds=[];
+    list.forEach(function(d){try{var ed=parseDigest(d.markdown||"",d.date||d.id||"");
+      if(ed.sections.length||ed.tone)eds.push(ed);}catch(e){}});
+    eds.sort(function(a,b){return a.date<b.date?1:(a.date>b.date?-1:0);});
+    return eds;
+  }
+
+  // localStorage: per-device fallback so the home-screen/PWA version keeps the last
+  // synced editions and saves even when the live db isn't reachable (top-level open).
+  function lsGet(k){try{return JSON.parse(localStorage.getItem(k));}catch(e){return null;}}
+  function lsSet(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+  function cacheEditions(rows){lsSet("md_editions",rows);}
+  function persistSaved(){lsSet("md_saved",SAVED_ITEMS);}
+  function loadLocalSaved(){var a=lsGet("md_saved");if(a&&a.length){SAVED=new Set();SAVED_ITEMS=[];
+    a.forEach(function(v){if(v&&v.id){SAVED.add(v.id);SAVED_ITEMS.push(v);}});}}
+
+  // 1) instant render — from the last cached editions if present, else the baked-in copy
+  try{
+    loadLocalSaved();
+    var cached=lsGet("md_editions");
+    var rows=(cached&&cached.length)?cached:EMBEDDED;
+    EDITIONS=buildEditions(rows); CUR=0; renderDeck(); reflectSaved();
+  }catch(e){ try{EDITIONS=buildEditions(EMBEDDED);renderDeck();}catch(e2){} }
+
+  // 2) hydrate from the live db when it connects (full history + cross-device saved sync)
+  try{
+    if(window.claude&&typeof window.claude.use==="function"){
+      claude.use("db").then(function(db){
+        if(!db)return; DB=db;
+        db.collection("digests").orderBy("date","desc").limit(90).onSnapshot(function(snap){
+          var rows=[]; snap.forEach(function(d){var v=d.data()||{};rows.push({date:v.date||d.id,markdown:v.markdown||""});});
+          var eds=buildEditions(rows);
+          if(eds.length){EDITIONS=eds;CUR=0;renderDeck();cacheEditions(rows);}
+        },function(){});
+        db.collection("saved").onSnapshot(function(snap){
+          SAVED=new Set();SAVED_ITEMS=[];
+          snap.forEach(function(d){var v=d.data()||{};v.id=v.id||d.id;SAVED.add(v.id);SAVED_ITEMS.push(v);});
+          reflectSaved();persistSaved();if(sheet.classList.contains("on"))renderSheet();
+        },function(){});
+      }).catch(function(){});
+    }
+  }catch(e){}
+})();
+</script>

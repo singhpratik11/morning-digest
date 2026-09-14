@@ -1,0 +1,86 @@
+Build Pratik's daily news digest and deliver it as a chat message. He is an MBA student at BITSoM specializing in finance, based in Mumbai. He wants BREADTH and DEPTH — a substantial morning read, not a thin summary.
+
+=== CRITICAL FETCHING CONSTRAINT — READ FIRST ===
+Every WebFetch of a NEW url triggers a permission prompt on Pratik's phone. He has asked for these to stop. Therefore:
+
+- You may ONLY WebFetch urls from the FIXED SOURCE LIST below, exactly as written. Do not append article slugs, query strings or date fragments.
+- NEVER WebFetch any url not on that list — not an article page, not a link from search results, not a link found on a fetched page. No exceptions, however tempting the story.
+- Use WebSearch freely for everything else; it does not prompt. Search results give headlines, publication names and urls — enough to write an item and link it. Link to any article url from search results WITHOUT fetching it.
+- If you only have a headline and snippet, include the story but keep its context line to what the snippet supports. Never invent detail.
+
+FIXED SOURCE LIST (all verified reachable — fetch widely across these, they are the raw material for breadth):
+
+Indian markets, economy & corporates:
+1. https://www.business-standard.com/markets
+2. https://www.business-standard.com/economy
+3. https://www.business-standard.com/companies
+4. https://www.business-standard.com/industry
+5. https://www.moneylife.in/
+
+India national:
+6. https://theprint.in/india/
+7. https://www.deccanherald.com/india
+8. https://www.tribuneindia.com/
+9. https://scroll.in/
+10. https://www.theweek.in/news/india.html
+11. https://www.livelaw.in/top-stories  (courts and legal)
+
+Global markets & macro:
+12. https://www.business-standard.com/world-news
+13. https://finance.yahoo.com/topic/stock-market-news/
+14. https://www.investing.com/news/stock-market-news
+
+Deals, IPOs, startups:
+15. https://www.chittorgarh.com/ipo/ipo_dashboard.asp
+16. https://entrackr.com/
+17. https://inc42.com/
+
+AI, tech & science:
+18. https://techcrunch.com/category/artificial-intelligence/
+19. https://venturebeat.com/category/ai/
+20. https://phys.org/
+21. https://www.sciencedaily.com/
+22. https://www.nature.com/news
+
+Fetch generously across this list — most of them, most mornings. That is how you get the breadth he wants.
+
+DO NOT ATTEMPT TO FETCH these; the proxy blocks them and each attempt wastes a turn: ft.com, economictimes.indiatimes.com, timesofindia.indiatimes.com, thehindu.com, thehindubusinessline.com, moneycontrol.com, reuters.com, livemint.com, indianexpress.com, financialexpress.com, cnbctv18.com, ndtvprofit.com, news18.com, ndtv.com, hindustantimes.com, apnews.com, bbc.com, theguardian.com, marketwatch.com, arstechnica.com, theverge.com. You may still LINK to any of these from search results; just never fetch them.
+=== END CONSTRAINT ===
+
+BUCKETS — aim for 5-6 items each, minimum 4. Total 24-30 items:
+- Indian markets & macro (indices with levels, RBI, inflation, rupee, bond yields, sector moves, major domestic corporate news and results)
+- India — national (minimum 4 items; no market angle required — disasters and accidents, politics, courts and major judgments, policy and regulation, infrastructure, education, health policy, significant social stories. Do not skip a significant national story just because it has no market implication.)
+- Global markets & macro (US/EU/Asia indices with levels, Fed and central banks, oil, currencies, commodities, geopolitics that moves markets)
+- Deals, IPOs & corporate (M&A, PE/VC funding rounds, IPO pipeline and listings with dates and sizes, notable earnings)
+- AI, tech & science (BALANCE THIS DELIBERATELY — it must not become an all-funding-rounds list. At least two genuine research or capability results alongside business news: model releases and benchmarks, claimed proofs or solutions to open problems, biology and medicine, materials, energy, space, quantum. A claimed major result is a lead item even when experts dispute it — include it and flag the dispute in the same line. Never let a funding round automatically outrank a scientific result.)
+
+FORMAT:
+- Write the digest directly in the chat message. No file, no artifact.
+- Date at the top. Open with a two-line read on the day's overall tone — one line on markets, one on the biggest non-market story.
+- Then a "Top 3 today" section: the three most consequential stories of the day regardless of bucket, each with TWO lines — what happened, and what it means or what to watch next. This is where the depth goes.
+- Then the five buckets, each item a bold headline phrase plus one line of "why it matters", with a markdown link.
+- Do not repeat a Top 3 story in its bucket.
+- Numbers matter: index levels and point/percent moves, deal sizes, IPO dates and price bands, death tolls, majorities. Include them wherever verified.
+- On a developing story, give the latest confirmed figure and note it is still moving.
+- Never fabricate a headline or a detail you could not verify.
+- Skimmable on a phone: short lines, no long paragraphs, no preamble, no closing summary.
+
+End with "Worth opening yourself": 3-5 markdown links to substantive paywalled pieces from FT, The Ken, Economic Times, Mint or Business Standard premium. Pratik subscribes to ET, FT and The Ken and will click through himself. Find these via WebSearch — do NOT fetch them. Headline plus one line on why it looks worth his time, based only on the snippet. Never summarize content you could not read, and never attempt to bypass a paywall.
+=== SAVE TO PRATIK'S READING APP — do this AFTER the digest above is delivered ===
+After you have composed and sent the digest as a chat message exactly as instructed above, ALSO save that same digest into Pratik's "Morning Digest" reading app so it shows up there automatically. This is an internal housekeeping step: it must never change, shorten, delay, or block the digest itself, and you must not describe the digest content inside this step.
+
+Use the built-in Artifact tool with action "write_db" and these arguments:
+- url: https://claude.ai/code/artifact/3c3963a0-f493-43f7-a196-b6e381c2e293
+- db_op: "set"
+- collection: "digests"
+- doc_id: today's date in the Asia/Kolkata timezone, formatted YYYY-MM-DD (for example 2026-09-15)
+- data: a JSON object with exactly these fields:
+    - "date": the same YYYY-MM-DD string as doc_id
+    - "displayDate": the exact date text from the digest's "# " title line (for example "Monday, 14 September 2026")
+    - "markdown": the COMPLETE digest markdown, byte-for-byte identical to what you posted in chat — the whole thing, including the title line, the two-line tone read, the Top 3 today section, all five buckets with every item and every markdown link, and the Worth opening yourself list. This must be the full digest, never a summary or excerpt.
+    - "createdAt": the current time as an ISO 8601 UTC timestamp
+
+If write_db is refused because the artifact has not been read in this session, first call the Artifact tool with action "read_db" (same url, db_op "get", collection "digests", doc_id = today's date) to establish access, then retry the write_db "set" once. Do not retry more than once.
+
+Then add ONE short final line after the digest: "Saved to the app: yes" if the write succeeded, or "Saved to the app: no (<exact error text>)" if it failed. Nothing else about this step.
+=== END SAVE STEP ===

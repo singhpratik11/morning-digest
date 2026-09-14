@@ -1,0 +1,6 @@
+# nothing secret lives here, but keep the usual noise out
+.DS_Store
+*.log
+node_modules/
+.env
+.env.*
