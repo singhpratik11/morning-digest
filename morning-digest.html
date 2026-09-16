@@ -145,6 +145,11 @@
   .sum::-webkit-scrollbar{display:none}
   .sum strong{font-weight:600;color:var(--ink)}
   .num{font-variant-numeric:tabular-nums}
+  .chg{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
+  .chg.up{color:var(--up)}
+  .chg.down{color:var(--down)}
+  .gloss{margin-top:.7rem;font-size:.72rem;line-height:1.55;color:var(--ink-mute)}
+  .gloss b{color:var(--ink-soft);font-weight:700}
 
   .card.intro .hl{font-size:clamp(1.9rem,7vw,2.5rem)}
   .card.intro .kicker{font-family:"Manrope";font-size:.9rem;color:var(--ink-mute);font-weight:600;margin-top:.2rem}
@@ -360,7 +365,23 @@
   }
 
   // ---------- render ----------
-  function renderSum(s){return inlineMd(esc(s)).replace(/(-?\d[\d,]*\.?\d*%?)/g,'<span class="num">$1</span>');}
+  function renderSum(s){
+    var h=inlineMd(esc(s));
+    // colour signed percentage moves: green for +, red for - / − (kept to % to avoid ranges/dates)
+    h=h.replace(/([+−-])(\d[\d,]*\.?\d*)(\s?%)/g,function(m,sign){
+      return '<span class="chg '+(sign==="+"?"up":"down")+'">'+m+'</span>';});
+    return h;
+  }
+  var ACRONYMS={"RBI":"Reserve Bank of India","CPI":"Consumer Price Index","MPC":"Monetary Policy Committee","GDP":"Gross Domestic Product","FPI":"Foreign Portfolio Investors","FII":"Foreign Institutional Investors","IPO":"Initial Public Offering","NSE":"National Stock Exchange","BSE":"Bombay Stock Exchange","MCX":"Multi Commodity Exchange","FOMC":"Federal Open Market Committee","Fed":"US Federal Reserve","ECB":"European Central Bank","BoE":"Bank of England","BoJ":"Bank of Japan","VIX":"Volatility Index","WTI":"West Texas Intermediate crude","OMC":"Oil Marketing Company","OMO":"Open Market Operations","VRRR":"Variable Rate Reverse Repo","CAD":"Current Account Deficit","PPI":"Producer Price Index","GST":"Goods and Services Tax","UPI":"Unified Payments Interface","MDR":"Merchant Discount Rate","NPCI":"National Payments Corporation of India","SEBI":"Securities and Exchange Board of India","PMLA":"Prevention of Money Laundering Act","ED":"Enforcement Directorate","CIC":"Core Investment Company","NBFC":"Non-Banking Financial Company","BRICS":"Brazil, Russia, India, China, South Africa & partners","UCC":"Uniform Civil Code","MEA":"Ministry of External Affairs","MCD":"Municipal Corporation of Delhi","GMP":"Grey Market Premium","OFS":"Offer For Sale","QIB":"Qualified Institutional Buyer","S&P":"Standard & Poor's","M&A":"Mergers & Acquisitions","T20I":"Twenty20 International","ISL":"Indian Super League","ISRO":"Indian Space Research Organisation","DU":"Delhi University"};
+  function glossHTML(text){
+    text=" "+String(text||"")+" "; var out=[];
+    for(var k in ACRONYMS){
+      var ke=k.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+      if(new RegExp("(^|[^A-Za-z0-9])"+ke+"([^A-Za-z0-9]|$)").test(text)){out.push('<b>'+esc(k)+'</b> '+esc(ACRONYMS[k]));}
+      if(out.length>=5)break;
+    }
+    return out.length?'<div class="gloss">'+out.join(" · ")+'</div>':"";
+  }
   function cardHTML(c,idx){
     if(c.kind==="intro"){
       return '<section class="card intro" data-idx="'+idx+'">'+
@@ -400,6 +421,7 @@
       '<span class="chip">'+esc(c.chip||c.bucket||"")+'</span>'+
       '<div class="card-body"><h2 class="hl">'+inlineMd(esc(c.headline))+'</h2>'+
       (c.why?'<p class="sum">'+renderSum(c.why)+'</p>':'')+'</div>'+
+      glossHTML(c.headline+" "+(c.why||""))+
       '<div class="card-foot">'+
         '<div class="via">'+(srcName?'via <b>'+esc(srcName)+'</b>':'')+'</div>'+
         '<div class="rail">'+
