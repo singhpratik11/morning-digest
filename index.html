@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
 <title>Morning Digest</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -408,7 +410,7 @@
     if(c.kind==="end"){
       return '<section class="card end" data-idx="'+idx+'">'+
         '<div class="big">That’s the brief.</div>'+
-        '<p>You’re all caught up for '+esc(shortDate(c.date))+'. New stories land after the 9 AM run.</p>'+
+        '<p>You’re all caught up for '+esc(shortDate(c.date))+'. Fresh stories land through the day.</p>'+
         '<button class="restart" data-restart>Back to top</button>'+
       '</section>';
     }
@@ -444,7 +446,7 @@
   function renderDeck(){
     if(!EDITIONS.length){
       deck.hidden=true; hud.hidden=true; state.hidden=false;
-      state.innerHTML='<div class="big">No digest yet</div><div>Your next edition lands here after the 9 AM routine runs.</div>';
+      state.innerHTML='<div class="big">No digest yet</div><div>Your next edition lands here automatically.</div>';
       return;
     }
     var ed=EDITIONS[CUR];

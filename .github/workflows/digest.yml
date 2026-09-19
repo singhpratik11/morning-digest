@@ -1,0 +1,43 @@
+name: Build digest
+
+# Rebuilds data/digests.json from RSS + the curated deck a few times a day and
+# commits it. Vercel auto-deploys the commit. No API key, no cost, no manual step.
+# Times below are UTC; the comment shows the IST equivalent (UTC+5:30).
+
+on:
+  schedule:
+    - cron: "30 1 * * *"    # 07:00 IST
+    - cron: "30 5 * * *"    # 11:00 IST
+    - cron: "30 8 * * *"    # 14:00 IST
+    - cron: "30 12 * * *"   # 18:00 IST
+    - cron: "0 16 * * *"    # 21:30 IST
+  workflow_dispatch: {}      # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write            # so the job can commit data/digests.json
+
+concurrency:
+  group: build-digest
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build today's edition from RSS
+        run: python3 scripts/build_digest.py
+
+      - name: Commit if the edition changed
+        run: |
+          git config user.name "digest-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/digests.json
+          if git diff --cached --quiet; then
+            echo "No change - nothing to publish."
+          else
+            git commit -m "digest $(TZ=Asia/Kolkata date +%F) $(TZ=Asia/Kolkata date +%H:%M)"
+            git push
+          fi
