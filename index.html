@@ -70,7 +70,7 @@
   /* ---------- phone frame ---------- */
   .app{
     position:relative;width:100%;max-width:468px;margin:0 auto;height:100vh;height:100dvh;
-    background:var(--ground);overflow:hidden;
+    background:var(--ground);overflow:hidden;overflow:clip; /* clip: can't be scrolled by focus/scrollIntoView */
   }
   @media (min-width:520px){
     body{padding:22px;display:flex;align-items:center;justify-content:center;min-height:100dvh}
@@ -144,6 +144,12 @@
   .card.long .hl{font-size:clamp(1.45rem,5.4vw,1.95rem)}
   .card.brief .sum{font-size:.93rem;line-height:1.6}
   .card.brief .sum strong{color:var(--ink)}
+  .reveal{margin-top:.75rem;padding-top:.65rem;border-top:1px solid var(--hair)}
+  .reveal summary{cursor:pointer;list-style:none;color:var(--accent);font-weight:600;font-size:.88rem}
+  .reveal summary::-webkit-details-marker{display:none}
+  .reveal summary::before{content:"+ "}
+  .reveal[open] summary::before{content:"\2212  "}
+  .reveal[open] summary{margin-bottom:.45rem}
   .sum{margin:0;color:var(--ink-soft);font-size:1.02rem;line-height:1.62;text-wrap:pretty;
     overflow-y:auto;scrollbar-width:none}
   .sum::-webkit-scrollbar{display:none}
@@ -369,6 +375,14 @@
   }
 
   // ---------- render ----------
+  // "‖" splits a curated card into what's shown and what's behind a reveal (active recall).
+  function sumHTML(why,label){
+    if(!why)return "";
+    var at=why.indexOf("‖");
+    if(at<0||!label)return '<p class="sum">'+renderSum(why.replace("‖","¶"))+'</p>';
+    return '<div class="sum">'+renderSum(why.slice(0,at))+
+      '<details class="reveal"><summary>'+esc(label)+'</summary><div>'+renderSum(why.slice(at+1))+'</div></details></div>';
+  }
   function renderSum(s){
     var h=inlineMd(esc(s));
     // colour signed percentage moves: green for +, red for - / − (kept to % to avoid ranges/dates)
@@ -376,7 +390,7 @@
       return '<span class="chg '+(sign==="+"?"up":"down")+'">'+m+'</span>';});
     return h.replace(/\s*¶\s*/g,"<br>");
   }
-  var ACRONYMS={"RBI":"Reserve Bank of India","CPI":"Consumer Price Index","MPC":"Monetary Policy Committee","GDP":"Gross Domestic Product","FPI":"Foreign Portfolio Investors","FII":"Foreign Institutional Investors","IPO":"Initial Public Offering","NSE":"National Stock Exchange","BSE":"Bombay Stock Exchange","MCX":"Multi Commodity Exchange","FOMC":"Federal Open Market Committee","Fed":"US Federal Reserve","ECB":"European Central Bank","BoE":"Bank of England","BoJ":"Bank of Japan","VIX":"Volatility Index","WTI":"West Texas Intermediate crude","OMC":"Oil Marketing Company","OMO":"Open Market Operations","VRRR":"Variable Rate Reverse Repo","CAD":"Current Account Deficit","PPI":"Producer Price Index","GST":"Goods and Services Tax","UPI":"Unified Payments Interface","MDR":"Merchant Discount Rate","NPCI":"National Payments Corporation of India","SEBI":"Securities and Exchange Board of India","PMLA":"Prevention of Money Laundering Act","ED":"Enforcement Directorate","CIC":"Core Investment Company","NBFC":"Non-Banking Financial Company","BRICS":"Brazil, Russia, India, China, South Africa & partners","UCC":"Uniform Civil Code","MEA":"Ministry of External Affairs","MCD":"Municipal Corporation of Delhi","GMP":"Grey Market Premium","OFS":"Offer For Sale","QIB":"Qualified Institutional Buyer","S&P":"Standard & Poor's","M&A":"Mergers & Acquisitions","T20I":"Twenty20 International","ISL":"Indian Super League","ISRO":"Indian Space Research Organisation","DU":"Delhi University"};
+  var ACRONYMS={"RBI":"Reserve Bank of India","CPI":"Consumer Price Index","MPC":"Monetary Policy Committee","GDP":"Gross Domestic Product","FPI":"Foreign Portfolio Investors","FII":"Foreign Institutional Investors","IPO":"Initial Public Offering","NSE":"National Stock Exchange","BSE":"Bombay Stock Exchange","MCX":"Multi Commodity Exchange","FOMC":"Federal Open Market Committee","Fed":"US Federal Reserve","ECB":"European Central Bank","BoE":"Bank of England","BoJ":"Bank of Japan","VIX":"Volatility Index","WTI":"West Texas Intermediate crude","OMC":"Oil Marketing Company","OMO":"Open Market Operations","VRRR":"Variable Rate Reverse Repo","CAD":"Current Account Deficit","PPI":"Producer Price Index","GST":"Goods and Services Tax","UPI":"Unified Payments Interface","MDR":"Merchant Discount Rate","NPCI":"National Payments Corporation of India","SEBI":"Securities and Exchange Board of India","PMLA":"Prevention of Money Laundering Act","ED":"Enforcement Directorate","CIC":"Core Investment Company","NBFC":"Non-Banking Financial Company","BRICS":"Brazil, Russia, India, China, South Africa & partners","UCC":"Uniform Civil Code","MEA":"Ministry of External Affairs","MCD":"Municipal Corporation of Delhi","GMP":"Grey Market Premium","OFS":"Offer For Sale","QIB":"Qualified Institutional Buyer","S&P":"Standard & Poor's","M&A":"Mergers & Acquisitions","T20I":"Twenty20 International","ISL":"Indian Super League","ISRO":"Indian Space Research Organisation","DU":"Delhi University","AOV":"Average Order Value","ARPU":"Average Revenue Per User","CASK":"Cost per Available Seat-Kilometre","RASK":"Revenue per Available Seat-Kilometre","EDLP":"Everyday Low Pricing","SKU":"Stock Keeping Unit","RTO":"Return To Origin (failed delivery)","COD":"Cash On Delivery","MECE":"Mutually Exclusive, Collectively Exhaustive","PLI":"Production-Linked Incentive","EV":"Electric Vehicle","KYC":"Know Your Customer","CCI":"Competition Commission of India","AVOD":"Ad-supported Video On Demand","SVOD":"Subscription Video On Demand","RICE":"Reach, Impact, Confidence, Effort","HEART":"Happiness, Engagement, Adoption, Retention, Task success","AARRR":"Acquisition, Activation, Retention, Referral, Revenue","CIRCLES":"Comprehend, Identify, Report, Cut, List, Evaluate, Summarise","GMV":"Gross Merchandise Value","CAC":"Customer Acquisition Cost","LTV":"Customer Lifetime Value","TAM":"Total Addressable Market","NCR":"National Capital Region","IRDAI":"Insurance Regulatory and Development Authority of India"};
   function glossHTML(text){
     text=" "+String(text||"")+" "; var out=[];
     for(var k in ACRONYMS){
@@ -420,12 +434,13 @@
     var url=c.kind==="worth"?safeUrl(c.url):(c.links&&c.links[0]?safeUrl(c.links[0].url):"");
     var srcName=c.kind==="worth"?(c.source||host(url)):(c.links&&c.links[0]?c.links[0].label:host(url));
     var longCls=(c.headline.length>90||(c.why||"").length>260)?" long":"";
-    if(c.chip==="Interview brief")longCls+=" brief";
+    var PRACTICE={"Case brief":"Structure it yourself, then reveal","Guesstimate":"Try it first, then reveal the approach","Framework":""};
+    if(c.chip in PRACTICE)longCls+=" brief";
     var open=url?'<a class="act open" href="'+esc(url)+'" target="_blank" rel="noopener noreferrer" aria-label="Open source"><span class="ic">'+icOpen()+'</span><span class="lbl">Open</span></a>':'';
     return '<section class="card'+longCls+'" data-idx="'+idx+'" data-id="'+esc(c.id)+'">'+
       '<span class="chip">'+esc(c.chip||c.bucket||"")+'</span>'+
       '<div class="card-body"><h2 class="hl">'+inlineMd(esc(c.headline))+'</h2>'+
-      (c.why?'<p class="sum">'+renderSum(c.why)+'</p>':'')+'</div>'+
+      sumHTML(c.why,PRACTICE[c.chip])+'</div>'+
       glossHTML(c.headline+" "+(c.why||""))+
       '<div class="card-foot">'+
         '<div class="via">'+(srcName?'via <b>'+esc(srcName)+'</b>':'')+'</div>'+
@@ -573,6 +588,12 @@
     var rs=e.target.closest("[data-restart]");
     if(rs){deck.scrollTo({top:0,behavior:"smooth"});}
   });
+  // Opening a "reveal" scrolls that card's text to the answer (toggle doesn't bubble: capture).
+  deck.addEventListener("toggle",function(e){
+    var d=e.target; if(!d.classList||!d.classList.contains("reveal")||!d.open)return;
+    var sum=d.closest(".sum"); if(!sum)return;
+    sum.scrollTo({top:sum.scrollTop+d.getBoundingClientRect().top-sum.getBoundingClientRect().top-4,behavior:"smooth"});
+  },true);
   deck.addEventListener("keydown",function(e){
     if(e.key==="ArrowDown"||e.key==="PageDown"||e.key===" "){e.preventDefault();deck.scrollBy({top:deck.clientHeight,behavior:"smooth"});}
     else if(e.key==="ArrowUp"||e.key==="PageUp"){e.preventDefault();deck.scrollBy({top:-deck.clientHeight,behavior:"smooth"});}

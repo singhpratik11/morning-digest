@@ -22,7 +22,9 @@ from feeds import FEEDS, BUCKET_ORDER, MIN_ITEMS, CURATED  # noqa: E402
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "digests.json")
 DECK = os.path.join(os.path.dirname(os.path.abspath(__file__)), "deck_worth_knowing.json")
-BRIEFS = os.path.join(ROOT, "data", "interview_briefs.json")
+CASES = os.path.join(ROOT, "data", "case_briefs.json")
+GUESSES = os.path.join(ROOT, "data", "guesstimates.json")
+FRAMES = os.path.join(ROOT, "data", "frameworks.json")
 MAX_EDITIONS = 21
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
@@ -218,21 +220,47 @@ def brief_text(s):
     return RANGE_RE.sub("\\1\u2013\\2", WS_RE.sub(" ", s).strip())
 
 
-def add_interview_brief(buckets, doy):
+def pick(path, doy, label):
+    # One entry a day from a curated deck, rotating by day of year.
     try:
-        briefs = json.load(open(BRIEFS, encoding="utf-8"))
+        deck = json.load(open(path, encoding="utf-8"))
     except Exception as e:  # noqa: BLE001
-        log("  ! interview briefs unavailable:", e)
-        return
-    if not briefs:
-        return
-    b = briefs[doy % len(briefs)]
-    facts = " ".join("(%d) %s" % (i + 1, brief_text(f)) for i, f in enumerate(b.get("facts", [])[:3]))
-    body = ("**The gist:** %s ¶**Know these:** %s ¶**Likely question:** %s ¶**Your angle:** %s"
-            % (brief_text(b["gist"]), facts, brief_text(b["question"]), brief_text(b["angle"])))
-    buckets["Interview brief"] = [{"headline": brief_text(b["topic"]), "body": body,
-                                   "source": b.get("source", "Reference"),
-                                   "url": safe_url(b.get("url", ""))}]
+        log("  ! %s unavailable:" % label, e)
+        return None
+    return deck[doy % len(deck)] if deck else None
+
+
+def curated_card(headline, body, source, url):
+    return {"headline": brief_text(headline), "body": body,
+            "source": source or "Reference", "url": safe_url(url)}
+
+
+def add_curated(buckets, doy):
+    # Body labels are bold; "¶" is a line break and "‖" splits what's shown from what's
+    # behind the app's "try it first, then reveal" control.
+    b = pick(CASES, doy, "case briefs")
+    if b:
+        facts = " ".join("(%d) %s" % (i + 1, brief_text(f)) for i, f in enumerate(b.get("facts", [])[:3]))
+        body = ("**For:** %s ¶**The gist:** %s ¶**Know these:** %s ¶**Likely question:** %s "
+                "‖**How to structure it:** %s"
+                % (brief_text(b["roles"]), brief_text(b["gist"]), facts,
+                   brief_text(b["question"]), brief_text(b["structure"])))
+        buckets["Case brief"] = [curated_card(b["topic"], body, b.get("source"), b.get("url"))]
+
+    g = pick(GUESSES, doy, "guesstimates")
+    if g:
+        body = ("**For:** Consulting · PM ¶**Hint:** %s ‖**Approach:** %s ¶**Ballpark:** %s "
+                "¶**Interviewer tip:** %s"
+                % (brief_text(g["hint"]), brief_text(g["approach"]),
+                   brief_text(g["ballpark"]), brief_text(g["tip"])))
+        buckets["Guesstimate"] = [curated_card(g["prompt"], body, "Practice", "")]
+
+    f = pick(FRAMES, doy, "frameworks")
+    if f:
+        body = ("**For:** %s ¶**What it is:** %s ¶**Use it when:** %s ¶**Example:** %s"
+                % (brief_text(f["roles"]), brief_text(f["what"]),
+                   brief_text(f["when"]), brief_text(f["example"])))
+        buckets["Framework"] = [curated_card(f["name"], body, f.get("source"), f.get("url"))]
 
 
 def build_markdown(buckets, now):
@@ -242,7 +270,7 @@ def build_markdown(buckets, now):
         total += min(len(buckets.get(b, [])), cap)
     lines = ["# " + display, ""]
     lines.append("**%d picks**, fresh as of %02d:%02d IST." % (total, now.hour, now.minute))
-    lines.append("**The mix:** India's economy and markets, today's interview theme, business, the world, and one concept worth knowing.")
+    lines.append("**The mix:** today's business news, a case to crack, a guesstimate to try, and a framework to keep.")
     lines.append("")
     for bucket, cap in BUCKET_ORDER:
         items = buckets.get(bucket, [])[:cap]
@@ -265,8 +293,7 @@ def main():
     log("Building edition for", date)
 
     buckets = collect()
-    add_interview_brief(buckets, doy)
-    add_worth_knowing(buckets, doy)
+    add_curated(buckets, doy)
     markdown, total = build_markdown(buckets, now)
 
     story_count = sum(min(len(buckets.get(b, [])), cap)

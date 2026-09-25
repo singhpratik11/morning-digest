@@ -1,0 +1,86 @@
+[
+  {
+    "prompt": "How many cups of chai are sold in Mumbai every day?",
+    "hint": "Split tea drunk at home from tea bought outside.",
+    "approach": "Mumbai metro population ~2 crore. Tea drinkers ~70% = 1.4 crore. Average ~2 cups a day = 2.8 crore cups. About half are bought outside (tapris, offices, canteens, stations) = ~1.4 crore.",
+    "ballpark": "Roughly 1-1.5 crore cups sold a day.",
+    "tip": "State the home-vs-bought split out loud; it's the assumption the interviewer will probe."
+  },
+  {
+    "prompt": "How many smartphones are sold in India each year?",
+    "hint": "Start from smartphone users and how often they replace phones.",
+    "approach": "India has ~700 million smartphone users. Replacement cycle in practice ~4 years, so ~175 million replacements a year. Subtract phones bought second-hand or refurbished (~15%) and add a small number of first-time buyers: ~150 million new phones.",
+    "ballpark": "Roughly 140-160 million a year.",
+    "tip": "A 2-year replacement cycle doubles your answer. Justify the cycle: budget buyers keep phones longer."
+  },
+  {
+    "prompt": "Estimate Blinkit's daily orders in Bengaluru.",
+    "hint": "Try it two ways: from households, and from dark stores.",
+    "approach": "Demand: ~1.3 crore people, ~35 lakh households; ~30% use quick commerce = ~10 lakh households; ~2 orders a week = ~3 lakh orders a day across all apps; Blinkit share ~40% = ~1.2 lakh. Supply check: ~150 dark stores x ~800 orders a day = ~1.2 lakh.",
+    "ballpark": "Roughly 1-1.5 lakh orders a day.",
+    "tip": "Triangulating demand against supply is what separates a great answer from a good one."
+  },
+  {
+    "prompt": "How many petrol pumps are there in India?",
+    "hint": "Estimate refuelling visits a day, then how many one pump can handle.",
+    "approach": "~35 crore registered vehicles, ~25 crore in active use. Each refuels about once a week = ~3.5 crore fills a day. One pump with several nozzles serves ~25 vehicles an hour over ~16 hours = ~400 fills a day. 3.5 crore / 400 = ~90,000 pumps.",
+    "ballpark": "Roughly 80,000-1,00,000 pumps.",
+    "tip": "Two-wheelers are about three-quarters of vehicles and fill small amounts, which is why visits, not litres, is the right unit."
+  },
+  {
+    "prompt": "How many weddings happen in India in a year?",
+    "hint": "Use a birth cohort rather than total population.",
+    "approach": "About 2.3 crore people reach typical marrying age (~25) each year, since births 25 years ago ran near that level. Around 90% marry, so ~2 crore people marry a year. Two people per wedding = ~1 crore weddings.",
+    "ballpark": "Roughly 1 crore weddings a year.",
+    "tip": "The cohort method avoids guessing a marriage rate for all 140 crore people. Mention seasonality (wedding months) if they ask for peak demand."
+  },
+  {
+    "prompt": "How many flights depart from Mumbai's main airport each day?",
+    "hint": "Try passengers per day and runway capacity.",
+    "approach": "Passengers: ~5.5 crore a year = ~1.5 lakh a day, half departing = ~75,000. At ~160 passengers a flight that's ~470 departures. Runway check: ~45 movements an hour over ~18 busy hours = ~800 movements, i.e. ~400 departures.",
+    "ballpark": "Roughly 400-500 departures a day.",
+    "tip": "The runway is the real constraint at Mumbai, which is why a second airport matters. That's an ops point worth adding."
+  },
+  {
+    "prompt": "Estimate daily ride-hailing trips (Uber, Ola, Rapido) in Delhi NCR.",
+    "hint": "Estimate users and trips per user, then check against drivers.",
+    "approach": "NCR ~3.2 crore people; ~10% use ride-hailing = 32 lakh users; ~8 trips a month each = ~8.5 lakh trips a day (cabs, autos and bikes). Supply check: ~1 lakh active drivers x ~9 trips a day = ~9 lakh.",
+    "ballpark": "Roughly 8-10 lakh trips a day across apps.",
+    "tip": "Say whether you're counting bike taxis and autos. The scope question comes before the maths."
+  },
+  {
+    "prompt": "How many diapers are used in India in a year?",
+    "hint": "Penetration is the swing assumption.",
+    "approach": "~2.3 crore births a year, so ~4.6 crore children under two. Diaper penetration ~20% (mostly urban) = ~90 lakh children. ~4 diapers a day = ~3.6 crore a day, or ~130 crore a year.",
+    "ballpark": "Roughly 1-1.5 billion diapers a year.",
+    "tip": "Show the urban-rural split. Penetration growth is also the business answer if they ask how big the market could get."
+  },
+  {
+    "prompt": "What's the annual revenue of a busy Starbucks store in a Bengaluru mall?",
+    "hint": "Transactions per day times average bill.",
+    "approach": "Open ~13 hours. Averaging peaks and quiet spells, ~20 transactions an hour = ~260 a day. Average bill ~Rs 400 = ~Rs 1 lakh a day, or ~Rs 3.8 crore a year.",
+    "ballpark": "Roughly Rs 3-4 crore a year.",
+    "tip": "Sanity check: Tata Starbucks earns roughly Rs 1,200 crore across ~450 stores, about Rs 2.7 crore a store. A busy mall store should sit above that average."
+  },
+  {
+    "prompt": "How many tickets are sold across an IPL season?",
+    "hint": "Matches times average attendance.",
+    "approach": "~74 matches. Stadium sizes range from ~33,000 (Wankhede) to over 1 lakh (Ahmedabad); average attendance ~35,000. 74 x 35,000 = ~26 lakh tickets. At an average ~Rs 2,000 a ticket, gate revenue is ~Rs 500 crore.",
+    "ballpark": "Roughly 25-30 lakh tickets a season.",
+    "tip": "Point out that ticketing is small next to media rights. That's the insight that shows business sense."
+  },
+  {
+    "prompt": "How many ATMs does India need?",
+    "hint": "Withdrawals per day divided by what one ATM can handle.",
+    "approach": "~100 crore adults; ~30% use ATMs about twice a month = ~60 crore withdrawals a month, ~2 crore a day. An ATM handles ~100 withdrawals a day, so ~2 lakh ATMs. UPI is pushing this down.",
+    "ballpark": "Roughly 2-2.5 lakh ATMs.",
+    "tip": "End with the trend: as UPI grows, the right answer shrinks. It shows you think beyond the number."
+  },
+  {
+    "prompt": "How much ticket revenue does Mumbai's Western Railway suburban line earn a year?",
+    "hint": "Daily riders times average fare, and watch the monthly passes.",
+    "approach": "~35 lakh journeys a day. Most riders use very cheap monthly passes, so the average fare per journey is only ~Rs 6. 35 lakh x Rs 6 = ~Rs 2 crore a day, or ~Rs 750 crore a year.",
+    "ballpark": "Roughly Rs 700-900 crore a year.",
+    "tip": "Passes make the per-trip fare tiny. Spotting that is the whole question; a naive single-ticket fare overstates revenue several times over."
+  }
+]

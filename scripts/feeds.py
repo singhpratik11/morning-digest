@@ -1,44 +1,45 @@
-# Feed sources for the digest, tuned for MBA-interview current affairs.
+# Feed sources for the digest, tuned for consulting / PM / operations job interviews:
+# company and industry news first, then startups and tech, then a lighter macro lane.
 # Each feed: (bucket, source_name, url, max_items)
-# The build script fetches these server-side (Indian feeds block browser/CORS access),
-# tolerates failures, dedupes, and interleaves sources within a bucket.
-# "Interview brief" and "Worth knowing" are curated lanes added by build_digest.py.
+# Fetched server-side by the Action (Indian feeds block browser/CORS access); failures
+# are skipped, items are de-duplicated and sources interleaved within a bucket.
+# "Case brief", "Guesstimate" and "Framework" are curated lanes added by build_digest.py.
 
 FEEDS = [
-    # --- Economy & policy (India) ---
-    ("Economy & policy", "Economic Times",   "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms", 4),
-    ("Economy & policy", "Business Standard","https://www.business-standard.com/rss/economy-102.rss", 3),
-    ("Economy & policy", "Mint",             "https://www.livemint.com/rss/economy", 3),
-    ("Economy & policy", "The Hindu",        "https://www.thehindu.com/business/Economy/feeder/default.rss", 3),
+    # --- Companies & industry ---
+    ("Companies & industry", "Economic Times",   "https://economictimes.indiatimes.com/industry/rssfeeds/13352306.cms", 3),
+    ("Companies & industry", "Business Standard","https://www.business-standard.com/rss/companies-101.rss", 3),
+    ("Companies & industry", "Mint",             "https://www.livemint.com/rss/companies", 3),
 
-    # --- Markets & banking ---
-    ("Markets & banking", "Economic Times",   "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms", 3),
-    ("Markets & banking", "Business Standard","https://www.business-standard.com/rss/markets-106.rss", 3),
-    ("Markets & banking", "Mint",             "https://www.livemint.com/rss/markets", 3),
+    # --- Startups & tech ---
+    ("Startups & tech", "Inc42",   "https://inc42.com/feed/", 3),
+    ("Startups & tech", "Entrackr","https://entrackr.com/rss", 3),
+    ("Startups & tech", "ET Tech", "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms", 3),
 
-    # --- Business & startups ---
-    ("Business & startups", "Inc42",     "https://inc42.com/feed/", 3),
-    ("Business & startups", "Entrackr",  "https://entrackr.com/rss", 3),
+    # --- Economy & markets ---
+    ("Economy & markets", "Economic Times",   "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms", 2),
+    ("Economy & markets", "Business Standard","https://www.business-standard.com/rss/economy-102.rss", 2),
+    ("Economy & markets", "Mint",             "https://www.livemint.com/rss/markets", 2),
 
-    # --- World ---
-    ("World", "Al Jazeera",  "https://www.aljazeera.com/xml/rss/all.xml", 3),
-    ("World", "BBC News",    "https://feeds.bbci.co.uk/news/world/rss.xml", 3),
-    ("World", "The Guardian","https://www.theguardian.com/world/rss", 2),
+    # --- Global business ---
+    ("Global business", "BBC Business",     "https://feeds.bbci.co.uk/news/business/rss.xml", 2),
+    ("Global business", "Guardian Business","https://www.theguardian.com/uk/business/rss", 2),
 ]
 
-# Section render order and how many items each keeps in the final edition.
-# Current affairs lead; the curated interview brief sits mid-deck so it's hit early.
+# Section render order and per-bucket caps. Curated cards are interleaved with the news
+# so the deck alternates reading with practice, and it ends on a framework to keep.
 BUCKET_ORDER = [
-    ("Economy & policy", 4),
-    ("Markets & banking", 3),
-    ("Interview brief", 1),     # curated: data/interview_briefs.json, one theme a day
-    ("Business & startups", 3),
-    ("World", 3),
-    ("Worth knowing", 1),       # curated: scripts/deck_worth_knowing.json
+    ("Companies & industry", 3),
+    ("Case brief", 1),          # curated: data/case_briefs.json
+    ("Startups & tech", 3),
+    ("Guesstimate", 1),         # curated: data/guesstimates.json
+    ("Economy & markets", 3),
+    ("Global business", 2),
+    ("Framework", 1),           # curated: data/frameworks.json
 ]
 
 # Curated lanes (not counted toward MIN_ITEMS).
-CURATED = {"Interview brief", "Worth knowing"}
+CURATED = {"Case brief", "Guesstimate", "Framework"}
 
 # If the run assembles fewer than this many news stories, keep the previous edition.
-MIN_ITEMS = 8
+MIN_ITEMS = 7

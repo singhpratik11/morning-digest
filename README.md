@@ -24,15 +24,20 @@ No API keys, no paid services, no daily approvals, no manual push. Everything ru
 GitHub Actions' free tier + Vercel's free tier.
 
 ## The content lanes
-Each edition is a finite deck tuned for MBA-interview prep — current affairs first:
-1. **Economy & policy** · **Markets & banking** — Indian RSS (ET, Business Standard, Mint, The Hindu)
-2. **Interview brief** — one hand-written theme a day from
-   [`data/interview_briefs.json`](data/interview_briefs.json): the gist, three facts,
-   a likely interview question, and how to angle your answer
-3. **Business & startups** · **World** — RSS
-4. **Worth knowing** — a finance concept / mental model, rotated from
-   [`scripts/deck_worth_knowing.json`](scripts/deck_worth_knowing.json)
+Each edition is a finite deck (~14 cards) for consulting, PM and operations job
+interviews — news interleaved with practice, ending on a framework:
+1. **Companies & industry** — ET, Business Standard, Mint
+2. **Case brief** — an Indian company or industry case ([`data/case_briefs.json`](data/case_briefs.json)):
+   role tag, the gist, three facts, a likely question, and a hidden "how to structure it"
+3. **Startups & tech** — Inc42, Entrackr, ET Tech
+4. **Guesstimate** — ([`data/guesstimates.json`](data/guesstimates.json)): question + hint up front,
+   approach, ballpark and interviewer tip behind "try it first, then reveal"
+5. **Economy & markets** · **Global business** — RSS
+6. **Framework** — MECE, profitability tree, CIRCLES, RICE, Little's Law, Theory of Constraints…
+   ([`data/frameworks.json`](data/frameworks.json))
 
+Curated decks rotate one entry a day; add entries to lengthen the cycle. In curated
+bodies, `¶` is a line break and `‖` splits what's shown from what the reveal hides.
 Indian news feeds block browser (CORS) access, so they're fetched server-side by the
 Action; the app just reads the latest `data/digests.json` whenever you open it.
 

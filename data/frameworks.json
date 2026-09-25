@@ -1,0 +1,98 @@
+[
+  {
+    "name": "MECE and issue trees",
+    "roles": "Consulting",
+    "what": "Mutually Exclusive, Collectively Exhaustive: break a problem into buckets that don't overlap and together cover everything. An issue tree applies that split level by level.",
+    "when": "The opening of any case. Interviewers judge your structure before your answer.",
+    "example": "Why are profits down? splits into revenue down or costs up. Revenue splits into volume and price, volume into customers and frequency, and so on.",
+    "url": "https://en.wikipedia.org/wiki/MECE_principle"
+  },
+  {
+    "name": "The profitability tree",
+    "roles": "Consulting",
+    "what": "Profit = revenue minus cost. Revenue = price x volume (by product and segment); cost = fixed + variable. Drill down to find exactly where profit leaked.",
+    "when": "Any profit-decline or declining-margin case, the single most common case type.",
+    "example": "An airline's profit falls: revenue per seat is flat but fuel cost per seat rose 20%. You've located the problem before proposing anything.",
+    "url": "https://en.wikipedia.org/wiki/Profit_(economics)"
+  },
+  {
+    "name": "Market entry framework",
+    "roles": "Consulting",
+    "what": "Should we enter? Check four things: the market (size, growth, profitability), competition, the company's capabilities and fit, and the mode of entry (build, buy or partner) plus the economics.",
+    "when": "Should X launch in India, should Y enter a new category.",
+    "example": "Should a global coffee chain enter tier-2 India? Market (growing café culture, lower spend), competition (local chains, tea), capability (brand, supply chain), mode (joint venture, as Starbucks did with Tata).",
+    "url": "https://en.wikipedia.org/wiki/Market_entry_strategy"
+  },
+  {
+    "name": "Porter's Five Forces",
+    "roles": "Consulting",
+    "what": "An industry's profitability depends on five forces: rivalry, threat of new entrants, threat of substitutes, buyer power and supplier power.",
+    "when": "Is this industry attractive, or why do firms in it struggle?",
+    "example": "Indian airlines: fierce rivalry, powerful suppliers (aircraft makers, oil), price-sensitive buyers and trains as substitutes. That explains the bankruptcies.",
+    "url": "https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis"
+  },
+  {
+    "name": "The pyramid principle",
+    "roles": "Consulting",
+    "what": "Lead with the answer, then give the supporting arguments, then the data. Top-down communication, from Barbara Minto of McKinsey.",
+    "when": "Every time you speak in an interview, especially the final recommendation.",
+    "example": "Instead of walking through your analysis first, open with: I recommend entering, for three reasons. Then give the three.",
+    "url": "https://en.wikipedia.org/wiki/Barbara_Minto"
+  },
+  {
+    "name": "CIRCLES method",
+    "roles": "PM",
+    "what": "A product-design structure: Comprehend the situation, Identify the customer, Report their needs, Cut through prioritisation, List solutions, Evaluate trade-offs, Summarise.",
+    "when": "Design a product for X, or improve feature Y.",
+    "example": "Design an app for elderly people to pay bills: pick a user segment first (tech-hesitant pensioners), list their pain points, prioritise one (fear of fraud), then design for it.",
+    "url": "https://en.wikipedia.org/wiki/Product_management"
+  },
+  {
+    "name": "North Star metric and AARRR",
+    "roles": "PM",
+    "what": "The North Star is the one metric that best captures the value users get. AARRR (Acquisition, Activation, Retention, Referral, Revenue) maps the funnel that feeds it.",
+    "when": "How would you measure success of this product or feature?",
+    "example": "For Swiggy, a North Star might be weekly orders per active user rather than downloads, because it reflects repeated value, not a one-off install.",
+    "url": "https://en.wikipedia.org/wiki/Growth_hacking"
+  },
+  {
+    "name": "RICE prioritisation",
+    "roles": "PM",
+    "what": "Score features by Reach x Impact x Confidence / Effort. It turns a debate about opinions into a comparison of estimates.",
+    "when": "You have five feature ideas; which do you build first?",
+    "example": "A feature reaching 1 lakh users with medium impact beats a flashy one reaching 5,000 users, unless its effort is tiny. Show the arithmetic.",
+    "url": "https://en.wikipedia.org/wiki/Prioritization"
+  },
+  {
+    "name": "HEART framework",
+    "roles": "PM",
+    "what": "Google's user-experience metrics: Happiness, Engagement, Adoption, Retention, Task success. For each, set a goal, a signal and a metric.",
+    "when": "Metrics for a feature where revenue isn't the right measure.",
+    "example": "For a new UPI autopay screen: task success = mandates set up without errors; adoption = share of users trying it; retention = mandates still active after 3 months.",
+    "url": "https://en.wikipedia.org/wiki/User_experience_evaluation"
+  },
+  {
+    "name": "Little's Law",
+    "roles": "Ops",
+    "what": "Items in a system = arrival rate x time spent in the system (L = λW). It holds for almost any stable process.",
+    "when": "Queues, inventory, waiting times, capacity questions.",
+    "example": "A bank branch serves 60 customers an hour and each spends 20 minutes inside, so about 20 people are in the branch at once. Cut time inside to 10 minutes and the crowd halves.",
+    "url": "https://en.wikipedia.org/wiki/Little%27s_law"
+  },
+  {
+    "name": "Theory of Constraints",
+    "roles": "Ops",
+    "what": "A process moves only as fast as its slowest step, the bottleneck. Find it, get the most out of it, subordinate everything else to it, then add capacity there.",
+    "when": "Improve throughput, reduce delays, why output is stuck.",
+    "example": "A hospital adds beds but waits don't fall, because the bottleneck is discharge paperwork. Fixing discharge frees beds faster than building new ones.",
+    "url": "https://en.wikipedia.org/wiki/Theory_of_constraints"
+  },
+  {
+    "name": "Lean and the 5 Whys",
+    "roles": "Ops",
+    "what": "Lean removes waste (waiting, rework, excess inventory, unnecessary motion). The 5 Whys asks why repeatedly to reach the root cause instead of treating a symptom.",
+    "when": "Quality problems, recurring errors, process-improvement cases.",
+    "example": "Deliveries are late. Why? Trucks leave late. Why? Loading is slow. Why? Pickers search for items. Why? No fixed bin locations. Fix the layout, not the drivers.",
+    "url": "https://en.wikipedia.org/wiki/Five_whys"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "topic": "Quick commerce: can 10-minute delivery ever make money?",
+    "roles": "Consulting · Ops",
+    "gist": "Blinkit, Zepto and Swiggy Instamart run hundreds of dark stores (small city warehouses) to deliver groceries in 10-15 minutes. Volumes have exploded, but each order carries delivery and store costs that thin grocery margins struggle to cover.",
+    "facts": [
+      "Unit economics hinge on average order value (AOV) and orders per dark store per day.",
+      "Beyond commission, platforms earn from ads, private labels and delivery fees.",
+      "Kirana stores and FMCG distributors are the incumbents losing share."
+    ],
+    "question": "Your client, a quick-commerce player, is losing money on every order. How would you fix it?",
+    "structure": "Build contribution per order: (AOV x take rate) + ad income + fees, minus picking, packing, last-mile and dark-store cost. Then levers: raise AOV (bundles, higher-value categories like electronics), raise density (more orders per store and per rider), grow high-margin income (ads, private label), and cut cost (batching, rider utilisation). Close with which lever moves the needle fastest.",
+    "source": "Reference",
+    "url": "https://en.wikipedia.org/wiki/Quick_commerce"
+  },
+  {
+    "topic": "Zomato vs Swiggy: why does one lead food delivery?",
+    "roles": "Consulting · PM",
+    "gist": "India's food delivery is a duopoly. Zomato (now Eternal) has held the larger share and turned profitable first; Swiggy listed later and has narrowed losses. Both now use food delivery's cash to fund quick commerce.",
+    "facts": [
+      "Revenue = commission from restaurants + delivery fees + ads + membership (Gold, One).",
+      "Customer acquisition is expensive; retention and order frequency decide profitability.",
+      "Regulators (CCI) have probed exclusivity deals with restaurants."
+    ],
+    "question": "Swiggy's market share trails Zomato. As its PM or consultant, where would you look first?",
+    "structure": "Diagnose before prescribing. Split share into users x order frequency x AOV and compare each against the competitor. Check by city tier, customer cohort and cuisine. Then the supply side: restaurant selection, delivery times and fee levels. Pick the biggest gap and propose one or two targeted plays, not ten.",
+    "source": "Reference",
+    "url": "https://en.wikipedia.org/wiki/Zomato"
+  },
+  {
+    "topic": "UPI is free. How do PhonePe and Google Pay make money?",
+    "roles": "PM · Consulting",
+    "gist": "UPI handles well over 10 billion payments a month but charges users nothing, and merchant fees on most UPI payments are zero. The two leading apps hold most of the market and must monetise around the payment rather than on it.",
+    "facts": [
+      "Monetisation routes: lending, insurance, investments, merchant software and devices (soundboxes), ads.",
+      "NPCI has a market-share cap on the table to limit concentration.",
+      "Credit on UPI (credit lines, RuPay cards) opens a fee-earning rail."
+    ],
+    "question": "You're a PM at a UPI app. Propose a way to make money without hurting adoption.",
+    "structure": "Segment users (consumers, small merchants, large merchants) and list what each already pays for elsewhere. Rank options by revenue potential, fit with trust, and regulatory risk. A strong answer picks one, for example small-merchant lending using payment data as the credit signal, then gives success metrics (take-up, default rate, revenue per merchant) and the main risk.",
+    "source": "Reference: NPCI",
+    "url": "https://en.wikipedia.org/wiki/Unified_Payments_Interface"
+  },
+  {
+    "topic": "Telecom tariffs: how Jio rewired an industry",
+    "roles": "Consulting",
+    "gist": "Jio launched in 2016 with free voice and very cheap data, triggering a price war that left three private players: Jio, Airtel and a struggling Vodafone Idea. The industry has since raised tariffs repeatedly to lift returns.",
+    "facts": [
+      "ARPU (average revenue per user) is the metric everyone watches.",
+      "Spectrum and 5G rollout need huge capex, so the business is capital-intensive.",
+      "Vodafone Idea's survival matters because two players invites regulatory concern."
+    ],
+    "question": "A telecom operator's profits are falling. Walk me through how you'd diagnose it.",
+    "structure": "Profitability tree: revenue = subscribers x ARPU; cost = network opex, spectrum amortisation, interest and SG&A. Check whether the fall is revenue (subscriber loss, lower ARPU, weaker product mix) or cost (debt, spectrum payments). Benchmark against Jio and Airtel. Levers: premiumise (5G, bundles, postpaid), cut churn, and sweat the network before new capex.",
+    "source": "Reference",
+    "url": "https://en.wikipedia.org/wiki/Jio"
+  },
+  {
+    "topic": "Electric two-wheelers: why the early leader lost share",
+    "roles": "Consulting · Ops",
+    "gist": "Ola Electric grabbed early EV scooter leadership, then lost share to Bajaj, TVS and Ather amid service complaints. The segment depends heavily on government subsidies and on battery costs, which are a large share of the vehicle price.",
+    "facts": [
+      "Incumbents brought dealer and service networks that a new brand had to build from scratch.",
+      "Subsidy changes (FAME to newer schemes) swing demand and pricing.",
+      "Battery cells are largely imported, so costs track global prices."
+    ],
+    "question": "An EV maker's market share has halved in a year. Why, and what should it do?",
+    "structure": "Separate market and company: is the whole segment slowing or just this firm? Then the purchase funnel: awareness, price versus rivals, product quality and after-sales service. Ops angle: service turnaround time, spare-parts availability, complaint resolution. A good answer spots that service capacity failed to keep up with sales, and prioritises fixing it before pushing volume.",
+    "source": "Reference",
+    "url": "https://en.wikipedia.org/wiki/Ola_Electric"
+  },
+  {
+    "topic": "Indian IT services vs GenAI: threat or opportunity?",
+    "roles": "Consulting",
+    "gist": "TCS, Infosys, Wipro and HCLTech grew by billing large teams by the hour. Generative AI automates much of that coding and testing work, pressuring headcount-based revenue even as clients ask for AI transformation help.",
+    "facts": [
+      "The old model tied revenue to people: more engineers, more billing.",
+      "Clients now push for productivity savings to be passed back as lower prices.",
+      "Hiring of freshers has slowed sharply across the big firms."
+    ],
+    "question": "Advise the CEO of a mid-size Indian IT firm on responding to GenAI.",
+    "structure": "Two sides. Threat: size how much of today's revenue is automatable (testing, maintenance, basic coding). Opportunity: AI implementation, data engineering, industry platforms. Recommend a shift from time-and-materials to outcome-based pricing so productivity gains become margin, plus reskilling and one or two industry bets. Name the risk: cannibalising existing revenue faster than new revenue arrives.",
+    "source": "Reference",
+    "url": "https://en.wikipedia.org/wiki/Information_technology_in_India"
+  },
+  {
+    "topic": "Airlines: why IndiGo wins where others went bust",
+    "roles": "Consulting · Ops",
+    "gist": "Indian aviation is famously brutal: Kingfisher, Jet Airways and Go First all collapsed. IndiGo holds a majority share with a disciplined low-cost model, while Air India, now owned by Tata, is in a large turnaround.",
+    "facts": [
+      "Fuel is the single biggest cost, often a third or more of expenses.",
+      "Key metrics: cost and revenue per available seat-kilometre (CASK and RASK) and load factor.",
+      "IndiGo flies one aircraft family, which simplifies training, spares and maintenance."
+    ],
+    "question": "Why do most Indian airlines fail, and what does IndiGo do differently?",
+    "structure": "Profit = RASK minus CASK, times capacity. Revenue side: intense price competition caps fares. Cost side: fuel, aircraft leases (dollar-linked, so rupee risk), staff and airport charges. IndiGo's edge is operational: single fleet type, fast turnarounds (more flights per aircraft per day), on-time performance and scale in buying. The ops point that lands: aircraft utilisation spreads fixed costs.",
+    "source": "Reference",
+    "url": "https://en.wikipedia.org/wiki/IndiGo"
+  },
+  {
+    "topic": "DMart: how a retailer profits on thin margins",
+    "roles": "Ops · Consulting",
+    "gist": "Avenue Supermarts (DMart) is one of India's most profitable retailers despite low prices. It owns most of its stores, keeps a tight range of products and turns inventory fast, the opposite of flashy expansion.",
+    "facts": [
+      "Owning stores avoids rent, which eats a big slice of retail margins.",
+      "Everyday low pricing (EDLP) instead of heavy promotions keeps demand steady.",
+      "Paying suppliers quickly earns better purchase prices."
+    ],
+    "question": "How does DMart make money when its prices are among the lowest?",
+    "structure": "Retail economics: profit = sales x gross margin minus operating costs. DMart accepts a low margin but runs very low costs (owned real estate, no-frills stores, limited SKUs) and very high sales per square foot. Inventory turns fast, so less working capital is tied up. For ops, highlight how fewer SKUs simplify replenishment and cut stock-outs and waste.",
+    "source": "Reference",
+    "url": "https://en.wikipedia.org/wiki/DMart"
+  },
+  {
+    "topic": "Last-mile logistics: the most expensive few kilometres",
+    "roles": "Ops",
+    "gist": "For e-commerce firms and logistics players like Delhivery and Ecom Express, the final delivery leg is typically the costliest part of shipping. Cash-on-delivery and high return rates in India make it harder still.",
+    "facts": [
+      "RTO (return-to-origin) from failed or refused deliveries adds a full reverse trip.",
+      "Delivery density, meaning parcels per route, drives cost per parcel.",
+      "Tier-2 and tier-3 towns have lower density and higher cost."
+    ],
+    "question": "How would you reduce last-mile delivery cost for an e-commerce company?",
+    "structure": "Cost per parcel = route cost / parcels delivered. Levers: raise density (time slots, clustering orders, pickup points and lockers), cut failed attempts (address verification, prepaid nudges to reduce COD refusals, OTP confirmation), optimise routes, and fit the vehicle to the load (bikes vs vans). Quantify: a lower RTO rate removes whole reverse trips, often the biggest single saving.",
+    "source": "Reference",
+    "url": "https://en.wikipedia.org/wiki/Last_mile_(transportation)"
+  },
+  {
+    "topic": "Paytm after the RBI action: rebuilding a fintech",
+    "roles": "PM · Consulting",
+    "gist": "In 2024 the RBI barred Paytm Payments Bank from taking new deposits over compliance failures, hitting India's best-known fintech brand. Paytm moved its UPI handles to partner banks and has been rebuilding around payments, merchant devices and distribution of loans.",
+    "facts": [
+      "The trigger was compliance and KYC issues, not a failed product.",
+      "Merchant soundboxes and payment devices remained a strong revenue line.",
+      "Trust is the core asset in payments, and it takes years to rebuild."
+    ],
+    "question": "You're Paytm's head of product after the RBI action. What are your first 90 days?",
+    "structure": "Triage, then rebuild. First, retain users and merchants: smooth the migration of UPI handles and wallets, communicate clearly. Second, protect the strongest franchise, the merchant base and devices. Third, rebuild trust through visible compliance. Metrics: merchant churn, monthly transacting users, payment success rate. Show you'd put compliance ahead of growth this time.",
+    "source": "Reference",
+    "url": "https://en.wikipedia.org/wiki/Paytm"
+  },
+  {
+    "topic": "Streaming in India: cricket rights vs paying subscribers",
+    "roles": "PM · Consulting",
+    "gist": "After Reliance and Disney merged their Indian media businesses (JioHotstar), India's streaming market consolidated around a few giants. Cricket rights cost billions and drive huge spikes in viewers, but few Indians pay much for streaming.",
+    "facts": [
+      "ARPU for Indian streaming is among the lowest in the world.",
+      "Revenue mixes ads (AVOD) with subscriptions (SVOD); cricket makes ad inventory valuable.",
+      "Churn spikes when a tournament ends."
+    ],
+    "question": "How would you grow paid subscribers for an Indian streaming app?",
+    "structure": "Funnel: reach, trial, conversion to paid, retention. The big insight is post-cricket churn: bundle with telecom plans, run lower-priced mobile-only tiers, add regional-language originals and sequence releases to keep subscribers between tournaments. Metrics: conversion rate, 90-day retention, ARPU. Be ready to discuss price elasticity, since Indian users are highly price-sensitive.",
+    "source": "Reference",
+    "url": "https://en.wikipedia.org/wiki/JioHotstar"
+  },
+  {
+    "topic": "iPhones made in India: what the shift actually involves",
+    "roles": "Ops · Consulting",
+    "gist": "Apple's contract manufacturers (Foxconn, Tata Electronics, Pegatron) now assemble a large and rising share of iPhones in India, helped by production-linked incentives (PLI) and China+1 diversification. Most components are still imported.",
+    "facts": [
+      "Assembly is the easiest stage; components and sub-assemblies are the harder, higher-value step.",
+      "Export volumes from India have grown sharply year on year.",
+      "Yields, supplier ecosystems and logistics lead times decide competitiveness."
+    ],
+    "question": "A manufacturer wants to shift 25% of production from China to India. What must it get right?",
+    "structure": "Structure by the value chain: suppliers (which components can be sourced locally, and when), factory ramp-up (yields, training, quality), logistics (port and customs time, inventory buffers), cost (labour, incentives, duties) and risk (dual sourcing during transition). Recommend a phased move, and name the metric that tells you it's working, such as yield parity with the China line.",
+    "source": "Reference",
+    "url": "https://en.wikipedia.org/wiki/China_Plus_One"
+  }
+]
