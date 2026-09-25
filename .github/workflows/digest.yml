@@ -12,6 +12,9 @@ on:
     - cron: "30 12 * * *"   # 18:00 IST
     - cron: "0 16 * * *"    # 21:30 IST
   workflow_dispatch: {}      # lets you run it by hand from the Actions tab
+  push:                      # the 7 AM cloud routine pushes today's news -> rebuild at once
+    branches: [main]
+    paths: ["data/news_llm.json"]
 
 permissions:
   contents: write            # so the job can commit data/digests.json
@@ -39,5 +42,6 @@ jobs:
             echo "No change - nothing to publish."
           else
             git commit -m "digest $(TZ=Asia/Kolkata date +%F) $(TZ=Asia/Kolkata date +%H:%M)"
+            git pull --rebase origin main   # the routine may have pushed news_llm.json meanwhile
             git push
           fi

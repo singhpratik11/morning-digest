@@ -41,6 +41,15 @@ bodies, `¶` is a line break and `‖` splits what's shown from what the reveal 
 Indian news feeds block browser (CORS) access, so they're fetched server-side by the
 Action; the app just reads the latest `data/digests.json` whenever you open it.
 
+## Morning news (cloud routine)
+A Claude cloud routine runs daily at **07:00 IST**: it gathers the last 24 hours of news
+with web search only (no page fetches, so no approval prompts), writes
+`data/news_llm.json` — `{date, generatedAt, overview[2], sections[{name, items[{headline,
+summary, source, url}]}]}` with sections Top stories / World / India / Business & markets /
+Tech & AI / Sports — and pushes it. That push triggers the Action, which rebuilds the deck
+with those sections first, the practice cards interleaved, and RSS as "Latest headlines".
+If today's file is missing, the deck falls back to the RSS lanes.
+
 ## The pipeline
 - [`scripts/feeds.py`](scripts/feeds.py) — the feed list, per-bucket caps, and `MIN_ITEMS`
   (below which a thin run keeps yesterday's edition instead of publishing).

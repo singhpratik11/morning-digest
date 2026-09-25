@@ -17,7 +17,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from feeds import FEEDS, BUCKET_ORDER, MIN_ITEMS, CURATED  # noqa: E402
+from feeds import FEEDS, BUCKET_ORDER, LLM_ORDER, MIN_ITEMS, CURATED  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "digests.json")
@@ -25,6 +25,7 @@ DECK = os.path.join(os.path.dirname(os.path.abspath(__file__)), "deck_worth_know
 CASES = os.path.join(ROOT, "data", "case_briefs.json")
 GUESSES = os.path.join(ROOT, "data", "guesstimates.json")
 FRAMES = os.path.join(ROOT, "data", "frameworks.json")
+NEWS_LLM = os.path.join(ROOT, "data", "news_llm.json")   # written by the 7 AM cloud routine
 MAX_EDITIONS = 21
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
@@ -263,16 +264,59 @@ def add_curated(buckets, doy):
         buckets["Framework"] = [curated_card(f["name"], body, f.get("source"), f.get("url"))]
 
 
-def build_markdown(buckets, now):
+def load_llm_news(date):
+    # Today's synthesized news from the cloud routine, or None (missing, stale or malformed).
+    try:
+        d = json.load(open(NEWS_LLM, encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        return None
+    if d.get("date") != date:
+        log("  news_llm.json is for %s, not today - using RSS lanes." % d.get("date"))
+        return None
+    names = {b for b, _ in LLM_ORDER}
+    buckets = {}
+    for sec in d.get("sections", []):
+        name = sec.get("name", "")
+        if name not in names:
+            continue
+        items = []
+        for it in sec.get("items", []):
+            h, u = brief_text(it.get("headline")), safe_url(it.get("url"))
+            if h:
+                items.append({"headline": h[:160], "body": brief_text(it.get("summary")),
+                              "source": brief_text(it.get("source")), "url": u})
+        buckets[name] = items
+    if not buckets:
+        return None
+    # Re-bold a leading "Label:" (brief_text strips asterisks), e.g. "**Markets:** ...".
+    overview = [re.sub(r"^([A-Z][A-Za-z &-]{1,24}):\s*", r"**\1:** ", brief_text(x))
+                for x in d.get("overview", [])][:2]
+    return buckets, overview
+
+
+def latest_headlines(rss):
+    # Interleave the RSS lanes into one short, intra-day "Latest headlines" section.
+    lanes = [rss.get(b, []) for b, _ in BUCKET_ORDER if b not in CURATED]
+    out, i = [], 0
+    while any(i < len(l) for l in lanes):
+        out.extend(l[i] for l in lanes if i < len(l))
+        i += 1
+    return out
+
+
+def build_markdown(buckets, now, order, overview=None):
     display = "%s, %d %s %d" % (WEEKDAYS[now.weekday()], now.day, MONTHS[now.month], now.year)
     total = 0
-    for b, cap in BUCKET_ORDER:
+    for b, cap in order:
         total += min(len(buckets.get(b, [])), cap)
     lines = ["# " + display, ""]
     lines.append("**%d picks**, fresh as of %02d:%02d IST." % (total, now.hour, now.minute))
-    lines.append("**The mix:** today's business news, a case to crack, a guesstimate to try, and a framework to keep.")
+    if overview:
+        lines.extend(overview[:2])
+    else:
+        lines.append("**The mix:** today's business news, a case to crack, a guesstimate to try, and a framework to keep.")
     lines.append("")
-    for bucket, cap in BUCKET_ORDER:
+    for bucket, cap in order:
         items = buckets.get(bucket, [])[:cap]
         if not items:
             continue
@@ -292,12 +336,20 @@ def main():
     doy = int(now.strftime("%j"))
     log("Building edition for", date)
 
-    buckets = collect()
+    rss = collect()
+    llm = load_llm_news(date)
+    if llm:
+        buckets, overview = llm
+        buckets["Latest headlines"] = latest_headlines(rss)
+        order = LLM_ORDER
+        log("Using today's cloud-routine news (%d sections)." % len(buckets))
+    else:
+        buckets, overview, order = rss, None, BUCKET_ORDER
     add_curated(buckets, doy)
-    markdown, total = build_markdown(buckets, now)
+    markdown, total = build_markdown(buckets, now, order, overview)
 
     story_count = sum(min(len(buckets.get(b, [])), cap)
-                      for b, cap in BUCKET_ORDER if b not in CURATED)
+                      for b, cap in order if b not in CURATED)
     log("News stories (excl. curated):", story_count, "| total:", total)
     if story_count < MIN_ITEMS:
         log("Too few stories (%d < %d) - keeping yesterday's edition." % (story_count, MIN_ITEMS))
