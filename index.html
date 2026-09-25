@@ -142,6 +142,8 @@
     margin:0;color:var(--ink);text-wrap:balance;
     font-size:clamp(1.7rem,6.4vw,2.35rem);}
   .card.long .hl{font-size:clamp(1.45rem,5.4vw,1.95rem)}
+  .card.brief .sum{font-size:.93rem;line-height:1.6}
+  .card.brief .sum strong{color:var(--ink)}
   .sum{margin:0;color:var(--ink-soft);font-size:1.02rem;line-height:1.62;text-wrap:pretty;
     overflow-y:auto;scrollbar-width:none}
   .sum::-webkit-scrollbar{display:none}
@@ -372,7 +374,7 @@
     // colour signed percentage moves: green for +, red for - / − (kept to % to avoid ranges/dates)
     h=h.replace(/([+−-])(\d[\d,]*\.?\d*)(\s?%)/g,function(m,sign){
       return '<span class="chg '+(sign==="+"?"up":"down")+'">'+m+'</span>';});
-    return h;
+    return h.replace(/\s*¶\s*/g,"<br>");
   }
   var ACRONYMS={"RBI":"Reserve Bank of India","CPI":"Consumer Price Index","MPC":"Monetary Policy Committee","GDP":"Gross Domestic Product","FPI":"Foreign Portfolio Investors","FII":"Foreign Institutional Investors","IPO":"Initial Public Offering","NSE":"National Stock Exchange","BSE":"Bombay Stock Exchange","MCX":"Multi Commodity Exchange","FOMC":"Federal Open Market Committee","Fed":"US Federal Reserve","ECB":"European Central Bank","BoE":"Bank of England","BoJ":"Bank of Japan","VIX":"Volatility Index","WTI":"West Texas Intermediate crude","OMC":"Oil Marketing Company","OMO":"Open Market Operations","VRRR":"Variable Rate Reverse Repo","CAD":"Current Account Deficit","PPI":"Producer Price Index","GST":"Goods and Services Tax","UPI":"Unified Payments Interface","MDR":"Merchant Discount Rate","NPCI":"National Payments Corporation of India","SEBI":"Securities and Exchange Board of India","PMLA":"Prevention of Money Laundering Act","ED":"Enforcement Directorate","CIC":"Core Investment Company","NBFC":"Non-Banking Financial Company","BRICS":"Brazil, Russia, India, China, South Africa & partners","UCC":"Uniform Civil Code","MEA":"Ministry of External Affairs","MCD":"Municipal Corporation of Delhi","GMP":"Grey Market Premium","OFS":"Offer For Sale","QIB":"Qualified Institutional Buyer","S&P":"Standard & Poor's","M&A":"Mergers & Acquisitions","T20I":"Twenty20 International","ISL":"Indian Super League","ISRO":"Indian Space Research Organisation","DU":"Delhi University"};
   function glossHTML(text){
@@ -387,7 +389,7 @@
   function cardHTML(c,idx){
     if(c.kind==="intro"){
       return '<section class="card intro" data-idx="'+idx+'">'+
-        '<span class="chip">Morning brief</span>'+
+        '<span class="chip">Today’s brief</span>'+
         '<svg class="hero-svg" viewBox="0 0 340 150" preserveAspectRatio="xMidYMax meet" aria-hidden="true">'+
           '<circle cx="248" cy="58" r="30" fill="var(--accent)" opacity="0.9"/>'+
           '<g fill="var(--ink-mute)" opacity="0.9">'+
@@ -418,6 +420,7 @@
     var url=c.kind==="worth"?safeUrl(c.url):(c.links&&c.links[0]?safeUrl(c.links[0].url):"");
     var srcName=c.kind==="worth"?(c.source||host(url)):(c.links&&c.links[0]?c.links[0].label:host(url));
     var longCls=(c.headline.length>90||(c.why||"").length>260)?" long":"";
+    if(c.chip==="Interview brief")longCls+=" brief";
     var open=url?'<a class="act open" href="'+esc(url)+'" target="_blank" rel="noopener noreferrer" aria-label="Open source"><span class="ic">'+icOpen()+'</span><span class="lbl">Open</span></a>':'';
     return '<section class="card'+longCls+'" data-idx="'+idx+'" data-id="'+esc(c.id)+'">'+
       '<span class="chip">'+esc(c.chip||c.bucket||"")+'</span>'+

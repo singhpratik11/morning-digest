@@ -17,11 +17,12 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from feeds import FEEDS, BUCKET_ORDER, MIN_ITEMS  # noqa: E402
+from feeds import FEEDS, BUCKET_ORDER, MIN_ITEMS, CURATED  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "digests.json")
 DECK = os.path.join(os.path.dirname(os.path.abspath(__file__)), "deck_worth_knowing.json")
+BRIEFS = os.path.join(ROOT, "data", "interview_briefs.json")
 MAX_EDITIONS = 21
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
@@ -51,6 +52,8 @@ def strip_ns(tag):
 
 TAG_RE = re.compile(r"<[^>]+>")
 WS_RE = re.compile(r"\s+")
+# "6.5-7%" is a range, not a fall: en-dash it so the app's red/green % colouring skips it.
+RANGE_RE = re.compile(r"(\d)-(\d)")
 
 # "Made me smile" should be light. Drop offbeat-feed items that are actually grim.
 BLOCK_SMILE = re.compile(r"\b(dead|dies|died|death|kill|killed|murder|shoot|shot|"
@@ -68,7 +71,7 @@ def clean_text(s, limit=320):
     s = html.unescape(s)
     s = s.replace("[", "").replace("]", "")   # keep the app's link parser safe
     s = s.replace("*", "")
-    s = WS_RE.sub(" ", s).strip()
+    s = RANGE_RE.sub("\\1\u2013\\2", WS_RE.sub(" ", s).strip())
     # drop common RSS boilerplate tails
     s = re.split(r"(?i)\b(the post|read more|continue reading|appeared first on)\b", s)[0].strip()
     if len(s) <= limit:
@@ -209,6 +212,29 @@ def add_worth_knowing(buckets, doy):
         for p in picks]
 
 
+def brief_text(s):
+    # Like clean_text but keeps the **bold** labels and the ¶ line-break marker the app renders.
+    s = html.unescape(str(s or "")).replace("[", "").replace("]", "").replace("*", "")
+    return RANGE_RE.sub("\\1\u2013\\2", WS_RE.sub(" ", s).strip())
+
+
+def add_interview_brief(buckets, doy):
+    try:
+        briefs = json.load(open(BRIEFS, encoding="utf-8"))
+    except Exception as e:  # noqa: BLE001
+        log("  ! interview briefs unavailable:", e)
+        return
+    if not briefs:
+        return
+    b = briefs[doy % len(briefs)]
+    facts = " ".join("(%d) %s" % (i + 1, brief_text(f)) for i, f in enumerate(b.get("facts", [])[:3]))
+    body = ("**The gist:** %s ¶**Know these:** %s ¶**Likely question:** %s ¶**Your angle:** %s"
+            % (brief_text(b["gist"]), facts, brief_text(b["question"]), brief_text(b["angle"])))
+    buckets["Interview brief"] = [{"headline": brief_text(b["topic"]), "body": body,
+                                   "source": b.get("source", "Reference"),
+                                   "url": safe_url(b.get("url", ""))}]
+
+
 def build_markdown(buckets, now):
     display = "%s, %d %s %d" % (WEEKDAYS[now.weekday()], now.day, MONTHS[now.month], now.year)
     total = 0
@@ -216,7 +242,7 @@ def build_markdown(buckets, now):
         total += min(len(buckets.get(b, [])), cap)
     lines = ["# " + display, ""]
     lines.append("**%d picks**, fresh as of %02d:%02d IST." % (total, now.hour, now.minute))
-    lines.append("**The mix:** what moved today, an idea worth knowing, and something too absurd to be made up.")
+    lines.append("**The mix:** India's economy and markets, today's interview theme, business, the world, and one concept worth knowing.")
     lines.append("")
     for bucket, cap in BUCKET_ORDER:
         items = buckets.get(bucket, [])[:cap]
@@ -239,12 +265,13 @@ def main():
     log("Building edition for", date)
 
     buckets = collect()
+    add_interview_brief(buckets, doy)
     add_worth_knowing(buckets, doy)
     markdown, total = build_markdown(buckets, now)
 
     story_count = sum(min(len(buckets.get(b, [])), cap)
-                      for b, cap in BUCKET_ORDER if b != "Worth knowing")
-    log("Story cards (excl. Worth knowing):", story_count, "| total:", total)
+                      for b, cap in BUCKET_ORDER if b not in CURATED)
+    log("News stories (excl. curated):", story_count, "| total:", total)
     if story_count < MIN_ITEMS:
         log("Too few stories (%d < %d) - keeping yesterday's edition." % (story_count, MIN_ITEMS))
         return 0

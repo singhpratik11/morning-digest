@@ -1,57 +1,44 @@
-# Feed sources for the Morning Digest, grouped into the app's sections.
+# Feed sources for the digest, tuned for MBA-interview current affairs.
 # Each feed: (bucket, source_name, url, max_items)
-# The build script fetches these, tolerates failures, dedupes, and caps per bucket.
-# Buckets render in the order first seen below. "Made me smile" leads (the hook),
-# then the news lanes, then "Worth knowing" (curated, added by the build script).
+# The build script fetches these server-side (Indian feeds block browser/CORS access),
+# tolerates failures, dedupes, and interleaves sources within a bucket.
+# "Interview brief" and "Worth knowing" are curated lanes added by build_digest.py.
 
 FEEDS = [
-    # --- Made me smile: absurd-but-true, funny-because-real ---
-    # (lighter sources first; a tragedy/violence filter in build_digest.py drops grim items)
-    ("Made me smile", "Not the Onion", "https://www.reddit.com/r/nottheonion/top/.rss?t=day", 5),
-    ("Made me smile", "UPI Odd News",  "https://rss.upi.com/news/odd_news.rss", 5),
-    ("Made me smile", "Metro Weird",   "https://metro.co.uk/news/weird/feed/", 5),
+    # --- Economy & policy (India) ---
+    ("Economy & policy", "Economic Times",   "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms", 4),
+    ("Economy & policy", "Business Standard","https://www.business-standard.com/rss/economy-102.rss", 3),
+    ("Economy & policy", "Mint",             "https://www.livemint.com/rss/economy", 3),
+    ("Economy & policy", "The Hindu",        "https://www.thehindu.com/business/Economy/feeder/default.rss", 3),
 
-    # --- India: markets, economy, national, corporate ---
-    ("India", "Economic Times",   "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms", 4),
-    ("India", "Economic Times",   "https://economictimes.indiatimes.com/rssfeedstopstories.cms", 4),
-    ("India", "Business Standard","https://www.business-standard.com/rss/markets-106.rss", 3),
-    ("India", "The Hindu",        "https://www.thehindu.com/news/national/feeder/default.rss", 3),
-    ("India", "NDTV",             "https://feeds.feedburner.com/ndtvnews-top-stories", 3),
-    ("India", "Times of India",   "https://timesofindia.indiatimes.com/rssfeedstopstories.cms", 3),
-
-    # --- World ---
-    ("World", "Al Jazeera",  "https://www.aljazeera.com/xml/rss/all.xml", 4),
-    ("World", "BBC News",    "https://feeds.bbci.co.uk/news/world/rss.xml", 4),
-    ("World", "The Guardian","https://www.theguardian.com/world/rss", 3),
+    # --- Markets & banking ---
+    ("Markets & banking", "Economic Times",   "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms", 3),
+    ("Markets & banking", "Business Standard","https://www.business-standard.com/rss/markets-106.rss", 3),
+    ("Markets & banking", "Mint",             "https://www.livemint.com/rss/markets", 3),
 
     # --- Business & startups ---
-    ("Business & startups", "Inc42",      "https://inc42.com/feed/", 3),
-    ("Business & startups", "Entrackr",   "https://entrackr.com/rss", 3),
-    ("Business & startups", "YourStory",  "https://yourstory.com/feed", 2),
-    ("Business & startups", "TechCrunch", "https://techcrunch.com/feed/", 3),
+    ("Business & startups", "Inc42",     "https://inc42.com/feed/", 3),
+    ("Business & startups", "Entrackr",  "https://entrackr.com/rss", 3),
 
-    # --- Tech & science ---
-    ("Tech & science", "Ars Technica", "https://feeds.arstechnica.com/arstechnica/index", 3),
-    ("Tech & science", "The Verge",    "https://www.theverge.com/rss/index.xml", 3),
-    ("Tech & science", "ScienceDaily", "https://www.sciencedaily.com/rss/top/science.xml", 3),
-    ("Tech & science", "Phys.org",     "https://phys.org/rss-feed/", 2),
-
-    # --- Sports (cricket first) ---
-    ("Sports", "ESPNcricinfo", "https://www.espncricinfo.com/rss/content/story/feeds/0.xml", 3),
-    ("Sports", "BBC Sport",    "https://feeds.bbci.co.uk/sport/rss.xml", 3),
+    # --- World ---
+    ("World", "Al Jazeera",  "https://www.aljazeera.com/xml/rss/all.xml", 3),
+    ("World", "BBC News",    "https://feeds.bbci.co.uk/news/world/rss.xml", 3),
+    ("World", "The Guardian","https://www.theguardian.com/world/rss", 2),
 ]
 
 # Section render order and how many items each keeps in the final edition.
+# Current affairs lead; the curated interview brief sits mid-deck so it's hit early.
 BUCKET_ORDER = [
-    ("Made me smile", 3),
-    ("India", 5),
-    ("World", 4),
-    ("Business & startups", 4),
-    ("Tech & science", 4),
-    ("Sports", 3),
-    ("Worth knowing", 2),   # filled from the curated deck, not RSS
+    ("Economy & policy", 4),
+    ("Markets & banking", 3),
+    ("Interview brief", 1),     # curated: data/interview_briefs.json, one theme a day
+    ("Business & startups", 3),
+    ("World", 3),
+    ("Worth knowing", 1),       # curated: scripts/deck_worth_knowing.json
 ]
 
-# If the whole run assembles fewer than this many story cards, skip writing
-# (keep yesterday's edition rather than publish a thin/broken one).
+# Curated lanes (not counted toward MIN_ITEMS).
+CURATED = {"Interview brief", "Worth knowing"}
+
+# If the run assembles fewer than this many news stories, keep the previous edition.
 MIN_ITEMS = 8

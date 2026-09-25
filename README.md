@@ -24,11 +24,17 @@ No API keys, no paid services, no daily approvals, no manual push. Everything ru
 GitHub Actions' free tier + Vercel's free tier.
 
 ## The content lanes
-Each edition is a finite deck, ordered to hook then inform:
-1. **Made me smile** — absurd-but-true offbeat news (grim items filtered out)
-2. **India** · **World** · **Business & startups** · **Tech & science** · **Sports** — RSS
-3. **Worth knowing** — a hand-written evergreen idea (mental model / finance concept /
-   business case), rotated daily from [`scripts/deck_worth_knowing.json`](scripts/deck_worth_knowing.json)
+Each edition is a finite deck tuned for MBA-interview prep — current affairs first:
+1. **Economy & policy** · **Markets & banking** — Indian RSS (ET, Business Standard, Mint, The Hindu)
+2. **Interview brief** — one hand-written theme a day from
+   [`data/interview_briefs.json`](data/interview_briefs.json): the gist, three facts,
+   a likely interview question, and how to angle your answer
+3. **Business & startups** · **World** — RSS
+4. **Worth knowing** — a finance concept / mental model, rotated from
+   [`scripts/deck_worth_knowing.json`](scripts/deck_worth_knowing.json)
+
+Indian news feeds block browser (CORS) access, so they're fetched server-side by the
+Action; the app just reads the latest `data/digests.json` whenever you open it.
 
 ## The pipeline
 - [`scripts/feeds.py`](scripts/feeds.py) — the feed list, per-bucket caps, and `MIN_ITEMS`
