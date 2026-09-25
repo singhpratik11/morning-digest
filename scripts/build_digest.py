@@ -290,7 +290,7 @@ def load_llm_news(date):
         return None
     # Re-bold a leading "Label:" (brief_text strips asterisks), e.g. "**Markets:** ...".
     # Capped so a long line can't overflow the intro card (clean_text cuts at a sentence/word).
-    overview = [re.sub(r"^([A-Z][A-Za-z &-]{1,24}):\s*", r"**\1:** ", clean_text(x, 170))
+    overview = [re.sub(r"^([A-Z][A-Za-z &-]{1,24}):\s*", r"**\1:** ", clean_text(x, 150))
                 for x in d.get("overview", [])][:2]
     return buckets, overview
 

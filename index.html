@@ -162,6 +162,8 @@
   .gloss b{color:var(--ink-soft);font-weight:700}
 
   .card.intro .hl{font-size:clamp(1.9rem,7vw,2.5rem)}
+  .card.intro .card-body{padding-bottom:calc(env(safe-area-inset-bottom) + 74px)} /* keep text clear of the swipe hint */
+  .card.intro .kicker{display:none} /* the animated SWIPE hint already says it */
   .card.intro .kicker{font-family:"Manrope";font-size:.9rem;color:var(--ink-mute);font-weight:600;margin-top:.2rem}
   .hero-svg{flex:none;width:100%;max-width:330px;height:auto;margin:1.1rem auto .1rem;display:block}
   .byline{position:absolute;right:22px;bottom:calc(env(safe-area-inset-bottom) + 16px);
