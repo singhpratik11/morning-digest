@@ -1,31 +1,31 @@
 {
-  "date": "2026-09-25",
-  "generatedAt": "2026-09-25T09:42:45Z",
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T01:55:00Z",
   "overview": [
-    "Markets: Wall Street fell and 30-year Treasury yields hit their highest since 2004 on Fed rate-hike bets, while Sensex and Nifty traded range-bound as the rupee hovered near 96/dollar on likely RBI intervention and IRDAI's commission-cap proposal wiped out a third of PB Fintech's value.",
-    "Big story: Presidents Trump and Xi Jinping held a high-stakes White House summit extending their trade truce while sparring over Taiwan, AI chips and Iran, even as US and Iranian negotiators explored a phased deal to reopen the Strait of Hormuz."
+    "Markets: Wall Street and Sensex/Nifty both rose as falling oil prices lifted sentiment on Iran diplomacy hopes.",
+    "Big story: Iran offered a seven-day plan to reopen the Strait of Hormuz to shipping."
   ],
   "sections": [
     {
       "name": "Top stories",
       "items": [
         {
-          "headline": "Trump and Xi extend trade truce at White House summit, spar over AI and Taiwan",
-          "summary": "Presidents Trump and Xi Jinping met at the White House to discuss trade, AI safeguards, Taiwan and the Iran war, extending their fragile trade truce by two months after it had been set to expire in November. Xi wants a permanent halt to US arms sales to Taiwan and eased chip export curbs; Trump wants China's help pressuring Iran, underscoring how tech and security are now intertwined in great-power bargaining.",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html"
-        },
-        {
-          "headline": "Netanyahu defends Gaza and Iran campaigns in UN speech amid walkout",
-          "summary": "Israeli PM Benjamin Netanyahu told the UN General Assembly Israel is fighting a 'seven-front war,' defended strikes on Iran as a matter of survival, and rejected genocide accusations over Gaza, prompting a delegate walkout. He also criticised the UK, Turkey, Qatar and New York Mayor Zohran Mamdani, highlighting how isolated Israel's diplomatic position has become even among allies.",
+          "headline": "Iran offers seven-day plan to reopen Strait of Hormuz to US",
+          "summary": "Foreign Minister Abbas Araghchi said Iran has proposed a seven-day timeline to reopen Hormuz to shipping, conditional on the US lifting its naval blockade, releasing at least $12bn in frozen assets and easing oil sanctions. The White House has not confirmed acceptance, but a deal would ease record fuel prices and cut inflation risk for oil-importing economies like India.",
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/24/benjamin-netanyahu-attacks-israels-enemies-and-allies-in-un-speech"
+          "url": "https://www.aljazeera.com/news/2026/9/25/whats-in-irans-seven-day-plan-to-reopen-the-strait-of-hormuz"
         },
         {
-          "headline": "US and Iran explore phased deal to reopen Strait of Hormuz",
-          "summary": "US and Iranian negotiators are exploring a staged agreement in which Tehran would reopen the Strait of Hormuz in exchange for Washington easing its blockade on Iranian ports, seven months into the 2026 Iran war. A breakthrough would ease record-high fuel prices and give both Trump and Iran's sanctions-hit economy relief, making it a pivotal swing factor for global oil markets and inflation.",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-24/us-iran-said-to-be-exploring-phased-deal-to-open-hormuz"
+          "headline": "US to detail Trump-Xi trade truce terms Monday, tariff exemptions expected",
+          "summary": "USTR Jamieson Greer said full details of the US-China trade agreement, including product exemptions and an extension of the tariff truce to January 10, will be released Monday. Treasury Secretary Scott Bessent said the truce will hold after Xi's first US state visit in 11 years, a key signal for global supply chains and markets watching for a fresh escalation.",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/25/trump-xi-china-trade-greer.html"
+        },
+        {
+          "headline": "ArcelorMittal halts Ukraine's biggest steel plant after Russian strikes",
+          "summary": "ArcelorMittal will not resume operations at its Kryvyi Rih plant, Ukraine's largest steelworks, after four Russian missile strikes in five weeks killed five workers and injured 17. The company expects a roughly $1 billion non-cash impairment charge, underscoring how deep Russian strikes on industrial infrastructure are hitting Ukraine's economy and Western investment there.",
+          "source": "ArcelorMittal / Reuters",
+          "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-that-it-is-unable-to-safely-and-sustainably-restart-operations-at-arcelormittal-kryvyi-rih-following-multiple-recent-missile-strikes"
         }
       ]
     },
@@ -33,34 +33,34 @@
       "name": "World",
       "items": [
         {
-          "headline": "Pakistan strikes 10 Afghan locations in retaliation for Kohat mosque attack",
-          "summary": "Pakistan carried out air and drone strikes on Taliban positions across Khost, Paktia, Paktika and Kandahar after drones launched from Afghanistan were shot down over Torkham and Kohat. The strikes follow a September 18 suicide bombing and gun attack on a mosque in Kohat that killed at least 31 people, marking a sharp escalation in the Pakistan-Afghanistan border conflict.",
+          "headline": "Netanyahu calls Gaza genocide claims 'biggest lie' in UN speech",
+          "summary": "Israeli PM Benjamin Netanyahu told the UN General Assembly that genocide allegations over Gaza were the 'biggest lie of the century,' as scores of delegates walked out, whom he branded 'moral cowards.' The speech deepened Israel's diplomatic isolation even as ceasefire violations continue on the ground in Gaza.",
+          "source": "Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog-september-25-2026/"
+        },
+        {
+          "headline": "UN Security Council condemns Houthi attacks on Saudi Arabia",
+          "summary": "The UN Security Council condemned escalating Houthi attacks on Saudi civilian and energy infrastructure, as Saudi, Turkish and Pakistani military chiefs prepared to meet on supporting Riyadh under a joint defence pact. The move signals growing international alarm over a widening Gulf security crisis tied to the broader regional war.",
+          "source": "Reuters",
+          "url": "https://www.timesofisrael.com/liveblog-september-25-2026/"
+        },
+        {
+          "headline": "Ukrainian drones hit Russian oil refinery and rail targets overnight",
+          "summary": "Ukrainian drone strikes forced Russia's Novoshakhtinsk oil refinery to suspend operations and hit a passenger train and other targets, while Russian strikes killed civilians in Perm and Belgorod regions. The tit-for-tat strikes on energy infrastructure highlight how both sides are targeting fuel supply as a war-fighting lever ahead of winter.",
+          "source": "Reuters",
+          "url": "https://www.justsecurity.org/158876/early-edition-september-25-2026/"
+        },
+        {
+          "headline": "Pakistan strikes Afghan targets after deadly Kohat mosque bombing",
+          "summary": "Pakistan carried out air and drone strikes on Taliban positions across four Afghan provinces after drones from Afghanistan were downed near the border, following a September 18 mosque bombing in Kohat that killed at least 31 people. The escalation marks a sharp deterioration in Pakistan-Afghanistan relations with regional security implications.",
           "source": "India TV News",
           "url": "https://www.indiatvnews.com/news/world/pakistan-strikes-10-locations-in-afghanistan-in-response-to-drone-attacks-latest-updates-2026-09-24-1055124"
         },
         {
-          "headline": "Indian sailor killed as torpedoes hit merchant ship off Oman coast",
-          "summary": "An Indian wiper, identified as Suraj Yadav from Uttar Pradesh, was killed when the Antigua-flagged MV Cape Dao was hit by two torpedoes near the Strait of Hormuz, sparking an engine-room fire. Oman's navy evacuated the rest of the crew; neither Iran nor the US has claimed responsibility, and at least 23 sailors have now died in Hormuz-area attacks since the Iran war began in February.",
-          "source": "The National",
-          "url": "https://www.thenationalnews.com/news/gulf/2026/09/24/indian-sailor-killed-as-two-torpedoes-hit-merchant-ship-off-oman/"
-        },
-        {
-          "headline": "Russian drone kills 14-year-old boy in Kyiv apartment strike",
-          "summary": "A Russian drone slammed into a 16-storey residential building in Kyiv's Pecherskyi district, killing a 14-year-old boy and injuring at least seven people. President Zelensky mourned the death as Russia continues near-constant drone barrages on the capital that are increasingly hard for Ukrainian air defences to intercept.",
-          "source": "US News",
-          "url": "https://www.usnews.com/news/world/articles/2026-09-25/russian-drone-hits-central-kyiv-killing-a-child-injuring-at-least-seven-people-ukrainian-officials-say"
-        },
-        {
-          "headline": "Pope Leo XIV begins first papal visit to France in nearly 20 years",
-          "summary": "Pope Leo XIV arrived in Paris to open a four-day apostolic journey through France, starting with vespers at a restored Notre-Dame and a UNESCO address expected to touch on artificial intelligence. He will later meet clergy sex-abuse survivors in Lourdes, the first French papal trip since 2008.",
-          "source": "France 24",
-          "url": "https://www.france24.com/en/europe/20260925-pope-leo-xiv-s-visit-to-france-what-you-need-to-know"
-        },
-        {
-          "headline": "Belgium and Rwanda restore diplomatic ties after 18-month rupture",
-          "summary": "Belgium and Rwanda agreed to resume diplomatic relations and reopen their embassies, ending a freeze that began in March 2025 over EU sanctions tied to Rwanda's alleged backing of M23 rebels in eastern Congo. Qatar helped broker the reconciliation, though both sides admit the underlying DRC dispute remains unresolved.",
-          "source": "The Tribune",
-          "url": "https://www.newtimes.co.rw/article/39146/news/international/rwanda-belgium-agree-to-restore-diplomatic-ties-reopen-embassies"
+          "headline": "Nepal PM tells UN climate crisis punishes low-emission nations",
+          "summary": "Nepali PM Balendra Shah told the UN General Assembly that Nepal's recent deadly floods show climate change hurts countries that barely contributed to it, noting Nepal emits less than 0.1% of global greenhouse gases. The remarks add pressure on rich nations ahead of upcoming climate-finance negotiations.",
+          "source": "Reuters",
+          "url": "https://www.justsecurity.org/158876/early-edition-september-25-2026/"
         }
       ]
     },
@@ -68,34 +68,34 @@
       "name": "India",
       "items": [
         {
-          "headline": "Plea seeks CEC Gyanesh Kumar's prosecution over voter roll deletions",
-          "summary": "A petition reached the Supreme Court seeking criminal prosecution of Chief Election Commissioner Gyanesh Kumar over changes to Form 6 and a special voter registration drive that allegedly deleted or reprocessed over 13 crore names. The plea claims fellow commissioners Sukhbir Singh Sandhu and Vivek Joshi objected to at least 14 decisions taken without their concurrence, deepening a row over the Election Commission's independence ahead of state polls.",
-          "source": "The Week",
-          "url": "https://www.theweek.in/news/india/2026/09/25/ec-row-reaches-supreme-court-plea-seeks-cec-gyanesh-kumars-criminal-prosecution.html"
+          "headline": "Fitch, S&P, OECD and ADB raise India's FY27 growth forecast to 6.9-7.1%",
+          "summary": "Multiple global agencies upgraded India's growth outlook for the coming fiscal year to between 6.9% and 7.1%, citing resilient domestic demand and easing inflation. The upgrades reinforce India's position as the fastest-growing major economy, a key data point for consulting and policy interviews on India's macro trajectory.",
+          "source": "Reuters",
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008770397"
         },
         {
-          "headline": "IIT Bombay protests continue after student's suspected suicide",
-          "summary": "Protests entered another day at IIT Bombay after 19-year-old Sahil Wakode's death by suicide in his hostel room, with Congress MP Varsha Gaikwad and NSUI activists detained outside campus. His parents have begun a hunger strike at Azad Maidan demanding an independent probe into alleged harassment and the institute's emergency response.",
-          "source": "ThePrint",
-          "url": "https://theprint.in/india/student-suicide-cong-mp-varsha-gaikwad-nsui-activities-detained-during-protest-outside-iit-bombay/3052032/"
+          "headline": "SEBI cuts PMS minimum investment threshold from Rs 50 lakh to Rs 25 lakh",
+          "summary": "The Securities and Exchange Board of India introduced a new Portfolio Management Services framework, halving the minimum investment threshold and allowing PMS managers to invest directly in mutual funds, ETFs and specialised investment funds. The reform widens access to professionally managed portfolios and is part of SEBI's push to deepen capital markets.",
+          "source": "Business Standard",
+          "url": "https://www.business-standard.com/"
         },
         {
-          "headline": "Delhi's EV policy draws 5,678 applications, ₹4.8 crore disbursed",
-          "summary": "Delhi's Electric Vehicle Policy 2026 has received 5,678 incentive applications since its July rollout, with 1,664 processed and ₹4.8 crore disbursed so far, mostly to two-wheeler buyers. The uptake signals steady momentum for the capital's EV push even as courts and civic agencies separately handle NIA-accused travel and gangrape-probe cases in the city.",
-          "source": "LatestLY",
-          "url": "https://www.latestly.com/india/news/delhi-latest-news-today-on-september-25th-2026-court-allows-nia-accused-travel-gangrape-probe-new-flyover-7619565.html"
+          "headline": "States told to notify four labour codes by October 31",
+          "summary": "The central government asked all states and union territories to publish implementation rules for India's four consolidated labour codes, covering wages, industrial relations, social security and occupational safety, by October 31. The codes are a major overhaul of India's labour law framework with significant implications for hiring, gig work and compliance costs.",
+          "source": "Business Standard",
+          "url": "https://www.business-standard.com/"
         },
         {
-          "headline": "Mumbai deploys 24,000 police for Ganesh Visarjan on Anant Chaturdashi",
-          "summary": "Mumbai and Maharashtra shut educational institutions as the city held its Ganesh Visarjan processions, with over 24,000 police personnel and 25,000 BMC staff deployed to manage crowds. The scale of the security operation underlines the civic and logistical load major Indian cities carry during large religious festivals.",
-          "source": "LatestLY",
-          "url": "https://www.latestly.com/india/news/mumbai-latest-news-today-on-september-25th-2026-ganesh-visarjan-iit-bombay-protest-civic-updates-7619570.html"
+          "headline": "Supreme Court dismisses plea to make Hindi the official court language",
+          "summary": "The Supreme Court rejected a petition seeking Hindi as the official language of courts, saying language reforms are already being introduced in phases. Separately, the Court split on whether to refer a challenge to the Election Commission Act to a larger bench, while backing a permanent five-judge constitutional bench.",
+          "source": "Live Law",
+          "url": "https://www.livelaw.in/"
         },
         {
-          "headline": "WEF survey names India world's strongest growth outlook for FY27",
-          "summary": "In the World Economic Forum's September Chief Economists' Outlook, 74% of economists expect strong or very strong growth in India over the next year, up from 52% in May, with the FY27 forecast raised to 6.7%. Resilient domestic demand is cited as the driver, though economists flagged elevated energy prices as a risk, a reminder that India's growth story remains a key talking point in any macro or strategy interview.",
-          "source": "The Tribune",
-          "url": "https://www.tribuneindia.com/news/business/india-has-strongest-growth-outlook-globally-74-chief-economists-expect-strong-growth-wef"
+          "headline": "Supreme Court acquits rape accused, cites flawed witness-testimony approach",
+          "summary": "The Supreme Court acquitted a man convicted of rape, ruling that a court cannot accept part of a witness's testimony while rejecting the rest without clear justification. The judgment reinforces evidentiary standards in sexual-assault trials and is likely to be cited in future criminal appeals.",
+          "source": "Live Law",
+          "url": "https://www.livelaw.in/"
         }
       ]
     },
@@ -103,34 +103,34 @@
       "name": "Business & markets",
       "items": [
         {
-          "headline": "Sensex, Nifty trade flat-to-higher as FIIs sell, DIIs buy",
-          "summary": "The Sensex opened lower near 73,525 before recovering to around 73,727 by midday, while the Nifty hovered near 23,035, dragged by IT stocks amid mixed global cues. Foreign investors sold ₹5,027 crore of equities on September 24 even as domestic institutions bought ₹4,301 crore, showing domestic flows continuing to cushion the market against FII outflows.",
+          "headline": "Sensex gains 300 points, Nifty tops 23,100 as oil prices ease",
+          "summary": "The Sensex rose 300.90 points (0.41%) to 73,881.44 and the Nifty50 gained 65 points (0.28%) to 23,128.10, with auto and realty stocks leading gains. Falling crude prices on hopes of an Iran diplomatic breakthrough supported sentiment despite elevated US bond yields.",
           "source": "India TV News",
           "url": "https://www.indiatvnews.com/business/markets/25-september-2026-stock-market-updates-sensex-nifty-flat-amid-mixed-global-cues-it-stocks-drag-2026-09-25-1055235"
         },
         {
-          "headline": "Rupee holds near 96/dollar as RBI intervenes, October hike odds rise",
-          "summary": "The rupee found temporary support near 96 to the dollar, with markets pointing to likely RBI intervention capping further declines even as US Treasury yields stayed elevated. August retail inflation rose to 4.8% year-on-year, its firmest since December 2024, increasing the odds of an RBI rate hike in October and squeezing the central bank's room to support growth.",
-          "source": "FXStreet",
-          "url": "https://www.fxstreet.com/news/indian-rupee-cushioned-by-rbis-likely-intervention-outlook-remain-fragile-202609250528"
+          "headline": "Wall Street ends volatile week higher; S&P 500 up 0.51%",
+          "summary": "The S&P 500 climbed 0.51% to 7,743.41, the Dow rose 0.93% to 51,828.62, and the Nasdaq gained 0.5% to 27,068.72, as easing oil prices offset a surge in Treasury yields. The rebound came amid optimism over the Trump-Xi trade truce and hopes for an Iran diplomatic breakthrough.",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html"
         },
         {
-          "headline": "Wall Street slides as 30-year Treasury yield hits highest since 2004",
-          "summary": "The S&P 500 closed down 0.75% at 7,706 and the Nasdaq fell over 1% as elevated oil prices stoked inflation worries and Fed rate-hike bets, sending the 30-year Treasury yield to its highest level since 2004 and the 10-year to 5.116%. The renewed bond volatility is spilling into emerging-market currencies, including the rupee, and raises the cost of capital globally just as companies plan next year's budgets.",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-23/stock-market-today-dow-s-p-live-updates"
+          "headline": "Spacetech startup Pixxel raises $100 million Series C",
+          "summary": "Bengaluru-based space technology startup Pixxel raised $100 million from Temasek and Seraphim Space, the largest funding round yet for an Indian spacetech company, taking its total funding to $195 million. The deal capped a week in which Indian startups raised over $412 million, up 42% week-on-week.",
+          "source": "Indian Startup News",
+          "url": "https://indianstartupnews.com/funding/indian-startups-raised-over-412-million-from-september-7-to-september-12-2026-pixxel-tops-the-list-12528949"
         },
         {
-          "headline": "PB Fintech crashes 36% as IRDAI proposes insurance commission caps",
-          "summary": "PB Fintech shares plunged 36%, wiping out roughly ₹25,000 crore ($3 billion) in market value, after IRDAI's consultation paper proposed capping insurer distribution costs at 15% of premium for life insurers within two years. Turtlemint hit its lower circuit and HDFC Life, ICICI Prudential Life and Max Financial also fell, illustrating how a single regulatory proposal can reprice an entire sector overnight.",
-          "source": "Business Today",
-          "url": "https://www.businesstoday.in/markets/stocks/story/pb-fintech-shares-crack-26-after-irdai-consultation-paper-is-there-more-pain-ahead-557475-2026-09-24"
-        },
-        {
-          "headline": "AceVector's IPO opens seeking valuation of up to ₹1,741 crore",
-          "summary": "AceVector, the parent of Snapdeal, opened its IPO today with a price band of ₹30–32, comprising a ₹287 crore fresh issue and ₹133 crore offer for sale. The listing tests investor appetite for legacy e-commerce names even as India's primary market sees record retail participation, with over two dozen mainboard issues launched this month alone.",
-          "source": "India IPO",
+          "headline": "AceVector (Snapdeal) launches IPO with Rs 30-32 price band",
+          "summary": "AceVector, formerly Snapdeal, opened a mainboard IPO comprising a Rs 287 crore fresh issue and Rs 133 crore offer-for-sale at a Rs 30-32 price band, part of a wider 'IPO rush' of Indian companies racing to list before SEBI's extended approvals lapse. Four IPOs together aim to raise about Rs 1,776 crore this week.",
+          "source": "IndiaIPO",
           "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-ipo-updates-25th-september-2026"
+        },
+        {
+          "headline": "FIIs sell Rs 5,027 crore of Indian equities as DIIs keep buying",
+          "summary": "Foreign institutional investors sold Rs 5,027.36 crore of Indian shares while domestic institutional investors bought Rs 4,301.18 crore, continuing a pattern of foreign outflows being cushioned by domestic buying. The divergence highlights how domestic mutual funds and insurers are increasingly setting the floor for Indian markets.",
+          "source": "Business Standard",
+          "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
         }
       ]
     },
@@ -138,28 +138,28 @@
       "name": "Tech & AI",
       "items": [
         {
-          "headline": "AI industry leaders urge global regulation at UN Security Council",
-          "summary": "Heads of major AI firms, including Anthropic CEO Dario Amodei, told the UN Security Council their industry urgently needs global oversight to avoid dangers that could threaten humanity if AI development is mismanaged. The appeal reflects growing pressure on governments to coordinate AI safety rules even as the same companies race to commercialise ever more capable models.",
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/24/ai-corporate-leaders-tell-un-the-industry-needs-global-regulation"
+          "headline": "Google launches Gemini 3.8 Live with real-time avatar video",
+          "summary": "Google released Gemini 3.8 Live with Live Avatar in Gemini Enterprise, combining live dialogue with near-real-time video generation that keeps facial expressions and lip-sync accurate across 97 languages. The launch pushes Google further into real-time multimodal AI, a race also involving OpenAI and Meta.",
+          "source": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-09-25"
         },
         {
-          "headline": "Amazon opens Seller Central to outside AI agents, starting with Claude",
-          "summary": "At Amazon Accelerate, Amazon launched a US beta plugin letting third-party sellers manage inventory, pricing, listings and analytics through Anthropic's Claude or Amazon's own Quick assistant, running always-on agentic workflows without a seller logged in. Amazon says roughly 90% of sellers already use outside AI tools, signalling e-commerce platforms are ceding more operational control to AI agents.",
-          "source": "GeekWire",
-          "url": "https://www.geekwire.com/2026/amazon-opens-its-seller-tools-to-outside-ai-agents-starting-with-anthropics-claude/"
+          "headline": "Sanders and Casar introduce bill to ban superintelligent AI",
+          "summary": "Senator Bernie Sanders and Representative Greg Casar introduced the Ban Artificial Superintelligence Act, which would prohibit AI systems exceeding human cognitive performance, pause advanced AI development pending federal safety rules, and create a cabinet-level Department of Artificial Intelligence. Violators could face criminal penalties, reflecting growing US political anxiety over frontier AI.",
+          "source": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-09-25"
         },
         {
-          "headline": "Anthropic says Claude discovered a novel CRISPR-like enzyme system",
-          "summary": "Anthropic's new life sciences research group reported that Claude autonomously scanned roughly 1.9 billion protein clusters and identified a previously uncharacterised bacteriophage enzyme system, dubbed ART, whose repeat structure resembles CRISPR arrays. Around 950 AI agents ran for 21 hours using 210 million tokens to narrow 200,000 candidates down to 20 systems, though what ART actually does remains unknown.",
-          "source": "Anthropic",
-          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+          "headline": "Alibaba cuts Qwen audio API prices by up to 95%",
+          "summary": "Alibaba's Qwen team released a new voice stack, Qwen-Audio 3.1, alongside price cuts of up to 95% on its audio APIs. The move intensifies price competition among Chinese AI labs racing to win developer adoption for voice and multimodal applications globally.",
+          "source": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-09-25"
         },
         {
-          "headline": "AI drone maker Tekever raises $580M, hits $6.4B valuation",
-          "summary": "Portuguese-British defence startup Tekever raised the first close of a $580 million Series D led by UC Investments and Baillie Gifford, nearly quintupling its valuation to $6.4 billion. Its drones have logged over 50,000 flight hours supporting Ukraine, and it recently won a £400 million UK Ministry of Defence surveillance contract, underscoring surging investor appetite for European defence tech.",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/23/ai-drone-maker-ukraine-war-defense-tech.html"
+          "headline": "Ando raises $20 million to build AI-native team chat app",
+          "summary": "Startup Ando came out of stealth with a team messaging app designed to let AI agents participate as first-class members of conversations, backed by a $20 million pre-seed and seed raise. It reflects a wider bet that workplace chat tools will be rebuilt around AI agents rather than just humans.",
+          "source": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-09-25"
         }
       ]
     },
@@ -167,22 +167,22 @@
       "name": "Sports",
       "items": [
         {
-          "headline": "West Indies tour of India begins Sunday with Gill, Jadeja back",
-          "summary": "West Indies arrive for a three-ODI, five-T20I tour starting September 27 in Thiruvananthapuram, with Shubman Gill captaining the ODIs and Shreyas Iyer leading the T20Is. Ravindra Jadeja returns to the ODI squad after last playing in January, while Nitish Kumar Reddy has been pulled from the Asian Games squad to join the white-ball series.",
-          "source": "ESPNcricinfo",
-          "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215"
-        },
-        {
-          "headline": "India win Asian Games shooting gold, hockey team beats Japan",
-          "summary": "Suruchi Singh and Kamaljeet won gold in the mixed 10m air pistol event with an Asian-record 484.6 points, India's second gold at the 2026 Asian Games after the women's cricket team's win. India's women's hockey team also beat hosts Japan 3-1 to seal a semi-final berth, keeping their unbeaten run in Pool B intact.",
+          "headline": "India's kabaddi teams chase Asian Games gold against Iran",
+          "summary": "Both Indian kabaddi teams face Iran in Asian Games gold-medal matches in Aichi-Nagoya, Japan, with the men chasing a ninth title and the women a fourth. PV Sindhu and Lakshya Sen also opened their badminton singles campaigns the same day after the shock men's doubles exit of Satwiksairaj Rankireddy and Chirag Shetty.",
           "source": "Olympics.com",
-          "url": "https://www.olympics.com/en/news/asian-games-2026-live-scores-updates-results-india-september-25"
+          "url": "https://www.olympics.com/en/news/asian-games-2026-india-schedule-today-september-26-saturday"
         },
         {
-          "headline": "Laver Cup opens at London's O2 Arena with Alcaraz, Fritz in action",
-          "summary": "The 2026 Laver Cup began at The O2 in London, with Team World defending its title after winning 15-9 in San Francisco last year. Carlos Alcaraz and Alexander Zverev lead Team Europe under captain Yannick Noah, while Taylor Fritz headlines Andre Agassi's Team World, as Formula 1 also races this weekend at the Baku Grand Prix in Azerbaijan.",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/complete-guide-laver-cup-2026-212938221.html"
+          "headline": "West Indies begin India tour with first Test from September 27",
+          "summary": "The West Indies cricket team arrives in India for a multi-format tour beginning September 27, its first assignment of the 2026-27 international season. The series gives India a chance to test bench strength ahead of a packed home season.",
+          "source": "ESPNcricinfo",
+          "url": "https://www.cricinfo.com/series/asian-games-men-s-cricket-competition-2026-1552449"
+        },
+        {
+          "headline": "Laver Cup and F1 Baku Grand Prix both open in same weekend",
+          "summary": "The Laver Cup tennis exhibition began in London while Formula 1's Baku Grand Prix weekend continued in Azerbaijan, giving fans a packed international sports weekend. Both events draw global broadcast and sponsorship interest, illustrating sport's growing overlap with entertainment marketing.",
+          "source": "ESPN",
+          "url": "https://www.espn.com/espn/story/_/id/47552032/2026-sport-calendar-fifa-world-cup-winter-olympics-month-guide"
         }
       ]
     }
