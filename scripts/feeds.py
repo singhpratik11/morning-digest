@@ -49,14 +49,14 @@ MIN_ITEMS = 7
 # for intra-day freshness. If today's file is missing, BUCKET_ORDER (RSS only) is used.
 LLM_ORDER = [
     ("Top stories", 5),
-    ("World", 15),
-    ("India", 15),
+    ("World", 12),
+    ("India", 12),
     ("Case brief", 1),
-    ("Business & markets", 15),
+    ("Business & markets", 12),
     ("Guesstimate", 1),
-    ("Tech & AI", 10),
-    ("Science & health", 5),
-    ("Sports", 10),
+    ("Tech & AI", 8),
+    ("Science & health", 4),
+    ("Sports", 7),
     ("Latest headlines", 8),    # RSS, refreshed through the day
     ("Framework", 1),
 ]
