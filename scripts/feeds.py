@@ -44,18 +44,19 @@ CURATED = {"Case brief", "Guesstimate", "Framework"}
 # If the run assembles fewer than this many news stories, keep the previous edition.
 MIN_ITEMS = 7
 
-# When the 7 AM cloud routine has written today's data/news_llm.json, the deck uses these
+# When the cloud routine (07:00 and 19:00 IST) has written today's data/news_llm.json, the deck uses these
 # sections instead: synthesized news first, practice interleaved, RSS as "Latest headlines"
 # for intra-day freshness. If today's file is missing, BUCKET_ORDER (RSS only) is used.
 LLM_ORDER = [
-    ("Top stories", 3),
-    ("World", 5),
-    ("India", 5),
+    ("Top stories", 5),
+    ("World", 10),
+    ("India", 10),
     ("Case brief", 1),
-    ("Business & markets", 5),
+    ("Business & markets", 10),
     ("Guesstimate", 1),
-    ("Tech & AI", 4),
-    ("Sports", 3),
-    ("Latest headlines", 4),    # RSS, refreshed through the day
+    ("Tech & AI", 6),
+    ("Science & health", 3),
+    ("Sports", 6),
+    ("Latest headlines", 8),    # RSS, refreshed through the day
     ("Framework", 1),
 ]
