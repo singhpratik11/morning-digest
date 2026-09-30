@@ -60,3 +60,16 @@ LLM_ORDER = [
     ("Latest headlines", 8),    # RSS, refreshed through the day
     ("Framework", 1),
 ]
+
+# The parallel AI deck, written by the separate 07:30 IST routine into data/ai_llm.json.
+# Stored as an `ai` field on the day's edition; the app shows it behind the News | AI switch.
+AI_ORDER = [
+    ("AI top stories", 4),
+    ("Chips & compute", 5),
+    ("Labs & models", 5),
+    ("China AI", 4),
+    ("What the CEOs said", 4),
+    ("Washington & policy", 4),
+    ("Money & deals", 3),
+    ("India AI", 2),
+]

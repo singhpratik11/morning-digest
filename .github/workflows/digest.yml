@@ -14,7 +14,7 @@ on:
   workflow_dispatch: {}      # lets you run it by hand from the Actions tab
   push:                      # the 7 AM cloud routine pushes today's news -> rebuild at once
     branches: [main]
-    paths: ["data/news_llm.json"]
+    paths: ["data/news_llm.json", "data/ai_llm.json"]
 
 permissions:
   contents: write            # so the job can commit data/digests.json

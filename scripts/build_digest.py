@@ -17,7 +17,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from feeds import FEEDS, BUCKET_ORDER, LLM_ORDER, MIN_ITEMS, CURATED  # noqa: E402
+from feeds import FEEDS, BUCKET_ORDER, LLM_ORDER, AI_ORDER, MIN_ITEMS, CURATED  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "digests.json")
@@ -25,7 +25,8 @@ DECK = os.path.join(os.path.dirname(os.path.abspath(__file__)), "deck_worth_know
 CASES = os.path.join(ROOT, "data", "case_briefs.json")
 GUESSES = os.path.join(ROOT, "data", "guesstimates.json")
 FRAMES = os.path.join(ROOT, "data", "frameworks.json")
-NEWS_LLM = os.path.join(ROOT, "data", "news_llm.json")   # written by the 7 AM cloud routine
+NEWS_LLM = os.path.join(ROOT, "data", "news_llm.json")   # written by the 07:00 IST cloud routine
+AI_LLM = os.path.join(ROOT, "data", "ai_llm.json")       # written by the 07:30 IST AI routine
 MAX_EDITIONS = 21
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
@@ -264,16 +265,16 @@ def add_curated(buckets, doy):
         buckets["Framework"] = [curated_card(f["name"], body, f.get("source"), f.get("url"))]
 
 
-def load_llm_news(date):
-    # Today's synthesized news from the cloud routine, or None (missing, stale or malformed).
+def load_llm(path, order, date):
+    # Today's synthesized deck from a cloud routine, or None (missing, stale or malformed).
     try:
-        d = json.load(open(NEWS_LLM, encoding="utf-8"))
+        d = json.load(open(path, encoding="utf-8"))
     except Exception:  # noqa: BLE001
         return None
     if d.get("date") != date:
-        log("  news_llm.json is for %s, not today - using RSS lanes." % d.get("date"))
+        log("  %s is for %s, not today - skipping it." % (os.path.basename(path), d.get("date")))
         return None
-    names = {b for b, _ in LLM_ORDER}
+    names = {b for b, _ in order}
     buckets = {}
     for sec in d.get("sections", []):
         name = sec.get("name", "")
@@ -305,7 +306,11 @@ def latest_headlines(rss):
     return out
 
 
-def build_markdown(buckets, now, order, overview=None):
+NEWS_MIX = "**The mix:** today's business news, a case to crack, a guesstimate to try, and a framework to keep."
+AI_MIX = "**The mix:** chips, labs, China, what the CEOs said and what Washington is doing."
+
+
+def build_markdown(buckets, now, order, overview=None, mix=NEWS_MIX):
     display = "%s, %d %s %d" % (WEEKDAYS[now.weekday()], now.day, MONTHS[now.month], now.year)
     total = 0
     for b, cap in order:
@@ -315,7 +320,7 @@ def build_markdown(buckets, now, order, overview=None):
     if overview:
         lines.extend(overview[:2])
     else:
-        lines.append("**The mix:** today's business news, a case to crack, a guesstimate to try, and a framework to keep.")
+        lines.append(mix)
     lines.append("")
     for bucket, cap in order:
         items = buckets.get(bucket, [])[:cap]
@@ -338,7 +343,7 @@ def main():
     log("Building edition for", date)
 
     rss = collect()
-    llm = load_llm_news(date)
+    llm = load_llm(NEWS_LLM, LLM_ORDER, date)
     if llm:
         buckets, overview = llm
         buckets["Latest headlines"] = latest_headlines(rss)
@@ -363,9 +368,14 @@ def main():
     except Exception:  # noqa: BLE001
         editions = []
     editions = [e for e in editions if e.get("date") != date]
-    editions.insert(0, {"date": date, "displayDate":
-                        "%s, %d %s %d" % (WEEKDAYS[now.weekday()], now.day, MONTHS[now.month], now.year),
-                        "markdown": markdown})
+    edition = {"date": date, "displayDate":
+               "%s, %d %s %d" % (WEEKDAYS[now.weekday()], now.day, MONTHS[now.month], now.year),
+               "markdown": markdown}
+    ai = load_llm(AI_LLM, AI_ORDER, date)
+    if ai:
+        edition["ai"], ai_total = build_markdown(ai[0], now, AI_ORDER, ai[1], AI_MIX)
+        log("AI deck:", ai_total, "stories.")
+    editions.insert(0, edition)
     editions = editions[:MAX_EDITIONS]
     with open(DATA, "w", encoding="utf-8") as f:
         json.dump(editions, f, ensure_ascii=False, indent=1)
