@@ -1,0 +1,21 @@
+[
+ {
+  "date": "2026-09-30",
+  "deck": "ai",
+  "model": "claude-sonnet-5",
+  "startedAt": "2026-09-30T13:22:33Z",
+  "finishedAt": "2026-09-30T13:31:40Z",
+  "durationSec": 547,
+  "searches": 60,
+  "stories": 29,
+  "tokens": {
+   "input": 50,
+   "output": 50541,
+   "cacheRead": 2960292,
+   "cacheWrite": 153711,
+   "total": 3164594,
+   "turns": 25
+  },
+  "tokenSource": "transcript"
+ }
+]
