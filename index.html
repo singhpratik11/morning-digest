@@ -293,9 +293,6 @@
       </span>
       <span class="spacer"></span>
       <span class="counter" id="counter" hidden>1 / 1</span>
-      <button class="hud-btn" id="openSettings" aria-label="Usage and settings" style="margin-right:6px">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
-      </button>
       <button class="hud-btn" id="openSaved" aria-label="Saved stories">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h12a1 1 0 0 1 1 1v15l-7-4-7 4V5a1 1 0 0 1 1-1z"/></svg>
         <span class="count" id="savedCount" hidden>0</span>
@@ -304,7 +301,7 @@
     <div class="progress"><div class="progress-fill" id="progressFill"></div></div>
     <div class="row2">
     <div class="mode" id="modeSwitch" hidden role="group" aria-label="Deck">
-      <button data-mode="news" aria-pressed="true">News</button><button data-mode="ai" aria-pressed="false">AI</button>
+      <button data-mode="news" aria-pressed="true">News</button><button data-mode="ai" aria-pressed="false" id="aiTab">AI</button><button data-view="tokens" aria-pressed="false">Tokens</button>
     </div>
     <div class="secnav" id="secnav" hidden>
       <button class="sec-trigger" id="secTrigger" aria-haspopup="true" aria-expanded="false">
@@ -557,22 +554,23 @@
   }
   function openSheetFn(){sheetTitle.textContent="Saved";renderSheet();scrim.classList.add("on");sheet.classList.add("on");}
   function fmtTok(n){return n==null?"—":n>=1e6?(n/1e6).toFixed(1)+"M":n>=1e3?Math.round(n/1e3)+"K":String(n);}
-  function fmtDur(s){return s==null?"—":s>=60?Math.round(s/60)+" min":s+" s";}
-  function usageTotals(runs,days){var cut=new Date(Date.now()-days*864e5).toISOString().slice(0,10),t=0,r=0,known=0;
-    runs.forEach(function(x){if(x.date>=cut){r++;if(x.tokens){t+=x.tokens.total;known++;}}});return {runs:r,tokens:t,known:known};}
+  // Tokens tab: per day, incoming = everything the runs read (fresh input + cached re-reads +
+  // cache writes), outgoing = what they wrote. Both runs of a day are added together.
+  function byDay(runs){var d={};runs.forEach(function(x){if(!x.tokens)return;var t=x.tokens,k=x.date;
+    d[k]=d[k]||{date:k,inc:0,out:0,runs:0};d[k].inc+=t.input+t.cacheRead+t.cacheWrite;d[k].out+=t.output;d[k].runs++;});
+    return Object.keys(d).sort().reverse().map(function(k){return d[k];});}
   function renderUsage(runs){
     var plan='<div class="plan"><b>Claude Pro plan.</b> The 7:00 news run and 7:30 AI run count against your Pro usage limits. Extra usage is off, so they can never charge you money.</div>';
-    if(!runs||!runs.length){sheetList.innerHTML='<div class="usage">'+plan+'<div class="sheet-empty"><span class="big">No runs logged yet</span>The next 7:00 and 7:30 AM runs will appear here.</div></div>';return;}
-    var w=usageTotals(runs,7),m=usageTotals(runs,30),last=runs[runs.length-1];
-    var tiles='<div class="tiles"><div class="tile"><div class="k">Last 7 days</div><div class="v">≈'+fmtTok(w.tokens)+'</div><div class="k">'+w.runs+' runs</div></div>'+
-      '<div class="tile"><div class="k">Last 30 days</div><div class="v">≈'+fmtTok(m.tokens)+'</div><div class="k">'+m.runs+' runs</div></div></div>';
-    var brk='';
-    if(last.tokens){var t=last.tokens;brk='<div class="note">Latest run ('+esc(last.deck)+'): ≈'+fmtTok(t.total)+' tokens. '+fmtTok(t.cacheRead)+' of that is re-reading context it already saw (the cheap part), '+fmtTok(t.input+t.cacheWrite)+' new input and '+fmtTok(t.output)+' written.</div>';}
-    var rows=runs.slice(-12).reverse().map(function(x){return '<tr><td>'+esc(shortDate(x.date))+'</td><td>'+esc(x.deck==="ai"?"AI":"News")+'</td><td class="num">'+fmtDur(x.durationSec)+'</td><td class="num">'+(x.searches==null?"—":x.searches)+'</td><td class="num">'+(x.stories||"—")+'</td><td class="num">'+(x.tokens?"≈"+fmtTok(x.tokens.total):"—")+'</td></tr>';}).join("");
-    sheetList.innerHTML='<div class="usage">'+plan+tiles+'<h3>Recent runs</h3><table><thead><tr><th>Date</th><th>Deck</th><th class="num">Time</th><th class="num">Searches</th><th class="num">Stories</th><th class="num">Tokens</th></tr></thead><tbody>'+rows+'</tbody></table>'+brk+
-      '<div class="note">Live 5-hour and weekly usage: Claude app → Settings → Usage. Token counts come from each run’s own log and slightly undercount its last few steps; "—" means that run couldn’t read its log.</div></div>';
+    var days=byDay(runs||[]);
+    if(!days.length){sheetList.innerHTML='<div class="usage">'+plan+'<div class="sheet-empty"><span class="big">No runs logged yet</span>The next 7:00 and 7:30 AM runs will appear here.</div></div>';return;}
+    var wk=days.slice(0,7).reduce(function(a,x){a.inc+=x.inc;a.out+=x.out;return a;},{inc:0,out:0});
+    var tiles='<div class="tiles"><div class="tile"><div class="k">Incoming · last 7 days</div><div class="v">'+fmtTok(wk.inc)+'</div></div>'+
+      '<div class="tile"><div class="k">Outgoing · last 7 days</div><div class="v">'+fmtTok(wk.out)+'</div></div></div>';
+    var rows=days.slice(0,30).map(function(x){return '<tr><td>'+esc(shortDate(x.date))+'</td><td class="num">'+fmtTok(x.inc)+'</td><td class="num">'+fmtTok(x.out)+'</td><td class="num">'+x.runs+'</td></tr>';}).join("");
+    sheetList.innerHTML='<div class="usage">'+plan+tiles+'<h3>Tokens per day</h3><table><thead><tr><th>Date</th><th class="num">Incoming</th><th class="num">Outgoing</th><th class="num">Runs</th></tr></thead><tbody>'+rows+'</tbody></table>'+
+      '<div class="note">Incoming is mostly each run re-reading what it has already gathered (the cheaper kind). Outgoing is what it writes. Live 5-hour and weekly limits: Claude app → Settings → Usage.</div></div>';
   }
-  function openSettingsFn(){sheetTitle.textContent="Usage";sheetList.innerHTML='<div class="usage"><div class="note">Loading…</div></div>';
+  function openTokensFn(){sheetTitle.textContent="Tokens";sheetList.innerHTML='<div class="usage"><div class="note">Loading…</div></div>';
     scrim.classList.add("on");sheet.classList.add("on");
     fetch("data/usage.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():[];}).then(renderUsage).catch(function(){renderUsage([]);});}
   function closeSheetFn(){scrim.classList.remove("on");sheet.classList.remove("on");}
@@ -592,7 +590,7 @@
       sheetList=document.getElementById("sheetList"),toast=document.getElementById("toast"),
       toTopBtn=document.getElementById("toTopBtn"),
       modeSwitch=document.getElementById("modeSwitch"),sheetTitle=document.getElementById("sheetTitle"),
-      openSettings=document.getElementById("openSettings");
+      aiTab=document.getElementById("aiTab");
 
   function showToast(msg){toast.textContent=msg;toast.classList.add("on");
     clearTimeout(toastT);toastT=setTimeout(function(){toast.classList.remove("on");},1400);}
@@ -652,12 +650,12 @@
     else if(e.key==="ArrowUp"||e.key==="PageUp"){e.preventDefault();deck.scrollBy({top:-deck.clientHeight,behavior:"smooth"});}
   });
 
-  function reflectMode(){modeSwitch.querySelectorAll("button").forEach(function(b){b.setAttribute("aria-pressed",String(b.dataset.mode===MODE));});}
+  function reflectMode(){modeSwitch.querySelectorAll("button[data-mode]").forEach(function(b){b.setAttribute("aria-pressed",String(b.dataset.mode===MODE));});}
   modeSwitch.addEventListener("click",function(e){var b=e.target.closest("button[data-mode]");
     if(!b||b.dataset.mode===MODE||!BY[b.dataset.mode].length)return;
     var date=EDITIONS[CUR]&&EDITIONS[CUR].date;MODE=b.dataset.mode;lsSet("md_mode",MODE);EDITIONS=BY[MODE];
     var i=EDITIONS.findIndex(function(x){return x.date===date;});CUR=i<0?0:i;reflectMode();renderDeck();deck.scrollTo({top:0});});
-  openSettings.addEventListener("click",openSettingsFn);
+  modeSwitch.addEventListener("click",function(e){if(e.target.closest("button[data-view=tokens]"))openTokensFn();});
   prevDay.addEventListener("click",function(){if(CUR<EDITIONS.length-1){CUR++;renderDeck();}});
   nextDay.addEventListener("click",function(){if(CUR>0){CUR--;renderDeck();}});
   editionDate.addEventListener("click",function(){deck.scrollTo({top:0,behavior:"smooth"});});
@@ -698,7 +696,7 @@
     if(!news.length&&!ai.length)return false;
     BY={news:news,ai:ai};
     if(!BY[MODE].length)MODE=news.length?"news":"ai";
-    EDITIONS=BY[MODE];modeSwitch.hidden=!(news.length&&ai.length);reflectMode();
+    EDITIONS=BY[MODE];modeSwitch.hidden=false;aiTab.hidden=!ai.length;reflectMode();
     return true;
   }
 

@@ -70,6 +70,7 @@ AI_ORDER = [
     ("China AI", 4),
     ("What the CEOs said", 4),
     ("Washington & policy", 4),
+    ("World governments", 3),   # EU, UK, China, India, Japan, Korea, Gulf, G7/UN
     ("Money & deals", 3),
     ("India AI", 2),
 ]
