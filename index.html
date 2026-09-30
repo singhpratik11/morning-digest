@@ -109,6 +109,7 @@
   .counter{position:absolute;left:calc(16px + 2.6rem + 10px);bottom:calc(env(safe-area-inset-bottom) + 92px);
     height:2.6rem;display:flex;align-items:center;z-index:15;pointer-events:none;
     font-size:.78rem;font-weight:700;color:var(--ink-mute);font-variant-numeric:tabular-nums;white-space:nowrap}
+  .counter.solo{left:16px}
   .counter[hidden]{display:none}
   .progress{margin:9px 2px 0;height:3px;border-radius:3px;background:var(--hair);overflow:hidden;pointer-events:auto}
   .progress-fill{height:100%;width:0;background:var(--accent);transition:width .18s ease}
@@ -519,8 +520,10 @@
     // story counter (1 / N), reflecting the card in view
     var c=CARDS[idx];
     if(c){
-      if(c.n){counter.textContent=c.n+"/"+c.total;counter.hidden=false;}
-      else {counter.hidden=true;}
+      // always visible: 0/N on the opening card, n/N on stories, N/N on the closing card
+      var total=(CARDS[0]&&CARDS[0].total)||0, pos=c.n||(c.kind==="end"?total:0);
+      counter.textContent=pos+"/"+total;counter.hidden=!total;
+      counter.classList.toggle("solo",idx===0);   // no jump-to-top button on the opening card
     }
     // reflect the active section in the dropdown (only when it changes)
     var ai=-1;
