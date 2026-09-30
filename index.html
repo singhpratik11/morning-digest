@@ -105,13 +105,17 @@
     border-radius:999px;background:var(--accent);color:var(--accent-ink);font-size:.62rem;font-weight:700;
     display:inline-flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
   .count[hidden]{display:none}
-  .counter{font-size:.72rem;font-weight:700;color:var(--ink-mute);font-variant-numeric:tabular-nums;
-    white-space:nowrap;padding:0 .3rem}
+  /* story position, bottom-left beside the jump-to-top button: "1/57" */
+  .counter{position:absolute;left:calc(16px + 2.6rem + 10px);bottom:calc(env(safe-area-inset-bottom) + 92px);
+    height:2.6rem;display:flex;align-items:center;z-index:15;pointer-events:none;
+    font-size:.78rem;font-weight:700;color:var(--ink-mute);font-variant-numeric:tabular-nums;white-space:nowrap}
   .counter[hidden]{display:none}
   .progress{margin:9px 2px 0;height:3px;border-radius:3px;background:var(--hair);overflow:hidden;pointer-events:auto}
   .progress-fill{height:100%;width:0;background:var(--accent);transition:width .18s ease}
   .secnav{position:relative;pointer-events:auto;align-self:flex-start}
-  @media (max-width:420px){.bm-word{display:none}}  /* room for the settings + saved buttons */
+  @media (max-width:420px){.brandmark{display:none}.mode button{padding:.38rem .56rem;font-size:.76rem}}  /* room for date + switch + saved */
+  @media (max-height:720px){.card.intro .hero-svg{max-height:9vh;margin-top:.6rem}}  /* short phones: text clears the swipe hint */
+  @media (max-width:385px){.bar{gap:4px}.mode button{padding:.36rem .44rem}.edpick .date{padding:.2rem .3rem}.chev{width:1.25rem}}
   .row2{display:flex;align-items:flex-start;gap:8px;margin-top:9px;pointer-events:auto}
   .mode{display:inline-flex;border:1px solid var(--hair);border-radius:999px;background:var(--surface);
     box-shadow:var(--shadow);padding:2px;flex:none}
@@ -182,10 +186,10 @@
   .gloss b{color:var(--ink-soft);font-weight:700}
 
   .card.intro .hl{font-size:clamp(1.9rem,7vw,2.5rem)}
-  .card.intro .card-body{padding-bottom:calc(env(safe-area-inset-bottom) + 74px)} /* keep text clear of the swipe hint */
+  .card.intro .card-body{padding-bottom:calc(env(safe-area-inset-bottom) + 92px)} /* keep text clear of the swipe hint */
   .card.intro .kicker{display:none} /* the animated SWIPE hint already says it */
   .card.intro .kicker{font-family:"Manrope";font-size:.9rem;color:var(--ink-mute);font-weight:600;margin-top:.2rem}
-  .hero-svg{flex:none;width:100%;max-width:330px;height:auto;margin:1.1rem auto .1rem;display:block}
+  .hero-svg{flex:none;width:100%;max-width:330px;height:auto;max-height:16vh;margin:1.1rem auto .1rem;display:block}
   .byline{position:absolute;right:22px;bottom:calc(env(safe-area-inset-bottom) + 16px);
     font-size:.7rem;font-weight:600;color:var(--ink-mute);letter-spacing:.03em}
 
@@ -291,8 +295,10 @@
         <button class="date" id="editionDate" aria-label="Edition date">—</button>
         <button class="chev" id="nextDay" aria-label="Newer edition"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
       </span>
+      <div class="mode" id="modeSwitch" hidden role="group" aria-label="Deck">
+      <button data-mode="news" aria-pressed="true">News</button><button data-mode="ai" aria-pressed="false" id="aiTab">AI</button><button data-view="tokens" aria-pressed="false">Tokens</button>
+    </div>
       <span class="spacer"></span>
-      <span class="counter" id="counter" hidden>1 / 1</span>
       <button class="hud-btn" id="openSaved" aria-label="Saved stories">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h12a1 1 0 0 1 1 1v15l-7-4-7 4V5a1 1 0 0 1 1-1z"/></svg>
         <span class="count" id="savedCount" hidden>0</span>
@@ -300,9 +306,6 @@
     </div>
     <div class="progress"><div class="progress-fill" id="progressFill"></div></div>
     <div class="row2">
-    <div class="mode" id="modeSwitch" hidden role="group" aria-label="Deck">
-      <button data-mode="news" aria-pressed="true">News</button><button data-mode="ai" aria-pressed="false" id="aiTab">AI</button><button data-view="tokens" aria-pressed="false">Tokens</button>
-    </div>
     <div class="secnav" id="secnav" hidden>
       <button class="sec-trigger" id="secTrigger" aria-haspopup="true" aria-expanded="false">
         <span id="secCurrent">Jump to section</span>
@@ -330,6 +333,7 @@
   </div>
 
   <div class="toast" id="toast"></div>
+  <span class="counter" id="counter" hidden>1/1</span>
   <button class="totop" id="toTopBtn" aria-label="Jump to top" title="Jump to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
 </div>
 
@@ -515,8 +519,7 @@
     // story counter (1 / N), reflecting the card in view
     var c=CARDS[idx];
     if(c){
-      if(c.n){counter.textContent=c.n+" / "+c.total;counter.hidden=false;}
-      else if(c.kind==="intro"){counter.textContent=(c.total||0)+" stories";counter.hidden=(!c.total);}
+      if(c.n){counter.textContent=c.n+"/"+c.total;counter.hidden=false;}
       else {counter.hidden=true;}
     }
     // reflect the active section in the dropdown (only when it changes)
