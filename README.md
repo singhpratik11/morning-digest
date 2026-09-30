@@ -50,6 +50,14 @@ Tech & AI / Sports — and pushes it. That push triggers the Action, which rebui
 with those sections first, the practice cards interleaved, and RSS as "Latest headlines".
 If today's file is missing, the deck falls back to the RSS lanes.
 
+## AI deck (second routine) and usage tracking
+A second routine, **AI deck (07:30 IST)**, writes `data/ai_llm.json` (AI top stories, Chips &
+compute, Labs & models, China AI, What the CEOs said, Washington & policy, Money & deals,
+India AI). The build stores it as an `ai` field on the day's edition; the app shows it behind
+the **News | AI** switch. Both routines finish with `scripts/log_usage.py`, which appends the
+run's model, duration, searches, stories and tokens (from the run's own transcript, or
+"unavailable") to `data/usage.json`; the gear button in the app shows it.
+
 ## The pipeline
 - [`scripts/feeds.py`](scripts/feeds.py) — the feed list, per-bucket caps, and `MIN_ITEMS`
   (below which a thin run keeps yesterday's edition instead of publishing).
