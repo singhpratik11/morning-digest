@@ -1,43 +1,43 @@
 {
-  "date": "2026-09-30",
-  "generatedAt": "2026-09-30T13:35:43Z",
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T10:45:11Z",
   "overview": [
-    "Markets: Sensex and Nifty fell a third session as oil rebounded and the rupee held near a record low of 96/dollar.",
-    "Big story: The US completed its troop withdrawal from Iraq, ending a 12-year mission against the Islamic State group."
+    "Markets: Sensex sank 1,280 points intraday to a 2026 low as oil prices and rate-hike fears spooked investors.",
+    "Big story: Iran is reviewing a US ceasefire counterproposal to reopen the Strait of Hormuz after months of war."
   ],
   "sections": [
     {
       "name": "Top stories",
       "items": [
         {
-          "headline": "US completes troop withdrawal from Iraq after 12-year mission",
-          "summary": "The US military said its withdrawal from Iraq is complete, ending a 12-year campaign that defeated the Islamic State as an organised force. The last troops left an airbase in Kurdish-run northern Iraq; Baghdad called it a sovereignty milestone while Iran-backed groups celebrated.",
+          "headline": "Iran reviews US ceasefire counterproposal to reopen Strait of Hormuz",
+          "summary": "Iran received a US counterproposal for a ceasefire and phased reopening of the Strait of Hormuz after months of war, even as commercial vessels were hit by projectiles there. Oil prices stayed elevated on the uncertainty, a risk Indian refiners and the rupee are watching closely.",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil/"
+        },
+        {
+          "headline": "Last US troops complete withdrawal from Iraq",
+          "summary": "The final American troops and equipment left Erbil air base, ending a 12-year military campaign against ISIS and a two-decade US presence in Iraq. The pullout, agreed with Baghdad in 2024, comes as Kurdish officials worry about losing US air defences amid regional tensions.",
           "source": "CNN",
           "url": "https://www.cnn.com/2026/09/30/middleeast/us-military-withdrawal-iraq-intl"
         },
         {
-          "headline": "South Africa summons US ambassador for third time in months",
-          "summary": "South Africa's foreign ministry called in US envoy Leo Brent Bozell III over what it called \"undiplomatic conduct,\" the third such rebuke since he took the post in February. Ties remain strained by Trump's repeated claims of persecution against white South Africans.",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-29/south-africa-summons-us-envoy-again-over-remarks-n24-reports"
+          "headline": "FlyDubai pilot stabbed captain, tried to crash Israel-bound jet",
+          "summary": "A pilot stabbed the captain of a Dubai-Tel Aviv Flydubai flight carrying about 170 people and tried to crash it; passengers and crew overpowered him and the plane landed safely in Saudi Arabia. Investigators are probing whether the attack was a planned terrorist act.",
+          "source": "CNN",
+          "url": "https://www.cnn.com/2026/10/01/world/live-news/flydubai-flight-israel-pilot-passengers-intl"
         },
         {
-          "headline": "Sensex, Nifty fall for third session as oil rebounds",
-          "summary": "The Sensex slipped to 72,480.29 and the Nifty fell to 22,620.45 as crude rebounded on fading hopes of a US-Iran resolution. Realty and bank stocks gained while pharma and metals dragged, underlining how oil swings are now driving Indian equities.",
-          "source": "Business Standard",
-          "url": "https://www.business-standard.com/markets/news/stock-market-live-september-30-sensex-today-nifty-gift-nifty-crude-oil-price-adroit-industries-share-ipo-today-126093000100_1.html"
+          "headline": "Gaza recovers remains of 105 Palestinians from Gaza City rubble",
+          "summary": "Civil defence teams pulled the remains of 105 people from a destroyed residential block after a 17-day search, among the largest such recoveries since the war began. Ceasefire violations continue, with Israel still controlling nearly 70% of Gaza nearly a year into the truce.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/1/palestinians-to-bury-remains-of-105-people-killed-in-israeli-attack-on-gaza"
         },
         {
-          "headline": "Rupee holds near record low of 96 per dollar",
-          "summary": "The rupee traded near 95.97-96 per dollar as foreign portfolio outflows and high oil prices weighed, with the RBI intervening through dollar sales to cushion the fall. Persistent central-bank support underscores the currency's exposure to crude prices and bond-yield stress.",
-          "source": "Business Standard",
-          "url": "https://www.business-standard.com/amp/finance/news/rupee-steadies-near-96-as-outflows-weigh-rbi-intervention-cushions-126093000378_1.html"
-        },
-        {
-          "headline": "Apple Pay finally launches in India via Axis Bank",
-          "summary": "Apple began rolling out Apple Pay in India with Axis Bank as its first banking partner, entering a payments market dominated by the state-backed UPI. The service works on Visa and Mastercard but not RuPay, and HDFC, ICICI and SBI Card are not yet on board.",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/29/apple-pay-set-to-launch-in-india-with-axis-bank-today-sources-say/"
+          "headline": "India's Cabinet clears Rs 2.79 lakh crore package for energy, farms",
+          "summary": "The Union Cabinet approved a Rs 2.79 lakh crore package spanning a Green Energy Corridor to evacuate 135 GW of renewable power, a Rabi MSP hike under PM DHARA, and a Delhi traffic overhaul. It signals continued big-ticket infrastructure and farm-support spending ahead of the festive season.",
+          "source": "Business Today",
+          "url": "https://businesstoday.in/latest/economy/story/cabinet-clears-rs2-79-lakh-crore-package-rabi-msp-hike-pm-dhara-and-delhi-traffic-system-558824-2026-09-30"
         }
       ]
     },
@@ -45,64 +45,70 @@
       "name": "World",
       "items": [
         {
-          "headline": "Iran-US talks via Qatari mediator make little progress",
-          "summary": "Qatari mediator Ali al-Thawadi met Iran's foreign minister Abbas Araghchi and then US envoy Jared Kushner, but efforts to broker a breakthrough on ending the Middle East war have stalled. The impasse keeps regional oil-supply risk elevated for global markets.",
-          "source": "AP",
-          "url": "https://www.mdjonline.com/news/national/ap-news-summary-at-8-46-a-m-edt/article_e78d99cf-13e4-5ead-8469-308c5eba1eba.html"
+          "headline": "Xi Jinping reaffirms opposition to Taiwan independence at National Day",
+          "summary": "Chinese President Xi Jinping called for hitting full-year economic targets while reiterating firm opposition to Taiwan independence and \"external interference\" at a National Day reception. He urged deeper cross-strait exchanges alongside a crackdown on separatist forces, underscoring Beijing's dual economic and security messaging.",
+          "source": "ThePrint",
+          "url": "https://theprint.in/world/chinas-xi-talks-economy-taiwan-at-reception-marking-national-day/3057980"
         },
         {
-          "headline": "Hurricane Polo's remnants flood US Southwest, force evacuations",
-          "summary": "The storm's remnants battered the US Southwest, flooding roadways and forcing residents of small New Mexico towns to evacuate over fears a dam could fail. It is the latest in a run of severe weather events across the country this month.",
-          "source": "AP",
-          "url": "https://www.dailyrecordnews.com/ap_news/us/ap-news-in-brief-at-6-04-a-m-edt/article_cc0ff30b-00bb-590a-981d-d7876d3c5be7.html"
+          "headline": "France unveils austerity 2027 budget with frozen wages, new taxes",
+          "summary": "PM Sebastien Lecornu presented a belt-tightening budget with roughly 43 billion euros in new measures, including frozen public-sector wages and VAT and income-tax rises, aiming to cut France's deficit to 5% of GDP from 5.4%. The plan faces a tough fight in a fragmented parliament.",
+          "source": "France24",
+          "url": "https://www.france24.com/en/france/20261001-french-pm-to-present-belt-tightening-2027-budget-including-frozen-wages-and-new-taxes"
         },
         {
-          "headline": "Cuba accuses US of economic war at UN Assembly",
-          "summary": "Cuban foreign minister Bruno Rodriguez Parrilla told the UN General Assembly that Washington is waging an economic war against the Cuban people, as the US Treasury separately tightened sanctions guidance on Cuba. The exchange adds to strained US-Latin America relations this year.",
+          "headline": "Iran says it foiled bomb plot near Tehran, killed six",
+          "summary": "Iran's Revolutionary Guard said security forces killed six members of a group planning a bomb attack near Tehran, recovering explosives during the raid. The announcement comes as Iran weighs a US ceasefire proposal, highlighting continued internal security operations even as diplomacy over the war proceeds.",
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/latin-america/"
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/1/iran-war-live-trump-hints-us-could-strike-iran-warns-time-coming"
         },
         {
-          "headline": "UK police arrest five over terror plot near US airbase",
-          "summary": "British police arrested five men on suspicion of terror offences near an air base used by US forces in the UK. The arrests come amid heightened security concerns across Europe over threats to military infrastructure.",
+          "headline": "UK and France end 'one in, one out' migrant returns deal",
+          "summary": "Britain and France ended their year-old pilot scheme to return Channel migrants, under which about 1,500 people were sent back to France in exchange for vetted asylum seekers. Only about 4% of small-boat arrivals were returned, and Paris now wants an EU-wide replacement.",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-30/uk-ends-migrant-returns-deal-with-france-tackling-small-boats"
+        },
+        {
+          "headline": "South Africa summons US ambassador a third time in months",
+          "summary": "Pretoria's foreign ministry called in US Ambassador Leo Brent Bozell III again over \"undiplomatic conduct,\" the third such summons since February. Relations are strained by President Trump's repeated claims that white South Africans face systemic persecution, which Pretoria rejects as mischaracterising its redress policies.",
+          "source": "ThePrint",
+          "url": "https://theprint.in/world/south-africa-summons-us-ambassador-again-over-undiplomatic-conduct-amid-tensions-with-washington/3058360/"
+        },
+        {
+          "headline": "Lula and Flavio Bolsonaro tied ahead of Brazil's election",
+          "summary": "Brazil holds its first-round presidential vote on October 4, with incumbent Lula da Silva and Flavio Bolsonaro, son of the banned former president, running neck-and-neck in the polls. A runoff looks likely if neither candidate tops 50% of valid votes.",
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/europe/"
+          "url": "https://www.aljazeera.com/news/2026/9/22/brazil-election-lula-and-flavio-bolsonaro-tied-in-latest-polls"
         },
         {
-          "headline": "Taiwan passes drone funding as it indicts chip smugglers",
-          "summary": "Taiwan's parliament ended a deadlock to secure funding for its drone programme amid rising cross-strait tension with Beijing, while prosecutors indicted nine people over an alleged chip-smuggling scheme. Both moves reflect Taipei's push to guard its tech and defence edge.",
-          "source": "South China Morning Post",
-          "url": "https://www.scmp.com/topics/taiwan"
+          "headline": "Bangkok floods deepen financial strain on debt-laden households",
+          "summary": "Thailand's worst flooding in 15 years, which has killed dozens and submerged large parts of the capital, is wiping out incomes for small businesses and workers already burdened by high debt. The disaster is straining government finances in an already fragile economy.",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-01/bangkok-floods-bring-instant-pain-to-debt-laden-households"
         },
         {
-          "headline": "Indonesia's Prabowo fires finance minister amid falling approval",
-          "summary": "Indonesian President Prabowo Subianto replaced his finance minister with a deputy as his approval ratings slide, opening the way for rivals to capitalise politically. The reshuffle signals pressure on Jakarta's economic policy team ahead of a tougher fiscal year.",
-          "source": "Asia Times",
-          "url": "https://asiatimes.com/category/southeast-asia/"
+          "headline": "Pakistan weighs imposing emergency in Khyber Pakhtunkhwa",
+          "summary": "Islamabad is \"seriously considering\" invoking emergency powers in PTI-led Khyber Pakhtunkhwa over its worsening security situation and a planned march on the capital demanding Imran Khan's release. The ruling coalition has warned of governor's rule if the provincial government does not call off the march.",
+          "source": "ANI",
+          "url": "https://www.aninews.in/news/world/asia/pakistan-govt-seriously-considering-imposing-emergency-in-pti-led-khyber-pakhtunkhwa20261001064853/"
         },
         {
-          "headline": "Philippines-China resupply understanding over shoal appears broken",
-          "summary": "A \"provisional understanding\" between Beijing and Manila over Philippine resupply missions to the Second Thomas Shoal appears to have broken down, reviving friction in the South China Sea. The standoff keeps a key regional flashpoint unresolved.",
-          "source": "South China Morning Post",
-          "url": "https://www.scmp.com/news/asia/southeast-asia"
+          "headline": "Russian strike on Kyiv's Academy of Sciences kills two",
+          "summary": "Russia pounded Kyiv with drones and missiles, hitting the Ukrainian Academy of Sciences and killing two people, as Moscow pressed its aerial campaign on energy and civilian infrastructure. Air defences intercepted most of an overnight barrage of nearly 190 drones.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2"
         },
         {
-          "headline": "Myanmar seeks regional re-engagement as junta tightens grip",
-          "summary": "Myanmar's military-backed government is pushing for renewed regional engagement even as it maintains what critics call a \"parody democracy,\" with the whereabouts of Nobel laureate Aung San Suu Kyi still a closely guarded secret. The move tests ASEAN's stance on the junta.",
-          "source": "The Diplomat",
-          "url": "https://thediplomat.com/regions/southeast-asia/"
+          "headline": "Dangote breaks ground on $16 billion Kenya oil refinery",
+          "summary": "Africa's richest man Aliko Dangote began construction on a $16 billion refinery in Kenya, joined by the presidents of Kenya, Ethiopia and Uganda, aiming to replicate the success of his Nigerian plant. The project targets fuel self-sufficiency amid a global energy crunch.",
+          "source": "Semafor",
+          "url": "https://semafor.com/newsletter/09/30/2026/dangotes-kenya-refinery-breaks-ground"
         },
         {
-          "headline": "Russia expands military again as Ukraine war grinds on",
-          "summary": "Russia's military announced its fourth expansion this year as its war in Ukraine appears to stall on the battlefield, even as Moscow and Kyiv traded accusations over strikes on energy infrastructure. The build-up signals no near-term end to the conflict.",
-          "source": "Euronews",
-          "url": "https://euronews.com/tag/news"
-        },
-        {
-          "headline": "French firefighters, students protest budget cuts in Paris, Lille",
-          "summary": "French firefighters demonstrated in Paris demanding more resources and funding, while students in Lille blocked schools and burned bicycles to protest government budget proposals. The unrest adds to pressure on Paris as it tries to rein in its deficit.",
-          "source": "Euronews",
-          "url": "https://euronews.com/tag/news"
+          "headline": "Heavy fighting in Ethiopia's Tigray region kills 52 civilians",
+          "summary": "At least 52 civilians were killed over three days of fighting around Alamata as government troops took the town and may be advancing on Mekelle. Clashes have spread to neighbouring Amhara and Afar, with over 700 wounded admitted to MSF-backed hospitals.",
+          "source": "Semafor",
+          "url": "https://semafor.com/newsletter/09/30/2026/dangotes-kenya-refinery-breaks-ground"
         }
       ]
     },
@@ -110,70 +116,52 @@
       "name": "India",
       "items": [
         {
-          "headline": "Union Cabinet approves renaming Kerala to \"Keralam\"",
-          "summary": "The Union Cabinet cleared a proposal to rename the State of Kerala as \"Keralam,\" after which the President will refer the Kerala (Alteration of Name) Bill, 2026, to the state assembly for its views. The move follows a long-pending demand from Kerala's government.",
-          "source": "All India Radio News",
-          "url": "https://newsonair.gov.in/union-cabinet-approves-renaming-state-of-kerala-to-keralam/"
+          "headline": "Monthly report warns India can't take growth momentum for granted",
+          "summary": "A government economic report flagged that despite Q1 FY27 GDP growth of 7.8%, the highest first-quarter reading in the current series, India cannot be complacent given global trade disruptions and uneven external demand. It projects Q2 growth easing to around 7.3%.",
+          "source": "Business Today",
+          "url": "https://businesstoday.in/latest/economy/story/india-cannot-afford-to-take-its-growth-performance-for-granted-monthly-economic-report-558992-2026-10-01"
         },
         {
-          "headline": "Cabinet clears Rs 7,927-crore railway multitracking projects",
-          "summary": "The Union Cabinet approved railway multitracking projects worth roughly Rs 7,927 crore, aimed at easing congestion on key freight and passenger corridors. The investment fits the government's broader push to expand rail capacity ahead of the next fiscal year.",
+          "headline": "Congress flags 'problematic' functioning of JPC on FCRA bill",
+          "summary": "Congress general secretary KC Venugopal wrote to Lok Sabha Speaker Om Birla criticising the Joint Parliamentary Committee reviewing the FCRA Amendment Bill, seeking wider stakeholder consultation. Opposition MPs want the committee's October 12 meeting postponed by at least four weeks to allow fuller submissions.",
+          "source": "ANI",
+          "url": "https://aninews.in/news/national/problematic-jpc-functioning-kc-venugopal-writes-to-om-birla-seeks-wider-stakeholder-consultation-on-fcra-amendment-bill20261001130851/"
+        },
+        {
+          "headline": "Supreme Court refuses priority hearing for ex-judicial officer's plea",
+          "summary": "The Supreme Court declined to fast-track a former judicial officer's challenge to her termination, holding that all citizens have an equal right to access justice and that individual priority hearings are unfair to other litigants waiting in queue. The underlying case continues in the high court.",
           "source": "Deccan Herald",
-          "url": "https://www.deccanherald.com/india/union-cabinet-approves-three-major-railway-projects-worth-rs-7927-crore-3291517"
+          "url": "https://www.deccanherald.com/india/everyone-has-equal-right-to-access-justice-supreme-court-refuses-to-entertain-judicial-officers-plea-4166616"
         },
         {
-          "headline": "Lok Sabha refers FCRA amendment bill to joint panel",
-          "summary": "The Lok Sabha passed a motion referring the Foreign Contribution (Regulation) Amendment Bill, 2026, to a 31-member joint parliamentary committee for scrutiny. The panel, with members from both houses, must report back by the first week of the Winter Session.",
-          "source": "Business Standard",
-          "url": "https://www.business-standard.com/topic/lok-sabha"
+          "headline": "Karnataka cancels 16 drug licences over spurious-medicine racket",
+          "summary": "Karnataka's food and drug authority cancelled 16 licences and suspended eight, including a Pfizer depot, after a raid uncovered an unlicensed drug repacking operation in Bidadi with fake labels and machinery worth Rs 5.05 crore. The crackdown highlights gaps in pharma supply-chain oversight.",
+          "source": "The News Minute",
+          "url": "https://www.thenewsminute.com/karnataka/karnataka-cancels-16-licences-suspends-8-over-spurious-drugs-full-list"
         },
         {
-          "headline": "Congress's Venugopal says Rahul Gandhi to lead INDIA bloc",
-          "summary": "AICC general secretary K C Venugopal said Rahul Gandhi will be the face of the INDIA alliance and lead it into the 2029 Lok Sabha elections. The statement signals the opposition bloc is already positioning its leadership well ahead of the next general election.",
-          "source": "Business Standard",
-          "url": "https://www.business-standard.com/topic/lok-sabha"
+          "headline": "Arunachal Pradesh steps up dengue surveillance as cases rise",
+          "summary": "The state health department directed officials to strengthen surveillance, testing and preventive measures after a rise in dengue cases in the Itanagar capital region and nearby areas, as India's dengue season stretches increasingly beyond the traditional monsoon window.",
+          "source": "UNI",
+          "url": "https://uniindia.com/east-india/health-arunachal-dengue-surveillance/198221"
         },
         {
-          "headline": "Supreme Court: confession alone can't justify preventive detention",
-          "summary": "The Supreme Court held that authorities cannot pass a preventive detention order relying solely on an accused's confessional statement. The ruling tightens the evidentiary bar for detention orders and reinforces due-process safeguards against arbitrary state action.",
-          "source": "Verdictum",
-          "url": "https://www.verdictum.in/supreme-court"
+          "headline": "LeT terrorist linked to Pahalgam attack killed in J&K encounter",
+          "summary": "Security forces killed Mohammad Asif alias Hashim Moosa, a Pakistan-trained Lashkar-e-Taiba terrorist wanted for the April 2025 Pahalgam attack, in a joint Army-police-CRPF operation in Jammu and Kashmir's Budgam district. He had served in Pakistan's special forces before joining LeT.",
+          "source": "WION",
+          "url": "https://www.wionews.com/india-news/one-terrorist-killed-in-encounter-in-central-kashmir-s-budgam-1790706381066"
         },
         {
-          "headline": "Supreme Court issues notice on patent term adjustment plea",
-          "summary": "The Supreme Court issued notice on a plea seeking a Patent Term Adjustment mechanism in India, questioning whether patentees should get extra protection when delays in grant eat into the 20-year term. A favourable ruling could reshape patent-filing strategy for pharma and tech firms.",
-          "source": "LiveLaw",
-          "url": "https://www.livelaw.in/supreme-court"
+          "headline": "Central team reviews Himachal Pradesh disaster damage in six districts",
+          "summary": "A seven-member inter-ministerial central team assessed losses from recent disasters across six Himachal Pradesh districts, as the state government seeks central assistance for relief and reconstruction. The review feeds into decisions on disaster relief funding for the hill state.",
+          "source": "ANI",
+          "url": "https://www.latestly.com/agency-news/india-news-central-team-reviews-himachal-disaster-damage-assesses-losses-in-six-districts-7628644.html"
         },
         {
-          "headline": "Uttar Pradesh: SP names Rajya Sabha picks as EC readies roll",
-          "summary": "The Samajwadi Party named Ram Gopal and Dhanraj Parimal Nathwani as its Rajya Sabha candidates as nominations were filed, while the Election Commission prepares to publish Uttar Pradesh's draft SIR electoral roll. Both developments feed into the state's shifting political calculus ahead of future polls.",
-          "source": "Tribune India",
-          "url": "https://www.tribuneindia.com/news/state/uttar-pradesh"
-        },
-        {
-          "headline": "Agra court to rule on Saurabh murder \"blue drum\" case",
-          "summary": "A verdict is expected in Agra in the high-profile Saurabh Rajput murder case, in which the victim's body was found stuffed in a blue drum. The case drew nationwide attention over allegations against the victim's wife and her family.",
-          "source": "India TV News",
-          "url": "https://www.indiatvnews.com/uttar-pradesh"
-        },
-        {
-          "headline": "Maharashtra: six killed in highway crash as rain floods Mumbai",
-          "summary": "Six people were killed and one seriously injured when an SUV hit a divider on the Georai-Beed highway, while heavy rain flooded parts of Pune, Satara, Solapur, Raigad, Mumbai and the wider metropolitan region. The dual incidents strained state disaster-response resources.",
-          "source": "India TV News",
-          "url": "https://www.indiatvnews.com/maharashtra"
-        },
-        {
-          "headline": "Government denies plan to scrap NEET-UG amid criticism",
-          "summary": "The government clarified it has no proposal to discontinue the NEET-UG medical entrance exam or restore state-wise tests, pushing back against calls to scrap the single national exam. The clarification comes as scrutiny of exam-conduct issues continues.",
-          "source": "All India Radio News",
-          "url": "https://www.newsonair.gov.in/government-clarifies-no-plan-to-discontinue-neet-ug-amid-controversies"
-        },
-        {
-          "headline": "UGC chief: no decision yet on merging NEET, JEE, CUET",
-          "summary": "UGC chairman M Jagadesh Kumar said no decision has been made on merging NEET, JEE and CUET, and that nothing would be imposed on students. The statement aims to calm anxiety among aspirants amid recurring speculation about a single unified entrance test.",
-          "source": "Careers360",
-          "url": "https://news.careers360.com/neet-jee-cuet-merger-no-decision-yet-nothing-be-imposed-on-students-ugc-chairman"
+          "headline": "Kerala government alleges CPI(M) link to attack on minister",
+          "summary": "Kerala's government condemned an alleged attack on Sports Minister and Youth Congress leader OJ Janeesh in Kannur, claiming DYFI-CPI(M) workers carried it out with the party leadership's knowledge. The incident adds to friction between the ruling Left and opposition Congress ahead of state polls.",
+          "source": "ANI",
+          "url": "https://www.latestly.com/agency-news/india-news-minister-janeesh-attacked-with-cpim-leaderships-knowledge-alleges-keralam-government-7628654.html"
         }
       ]
     },
@@ -181,46 +169,46 @@
       "name": "Business & markets",
       "items": [
         {
-          "headline": "India's 10-year bond yield hits 7.11%, highest since May",
-          "summary": "India's benchmark 10-year government bond yield rose six basis points to 7.11%, its highest level since May 21, as elevated oil prices and global yield pressure weighed on sentiment. Rising borrowing costs could squeeze corporate margins and the government's own fiscal math.",
+          "headline": "Sensex sinks to 2026 low as rate fears, oil prices bite",
+          "summary": "The Sensex crashed as much as 1,280 points intraday to a 2026 low of 71,293, with the Nifty touching the 22,200-22,300 band, as rate-hike worries, high crude prices and sustained foreign selling hit sentiment. Auto stocks fell up to 6% while IT held up better.",
           "source": "Business Standard",
-          "url": "https://www.business-standard.com/economy"
+          "url": "https://www.business-standard.com/markets/news/why-are-markets-falling-today-sensex-crashes-1-000-pts-intraday-hits-2026-low-nifty-at-22-300-126100100568_1.html"
         },
         {
-          "headline": "Four IPOs open as Orient Cables, Runwal raise Rs 1,776 crore",
-          "summary": "Orient Cables and Runwal Enterprises led four new IPOs seeking to raise a combined Rs 1,776 crore, with listing scheduled for early October. The steady primary-market pipeline shows continued investor appetite for new issues despite choppy secondary markets.",
+          "headline": "Rupee under pressure near 96/dollar on oil, US yields",
+          "summary": "The rupee opened near 95.95 per dollar and stayed under pressure as US Treasury yields hit a multi-decade high of 5.30% and oil prices stayed elevated. The RBI has reportedly been selling dollars to defend the psychologically important 96 level.",
+          "source": "Business Recorder",
+          "url": "https://www.brecorder.com/news/40442122/indian-rupee-to-weaken-as-oil-us-yields-weigh-fading-fed-hike-bets-offer-no-relief"
+        },
+        {
+          "headline": "MTNL stock jumps 17% on Rs 891 crore Mumbai land sale",
+          "summary": "Shares of state-run telecom MTNL surged 17% after its board approved the sale of a Mumbai property for Rs 891.53 crore, giving the debt-laden company a much-needed cash infusion. The stock has been volatile on recurring asset-monetisation news.",
           "source": "Business Standard",
-          "url": "https://www.business-standard.com/topic/ipo-market"
+          "url": "https://www.business-standard.com/markets/news/stocks-to-watch-ril-nse-hdfc-bank-irfc-infosys-cupid-blue-dart-omcs-126100100107_1.html"
         },
         {
-          "headline": "Ultraviolette raises $85 million led by Yali Capital, TDK Ventures",
-          "summary": "Indian deep-tech and EV startup Ultraviolette raised $85 million in a round led by Yali Capital and TDK Ventures. The deal signals continued investor appetite for India's electric-mobility and deep-tech startups even as overall funding rounds get more selective.",
-          "source": "Inc42",
-          "url": "https://inc42.com/buzz/"
-        },
-        {
-          "headline": "India's 2026 startup funding hits $17.1 billion, up 12.5%",
-          "summary": "Indian startups have raised $17.1 billion across 1,540 equity rounds so far in 2026, a 12.5% rise over the same period last year, even as investors concentrate capital in fewer, larger deals. The trend points to a maturing but more selective funding ecosystem.",
-          "source": "Tracxn",
-          "url": "https://tracxn.com/d/geographies/india/__ujYf3QI9FSnpS3x-zJCSwnay2nENQhm1kAN-U8-6Kfg"
-        },
-        {
-          "headline": "60% of Indian employers plan to expand hiring: TeamLease",
-          "summary": "A TeamLease survey found 60% of employers plan to expand headcount in the second half of FY27, with e-commerce and tech startups showing the strongest hiring outlook. Informal and contractual work still dominates, though, as weak manufacturing growth limits formal job creation.",
+          "headline": "SBI buys nearly 40% of Reliance's $1.35 billion bond sale",
+          "summary": "State Bank of India picked up close to 40% of a $1.35 billion debt sale by Reliance Industries, underscoring strong domestic appetite for top-rated corporate bonds even as equity markets wobbled. The deal highlights deepening ties between banks and large corporate borrowers.",
           "source": "Business Standard",
-          "url": "https://www.business-standard.com/economy"
+          "url": "https://www.business-standard.com/markets/news/stocks-to-watch-ril-nse-hdfc-bank-irfc-infosys-cupid-blue-dart-omcs-126100100107_1.html"
         },
         {
-          "headline": "US 30-year Treasury yield hits highest since 2002",
-          "summary": "US stocks finished modestly lower as the 30-year Treasury yield climbed to its highest level since 2002 and the 10-year held above 5%, even as oil prices fell. Rising long-term borrowing costs are pressuring equity valuations worldwide.",
-          "source": "Eurasia Business News",
-          "url": "https://eurasiabusinessnews.com/2026/09/29/stock-market-today-treasury-yields-rise-despite-falling-oil-prices-as-dow-slips/"
+          "headline": "A-One Steels India shares jump 14% on stock-market debut",
+          "summary": "A-One Steels India listed at a premium over its Rs 405 issue price, opening at Rs 455 on the NSE (up 12.35%) and Rs 462 on the BSE (up 14%), after the IPO was subscribed more than 12 times. The strong debut reflects continued retail appetite for smaller IPOs.",
+          "source": "Goodreturns",
+          "url": "https://www.goodreturns.in/news/a-one-steels-india-ipo-listing-today-shares-jump-14-on-debut-check-nse-bse-prices-listing-gain-1538553.html"
         },
         {
-          "headline": "Oil slips toward $89 a barrel as Saudi exports recover",
-          "summary": "Crude fell to around $89 a barrel, down nearly 4%, on reports of indirect Iran-US talks, while Saudi Arabia's East-West pipeline exports recovered to about half capacity. Middle East crude flows are now near 98% of pre-war levels, easing some supply-risk premium.",
-          "source": "Trading Economics",
-          "url": "https://tradingeconomics.com/commodity/crude-oil"
+          "headline": "Asian markets mixed, oil elevated as Iran war risk lingers",
+          "summary": "Asian equities traded mixed and crude stayed elevated, with Brent near $98 a barrel, as investors weighed stalled Iran ceasefire talks and firmer US futures after soft inflation data. Indian equities were tipped to open lower, tracking the cautious regional mood.",
+          "source": "HDFC Sky",
+          "url": "https://hdfcsky.com/news/global-markets-today-october-1-2026-asian-stocks-mixed-oil-elevated-us-futures-rise-indian-markets-likely-to-open-lower"
+        },
+        {
+          "headline": "Wall Street edges higher as soft inflation data eases Fed bets",
+          "summary": "The Dow, S&P 500 and Nasdaq all closed modestly higher as cooler-than-expected PCE inflation data reduced worries about further Fed rate hikes, even as oil prices ticked up. Nvidia was among the stocks in focus during the session.",
+          "source": "The Sunday Guardian",
+          "url": "https://sundayguardianlive.com/business/us-stock-market-today-dow-jones-up-007-sp-500-gains-036-nasdaq-edges-higher-as-nvidia-pce-inflation-in-focus-oil-prices-rises-fed-rate-hike-check-what-investors-should-know-295957/"
         }
       ]
     },
@@ -228,28 +216,22 @@
       "name": "Tech & AI",
       "items": [
         {
-          "headline": "Bitget resumes withdrawals after $350 million hack",
-          "summary": "Crypto exchange Bitget resumed Bitcoin withdrawals that were suspended after suspected North Korean hackers breached its systems and stole more than $350 million. The incident adds to a string of major crypto-exchange breaches this year tied to state-linked hacking groups.",
-          "source": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/"
+          "headline": "Amazon doubles Amazon Now reach to 120+ Indian cities",
+          "summary": "Amazon expanded its ultra-fast delivery service Amazon Now to more than 120 Indian cities in just two weeks, fulfilling orders through nearly 800 micro-fulfilment centres. The company is targeting 300 cities as it races to build India's largest delivery-in-minutes network.",
+          "source": "Business Standard",
+          "url": "https://www.business-standard.com/companies/news/amazon-expands-ultra-fast-delivery-service-amazon-now-to-over-120-cities-126093001414_1.html"
         },
         {
-          "headline": "ShinyHunters claims breach of FBI agent, applicant data",
-          "summary": "Hacking group ShinyHunters claimed it breached FBI systems and stole data on agents and job applicants. If verified, the claim would mark a serious lapse for a top US law-enforcement agency and could fuel further extortion attempts against government targets.",
-          "source": "The Hacker News",
-          "url": "https://thehackernews.com/"
-        },
-        {
-          "headline": "Hackers exploit Citrix NetScaler zero-day for network access",
-          "summary": "Security researchers say attackers exploited a Citrix NetScaler zero-day, tracked as CVE-2026-88772, to deploy custom web shells and tunnelling malware, gaining root access and stealing credentials. Enterprises running unpatched NetScaler appliances face heightened risk of deep network compromise.",
+          "headline": "Pentagon data breach exposes personal records of 3 million people",
+          "summary": "A breach at the Pentagon's Defense Manpower Data Center exposed names, Social Security numbers and service details of roughly 3 million current and former personnel, after unauthorised access to a file-sharing server went undetected for about nine months. No group has claimed responsibility.",
           "source": "SecurityWeek",
-          "url": "https://www.securityweek.com/"
+          "url": "https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/"
         },
         {
-          "headline": "New \"NeedyMantis\" malware hits telecom, university networks",
-          "summary": "A newly identified malware family dubbed NeedyMantis has been found in targeted intrusions at telecom firms, universities, medical nonprofits, intergovernmental bodies and government contractors. The broad target list suggests a well-resourced campaign focused on espionage rather than financial theft.",
-          "source": "Dark Reading",
-          "url": "https://www.darkreading.com/"
+          "headline": "Apple patches iPhone zero-day exploited in targeted spyware attack",
+          "summary": "Apple released iOS, iPadOS and macOS updates fixing a CoreGraphics zero-day, CVE-2026-86950, that was exploited in an \"extremely sophisticated attack\" on specific individuals. Meta's security team discovered and reported the flaw, which could allow arbitrary code execution via a crafted file.",
+          "source": "SecurityWeek",
+          "url": "https://www.securityweek.com/apple-patches-meta-reported-zero-day-linked-to-extremely-sophisticated-attack/"
         }
       ]
     },
@@ -257,28 +239,28 @@
       "name": "Science & health",
       "items": [
         {
-          "headline": "Study suggests bats first evolved in Europe 65 million years ago",
-          "summary": "A genomic and fossil study suggests bats first evolved in Europe around 65 to 60 million years ago before spreading globally, reshaping earlier theories about the mammal group's origins. The findings could help explain how bats diversified into today's more than 1,400 species.",
-          "source": "Nature",
-          "url": "https://www.nature.com/news"
+          "headline": "NASA-ISRO's NISAR satellite captures volcanic eruption in time-lapse",
+          "summary": "The joint NASA-ISRO NISAR radar satellite captured a time-lapse video of an active volcanic eruption, using microwave pulses that make flowing lava appear distinctly brighter than surrounding terrain. The imagery showcases the satellite's ability to monitor hazards invisible to optical cameras.",
+          "source": "Phys.org",
+          "url": "https://phys.org/news/2026-09-india-satellite-captures-lapse-video.html"
         },
         {
-          "headline": "ISRO, NASA mark one year of NISAR radar satellite in orbit",
-          "summary": "ISRO and NASA celebrated one year of the joint NISAR Earth-observing radar satellite in orbit, which has begun delivering detailed images of the planet's surface. The mission is expected to aid disaster monitoring, agriculture and infrastructure planning as it moves into full science operations.",
-          "source": "NASA",
-          "url": "https://www.nasa.gov/news-release/nasa-isro-satellite-sends-first-radar-images-of-earths-surface/"
+          "headline": "Global oceans report delivers 'starkest warning yet' on warming",
+          "summary": "A Copernicus-backed oceans report found seas are absorbing record heat and warming at an accelerating pace, with ocean warming rates doubling over 20 years and sea levels rising faster than before. Scientists called it the clearest signal yet of an intensifying climate crisis.",
+          "source": "CNN",
+          "url": "https://cnn.com/2026/09/30/climate/ocean-report-copernicus-warming-sea-level-rise"
         },
         {
-          "headline": "ISRO lines up Gaganyaan, GSLV and LVM3 missions",
-          "summary": "ISRO is preparing an uncrewed orbital test under the Gaganyaan human-spaceflight programme alongside upcoming GSLV missions and a commercial LVM3 launch. The packed schedule underlines India's push to expand both its human-spaceflight and commercial launch capabilities.",
-          "source": "ISRO",
-          "url": "https://www.isro.gov.in/"
+          "headline": "Drug shown to extend organisms' lifespan by up to 25%",
+          "summary": "UK scientists reported that an experimental compound extended the lifespan of test organisms by as much as 25% in preclinical studies, adding to a wave of longevity research targeting cellular ageing pathways. Human trials remain a distant prospect, researchers cautioned.",
+          "source": "LADbible",
+          "url": "https://www.ladbible.com/news/science/anti-aging-breakthrough-drug-extend-life-by-25-770203-20261001"
         },
         {
-          "headline": "WHO declares cruise-ship hantavirus outbreak over",
-          "summary": "The World Health Organization declared over a hantavirus outbreak linked to the cruise ship MV Hondius after no new cases emerged. The episode highlighted the risk of rare zoonotic disease clusters spreading through enclosed travel settings such as cruise ships.",
-          "source": "Outbreak News Today",
-          "url": "https://outbreaknewstoday.com/"
+          "headline": "US measles cases surpass 1,700 as outbreak keeps growing",
+          "summary": "The US measles count grew by 43 cases in a week to reach 1,714, with more than half the new cases in Utah and 92% of patients unvaccinated or of unknown status, underscoring persistent vaccine-hesitancy gaps even in a wealthy country.",
+          "source": "CIDRAP",
+          "url": "https://www.cidrap.umn.edu/measles/us-measles-total-surpasses-1700-cases"
         }
       ]
     },
@@ -286,46 +268,46 @@
       "name": "Sports",
       "items": [
         {
-          "headline": "India win Asian Games women's cricket gold over Sri Lanka",
-          "summary": "India beat Sri Lanka in the final to win Asian Games 2026 women's cricket gold, posting an Asian Games record score of 216/3 after earlier beating Bangladesh by 114 runs in the semifinal. Pakistan took bronze after beating Bangladesh in the third-place playoff.",
-          "source": "Olympics.com",
-          "url": "https://www.olympics.com/en/news/asian-games-2026-cricket-matches-results-scores-medal-winners"
-        },
-        {
-          "headline": "India, Pakistan reach Asian Games men's cricket semifinals",
-          "summary": "India and Pakistan advanced to the Asian Games 2026 men's cricket semifinals as higher seeds after their quarterfinals against Afghanistan and Hong Kong China were washed out by rain. Pakistan face Bangladesh and India face Sri Lanka in the semifinals on Thursday.",
+          "headline": "India thrash Sri Lanka to reach Asian Games cricket final",
+          "summary": "India bowled out Sri Lanka for 45 after posting 169/7, winning by 124 runs to storm into the men's cricket gold-medal match against Pakistan. Ishan Kishan hit an unbeaten 80 while Jasprit Bumrah, Abhishek Sharma and Axar Patel took two wickets each.",
           "source": "ESPNcricinfo",
-          "url": "https://www.cricinfo.com/story/asian-games-2026-pakistan-meet-bangladesh-india-meet-sri-lanka-in-mens-semi-finals-1556088"
+          "url": "https://www.cricinfo.com/series/asian-games-men-s-cricket-competition-2026-1552449/india-vs-sri-lanka-2nd-semi-final-1552777/match-report"
         },
         {
-          "headline": "Kunlavut wins Asian Games badminton gold, reclaims No. 1",
-          "summary": "Thailand's Kunlavut Vitidsarn beat Singapore's Loh Kean Yew 21-12, 21-16 to win the Asian Games men's singles badminton title, returning to the world No. 1 ranking. It was his first singles title since January's Malaysia Open.",
-          "source": "The Japan Times",
-          "url": "https://www.japantimes.co.jp/sports/2026/09/30/asian-games/an-yamaguchi-badminton-asian-games/"
-        },
-        {
-          "headline": "Sindhu reaches Asian Games quarterfinals as India take bronze",
-          "summary": "PV Sindhu reached the women's singles quarterfinals at the Asian Games before losing to Tokyo 2020 champion Chen Yufei of China, as India's badminton campaign ended with a solitary bronze in the men's team event. It was a modest return for a squad chasing multiple medals.",
+          "headline": "India's men win compound archery team gold at Asian Games",
+          "summary": "Sahil Jadhav, Ganesh Mani Ratnam Thirumuru and Kushal Dalal won gold in the men's compound team archery final, edging China 238-237 in a tense finish at the 2026 Asian Games in Aichi-Nagoya.",
           "source": "Olympics.com",
-          "url": "https://www.olympics.com/en/news/asian-games-2026-badminton-results-scores-india-schedule"
+          "url": "https://www.olympics.com/en/news/asian-games-2026-live-scores-updates-results-india-september-30"
         },
         {
-          "headline": "Liverpool rout Marseille, Bayern beat Union SG in Champions League",
-          "summary": "Liverpool thrashed Olympique Marseille 3-0 and Bayern Munich beat Union SG 2-0 in the Champions League, while Atalanta lost 3-2 at home to Athletic Club. The results tighten the early group standings as the competition's matchday schedule progresses.",
+          "headline": "India's women win compound archery team gold over China",
+          "summary": "Jyothi Surekha Vennam, Prithika Pradeep and Chikitha Taniparthi won the women's compound team archery gold, beating China 238-234 in the final, adding to India's strong archery showing at the 2026 Asian Games.",
+          "source": "Olympics.com",
+          "url": "https://www.olympics.com/en/news/asian-games-2026-live-scores-updates-results-india-september-30"
+        },
+        {
+          "headline": "India's men's squash team reach Asian Games semis, assure medal",
+          "summary": "India's men's squash team advanced to the semi-finals at the 2026 Asian Games, guaranteeing at least a bronze medal and keeping alive India's hopes of a stronger finish in a sport it has steadily grown in since its Asiad debut.",
+          "source": "Olympics.com",
+          "url": "https://www.olympics.com/en/news/asian-games-2026-live-scores-updates-results-india-september-30"
+        },
+        {
+          "headline": "Liverpool, Bayern, Chelsea win in Champions League action",
+          "summary": "Liverpool beat Marseille 3-0, Bayern Munich downed Union SG 2-0 with a Harry Kane goal, and Chelsea edged Pafos 1-0 on a late Moises Caicedo strike, while Barcelona thrashed Slavia Prague 4-2 in a busy Champions League matchday.",
           "source": "CBS Sports",
-          "url": "https://www.cbssports.com/soccer/champions-league/scoreboard/"
+          "url": "https://www.cbssports.com/soccer/news/marseille-liverpool-live-updates-champions-league-score-results-matchday-7/live/"
         },
         {
-          "headline": "Djokovic returns to China Open for first time since 2015",
-          "summary": "Novak Djokovic is set to play the China Open for the first time since 2015, with a possible early meeting against Alexander Zverev, while Carlos Alcaraz opens his Japan Open campaign against an American opponent. The Asian swing marks a key late-season stretch for the ATP Tour's top players.",
-          "source": "ATP Tour",
-          "url": "https://www.atptour.com/en/news"
+          "headline": "Djokovic wins Beijing opener as Khachanov upsets Auger-Aliassime",
+          "summary": "Novak Djokovic beat Nuno Borges 6-3, 7-6 on his return to the ATP China Open in Beijing, while Karen Khachanov pulled off an upset over second seed Felix Auger-Aliassime, winning 6-3, 6-3 to reach the next round.",
+          "source": "Field Level Media",
+          "url": "https://fieldlevelmedia.com/atp-tour/atp-roundup-novak-djokovic-wins-opener-in-beijing"
         },
         {
-          "headline": "Uzbekistan win Chess Olympiad as Turlov elected FIDE president",
-          "summary": "Uzbekistan won the 46th Chess Olympiad in Samarkand, with GM Mukhiddin Madaminov delivering the decisive win over Ukraine in the final round. Separately, Timur Turlov was elected FIDE president in a runoff, beating Wadim Rosenstein by 110 votes to 85.",
-          "source": "FIDE",
-          "url": "https://www.fide.com/news/"
+          "headline": "F1 heads to Malaysia for rescheduled Bahrain Grand Prix",
+          "summary": "Formula 1 moves to Sepang this weekend for a relocated Bahrain Grand Prix, originally cancelled in April due to the Iran war, with practice on Friday, qualifying Saturday and the race Sunday. It sits in a triple-header before Singapore on October 11.",
+          "source": "Formula1.com",
+          "url": "https://www.formula1.com/en/latest/article/need-to-know-the-most-important-facts-stats-and-trivia-ahead-of-the-2026-bahrain-grand-prix-in-malaysia.7q5fTKLLQ5TrEcsNerl406"
         }
       ]
     }
