@@ -1,6 +1,6 @@
 {
  "date": "2026-10-01",
- "generatedAt": "2026-10-01T10:55:02Z",
+ "generatedAt": "2026-10-01T13:49:32Z",
  "overview": [
   "Chips: OpenAI, Oracle and SoftBank are expanding Stargate with five new U.S. data center sites and a 4.5GW deal.",
   "Big story: Anthropic's leaked IPO filing targets a $2 trillion valuation and flags AI's existential risk to humanity."
@@ -55,6 +55,18 @@
      "summary": "Huawei has accelerated its next-generation Ascend 960DT chip launch to the first quarter of 2027, three quarters ahead of schedule, as its Ascend accelerators have overtaken Nvidia in Chinese sales and market share. The shift shows how U.S. export controls are pushing China's AI industry toward domestic chip suppliers.",
      "source": "TechCrunch",
      "url": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/"
+    },
+    {
+     "headline": "Broadcom's custom AI chip revenue jumps 221% in Q3",
+     "summary": "Broadcom's AI semiconductor revenue surged 221% year-over-year to $16.7 billion in fiscal Q3 2026, driven by custom silicon shipments that rose 3.5x. The company guided to $115 billion in AI revenue for fiscal 2027, underscoring custom chips' growing share of AI infrastructure spending.",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/ai/articles/not-nvidia-not-amd-broadcoms-203100154.html"
+    },
+    {
+     "headline": "TSMC weighs new Texas campus for AI chip output",
+     "summary": "TSMC is considering a new multibillion-dollar campus in Texas to expand AI chip production, building on its existing $100 billion U.S. investment that includes Arizona fabs. The move reflects surging AI chip demand that is straining TSMC's advanced-node manufacturing capacity.",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/ai/articles/tsmc-mulls-multibillion-dollar-texas-102454782.html"
     }
    ]
   },
@@ -72,6 +84,24 @@
      "summary": "Google CEO Sundar Pichai published a message to employees titled \"The next chapter of our AI momentum,\" addressing the company's ongoing AI strategy. The post comes as Google pushes its newly launched Gemini 4 Argon model and faces intensifying competition from OpenAI and Anthropic.",
      "source": "Google",
      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/"
+    },
+    {
+     "headline": "OpenAI delays new GPT-6.1 Astra model over safety",
+     "summary": "OpenAI delayed the release of its new model, internally called GPT-6.1 Astra, after researchers raised security concerns, as part of a broader effort to decelerate the pace of its technology's advance. The delay reflects mounting internal and external pressure on AI labs to slow down.",
+     "source": "NPR",
+     "url": "https://www.npr.org/2026/09/29/nx-s1-5984342/openai-delays-latest-model"
+    },
+    {
+     "headline": "Meta launches Enterprise Platform, hires ex-MongoDB CEO",
+     "summary": "Mark Zuckerberg launched Meta Enterprise Platform, a new business unit selling Meta's AI models, its Muse agent and related infrastructure to companies. Former MongoDB CEO Chirantan 'CJ' Desai joins as Chief Enterprise Platform Officer, reporting directly to Zuckerberg, as Meta pushes beyond consumer AI.",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/29/meta-launches-muse-for-small-business-zuckerberg-pushes-enterprise-ai.html"
+    },
+    {
+     "headline": "xAI's Grok domain shift coincides with OpenAI's Dots launch",
+     "summary": "Domain records show xAI transferred ownership of a web address that now redirects to the Grok app download page, with the change timed around OpenAI's Dots agent launch at DevDay. The timing fueled speculation of a deliberate marketing jab between the rival labs.",
+     "source": "Cryptonomist",
+     "url": "https://en.cryptonomist.ch/2026/09/30/elon-musk-xai-domain-prank/"
     }
    ]
   },
@@ -89,6 +119,18 @@
      "summary": "Time magazine named Alibaba, ByteDance and Zhipu AI among its first AI A-list of influential companies, recognizing China's rapid progress in large language models. The listing signals growing international acknowledgment of Chinese AI labs even as U.S. export restrictions on advanced chips continue.",
      "source": "SCMP",
      "url": "https://www.scmp.com/tech/article/3351823/chinas-alibaba-bytedance-and-zhipu-ai-make-cut-times-first-ai-list"
+    },
+    {
+     "headline": "DeepSeek open-sources Huawei chip tools to cut Nvidia reliance",
+     "summary": "DeepSeek open-sourced six software components optimized for Huawei's Ascend AI accelerators, including TileLang, a rival to Nvidia's CUDA platform. The release extends DeepSeek's work with Huawei from adapting models to building the software stack needed to run them, reducing dependence on Nvidia chips.",
+     "source": "CoinCentral",
+     "url": "https://coincentral.com/deepseek-releases-huawei-ai-chip-tools-to-reduce-reliance-on-nvidia"
+    },
+    {
+     "headline": "Alibaba tests revenue-sharing model for open-source Qwen",
+     "summary": "Alibaba is piloting a revenue-sharing arrangement for developers building on its open-source Qwen models, shifting from pure open release toward monetizing its AI ecosystem. The move reflects growing commercial pressure on Chinese AI labs to turn open-source leadership into sustainable revenue.",
+     "source": "AI News",
+     "url": "https://www.artificialintelligence-news.com/news/alibaba-qwen-open-source-ai-revenue-sharing/"
     }
    ]
   },
@@ -112,6 +154,12 @@
      "summary": "Microsoft CEO Satya Nadella told CNBC's Deirdre Bosa that trust will be the biggest challenge facing AI companies as autonomous AI systems gain more capability. His comments reflect growing industry focus on AI safety and user confidence as enterprise adoption accelerates.",
      "source": "Yahoo Finance",
      "url": "https://finance.yahoo.com/technology/article/microsoft-ceo-satya-nadella-on-ai-trust-is-going-to-be-the-biggest-issue-for-us-163733897.html"
+    },
+    {
+     "headline": "Altman: OpenAI needs 'confident safety claims' before IPO",
+     "summary": "Sam Altman said OpenAI must be able to make 'confident safety claims' before pursuing an IPO, tying the listing timeline to AI safety assurances rather than investor pressure. He warned that delaying too long could also create costs, leaving OpenAI without a confirmed IPO date.",
+     "source": "Analytics Insight",
+     "url": "https://analyticsinsight.net/news/openai-ipo-delayed-over-ai-safety-concerns-sam-altman"
     }
    ]
   },
@@ -129,6 +177,12 @@
      "summary": "Trump declared at the UN on September 22 that the U.S. government would replace \"artificial intelligence\" with \"super intelligence\" in official documents, a rebranding Meta's Zuckerberg has echoed. The shift reframes U.S. AI policy language around ambition rather than risk, as safety concerns mount industry-wide.",
      "source": "Newsweek",
      "url": "https://www.newsweek.com/mark-zuckerberg-adopts-donald-trumps-superintelligence-ai-rebranding-12497399"
+    },
+    {
+     "headline": "Altman: Trump is making AI's most important decisions",
+     "summary": "Sam Altman said Donald Trump is currently making some of the most important decisions anyone has had the chance to make regarding AI's future, pointing to the administration's grip on chip export policy and industry rules. The comment underscores the White House's outsized influence on U.S. AI strategy.",
+     "source": "Barchart",
+     "url": "https://www.barchart.com/story/news/33667870/trump-is-shaping-the-future-of-ai-by-making-the-most-important-decisions-anyone-in-the-world-has-gotten-to-make-says-sam-altman"
     }
    ]
   },
@@ -146,16 +200,54 @@
      "summary": "The EU's Digital Omnibus on AI, in force since late July, postpones several high-risk AI system deadlines and simplifies parts of the AI Act's scope. A new ban on \"nudifier\" apps generating non-consensual intimate imagery takes effect in December, giving companies more time to comply.",
      "source": "European Commission",
      "url": "https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en"
+    },
+    {
+     "headline": "South Korea presses on with sovereign AI model plan",
+     "summary": "South Korea's science minister said the country's sovereign AI foundation model program will continue even as its new AI Basic Act takes effect next year. The law is less sweeping than the EU's AI Act but marks Seoul's first dedicated AI safety and risk framework.",
+     "source": "Seoul Economic Daily",
+     "url": "https://en.sedaily.com/technology/2026/09/30/koreas-science-minister-says-sovereign-ai-model-project"
     }
    ]
   },
   {
    "name": "Money & deals",
-   "items": []
+   "items": [
+    {
+     "headline": "OpenAI targets $30 billion funding at $1.4T valuation",
+     "summary": "OpenAI is seeking at least $30 billion from investors in a new funding round that would value the company at around $1.4 trillion, Bloomberg reported. The round would come ahead of a planned IPO and underscores investors' continued appetite for AI infrastructure bets.",
+     "source": "Bloomberg",
+     "url": "https://bloomberg.com/news/articles/2026-09-29/openai-targets-30-billion-in-new-funding-at-1-4-trillion-value"
+    },
+    {
+     "headline": "AI agent startup Instinct raises $1 billion",
+     "summary": "AI agent firm Instinct raised $1 billion in its latest funding round, quadrupling its valuation to $10 billion. The deal is one of several billion-dollar rounds this week, reflecting continued heavy investor demand for AI agent startups.",
+     "source": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-28/ai-agent-startup-instinct-raises-1-billion-at-10-billion-value"
+    },
+    {
+     "headline": "Shield AI raises $1.5 billion Series G",
+     "summary": "Defense AI startup Shield AI closed a $1.5 billion Series G round, valuing the company at $12.7 billion. The raise was among the week's biggest, reflecting continued investor appetite for AI applied to defense and autonomous systems.",
+     "source": "Crunchbase News",
+     "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
+    }
+   ]
   },
   {
    "name": "India AI",
-   "items": []
+   "items": [
+    {
+     "headline": "IndiaAI Mission expands to 762 use cases across government",
+     "summary": "India's IndiaAI Mission has identified 762 AI use cases spanning 62 government ministries and departments, alongside 58 approved AI Centres of Excellence and 543 Data and AI Labs in smaller cities. The expansion reflects New Delhi's push to embed AI across government services.",
+     "source": "Storyboard18",
+     "url": "https://www.storyboard18.com/amp/digital/indiaai-mission-identifies-762-ai-use-cases-across-62-ministries-expands-ai-infrastructure-ws-e-105954.htm"
+    },
+    {
+     "headline": "India debates sustaining AI push amid global slowdown calls",
+     "summary": "As Western AI leaders call for the industry to slow down, Indian policymakers and executives argue the country cannot afford to ease its AI push given its early-stage infrastructure build-out. The debate highlights India's balancing act between safety caution and catching up on AI capacity.",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/technology/artificial-intelligence/why-india-needs-to-keep-its-ai-push-going-amid-global-calls-for-slowdown-126092800772_1.html"
+    }
+   ]
   }
  ]
 }
