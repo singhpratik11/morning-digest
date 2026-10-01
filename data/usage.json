@@ -36,5 +36,24 @@
    "turns": 18
   },
   "tokenSource": "transcript"
+ },
+ {
+  "date": "2026-10-01",
+  "deck": "ai",
+  "model": "claude-sonnet-5",
+  "startedAt": "2026-10-01T10:45:31Z",
+  "finishedAt": "2026-10-01T10:56:04Z",
+  "durationSec": 633,
+  "searches": 30,
+  "stories": 18,
+  "tokens": {
+   "input": 30,
+   "output": 56918,
+   "cacheRead": 1533282,
+   "cacheWrite": 111570,
+   "total": 1701800,
+   "turns": 15
+  },
+  "tokenSource": "transcript"
  }
 ]
