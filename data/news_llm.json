@@ -1,43 +1,43 @@
 {
-  "date": "2026-10-01",
-  "generatedAt": "2026-10-01T13:49:30Z",
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T01:31:01Z",
   "overview": [
-    "Markets: Sensex fell for a fourth session to near 71,910, rupee slid to 96.11/dollar and Brent oil jumped past $100.",
-    "Big story: Israeli strikes killed several in Gaza and a building collapse trapped dozens as the ceasefire unravels."
+    "Markets: Rupee slid to a fresh 2-month low of 96.31/dollar amid global risk-off and foreign outflows.",
+    "Big story: The US moved thousands of troops toward the Middle East as Trump warned of fresh strikes on Iran."
   ],
   "sections": [
     {
       "name": "Top stories",
       "items": [
         {
-          "headline": "Israeli strikes kill several in Gaza as ceasefire unravels",
-          "summary": "Israeli attacks killed at least eight Palestinians in Gaza, including a journalist, while a building collapse in Gaza City trapped dozens under rubble. The violence marks a sharp escalation of ceasefire violations nearly a year after a US-brokered truce, deepening doubts about Israel's international standing.",
+          "headline": "US moves troops, strike group toward Middle East over Iran",
+          "summary": "The US is deploying roughly 9,000 troops and a naval strike group toward the Middle East after President Trump warned of possible new strikes on Iran following stalled peace talks. The build-up has already pushed oil prices higher and raises fears of a wider regional war.",
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/30/israeli-attacks-on-gaza-kill-several-as-ceasefire-violations-continue"
+          "url": "https://www.aljazeera.com/amp/news/liveblog/2026/10/1/iran-war-live-trump-hints-us-could-strike-iran-warns-time-coming"
         },
         {
-          "headline": "Pentagon data breach exposes 2.8 million military personnel",
-          "summary": "Hackers stole personal data, including Social Security numbers and job details, from roughly 2.8 million current and former US military personnel in a months-long breach. The Department of Defense confirmed the intrusion exploited a file-sharing system vulnerability, renewing scrutiny of Pentagon cybersecurity.",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/30/hackers-stole-millions-of-us-military-personnel-records-during-months-long-data-breach/"
+          "headline": "Russia's massive strike on Ukraine's power grid kills several",
+          "summary": "Russia launched a combined drone-and-missile assault of nearly 190 projectiles on Ukraine's energy grid around Kyiv, triggering the capital's first emergency power cuts since spring. Ukraine's air force downed over 150 drones and several missiles, but the attack killed four people and knocked out infrastructure in five regions ahead of winter.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/30/russian-attacks-on-ukraines-kyiv-region-kill-four-target-power-grid"
         },
         {
-          "headline": "Morocco appoints Fatima Ezzahra El Mansouri as first woman PM",
-          "summary": "King Mohammed VI named Fatima Ezzahra El Mansouri as Morocco's first female prime minister, a week after her Authenticity and Modernity Party won parliamentary elections. The former Marrakesh mayor called it a historic day for women, becoming only the third female head of government in the Arab world.",
-          "source": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/09/29/morocco-appoints-its-first-female-prime-minister/"
+          "headline": "Rupee slides to fresh two-month low against dollar",
+          "summary": "The rupee fell 37 paise to close at 96.31 against the US dollar, its weakest level in over two months, as global bond yields surged and foreign investors sold Indian assets. Rising crude prices and broad risk aversion added to the pressure, a day after the currency had settled at 95.94.",
+          "source": "Telangana Today",
+          "url": "https://telanganatoday.com/rupee-hits-over-two-month-low-at-96-31-against-dollar"
         },
         {
-          "headline": "France hit by nationwide public-sector strikes and protests",
-          "summary": "Hundreds of thousands of teachers, healthcare workers and firefighters joined coordinated strikes across France over pay and austerity measures, forcing school closures and flight disruptions at major airports. Unions have already scheduled further walkouts by energy and pension-sector workers in early October.",
-          "source": "Connexion France",
-          "url": "https://www.connexionfrance.com/news/todays-french-public-sector-strikes-where-and-when-are-demonstrations-taking-place/818047"
+          "headline": "India's opposition plans nationwide protests over Election Commission row",
+          "summary": "Opposition parties are preparing nationwide protests and renewing demands that Chief Election Commissioner Gyanesh Kumar resign, accusing the BJP of manipulating a major revision of India's electoral rolls. The escalation deepens a dispute over voter-list integrity ahead of upcoming state elections.",
+          "source": "Nikkei Asia",
+          "url": "https://asia.nikkei.com/politics/india-s-opposition-steps-up-calls-to-oust-election-commission-head"
         },
         {
-          "headline": "Brazil's Lula, Flavio Bolsonaro locked in dead heat before vote",
-          "summary": "President Luiz Inacio Lula da Silva and right-wing challenger Flavio Bolsonaro are running neck and neck days before Brazil's first-round presidential vote on October 4. Polling shows the race within the margin of error, with a runoff likely if neither clears 50% of valid votes.",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-29/brazil-election-lula-and-bolsonaro-tied-ahead-of-presidential-vote"
+          "headline": "Wall Street rebounds as Treasury yields ease, chip stocks gain",
+          "summary": "The Dow closed just above flat, the S&P 500 rose 0.2% and the Nasdaq edged higher as falling Treasury yields and gains in semiconductor stocks helped US markets recover from a choppy session. The rebound offers some relief after days of global risk-off selling tied to Middle East tensions.",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-oct-1-dow-sp-500-nasdaq-080602402.html"
         }
       ]
     },
@@ -45,52 +45,34 @@
       "name": "World",
       "items": [
         {
-          "headline": "Flydubai pilot hailed hero after mid-air stabbing, emergency landing",
-          "summary": "Israeli Prime Minister Benjamin Netanyahu praised Indian pilot Captain Smit Machchhar for saving 174 passengers after a stabbing aboard a Tel Aviv-bound Flydubai flight forced an emergency landing in Saudi Arabia. Flydubai has since halted flights to Israel following the incident.",
+          "headline": "Israeli drone, settler attacks kill Palestinians in Gaza, West Bank",
+          "summary": "An Israeli drone strike killed a Palestinian in Gaza while settlers killed another in the occupied West Bank, the latest violence despite a nearly year-old ceasefire. A Palestinian journalist was also among those killed this week, highlighting continued instability in the territory.",
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/30/netanyahu-praises-indian-pilot-for-saving-lives-on-flydubai-flight"
+          "url": "https://www.aljazeera.com/news/2026/10/1/israeli-drone-kills-palestinian-in-gaza-settlers-kill-another-in-west-bank"
         },
         {
-          "headline": "Israel says Iran is renewing nuclear progress despite talks",
-          "summary": "Netanyahu presented the UAE's president with intelligence alleging Iran is renewing nuclear work at a mountainous site, even as Qatari mediators push a proposal to Tehran and Iran's president denies any bomb ambitions. The standoff complicates US efforts to broker a wider regional deal.",
-          "source": "Jerusalem Post",
-          "url": "https://www.jpost.com/middle-east/iran-news/article-910154"
-        },
-        {
-          "headline": "Colombia's central bank surprises markets with rate hike to 12.25%",
-          "summary": "Colombia's central bank unexpectedly raised its policy rate to 12.25% on the same day jobless data showed a 9.4% unemployment rate, as the government separately seeks IMF assistance. The move signals policymakers are prioritising inflation control over growth support.",
-          "source": "Rio Times",
-          "url": "https://riotimesonline.com/latin-american-pulse-for-thursday-october-1-2026"
-        },
-        {
-          "headline": "Hurricane Rachel pulls away from Mexico's Pacific coast",
-          "summary": "Hurricane Rachel moved away from mainland Mexico after threatening coastal states, easing immediate fears of major landfall damage. Forecasters continued to monitor the storm's track as it heads further out into the Pacific.",
-          "source": "Rio Times",
-          "url": "https://riotimesonline.com/latin-american-pulse-for-thursday-october-1-2026"
-        },
-        {
-          "headline": "Bangladesh MP resigns after clinic-attack scandal",
-          "summary": "An MP known as Mishti resigned her reserved parliamentary seat on orders from the prime minister's office following scrutiny over an attack at the Radda clinic. She is also expected to resign from the ruling party as the fallout continues.",
-          "source": "The Business Standard (Bangladesh)",
-          "url": "https://www.tbsnews.net/bangladesh/politics/radda-clinic-attack-mp-mishti-resigns-following-pms-orders-1559336"
-        },
-        {
-          "headline": "Bangladesh's ruling BNP dissolves Dhaka North leadership committee",
-          "summary": "Bangladesh's Nationalist Party dissolved its 51-member Dhaka North city convening committee after earlier expelling several unit leaders over alleged anti-organisational activity. The shake-up comes as BNP steps up activity amid opposition programmes led by Jamaat-e-Islami.",
-          "source": "The Business Standard (Bangladesh)",
-          "url": "https://tbsnews.net/bangladesh/politics/bnp-dissolves-51-member-dhaka-north-city-convening-committee-1559041"
-        },
-        {
-          "headline": "South Korea, Japan foreign ministers pledge closer cooperation",
-          "summary": "South Korea's Foreign Minister Cho Hyun called for stronger trilateral cooperation between Seoul, Tokyo and Beijing to promote regional peace and prosperity. The statement comes amid continued diplomatic sensitivities across Northeast Asia.",
-          "source": "The Korea Herald",
-          "url": "https://www.koreaherald.com/article/10888391"
-        },
-        {
-          "headline": "Taiwan's president moved to secure site during military drill",
-          "summary": "Taiwan President Lai Ching-te was taken in an armoured personnel carrier to a secure facility during a military exercise in Taipei, underscoring heightened defence preparedness. The drill came as security researchers reported one of the first known fully autonomous AI-driven cyberattacks on Taiwanese government agencies.",
+          "headline": "Taipei indicts man over unregistered Chinese chipmaker office",
+          "summary": "Prosecutors in Taipei indicted a man for allegedly operating an unregistered office for a Chinese semiconductor firm, seeking an 18-month prison sentence. The case underscores Taiwan's tightening scrutiny of Chinese business activity on the island amid rising cross-strait tensions.",
           "source": "Focus Taiwan",
-          "url": "https://focustaiwan.tw/"
+          "url": "https://focustaiwan.tw/society/202610010005"
+        },
+        {
+          "headline": "Milei courts investors in Paris as Argentina resets costs",
+          "summary": "Argentina's President Javier Milei is courting investors in Paris even as pensions, rents and bills reset for citizens from October 1, reflecting the balancing act between attracting capital and managing austerity at home. The trip comes as Argentina seeks to sustain market confidence in its economic overhaul.",
+          "source": "Rio Times",
+          "url": "https://riotimesonline.com/latin-american-pulse-for-thursday-october-1-2026"
+        },
+        {
+          "headline": "Mexico finds relief after Hurricane Polo, unease over cartel sanctions",
+          "summary": "Mexico is recovering after Hurricane Polo's remnants passed, even as new US sanctions on a Sinaloa Cartel network create fresh uncertainty alongside the country's ongoing export boom. The mixed picture reflects Mexico's balancing of disaster recovery with external economic pressure.",
+          "source": "Rio Times",
+          "url": "https://riotimesonline.com/latin-american-pulse-for-thursday-october-1-2026"
+        },
+        {
+          "headline": "Netanyahu: probe to clarify if FlyDubai co-pilot had Iran ties",
+          "summary": "Israeli PM Benjamin Netanyahu said investigators would know within days whether a radicalized FlyDubai co-pilot involved in an aircraft diversion to Saudi Arabia had ties to Iran. He urged Israelis to stay on alert, as the incident adds to regional tension already stoked by the US military build-up.",
+          "source": "Fox News",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-peace-trump-talks-latest-october-1"
         }
       ]
     },
@@ -98,52 +80,58 @@
       "name": "India",
       "items": [
         {
-          "headline": "Supreme Court: judges shouldn't impose personal morality in bail pleas",
-          "summary": "A Supreme Court bench of Justices Ujjal Bhuyan and Atul Chandurkar said judges must not let personal views on morality influence bail or criminal trial decisions, while setting aside a Madhya Pradesh High Court order that had denied bail in a case involving a minor. The ruling reinforces objective legal standards in sensitive cases.",
+          "headline": "Bombay High Court orders takedown of AI deepfakes of actress",
+          "summary": "The Bombay High Court ordered the takedown of AI-generated deepfakes and derogatory content misusing actress Samantha Ruth Prabhu's name, image and voice. The ruling adds to a growing body of Indian court orders addressing AI-enabled misuse of personal likeness.",
+          "source": "Bar and Bench",
+          "url": "https://www.barandbench.com/news/litigation/bombay-high-court-orders-takedown-of-ai-deepfakes-derogatory-content-against-actress-samantha-ruth-prabhu"
+        },
+        {
+          "headline": "Delhi High Court eases travel curbs tied to pending PMLA cases",
+          "summary": "The Delhi High Court quashed look-out circulars against individuals, holding that the mere pendency of a money-laundering investigation cannot indefinitely restrict a person's right to travel abroad. The ruling could ease curbs on businesspeople and professionals facing long-running ED probes.",
           "source": "LiveLaw",
           "url": "https://livelaw.in/top-stories/livelaw-breaking-news-alerts-01-october-2026-552584"
         },
         {
-          "headline": "Supreme Court hears TMC plea on ED-frozen bank accounts",
-          "summary": "The Supreme Court heard a plea by the All India Trinamool Congress seeking permission to operate four bank accounts frozen by the Enforcement Directorate, alongside Congress leader Pawan Khera's challenge to criminal proceedings over remarks about the Prime Minister. Both matters reflect ongoing friction between opposition parties and central agencies.",
+          "headline": "Allahabad High Court: police can't detain kin to force surrender",
+          "summary": "The Allahabad High Court held that police cannot detain an innocent family member merely to pressure an accused person into surrendering. The ruling reinforces due-process protections against coercive policing tactics used in criminal investigations.",
           "source": "LiveLaw",
           "url": "https://livelaw.in/top-stories/livelaw-breaking-news-alerts-01-october-2026-552584"
         },
         {
-          "headline": "Opposition renews calls for Election Commissioner Gyanesh Kumar to resign",
-          "summary": "India's opposition parties stepped up demands for Chief Election Commissioner Gyanesh Kumar to resign, accusing the BJP of manipulating voter lists during the ongoing electoral roll revision. The opposition is preparing nationwide protests, deepening a political fight ahead of coming state elections.",
-          "source": "Nikkei Asia",
-          "url": "https://asia.nikkei.com/politics/india-s-opposition-steps-up-calls-to-oust-election-commission-head"
+          "headline": "Rajasthan High Court warns Jaipur's Walled City may lose UNESCO status",
+          "summary": "The Rajasthan High Court warned that Jaipur's historic Walled City could lose its UNESCO World Heritage status unless authorities take corrective action by December, ordering a survey of illegal construction. Justice Pramil Kumar Mathur issued notices to ten state and local bodies over the civic lapses.",
+          "source": "Law Trend",
+          "url": "https://lawtrend.in/rajasthan-high-court-warns-jaipur-walled-city-could-lose-unesco-heritage-status-orders-survey-of-illegal-constructions/"
         },
         {
-          "headline": "Cabinet approves higher Rabi MSP and Rs 1.86 lakh crore green corridor",
-          "summary": "The Union Cabinet approved a package worth about Rs 2.79 lakh crore, including a higher Minimum Support Price for six Rabi crops for 2027-28 and a Rs 1.86 lakh crore Green Energy Corridor Phase-III to evacuate up to 135 GW of renewable power. The moves aim to support farm incomes and clean-energy infrastructure.",
-          "source": "ETV Bharat",
-          "url": "https://www.etvbharat.com/en/bharat/union-cabinet-clears-higher-rabi-msp-and-green-energy-corridor-enn26093006531"
+          "headline": "Punjab and Haryana High Court flags 16-year delay in case listing",
+          "summary": "The Punjab and Haryana High Court sought a systemic fix after finding a case took 16 years just to be listed for hearing, spotlighting chronic delays in India's judicial process. The court's intervention adds pressure on the state's case-management system.",
+          "source": "The Tribune",
+          "url": "https://tribuneindia.com/news/news-legal/16-years-to-list-a-case-punjab-and-haryana-high-court-seeks-system-fix"
         },
         {
-          "headline": "Delhi to get Rs 1,789 crore AI-based traffic management system",
-          "summary": "The Union Cabinet also cleared a Rs 1,789.52 crore Intelligent Traffic Management System for Delhi that will use real-time detection of congestion and accidents to help police respond faster. Variable message signs and digital platforms will alert commuters to diversions and parking availability.",
-          "source": "ETV Bharat",
-          "url": "https://www.etvbharat.com/en/bharat/union-cabinet-clears-higher-rabi-msp-and-green-energy-corridor-enn26093006531"
+          "headline": "Kerala High Court: wife sole owner of property bought with her funds",
+          "summary": "The Kerala High Court ruled that a wife is the exclusive owner of a property purchased in both spouses' names when the funds came from her father, even though her husband was a joint title-holder. The judgment reinforces property rights based on the actual source of funds rather than title alone.",
+          "source": "LiveLaw",
+          "url": "https://livelaw.in/top-stories/livelaw-breaking-news-alerts-01-october-2026-552584"
         },
         {
-          "headline": "Maharashtra FDA cancels Cipla unit's licences, suspends 165 food outlets",
-          "summary": "Maharashtra's FDA cancelled drug licences at a Cipla unit in Pune over the Reactin Plus recall and storage lapses, and separately suspended 165 food outlet licences after inspecting over 3,100 establishments. The action signals tighter regulatory enforcement on pharma and food safety in the state.",
-          "source": "India TV News",
-          "url": "https://www.indiatvnews.com/maharashtra"
+          "headline": "Chhattisgarh High Court: new study-leave law can't apply retrospectively",
+          "summary": "The Chhattisgarh High Court held that a newly passed law relaxing study-leave rules for government employees cannot be applied to past events, reaffirming that legislation operates prospectively unless stated otherwise. The ruling affects employees who had sought retrospective benefit under the amended rule.",
+          "source": "Law Trend",
+          "url": "https://lawtrend.in/law-passed-today-cannot-apply-to-events-of-the-past-chhattisgarh-high-court-holds-study-leave-relaxation-operates-prospectively"
         },
         {
-          "headline": "Maharashtra's MPSC paper-leak probe uncovers full chain of events",
-          "summary": "Investigators probing a leak of Maharashtra Public Service Commission exam papers have traced the chain from the creation of 294 questions through to their leak to students. The findings are expected to trigger disciplinary and possibly criminal action against those involved.",
-          "source": "India TV News",
-          "url": "https://www.indiatvnews.com/maharashtra"
+          "headline": "Mumbai's CSMT starts 75-day mega block for redevelopment",
+          "summary": "Mumbai's Chhatrapati Shivaji Maharaj Terminus began a 75-day mega block from October 1 to carry out redevelopment work, likely disrupting suburban rail schedules. The extended block underscores the scale of infrastructure upgrades underway at one of India's busiest rail terminals.",
+          "source": "Navarashtra",
+          "url": "https://navarashtra.com/maharashtra/maharashtra-and-india-breaking-news-live-updates-1-october-2026-1345190.html"
         },
         {
-          "headline": "Ghazipur encounter, UP draft voter list released same day",
-          "summary": "Uttar Pradesh police exchanged fire with suspects during an encounter in Ghazipur, arresting two men from Punjab after being fired upon. Separately, the Election Commission released Uttar Pradesh's draft voter list following the Special Intensive Revision process, a step closely watched ahead of state polls.",
-          "source": "India TV News",
-          "url": "https://www.indiatvnews.com/uttar-pradesh"
+          "headline": "Commercial LPG cylinder prices hiked from October 1 in Maharashtra",
+          "summary": "Commercial LPG cylinder prices rose from October 1, adding fresh inflation pressure for businesses and households just as the festive season begins. The hike comes amid broader cost-of-living concerns being felt across Indian states.",
+          "source": "Navarashtra",
+          "url": "https://navarashtra.com/maharashtra/maharashtra-and-india-breaking-news-live-updates-1-october-2026-1345190.html"
         }
       ]
     },
@@ -151,64 +139,76 @@
       "name": "Business & markets",
       "items": [
         {
-          "headline": "Sensex falls for fourth straight session, Nifty below 22,450",
-          "summary": "The Sensex dropped 570.59 points, or 0.79%, to 71,909.70 while the Nifty50 fell 198.50 points to 22,421.95, extending losses to a fourth session. Bajaj Auto, Maruti Suzuki and Shriram Finance led the decline, with Nifty Auto among the weakest sectoral indices.",
+          "headline": "Auto stocks lead Sensex-Nifty slide for fourth session",
+          "summary": "The Sensex fell 571 points (0.79%) to 71,909 and the Nifty dropped nearly 199 points to 22,422, as auto stocks led the declines. Bajaj Auto, Maruti Suzuki and Shriram Finance were the top losers amid continued foreign investor selling and global risk aversion.",
           "source": "Business Standard",
           "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
         },
         {
-          "headline": "Rupee slips to 96.11 against dollar as market mood turns cautious",
-          "summary": "The rupee declined 14 paise to close at 96.11 against the US dollar, compared with Wednesday's close of 95.98, as equity weakness and global risk aversion weighed on sentiment. A weaker rupee adds to imported inflation pressure even as exporters see a marginal competitiveness boost.",
-          "source": "Business Standard",
-          "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
-        },
-        {
-          "headline": "India's IPO market sets a September record despite stock selloff",
-          "summary": "Indian companies raised more than 393 billion rupees ($4.1 billion) through 34 IPOs in September, a monthly record, while 46 firms filed draft papers for mainboard listings. The surge shows IPO demand holding up even as broader equity indices struggle.",
-          "source": "Bloomberg",
-          "url": "https://bloomberg.com/news/articles/2026-10-01/india-brushes-off-stock-struggles-to-set-ipo-record-in-september"
-        },
-        {
-          "headline": "GST collections rise 14.7% to Rs 2.04 lakh crore in September",
-          "summary": "India's gross GST collections climbed 14.7% year-on-year to nearly Rs 2.04 lakh crore in September, with a sharp rise in import-linked tax collections driving the gain. Net GST revenue after refunds rose 18.1% year-on-year, pointing to resilient consumption and trade activity.",
-          "source": "Business Today",
-          "url": "https://www.businesstoday.in/latest/economy/story/september-gst-collections-rise-14-7-to-rs2-04-lakh-crore-558985-2026-10-01"
-        },
-        {
-          "headline": "Stocks to watch: RIL, HDFC Bank, Infosys, IRFC, Blue Dart in focus",
-          "summary": "Reliance Industries, NSE, HDFC Bank, IRFC, Infosys, Cupid and Blue Dart were among stocks in focus in Thursday's trade amid company-specific news flow and sector developments in oil marketing companies. The watchlist reflects a mix of earnings expectations and corporate-action triggers heading into the new quarter.",
-          "source": "Business Standard",
-          "url": "https://www.business-standard.com/markets/news/stocks-to-watch-ril-nse-hdfc-bank-irfc-infosys-cupid-blue-dart-omcs-126100100107_1.html"
-        },
-        {
-          "headline": "IT stocks gain as Q2 FY27 earnings season approaches",
-          "summary": "Shares of TCS, Infosys, HCLTech and Tech Mahindra rose as investors positioned ahead of the Q2 FY27 earnings season, with TCS set to report first on October 8, HCLTech on October 12 and Infosys on October 23. Analysts expect modest sequential revenue growth led by BFSI and hi-tech verticals.",
-          "source": "Zee Business",
-          "url": "https://www.zeebiz.com/market-news/news-it-sector-enters-earnings-season-key-q4-result-dates-for-tcs-infosys-wipro-and-hcltech-393265"
-        },
-        {
-          "headline": "Oyo parent PRISM files updated IPO papers to raise Rs 6,650 crore",
-          "summary": "Oyo's parent entity PRISM has filed updated draft papers with SEBI seeking to raise about Rs 6,650 crore through an initial public offering. The filing adds to a busy pipeline of Indian consumer-tech listings heading into the new fiscal year.",
-          "source": "Business Today",
-          "url": "https://www.businesstoday.in/markets/ipo-corner"
-        },
-        {
-          "headline": "JSW Cement to merge with listed unit Shiva Cement",
-          "summary": "JSW Cement announced a merger with its listed subsidiary Shiva Cement, under which public shareholders will receive five JSW Cement shares for every 41 Shiva Cement shares held. The merger, expected to complete within 12-14 months, simplifies the group's cement holding structure.",
+          "headline": "Hero Motors stock hits new high, up 108% from listing low",
+          "summary": "Shares of Hero Motors scaled a fresh high, rallying 108% from its listing-day low of Rs 80.50 on the BSE. The sharp rebound highlights renewed investor appetite for the auto-components maker since its stock market debut.",
           "source": "Business Standard",
           "url": "https://www.business-standard.com/companies/news"
         },
         {
-          "headline": "Oil prices jump over 2% as Brent tops $100 on China export curbs",
-          "summary": "Brent crude jumped more than 2% to top $100 a barrel after reports that Chinese refiners suspended October fuel exports to protect domestic supply, adding to pressure from the US-Iran standoff and Russia's war in Ukraine. Higher crude raises input-cost risks for India, a major oil importer.",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/01/oil-prices-today-wti-brent.html"
+          "headline": "MTNL stock jumps 17% on Rs 891-crore Powai land sale",
+          "summary": "MTNL shares surged 17% after its board approved selling a Powai, Mumbai property worth Rs 891.53 crore to the income-tax department. The deal gives the debt-laden state-run telecom firm a fresh infusion of cash.",
+          "source": "Business Standard",
+          "url": "https://www.business-standard.com/companies/news"
         },
         {
-          "headline": "Cabinet-backed Startup India Fund of Funds 2.0 gets Rs 10,000 crore corpus",
-          "summary": "The government has moved to mobilise a fresh Rs 10,000 crore corpus for Startup India Fund of Funds 2.0, aimed at deepening venture-capital availability for India's startup ecosystem. The initiative comes as overall startup funding has cooled this year amid investor caution over West Asia tensions.",
+          "headline": "Canara Bank advances cross Rs 12.63 trillion in quarterly update",
+          "summary": "Canara Bank reported domestic advances rising to Rs 12.63 trillion and deposits to Rs 15.48 trillion in its provisional quarterly business update, pointing to continued strong credit growth. The numbers offer an early read on the banking sector ahead of formal Q2 earnings.",
           "source": "Business Standard",
-          "url": "https://www.business-standard.com/topic/startup-funding"
+          "url": "https://www.business-standard.com/companies/news"
+        },
+        {
+          "headline": "Carlsberg India gets SEBI go-ahead for Rs 6,600-crore IPO",
+          "summary": "Carlsberg India received SEBI's observations, effectively clearing the way, for a Rs 6,600 crore initial public offering. The listing would mark one of the larger consumer-sector IPOs in India's recent pipeline.",
+          "source": "Business Standard",
+          "url": "https://www.business-standard.com/companies/news"
+        },
+        {
+          "headline": "SEBI keeps Inox Clean Energy's Rs 10,000-crore IPO papers in abeyance",
+          "summary": "Capital markets regulator SEBI put Inox Clean Energy's draft offer documents for a proposed Rs 10,000 crore IPO on hold, delaying the renewable energy company's stock market debut. The move adds to a wave of large clean-energy IPOs awaiting regulatory clearance in India.",
+          "source": "Business Standard",
+          "url": "https://www.business-standard.com/companies/news"
+        },
+        {
+          "headline": "SAT stays SEBI order barring Man Industries executives",
+          "summary": "The Securities Appellate Tribunal granted Man Industries and three senior executives a stay on a SEBI order that had barred them from the markets, conditional on depositing half the penalty amount. The reprieve gives the company breathing room while it contests the regulator's findings.",
+          "source": "Business Standard",
+          "url": "https://www.business-standard.com/markets/man-industries-india-ltd-share-price-1369/news"
+        },
+        {
+          "headline": "Phi Commerce names Rajesh Londhe as CEO for global push",
+          "summary": "Payments platform Phi Commerce elevated Rajesh Londhe to chief executive as the company targets international expansion. The leadership change signals Phi Commerce's ambitions to grow beyond its domestic Indian payments business.",
+          "source": "Business Standard",
+          "url": "https://www.business-standard.com/companies/news"
+        },
+        {
+          "headline": "Indian startups raise $2.9 billion in July-September quarter",
+          "summary": "Indian startups raised $2.9 billion in equity funding during Q3 FY26, a slight dip from the previous quarter, with Bengaluru-based companies leading the pack. Mobility, AI and fintech drew the most investor attention, with AI startups alone pulling in over $635 million.",
+          "source": "NewsBytes",
+          "url": "https://newsbytesapp.com/news/business/indian-startups-raise-29b-in-q3-2026-as-bengaluru-leads/tldr"
+        },
+        {
+          "headline": "Chile's copper output falls to 15-year low",
+          "summary": "Chile's copper output fell 12.8% to its lowest level in 15 years, with prices holding near $14,417 a tonne. The decline in the world's top copper producer could tighten supply for EV and electronics manufacturers globally.",
+          "source": "Rio Times",
+          "url": "https://riotimesonline.com/copper-markets-latam-thursday-october-1-2026"
+        },
+        {
+          "headline": "Chile's unemployment hits 9.6%, highest since 2021",
+          "summary": "Chile's jobless rate climbed to 9.6%, its highest since 2021, as a strike threat looms at the Centinela copper mine. Rising unemployment alongside falling copper output points to broader strain on Chile's commodity-dependent economy.",
+          "source": "Rio Times",
+          "url": "https://riotimesonline.com/latin-american-pulse-for-thursday-october-1-2026"
+        },
+        {
+          "headline": "Oil prices swing as Gulf flows partly ease Iran-driven risk",
+          "summary": "Brent crude held near $104 a barrel, driven higher by Gulf geopolitical risk, even as reports that oil flows out of the Persian Gulf had partly recovered pulled WTI lower intraday. The volatility reflects markets weighing the US-Iran standoff against actual supply disruption.",
+          "source": "Fortune",
+          "url": "https://fortune.com/article/price-of-oil-10-01-2026/"
         }
       ]
     },
@@ -216,34 +216,40 @@
       "name": "Tech & AI",
       "items": [
         {
-          "headline": "Apple Pay launches in India with Axis Bank as first partner",
-          "summary": "Apple has launched Apple Pay in India, initially available to Axis Bank cardholders on Visa and Mastercard networks, with no-cost EMIs and cashback offers on Apple product purchases. The launch opens India's large digital-payments market to Apple's wallet ecosystem for the first time.",
-          "source": "Business Standard",
-          "url": "https://www.business-standard.com/technology/tech-news/apple-pay-india-launch-axis-bank-visa-mastercard-credit-cards-126093000137_1.html"
+          "headline": "Satellite startup Satlyt raises $8 million to run AI in orbit",
+          "summary": "Satlyt, founded by a former Google and SpaceX product manager, raised $8 million to develop software that runs AI workloads directly on satellites. The funding reflects growing investor interest in space-based computing infrastructure.",
+          "source": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/10/01/satellite-software-provider-satlyt-closes-8m-investment"
         },
         {
-          "headline": "Samsung launches Galaxy Tab S12 series in India",
-          "summary": "Samsung introduced the Galaxy Tab S12+ and Tab S12 Ultra in India, featuring a MediaTek Dimensity 9500 chip and 12GB RAM, with prices starting at Rs 1,29,999. The launch targets premium tablet buyers as Samsung expands its high-end device lineup in the Indian market.",
-          "source": "Deccan Herald",
-          "url": "https://www.deccanherald.com/technology/samsung-launches-galaxy-tab-s12-s12-ultra-series-in-india-4166542"
+          "headline": "Kevin Mandia's security startup Armadin raises $255.5 million",
+          "summary": "Armadin, a new 'agent swarm' cybersecurity startup founded by former Mandiant CEO Kevin Mandia, raised $255.5 million at a $2.5 billion valuation. The large round underscores continued investor appetite for next-generation automated cyber-defense tools.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/latest/"
         },
         {
-          "headline": "Dutch cyber-vulnerability institute hacked via AI-powered zero-day attack",
-          "summary": "The Dutch Institute for Vulnerability Disclosure was breached using two zero-day flaws in the open-source Zammad ticketing platform, in what researchers describe as an AI-powered automated attack. The incident highlights the growing use of AI tools to accelerate real-world cyber intrusions against security organisations themselves.",
+          "headline": "Pentagon taps Elon Musk, Palmer Luckey on future tech strategy",
+          "summary": "The Pentagon has brought in Elon Musk and Palmer Luckey to help shape decisions on the US military's next technology priorities. Their involvement signals deepening ties between Silicon Valley defense-tech entrepreneurs and US defense policy.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/latest/"
+        },
+        {
+          "headline": "DoorDash launches AI agent that orders food over text",
+          "summary": "DoorDash rolled out an AI agent that customers can text to place food orders, aiming to simplify ordering outside its app. The launch is part of a broader industry push to embed conversational AI agents into everyday consumer services.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/latest/"
+        },
+        {
+          "headline": "Neko Health brings body-scan service to the US",
+          "summary": "Neko Health, backed by Spotify billionaire Daniel Ek, launched its full-body scanning health service in the United States. The expansion marks the preventive-health startup's entry into the competitive American diagnostics market.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/latest/"
+        },
+        {
+          "headline": "PwC: enterprises underprepared for AI and quantum security threats",
+          "summary": "A PwC survey found many enterprises are struggling to prepare their security defenses for emerging AI-driven and quantum-computing threats. The findings highlight a widening gap between the pace of AI adoption and organizations' cybersecurity readiness.",
           "source": "SecurityWeek",
-          "url": "https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/"
-        },
-        {
-          "headline": "Xiaomi launches new Pro series phones with dual 200MP cameras",
-          "summary": "Xiaomi unveiled its latest Pro-series smartphones featuring large batteries, dual 200MP camera setups and a rear display with a privacy feature that detects onlookers and shields the screen. The launch adds to a crowded festive-season lineup of premium Android devices in India.",
-          "source": "Business Today",
-          "url": "https://www.businesstoday.in/tech-today"
-        },
-        {
-          "headline": "Google Fitbit Air spotted ahead of October India launch",
-          "summary": "A Google Fitbit Air device has been spotted in Indian retail stores and listed on Flipkart at Rs 13,999 ahead of an expected October launch. The device marks Google's latest push into India's competitive wearables and fitness-tracking market.",
-          "source": "Business Today",
-          "url": "https://www.businesstoday.in/tech-today"
+          "url": "https://www.securityweek.com/enterprises-struggle-to-prepare-for-ai-and-quantum-threats-pwc-says/"
         }
       ]
     },
@@ -251,22 +257,22 @@
       "name": "Science & health",
       "items": [
         {
-          "headline": "WHO issues guidance to prevent heat-related illness at mass gatherings",
-          "summary": "The World Health Organization released new guidance for organisers of large public events to reduce heat-related illness risks, including monitoring protocols and emergency response planning. The guidance follows WHO's recent reviews of health risks tied to crowding and rising temperatures at major gatherings.",
+          "headline": "SpaceX launches new four-astronaut crew to space station",
+          "summary": "SpaceX launched a Crew Dragon carrying US, Canadian and Russian astronauts from Florida toward the International Space Station. The mission continues the steady cadence of crewed launches supporting ongoing ISS operations.",
+          "source": "Space.com",
+          "url": "https://www.space.com/"
+        },
+        {
+          "headline": "WHO highlights Bhutan's success in eliminating rabies",
+          "summary": "The World Health Organization cited Bhutan as proof that rabies elimination is achievable, pointing to the country's sustained vaccination and dog-population management programs. The example is being held up as a model for other countries battling the disease.",
           "source": "World Health Organization",
           "url": "https://www.who.int/news-room/headlines"
         },
         {
-          "headline": "ISRO rolls out Santulan nutrition programme for Gaganyaan astronauts",
-          "summary": "ISRO has launched the Santulan programme for its Gaganyaan astronauts, offering personalised nutrition plans, expert diet monitoring and specialised catering ahead of India's first crewed spaceflight. The initiative is part of broader preparations supporting astronaut health and mission readiness.",
-          "source": "News on Air",
-          "url": "https://www.newsonair.gov.in/category/science-and-technologies"
-        },
-        {
-          "headline": "NASA invites India to join lunar south-pole base programme",
-          "summary": "NASA has formally invited India to participate in its effort to build a permanent base near the Moon's south pole, deepening space cooperation between the two countries. The invitation builds on recent joint missions, including the NASA-ISRO NISAR Earth-observation satellite.",
-          "source": "Space.com",
-          "url": "https://www.space.com/astronomy/moon/india-us-space-ties-deepen-as-nasa-invites-isro-to-join-moon-base-program"
+          "headline": "WHO expands list of safe contraception options for women",
+          "summary": "The World Health Organization broadened its recommended list of safe contraception methods, aiming to give women more choices backed by updated clinical evidence. The move is part of WHO's ongoing effort to improve reproductive health access globally.",
+          "source": "World Health Organization",
+          "url": "https://www.who.int/news-room/headlines"
         }
       ]
     },
@@ -274,46 +280,40 @@
       "name": "Sports",
       "items": [
         {
-          "headline": "India to face Pakistan in Asian Games men's cricket final",
-          "summary": "World champions India will meet arch-rivals Pakistan for Asian Games cricket gold after both won their semi-finals comfortably on Thursday in Japan. India thrashed Sri Lanka by 124 runs, while Pakistan beat Bangladesh by six wickets in a match reduced to 13 overs by a wet outfield.",
-          "source": "France 24",
-          "url": "https://france24.com/en/live-news/20261001-samad-launches-pakistan-into-first-asian-games-men-s-cricket-final"
+          "headline": "India edge Pakistan 4-3 in Asian Games hockey semifinal",
+          "summary": "India beat Pakistan 4-3 in a dramatic Asian Games men's hockey semifinal, with Abhishek scoring the winning goal to send the defending champions into the gold-medal match. The win sets up another high-stakes India-Pakistan clash for gold.",
+          "source": "Olympics.com",
+          "url": "https://www.olympics.com/en/news/asian-games-2026-live-scores-updates-results-india-october-1"
         },
         {
-          "headline": "Sri Lanka reach Asian Games semis as Nepal washed out by rain",
-          "summary": "Sri Lanka advanced to the Asian Games cricket semi-finals without playing after their quarter-final against Nepal was abandoned due to persistent rain, with the higher-ranked side progressing under tournament rules. Sri Lanka's semi-final campaign ended with a heavy 124-run loss to India.",
-          "source": "The Nation (Pakistan)",
-          "url": "https://www.nation.com.pk/01-Oct-2026/pakistan-face-bangladesh-india-draw-sri-lanka-semis"
+          "headline": "Nitesh Kumar wins Greco-Roman wrestling silver at Asian Games",
+          "summary": "Nitesh Kumar won silver in Greco-Roman wrestling at the Asian Games, ending a 64-year wait for an Indian finalist in the discipline after defeating Mongolia's Gankhuyag Ganbaatar 9-0 en route to the final. The medal added to India's Day 12 haul of six medals.",
+          "source": "Business Standard",
+          "url": "https://www.business-standard.com/amp/sports/asian-games/asian-games-2026-live-updates-india-vs-pakistan-volleyball-score-ind-vs-pak-hockey-india-vs-sri-lanka-live-cricket-score-archery-shooting-squash-126100100070_1.html"
         },
         {
-          "headline": "Japan edge Uzbekistan on penalties to set up Asian Games football final",
-          "summary": "Japan beat Uzbekistan 9-8 on penalties after a dramatic semi-final to reach the Asian Games men's football final, where they will face defending champions South Korea. South Korea reached the final with a 2-1 win over China, sealed by a stoppage-time winner.",
-          "source": "Japan Today",
-          "url": "https://japantoday.com/category/sports/south-korea-score-late-to-reach-asian-games-football-final"
+          "headline": "Teenager Anahati Singh wins squash silver at Asian Games",
+          "summary": "Eighteen-year-old Anahati Singh won a silver medal in squash at the Asian Games, adding to India's growing medal tally at the Aichi-Nagoya Games. Her result continues a strong showing by young Indian athletes at this edition of the Games.",
+          "source": "Navarashtra",
+          "url": "https://navarashtra.com/maharashtra/maharashtra-and-india-breaking-news-live-updates-1-october-2026-1345190.html"
         },
         {
-          "headline": "Argentina rout Bolivia 4-0, USA beat Chile in friendlies",
-          "summary": "Argentina cruised to a 4-0 win over Bolivia while the United States defeated Chile 4-2 in international football friendlies, with Mexico held to a 1-1 draw by Peru. The results offer early form guides ahead of upcoming competitive fixtures for the South and North American sides.",
-          "source": "Goal.com",
-          "url": "https://www.goal.com/en-in/live-scores"
+          "headline": "Manchester City accused of 'sham' contracts inflating income by £830m",
+          "summary": "Manchester City has been accused of arranging sham sponsorship contracts to inflate its income by £830 million, reigniting scrutiny of the club's finances under Premier League and UEFA financial fair play rules. The allegations could have significant implications for the club's regulatory standing.",
+          "source": "Sky Sports",
+          "url": "https://www.skysports.com/football"
         },
         {
-          "headline": "Mercedes' Antonelli holds commanding F1 points lead before Malaysian GP",
-          "summary": "Mercedes driver Kimi Antonelli heads into this weekend's Malaysian Grand Prix at Sepang with a 66-point lead over rival Russell in the drivers' championship. Antonelli has been settling into the region ahead of the race as he looks to extend his advantage in the title fight.",
-          "source": "Yahoo News Malaysia",
-          "url": "https://malaysia.news.yahoo.com/water-parks-tennis-strolls-antonelli-040302017.html"
+          "headline": "Arsenal blow two-goal lead in collapse against Paris FC",
+          "summary": "Arsenal squandered a two-goal lead in a poor second-half collapse against Paris FC, raising fresh questions about the team's consistency in European competition. The result is a setback for Arsenal's continental campaign momentum.",
+          "source": "Sky Sports",
+          "url": "https://www.skysports.com/football"
         },
         {
-          "headline": "Barcelona thrash Roma 6-0 in Women's Champions League",
-          "summary": "Barcelona Femeni crushed Roma Femminile 6-0 in the UEFA Women's Champions League, while Juventus Femminile beat Hacken Women 3-0 and Bayern Munich Ladies defeated Benfica Women 3-0 on a one-sided night across the competition. Paris FC were held 2-2 by Arsenal Women in the closest result of the round.",
-          "source": "Goal.com",
-          "url": "https://www.goal.com/en-in/live-scores"
-        },
-        {
-          "headline": "St. Louis City thrash New York Red Bulls 3-0 in MLS",
-          "summary": "St. Louis City SC beat New York Red Bulls 3-0 in Major League Soccer action, a result that boosts their push up the standings late in the season. The win adds to a mixed night across MLS fixtures as teams jockey for playoff positioning.",
-          "source": "Goal.com",
-          "url": "https://www.goal.com/en-in/live-scores"
+          "headline": "Gordon inspires England to win over Czech Republic",
+          "summary": "England secured a much-needed win over the Czech Republic, with Anthony Gordon among the contributors in a result that eases pressure on the team following recent inconsistent form. The victory offers a confidence boost ahead of upcoming fixtures.",
+          "source": "Sky Sports",
+          "url": "https://www.skysports.com/football"
         }
       ]
     }
