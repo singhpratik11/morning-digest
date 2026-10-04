@@ -150,5 +150,24 @@
    "turns": 14
   },
   "tokenSource": "transcript"
+ },
+ {
+  "date": "2026-10-04",
+  "deck": "news",
+  "model": "claude-sonnet-5",
+  "startedAt": "2026-10-04T01:30:50Z",
+  "finishedAt": "2026-10-04T01:47:07Z",
+  "durationSec": 977,
+  "searches": 128,
+  "stories": 45,
+  "tokens": {
+   "input": 90,
+   "output": 66963,
+   "cacheRead": 8201508,
+   "cacheWrite": 234626,
+   "total": 8503187,
+   "turns": 45
+  },
+  "tokenSource": "transcript"
  }
 ]
