@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-04",
-  "generatedAt": "2026-10-04T02:12:42Z",
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T02:12:17Z",
   "overview": [
-    "Chips: TSMC is weighing a new multibillion-dollar Texas campus as AI chip demand stays extremely tight.",
-    "Big story: Anthropic is reportedly targeting a November IPO that could rival SpaceX's valuation."
+    "Chips: Broadcom lines up a $60 billion financing package to supply AI chips for Anthropic's compute buildout.",
+    "Big story: Trump creates a 'Super Intelligence Force' led by DNI Jay Clayton to steer federal AI policy."
   ],
   "sections": [
     {
       "name": "AI top stories",
       "items": [
         {
-          "headline": "Microsoft's AI-driven quarter adds $1 trillion in market value",
-          "summary": "Microsoft shares surged 37.5% from July to September, its best quarter in decades, adding roughly $1 trillion in market capitalization as Azure and Copilot demand stayed strong. The rally signals investors still back heavy AI capital spending despite broader cost concerns.",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-01/microsoft-s-trillion-dollar-quarter-shows-ai-trade-won-t-quit"
+          "headline": "Trump creates 'Super Intelligence Force' to steer AI policy",
+          "summary": "President Trump named Director of National Intelligence Jay Clayton to chair a new federal task force on AI, with FTC Chair Andrew Ferguson, Pentagon's Emil Michael and OPM's Scott Kupor as vice chairs. The group has 120 days to define the government's role in AI development.",
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/politics/trump-administration/trump-announces-members-ai-task-force-rcna601494"
         },
         {
-          "headline": "Anthropic targets November IPO at a giant valuation",
-          "summary": "Anthropic is reportedly targeting an IPO as soon as mid-November, with marketing potentially starting the week of November 9; the company was last valued near $965 billion in May. A listing of that scale would rank among the largest tech IPOs ever and test AI valuations.",
+          "headline": "DeepSeek gains narrow US lead over China in AI",
+          "summary": "Bloomberg Intelligence found top Chinese AI models now trail US rivals by just 3% on benchmark scores, down from about 9% in May, after DeepSeek's V4.1 Flash release. The shrinking gap challenges assumptions that export controls would preserve a lasting US AI advantage.",
           "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-01/anthropic-said-to-target-mega-ipo-before-thanksgiving-holiday"
+          "url": "https://www.bloomberg.com/news/articles/2026-10-04/us-lead-in-ai-over-china-narrows-after-deepseek-gains-bi-says"
         },
         {
-          "headline": "OpenAI launches 'Dots' agents, shelves GPT-6.1 Astra",
-          "summary": "At DevDay, OpenAI introduced \"Dots,\" always-on agents built on GPT-6 Astra that connect to apps including Slack and Microsoft Teams, while confirming it shelved a planned GPT-6.1 Astra update after internal testing found alignment failures. The move shows OpenAI pushing agentic products while tightening safety checks on its next flagship model.",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html"
+          "headline": "Broadcom lines up $60 billion AI chip financing for Anthropic",
+          "summary": "Broadcom's banking syndicate is assembling roughly $60 billion in financing, including a $42 billion senior-secured tranche, to help fund Anthropic's leasing of Broadcom's custom AI chips. The size of the debt package shows how AI compute buildouts are increasingly financed off-balance-sheet rather than from cash reserves.",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4649721-broadcom-gathers-60b-financing-package-to-fund-ai-chips-for-anthropic-report"
         },
         {
-          "headline": "TSMC weighs new multibillion-dollar Texas chip campus",
-          "summary": "TSMC is considering a new campus in Texas that could add tens of billions of dollars to its US expansion, on top of the $265 billion already committed to its Arizona site. The move reflects how tight AI chip capacity has become and the leverage Nvidia and Apple now hold over where their silicon is made.",
+          "headline": "Amazon pledges $1 billion to communities near AI data centers",
+          "summary": "Amazon said it will spend more than $1 billion over five years on programs for communities near its data centers, as AWS chief Matt Garman defended the construction boom. Garman also said AWS has stopped signing NDAs with government agencies during site approvals, responding to local backlash.",
           "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-01/tsmc-mulls-multibillion-dollar-texas-campus-for-more-ai-chips"
+          "url": "https://bloomberg.com/news/articles/2026-10-02/amazon-s-latest-response-to-ai-data-center-backlash-1-billion"
         }
       ]
     },
@@ -39,16 +39,28 @@
       "name": "Chips & compute",
       "items": [
         {
-          "headline": "Stargate expands with five new AI data-center sites",
-          "summary": "OpenAI, Oracle and SoftBank said they are adding five new Stargate data-center locations, including sites in Shackelford County, Texas; Dona Ana County, New Mexico; and a new Midwest campus in Wisconsin. The expansion grows the companies' roughly $500 billion push to build out US AI compute capacity.",
+          "headline": "TSMC weighs multibillion-dollar Texas campus for AI chips",
+          "summary": "TSMC is considering a new chipmaking campus in Texas that would add tens of billions of dollars to its US expansion, according to Taiwan's Economic Daily News. The move would deepen the world's largest contract chipmaker's bet on US-based production as AI chip demand keeps surging.",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-01/tsmc-mulls-multibillion-dollar-texas-campus-for-more-ai-chips"
+        },
+        {
+          "headline": "Nvidia board adds $150 billion to buyback program",
+          "summary": "Nvidia's board authorized an additional $150 billion for share repurchases, lifting its total remaining buyback authorization to $235 billion. The move signals confidence in sustained AI chip demand even as Nvidia commits massive capital to data-center and model-maker partnerships.",
+          "source": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase"
+        },
+        {
+          "headline": "Stargate expands with five new AI data center sites",
+          "summary": "OpenAI, Oracle and SoftBank announced five additional Stargate data center sites as part of their joint US AI infrastructure build-out. The expansion adds to the project's existing capacity as the partners race to secure power and compute for OpenAI's growing workloads.",
           "source": "OpenAI",
           "url": "https://openai.com/index/five-new-stargate-sites/"
         },
         {
-          "headline": "Nvidia raises buyback authorization by $150 billion",
-          "summary": "Nvidia's board approved a $150 billion increase to its share-repurchase program, lifting the total remaining authorization to $235 billion, the largest such increase in the company's history. The move signals confidence in Nvidia's cash generation even as AI-chip demand and capital spending both keep climbing.",
-          "source": "Nvidia",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase"
+          "headline": "Broadcom extends Meta partnership on custom AI chips",
+          "summary": "Broadcom announced an extended, multi-generational partnership with Meta to deploy technology supporting multiple gigawatts of Meta's custom MTIA silicon. The deal builds on the companies' existing collaboration and underscores Meta's push to reduce reliance on merchant GPU suppliers for AI training and inference.",
+          "source": "Broadcom",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-announces-extended-partnership-meta-deploy-technology"
         }
       ]
     },
@@ -56,10 +68,16 @@
       "name": "Labs & models",
       "items": [
         {
-          "headline": "Google DeepMind shakes up leadership as Hassabis steps back",
-          "summary": "Google DeepMind is restructuring its leadership: co-founder Demis Hassabis is stepping back from day-to-day management to become Chair of Google DeepMind and Alphabet's Chief Scientist, while Koray Kavukcuoglu steps up to oversee Gemini development and frontier research. The shift hands day-to-day model strategy to a new deputy as Google races rivals on AI.",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/"
+          "headline": "OpenAI's DevDay 2026 opens ChatGPT as agent platform",
+          "summary": "At DevDay 2026, OpenAI introduced agents that can take on ongoing responsibilities and said it is opening ChatGPT as a shared surface where people and AI agents collaborate. OpenAI said ChatGPT now reaches 1.2 billion weekly users, underscoring the platform's scale as it pushes deeper into agentic AI.",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/devday-2026-recap/"
+        },
+        {
+          "headline": "AWS unveils trio of new AI strategy announcements",
+          "summary": "At its 'What's Next with AWS' event, AWS launched Amazon Quick, an AI work assistant, and expanded Amazon Connect into agentic AI tools for supply chain, hiring and customer experience. AWS also said it is bringing OpenAI's GPT-5.5 and Codex models to Amazon Bedrock in limited preview.",
+          "source": "AWS",
+          "url": "https://aws.amazon.com/blogs/aws/top-announcements-of-the-whats-next-with-aws-2026/"
         }
       ]
     },
@@ -67,15 +85,21 @@
       "name": "China AI",
       "items": [
         {
-          "headline": "DeepSeek open-sources Huawei chip tools to rival Nvidia's CUDA",
-          "summary": "DeepSeek released as open-source its chip-programming toolkit built with Huawei, including TileLang, positioned as a simpler alternative to Nvidia's CUDA software standard for Huawei's Ascend AI accelerators. The move could help Chinese developers wean off Nvidia hardware as US export controls squeeze access to advanced chips.",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-30/deepseek-unveils-huawei-ai-chip-tools-that-may-replace-nvidia-s"
+          "headline": "DeepSeek and Huawei chip away at Nvidia's AI moat",
+          "summary": "DeepSeek and Huawei have released open-source Ascend AI programming tools to cut reliance on Nvidia's CUDA software ecosystem, Bloomberg Opinion reports. The tools could make it easier for Chinese AI firms still dependent on American hardware to shift to homegrown chips over time.",
+          "source": "Bloomberg Opinion",
+          "url": "https://bloomberg.com/opinion/articles/2026-10-04/deepseek-and-huawei-take-aim-at-nvidia-s-formidable-moat"
         },
         {
-          "headline": "Alibaba, ByteDance and Zhipu AI named on Time's AI list",
-          "summary": "Alibaba, ByteDance and Zhipu AI were named among Time magazine's first list of the most influential AI companies, reflecting their rapid rise through open-source models and consumer-facing apps. Alibaba and Zhipu have driven adoption via open models while ByteDance scaled consumer apps like Doubao, underscoring China's deepening presence in frontier AI.",
-          "source": "SCMP",
+          "headline": "Researchers find censorship built into Alibaba's Qwen AI model",
+          "summary": "Israeli cybersecurity startup Hirundo found that Alibaba's open-weight Qwen model, downloaded more than 3 billion times and used by firms including Airbnb and Uber, contains China-friendly narratives and apparent programmed censorship on sensitive topics. The findings raise fresh questions about relying on Chinese open-source models globally.",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/news/china-ai-qwen-artificial-intelligence-bias-analysis/"
+        },
+        {
+          "headline": "Alibaba, ByteDance and Zhipu AI named to Time's AI list",
+          "summary": "Time magazine included Alibaba, ByteDance and Zhipu AI on its first list of the 10 most influential AI companies of 2026, SCMP reports. The recognition highlights how far Chinese AI developers have advanced in models, consumer assistants and enterprise tools despite US chip export restrictions.",
+          "source": "South China Morning Post",
           "url": "https://www.scmp.com/tech/article/3351823/chinas-alibaba-bytedance-and-zhipu-ai-make-cut-times-first-ai-list"
         }
       ]
@@ -84,16 +108,10 @@
       "name": "What the CEOs said",
       "items": [
         {
-          "headline": "Huang: AI distillation is 'competition,' not 'theft'",
-          "summary": "Nvidia CEO Jensen Huang told CNBC that AI model distillation is simply \"competition,\" pushing back after the White House and Treasury Secretary Scott Bessent branded the practice \"theft.\" The exchange highlights friction over how Washington should treat Chinese AI firms that build on US model outputs.",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/28/nvidias-jensen-huang-ai-distillation-china.html"
-        },
-        {
-          "headline": "Su: AI chip demand shows no sign of slowing",
-          "summary": "AMD CEO Lisa Su said demand for AI computing is not slowing \"at all,\" pointing to sustained hyperscaler spending as a reason for optimism about the company's growth. Her comments reinforce the view that the current AI infrastructure buildout still has room to run despite valuation worries.",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/28/jim-cramer-amd-lisa-su-agentic-ai.html"
+          "headline": "Huang: AI 'doomsday narratives' from rivals make no sense",
+          "summary": "Jensen Huang said claims that AI could end the world by 2030 are baseless, calling such warnings from other AI leaders 'irresponsible' and suggesting they have 'ulterior reasons' for making them. Huang maintains Nvidia can move fast on AI while still treating safety as 'paramount.'",
+          "source": "Fortune",
+          "url": "https://fortune.com/2026/10/04/nvidia-jensen-huang-ai-doomerism-foil-risk/"
         }
       ]
     },
@@ -101,10 +119,10 @@
       "name": "Washington & policy",
       "items": [
         {
-          "headline": "Huang emerges as Trump administration's top AI-safety ally",
-          "summary": "CNBC reported that Nvidia CEO Jensen Huang has emerged as the Trump administration's leading industry voice in the debate over AI safety, as the White House and AI labs spar over how fast development should proceed. Huang's alignment with Washington puts Nvidia at the center of the fight over US AI policy.",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html"
+          "headline": "Musk returns to Trump administration for Pentagon AI study",
+          "summary": "Elon Musk is co-leading a Pentagon study on AI and modern warfare after returning to an advisory role with the Trump administration, euronews reports. His renewed government role comes as the White House pushes to centralize federal AI policy through new oversight bodies.",
+          "source": "euronews",
+          "url": "https://www.euronews.com/2026/10/01/elon-musk-returns-to-trump-administration-to-co-lead-pentagon-war-study"
         }
       ]
     },
@@ -112,49 +130,38 @@
       "name": "World governments",
       "items": [
         {
-          "headline": "EU agrees to simplify AI Act, ban 'nudification' apps",
-          "summary": "The European Commission said EU lawmakers agreed to simplify parts of the AI Act to ease compliance burdens on businesses, while banning \"nudification\" apps that generate non-consensual sexual images. The deal balances industry pressure to cut red tape against new protections for citizens from AI-enabled abuse.",
-          "source": "European Commission",
-          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024"
-        },
-        {
-          "headline": "UK minister: Britain needs more control and leverage over AI",
-          "summary": "The UK government said Britain must secure greater control and leverage over AI to protect its national security in an increasingly fractured world, signaling a shift toward treating AI capability as a strategic asset. The statement underscores London's push to build sovereign AI capacity rather than depend solely on US or Chinese technology.",
-          "source": "UK Government",
-          "url": "https://www.gov.uk/government/news/britain-must-secure-greater-control-and-leverage-over-ai-to-protect-our-national-security-in-fractured-world"
-        },
-        {
-          "headline": "UK backs AI drug-discovery and cheap-compute startups",
-          "summary": "The UK government announced its first round of backing under the Sovereign AI program for firms working on drug discovery, cheaper supercomputing and related technology. The funding is meant to grow homegrown AI hardware and research capacity as Britain competes for a bigger share of the global AI industry.",
-          "source": "UK Government",
-          "url": "https://www.gov.uk/government/news/ai-firms-pioneering-drug-discovery-cheaper-supercomputing-and-more-get-first-backing-through-uks-sovereign-ai"
-        },
-        {
-          "headline": "China proposes global AI governance body, WAICO",
-          "summary": "Chinese officials have floated creating a World Artificial Intelligence Cooperation Organization, or WAICO, to coordinate AI rules across countries, as Beijing pushes rapid, incremental AI regulation at home. The proposal positions China as an alternative rule-setter to the US-led approach to global AI governance.",
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/china/politics/article/3353834/what-do-chinas-plans-comprehensive-new-ai-law-mean-future-technology"
+          "headline": "UAE's Sharjah forum to explore AI for government services",
+          "summary": "The Sharjah Investment Forum will examine how AI can transform government operations and investor services, Gulf Today reports. The event reflects the UAE's continued push to position itself as a regional hub for applying AI across public administration and finance.",
+          "source": "Gulf Today",
+          "url": "https://www.gulftoday.ae/business/2026/10/03/sharjah-investment-forum-to-analyse-how-ai-can-change-govt-investor-services"
         }
       ]
     },
     {
       "name": "Money & deals",
-      "items": []
+      "items": [
+        {
+          "headline": "AI megadeals lead this week's biggest funding rounds",
+          "summary": "Personal AI assistant startup Instinct raised $1 billion in a Series C round at a $10 billion valuation, while AI agent platform Temporal Technologies raised $550 million at a $12.55 billion valuation, Crunchbase News reports. The rounds show investors still pouring money into AI despite broader market caution.",
+          "source": "Crunchbase News",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/"
+        }
+      ]
     },
     {
       "name": "India AI",
       "items": [
         {
-          "headline": "IndiaAI Mission scales up to 38,000 GPUs under Rs 10,300 crore plan",
-          "summary": "India's government said its IndiaAI Mission is scaling up toward 38,000 GPUs under a Rs 10,300 crore ($1.2 billion) national compute program. The build-out is meant to give Indian startups, researchers and government agencies subsidised access to AI computing as the country pushes its own domestic AI strategy.",
-          "source": "DD News",
-          "url": "https://ddnews.gov.in/en/transforming-india-with-ai-rs-10300-crore-mission-38000-gpus-a-vision-for-inclusive-growth/"
+          "headline": "India approves 13 projects to tackle AI deepfakes and bias",
+          "summary": "The IndiaAI Mission's Safe & Trusted AI pillar has greenlit 13 responsible-AI projects at academic institutions covering bias mitigation, deepfake detection, privacy-preserving AI and explainability, per a government press release. The push aims to build citizen trust in AI ahead of India's AI Impact Summit 2026.",
+          "source": "Press Information Bureau, Government of India",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2289946&reg=48&lang=2"
         },
         {
-          "headline": "India must keep its AI push going despite global slowdown calls",
-          "summary": "Business Standard reported that India needs to maintain momentum on AI development even as some global voices call for a slowdown, arguing a pause would leave the country further behind the US and China. The piece frames India's compute and talent investments as too early-stage to pause.",
-          "source": "Business Standard",
-          "url": "https://www.business-standard.com/technology/artificial-intelligence/why-india-needs-to-keep-its-ai-push-going-amid-global-calls-for-slowdown-126092800772_1.html"
+          "headline": "Gujarat hosts AI governance conclave ahead of India summit",
+          "summary": "The IndiaAI Mission and the Gujarat government co-hosted a conclave on using AI for good governance, part of preparations for the India AI Impact Summit 2026, The Tribune reports. The event focused on how state governments can responsibly deploy AI in public administration.",
+          "source": "The Tribune",
+          "url": "https://www.tribuneindia.com/news/business/indiaai-mission-gujarat-govt-host-conclave-on-ai-for-good-governance-ahead-of-india-ai-impact-summit-2026"
         }
       ]
     }
