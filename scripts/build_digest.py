@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build one edition of the Morning Digest from RSS feeds + the curated deck,
+"""Build one edition of the Morning Digest (news deck + AI deck) from RSS feeds + the curated decks,
 and write it into data/digests.json. Zero third-party dependencies (stdlib only),
 zero API keys, zero cost. Designed to run unattended from GitHub Actions.
 
@@ -17,7 +17,8 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from feeds import FEEDS, BUCKET_ORDER, LLM_ORDER, AI_ORDER, MIN_ITEMS, CURATED  # noqa: E402
+from feeds import (FEEDS, BUCKET_ORDER, LLM_ORDER, AI_ORDER, AI_FEEDS, AI_RSS_ORDER,  # noqa: E402
+                   MIN_ITEMS, CURATED)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "digests.json")
@@ -66,6 +67,10 @@ BLOCK_SMILE = re.compile(r"\b(dead|dies|died|death|kill|killed|murder|shoot|shot
                          r"suicide|missing|tragedy|hostage|victim|injured|wounded|"
                          r"drown|drowned|beheaded|dismember|corpse|overdose|"
                          r"paedophile|pedophile|molest|manslaughter)\b", re.I)
+
+
+# Live blogs ("India News Live Updates, 6 October") are rolling pages, not stories.
+LIVE_RE = re.compile(r"\blive(?: updates?| blog|:)", re.I)
 
 
 def clean_text(s, limit=320):
@@ -151,12 +156,12 @@ def safe_url(u):
     return u.replace(")", "%29").replace("(", "%28").replace(" ", "%20")
 
 
-def collect():
+def collect(feeds=FEEDS):
     # Fetch each feed into its own list, then round-robin merge within a bucket so
     # sources are interleaved (not five stories from whichever feed came first).
     per_bucket = []       # list of (bucket, [feed_list, feed_list, ...]) preserving order
     index = {}
-    for bucket, source, url, maxn in FEEDS:
+    for bucket, source, url, maxn in feeds:
         log("- fetching", source, "->", bucket)
         items = parse_feed(fetch(url))
         feed_list, taken = [], 0
@@ -164,7 +169,7 @@ def collect():
             if taken >= maxn:
                 break
             u = safe_url(link)
-            if not u or not norm(title):
+            if not u or not norm(title) or LIVE_RE.search(title):
                 continue
             if bucket == "Made me smile" and BLOCK_SMILE.search(title):
                 continue
@@ -296,6 +301,49 @@ def load_llm(path, order, date):
     return buckets, overview
 
 
+# AI deck from RSS: route each story into a section by keyword (first match wins).
+AI_WORD = re.compile(r"\b(ai|a\.i\.|artificial intelligence|genai|gen ai|llms?|gpt|chatgpt|openai|"
+                     r"gemini|agentic|machine learning|deep learning)\b", re.I)
+INDIA_WORD = re.compile(r"\b(india|indian|bengaluru|bangalore|mumbai|delhi|hyderabad|chennai|pune|"
+                        r"meity|indiaai|reliance|jio|tcs|infosys|wipro|hcl|sarvam|krutrim)\b", re.I)
+AI_ROUTES = [
+    ("Policy & governments", re.compile(
+        r"\b(trump|white house|congress|senate|regulat\w*|lawsuits?|sued|court|judge|bans?|banned|"
+        r"export controls?|tariffs?|government|ministry|eu|european|commission|ai act|policy|"
+        r"laws?|ftc|doj|antitrust|parliament|watermark\w*)\b", re.I)),
+    ("China AI", re.compile(
+        r"\b(china|chinese|beijing|deepseek|kimi|moonshot|alibaba|qwen|baidu|bytedance|tencent|"
+        r"huawei|zhipu|minimax)\b", re.I)),
+    ("Chips & compute", re.compile(
+        r"\b(nvidia|amd|tsmc|intel|broadcom|arm|qualcomm|chips?|semiconductors?|gpus?|tpus?|"
+        r"data ?cent(er|re)s?|compute|coreweave|stargate|oracle|supercomputer)\b", re.I)),
+    ("Money & deals", re.compile(
+        r"\b(funding|raises|raised|valuation|valued|ipo|acquires?|acquired|acquisition|"
+        r"invest(s|ment|ors?)?|series [a-f]|deal)\b", re.I)),
+]
+
+
+def ai_section(it):
+    text = it["headline"] + " " + it["body"]
+    for name, rx in AI_ROUTES:
+        if rx.search(text):
+            return name
+    return "Labs & models"
+
+
+def build_ai_rss():
+    pool = collect(AI_FEEDS)
+    out = {name: [] for name, _ in AI_RSS_ORDER}
+    for it in pool.get("India AI", []):
+        text = it["headline"] + " " + it["body"]
+        # ET Tech also carries global wire copy, so it needs an India angle; Inc42 is all-India.
+        if AI_WORD.search(text) and (it["source"] == "Inc42" or INDIA_WORD.search(text)):
+            out["India AI"].append(it)
+    for it in pool.get("AI", []):
+        out[ai_section(it)].append(it)
+    return out
+
+
 def latest_headlines(rss):
     # Interleave the RSS lanes into one short, intra-day "Latest headlines" section.
     lanes = [rss.get(b, []) for b, _ in BUCKET_ORDER if b not in CURATED]
@@ -306,8 +354,10 @@ def latest_headlines(rss):
     return out
 
 
-NEWS_MIX = "**The mix:** today's business news, a case to crack, a guesstimate to try, and a framework to keep."
+NEWS_MIX = ("**The mix:** world, India, business, tech and sport, plus a case to crack, "
+            "a guesstimate to try and a framework to keep.")
 AI_MIX = "**The mix:** chips, labs, China, what the CEOs said and what Washington is doing."
+AI_RSS_MIX = "**The mix:** labs, chips, China, policy, money and India AI, straight from the outlets."
 
 
 def build_markdown(buckets, now, order, overview=None, mix=NEWS_MIX):
@@ -374,7 +424,11 @@ def main():
     ai = load_llm(AI_LLM, AI_ORDER, date)
     if ai:
         edition["ai"], ai_total = build_markdown(ai[0], now, AI_ORDER, ai[1], AI_MIX)
-        log("AI deck:", ai_total, "stories.")
+    else:
+        edition["ai"], ai_total = build_markdown(build_ai_rss(), now, AI_RSS_ORDER, None, AI_RSS_MIX)
+    if ai_total < MIN_ITEMS:
+        del edition["ai"]   # too thin to show; the app hides the AI switch
+    log("AI deck:", ai_total, "stories.")
     editions.insert(0, edition)
     editions = editions[:MAX_EDITIONS]
     with open(DATA, "w", encoding="utf-8") as f:

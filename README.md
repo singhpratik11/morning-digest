@@ -13,8 +13,8 @@ per full screen, swipe up for the next, save the ones worth keeping — with a h
 ```
 GitHub Actions cron (a few times a day)
    │  scripts/build_digest.py
-   │    • pulls ~20 RSS feeds (India, world, business, tech, sport, offbeat)
-   │    • rotates in one entry from the curated "Worth knowing" deck
+   │    • pulls ~25 RSS feeds (world, India, business, tech, sport, AI)
+   │    • rotates in one case brief, guesstimate and framework
    │    • writes data/digests.json  (stdlib only — no API key, no LLM)
    ▼
 git commit + push  ──►  Vercel auto-deploys  ──►  the swipe app fetches digests.json
@@ -24,39 +24,32 @@ No API keys, no paid services, no daily approvals, no manual push. Everything ru
 GitHub Actions' free tier + Vercel's free tier.
 
 ## The content lanes
-Each edition is a finite deck (~14 cards) for consulting, PM and operations job
-interviews — news interleaved with practice, ending on a framework:
-1. **Companies & industry** — ET, Business Standard, Mint
-2. **Case brief** — an Indian company or industry case ([`data/case_briefs.json`](data/case_briefs.json)):
-   role tag, the gist, three facts, a likely question, and a hidden "how to structure it"
-3. **Startups & tech** — Inc42, Entrackr, ET Tech
-4. **Guesstimate** — ([`data/guesstimates.json`](data/guesstimates.json)): question + hint up front,
-   approach, ballpark and interviewer tip behind "try it first, then reveal"
-5. **Economy & markets** · **Global business** — RSS
-6. **Framework** — MECE, profitability tree, CIRCLES, RICE, Little's Law, Theory of Constraints…
-   ([`data/frameworks.json`](data/frameworks.json))
+Each edition is a finite deck (~45 cards) for consulting, PM and operations job interviews -
+news interleaved with practice, ending on a framework:
+1. **World** - BBC World, Al Jazeera, Guardian
+2. **India** - The Hindu, Indian Express, NDTV, Hindustan Times
+3. **Case brief** - an Indian company or industry case ([`data/case_briefs.json`](data/case_briefs.json))
+4. **Business & markets** - ET, Business Standard, Mint, BBC Business
+5. **Guesstimate** - ([`data/guesstimates.json`](data/guesstimates.json)), answer behind "try it first, then reveal"
+6. **Startups & tech** - Inc42, Entrackr, ET Tech
+7. **Sports** - ESPNcricinfo, BBC Sport, The Hindu
+8. **Framework** - ([`data/frameworks.json`](data/frameworks.json))
 
-Curated decks rotate one entry a day; add entries to lengthen the cycle. In curated
-bodies, `¶` is a line break and `‖` splits what's shown from what the reveal hides.
-Indian news feeds block browser (CORS) access, so they're fetched server-side by the
-Action; the app just reads the latest `data/digests.json` whenever you open it.
+Curated decks rotate one entry a day. In curated bodies, `¶` is a line break and `‖` splits
+what's shown from what the reveal hides. Live blogs are skipped. Indian news feeds block
+browser (CORS) access, so everything is fetched server-side by the Action.
 
-## Morning news (cloud routine)
-A Claude cloud routine runs daily at **07:00 IST**: it gathers the last 24 hours of news
-with web search only (no page fetches, so no approval prompts), writes
-`data/news_llm.json` — `{date, generatedAt, overview[2], sections[{name, items[{headline,
-summary, source, url}]}]}` with sections Top stories / World / India / Business & markets /
-Tech & AI / Sports — and pushes it. That push triggers the Action, which rebuilds the deck
-with those sections first, the practice cards interleaved, and RSS as "Latest headlines".
-If today's file is missing, the deck falls back to the RSS lanes.
+## AI deck (News | AI switch)
+Also free RSS: TechCrunch AI, The Verge AI, Ars Technica AI, MIT Technology Review and
+VentureBeat, routed by keyword into Labs & models / Chips & compute / China AI / Policy &
+governments / Money & deals, plus India AI (ET Tech and Inc42 stories about AI). Stored as an
+`ai` field on the day's edition.
 
-## AI deck (second routine) and usage tracking
-A second routine, **AI deck (07:30 IST)**, writes `data/ai_llm.json` (AI top stories, Chips &
-compute, Labs & models, China AI, What the CEOs said, Washington & policy, Money & deals,
-India AI). The build stores it as an `ai` field on the day's edition; the app shows it behind
-the **News | AI** switch. Both routines finish with `scripts/log_usage.py`, which appends the
-run's model, duration, searches, stories and tokens (from the run's own transcript, or
-"unavailable") to `data/usage.json`; the gear button in the app shows it.
+## Cloud routines (paused)
+Two Claude cloud routines used to write `data/news_llm.json` and `data/ai_llm.json` with web
+search. They were paused on 6 Oct 2026: 2-8M tokens a run against the Pro plan, and the big
+outlets now block the search crawler. The build still uses either file if one exists for today,
+so they can be switched back on; otherwise everything is RSS and costs nothing.
 
 ## The pipeline
 - [`scripts/feeds.py`](scripts/feeds.py) — the feed list, per-bucket caps, and `MIN_ITEMS`
