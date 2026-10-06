@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-05",
-  "generatedAt": "2026-10-05T02:12:17Z",
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T02:02:25Z",
   "overview": [
-    "Chips: Broadcom lines up a $60 billion financing package to supply AI chips for Anthropic's compute buildout.",
-    "Big story: Trump creates a 'Super Intelligence Force' led by DNI Jay Clayton to steer federal AI policy."
+    "Chips: Nvidia nears a $6 trillion valuation as traders bet on an AI-fueled stock milestone.",
+    "Big story: Tech executives testified under oath on AI risks at a New York City Council hearing."
   ],
   "sections": [
     {
       "name": "AI top stories",
       "items": [
         {
-          "headline": "Trump creates 'Super Intelligence Force' to steer AI policy",
-          "summary": "President Trump named Director of National Intelligence Jay Clayton to chair a new federal task force on AI, with FTC Chair Andrew Ferguson, Pentagon's Emil Michael and OPM's Scott Kupor as vice chairs. The group has 120 days to define the government's role in AI development.",
-          "source": "NBC News",
-          "url": "https://www.nbcnews.com/politics/trump-administration/trump-announces-members-ai-task-force-rcna601494"
+          "headline": "Tech executives testify under oath at NYC AI hearing",
+          "summary": "Senior leaders from Anthropic, OpenAI, Google and Meta testified under oath before the New York City Council on AI risks, appearing only after officials threatened subpoenas. A former Anthropic researcher called the industry's approach to AI development \"extremely reckless,\" intensifying scrutiny of safety practices.",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html"
         },
         {
-          "headline": "DeepSeek gains narrow US lead over China in AI",
-          "summary": "Bloomberg Intelligence found top Chinese AI models now trail US rivals by just 3% on benchmark scores, down from about 9% in May, after DeepSeek's V4.1 Flash release. The shrinking gap challenges assumptions that export controls would preserve a lasting US AI advantage.",
+          "headline": "Nvidia's market value nears $6 trillion milestone",
+          "summary": "Nvidia shares climbed to fresh highs as the chipmaker edges toward a $6 trillion market valuation, a threshold options traders see roughly a 50% chance of hitting by month's end. The move underscores continued investor confidence in AI infrastructure spending despite bubble concerns.",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/05/nvidias-6-trillion-milestone-looms-heres-when-options-traders-see-it-happening.html"
+        },
+        {
+          "headline": "OpenAI in talks for $30 billion funding round",
+          "summary": "OpenAI is negotiating with United Arab Emirates investment funds, including Abu Dhabi's MGX, and BlackRock to anchor a new $30 billion financing round. The deal would extend OpenAI's fundraising streak as it races to cover massive compute commitments tied to deals like Stargate.",
           "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-04/us-lead-in-ai-over-china-narrows-after-deepseek-gains-bi-says"
+          "url": "https://www.bloomberg.com/news/articles/2026-10-05/openai-in-talks-with-uae-funds-blackrock-for-30-billion-round"
         },
         {
-          "headline": "Broadcom lines up $60 billion AI chip financing for Anthropic",
-          "summary": "Broadcom's banking syndicate is assembling roughly $60 billion in financing, including a $42 billion senior-secured tranche, to help fund Anthropic's leasing of Broadcom's custom AI chips. The size of the debt package shows how AI compute buildouts are increasingly financed off-balance-sheet rather than from cash reserves.",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4649721-broadcom-gathers-60b-financing-package-to-fund-ai-chips-for-anthropic-report"
-        },
-        {
-          "headline": "Amazon pledges $1 billion to communities near AI data centers",
-          "summary": "Amazon said it will spend more than $1 billion over five years on programs for communities near its data centers, as AWS chief Matt Garman defended the construction boom. Garman also said AWS has stopped signing NDAs with government agencies during site approvals, responding to local backlash.",
-          "source": "Bloomberg",
-          "url": "https://bloomberg.com/news/articles/2026-10-02/amazon-s-latest-response-to-ai-data-center-backlash-1-billion"
+          "headline": "OpenAI to watermark ChatGPT text across the EU",
+          "summary": "OpenAI will begin invisibly watermarking ChatGPT and Codex text generated in the EU to comply with the bloc's AI Act transparency rules, which took effect in August. Internal testing found detection accuracy drops from about 92% to 66% once 10% of words are swapped for synonyms.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
         }
       ]
     },
@@ -39,28 +39,28 @@
       "name": "Chips & compute",
       "items": [
         {
-          "headline": "TSMC weighs multibillion-dollar Texas campus for AI chips",
-          "summary": "TSMC is considering a new chipmaking campus in Texas that would add tens of billions of dollars to its US expansion, according to Taiwan's Economic Daily News. The move would deepen the world's largest contract chipmaker's bet on US-based production as AI chip demand keeps surging.",
+          "headline": "Nvidia's AI rally isn't a bubble, DBS says",
+          "summary": "DBS Bank said Nvidia's soaring valuation reflects genuine earnings power rather than speculative excess, even as the stock nears record highs. The analysis pushes back on growing Wall Street debate over whether AI infrastructure spending has outpaced real demand.",
           "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-01/tsmc-mulls-multibillion-dollar-texas-campus-for-more-ai-chips"
+          "url": "https://www.bloomberg.com/news/articles/2026-10-05/nvidia-s-valuations-show-ai-rally-isn-t-a-bubble-dbs-says"
         },
         {
-          "headline": "Nvidia board adds $150 billion to buyback program",
-          "summary": "Nvidia's board authorized an additional $150 billion for share repurchases, lifting its total remaining buyback authorization to $235 billion. The move signals confidence in sustained AI chip demand even as Nvidia commits massive capital to data-center and model-maker partnerships.",
-          "source": "NVIDIA Newsroom",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase"
+          "headline": "Asia economies seen most exposed to AI correction",
+          "summary": "Researchers warned that Asian economies, heavily tied to AI-chip supply chains and exports, are among the most vulnerable if the AI investment boom cools. The warning adds to a growing debate over concentration risk in global markets tied to a handful of AI infrastructure bets.",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-05/asia-economies-among-most-at-risk-from-any-ai-correction-researchers-warn"
         },
         {
-          "headline": "Stargate expands with five new AI data center sites",
-          "summary": "OpenAI, Oracle and SoftBank announced five additional Stargate data center sites as part of their joint US AI infrastructure build-out. The expansion adds to the project's existing capacity as the partners race to secure power and compute for OpenAI's growing workloads.",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/five-new-stargate-sites/"
+          "headline": "Microsoft's AI-driven quarter is its best since 1998",
+          "summary": "Microsoft shares jumped 37.5% in its fiscal first quarter, the company's best quarterly showing since 1998, adding roughly $1 trillion to its market value on AI-driven demand. The surge highlights how cloud and AI infrastructure spending keep powering Big Tech's biggest players.",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-01/microsoft-s-trillion-dollar-quarter-shows-ai-trade-won-t-quit"
         },
         {
-          "headline": "Broadcom extends Meta partnership on custom AI chips",
-          "summary": "Broadcom announced an extended, multi-generational partnership with Meta to deploy technology supporting multiple gigawatts of Meta's custom MTIA silicon. The deal builds on the companies' existing collaboration and underscores Meta's push to reduce reliance on merchant GPU suppliers for AI training and inference.",
-          "source": "Broadcom",
-          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-announces-extended-partnership-meta-deploy-technology"
+          "headline": "Cramer watches execution of Nvidia's buyback plan",
+          "summary": "CNBC's Jim Cramer said he is closely tracking how Nvidia deploys its expanded stock-buyback authorization as the chipmaker's valuation climbs toward $6 trillion. How aggressively Nvidia buys back shares is seen as a signal of management's confidence in sustained AI chip demand.",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/investingclub/2026/10/05/cramer-is-closely-watching-nvidias-buyback-heres-what-he-wants-to-see.html"
         }
       ]
     },
@@ -68,16 +68,22 @@
       "name": "Labs & models",
       "items": [
         {
-          "headline": "OpenAI's DevDay 2026 opens ChatGPT as agent platform",
-          "summary": "At DevDay 2026, OpenAI introduced agents that can take on ongoing responsibilities and said it is opening ChatGPT as a shared surface where people and AI agents collaborate. OpenAI said ChatGPT now reaches 1.2 billion weekly users, underscoring the platform's scale as it pushes deeper into agentic AI.",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/devday-2026-recap/"
+          "headline": "OpenAI launches visual ads next to AI images",
+          "summary": "OpenAI is adding visual display ads that will appear alongside images ChatGPT generates for users, starting with an initial group of advertisers in the US. The move marks a new revenue stream for OpenAI as it seeks to offset its massive infrastructure spending.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
         },
         {
-          "headline": "AWS unveils trio of new AI strategy announcements",
-          "summary": "At its 'What's Next with AWS' event, AWS launched Amazon Quick, an AI work assistant, and expanded Amazon Connect into agentic AI tools for supply chain, hiring and customer experience. AWS also said it is bringing OpenAI's GPT-5.5 and Codex models to Amazon Bedrock in limited preview.",
-          "source": "AWS",
-          "url": "https://aws.amazon.com/blogs/aws/top-announcements-of-the-whats-next-with-aws-2026/"
+          "headline": "Nvidia-backed Reflection AI unveils open model vs China",
+          "summary": "Reflection AI, a startup founded by former Google DeepMind researchers and backed by Nvidia, unveiled a new open-weight model it says rivals top offerings from both US and Chinese labs. The launch adds a US-based open-source contender to a field increasingly shaped by Chinese rivals like DeepSeek.",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-05/nvidia-backed-reflection-unveils-open-ai-model-taking-on-china"
+        },
+        {
+          "headline": "Anthropic to invest $100 million in engineer training",
+          "summary": "Anthropic will invest $100 million in a new program called the Claude Frontier Academy, aiming to train 10,000 \"frontier deployed engineers\" by the end of 2027. The initiative reflects a broader industry push to build a skilled workforce capable of deploying advanced AI systems at scale.",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/02/anthropic-to-invest-100-million-to-train-ai-engineer-talent.html"
         }
       ]
     },
@@ -85,22 +91,10 @@
       "name": "China AI",
       "items": [
         {
-          "headline": "DeepSeek and Huawei chip away at Nvidia's AI moat",
-          "summary": "DeepSeek and Huawei have released open-source Ascend AI programming tools to cut reliance on Nvidia's CUDA software ecosystem, Bloomberg Opinion reports. The tools could make it easier for Chinese AI firms still dependent on American hardware to shift to homegrown chips over time.",
-          "source": "Bloomberg Opinion",
-          "url": "https://bloomberg.com/opinion/articles/2026-10-04/deepseek-and-huawei-take-aim-at-nvidia-s-formidable-moat"
-        },
-        {
-          "headline": "Researchers find censorship built into Alibaba's Qwen AI model",
-          "summary": "Israeli cybersecurity startup Hirundo found that Alibaba's open-weight Qwen model, downloaded more than 3 billion times and used by firms including Airbnb and Uber, contains China-friendly narratives and apparent programmed censorship on sensitive topics. The findings raise fresh questions about relying on Chinese open-source models globally.",
-          "source": "CBS News",
-          "url": "https://www.cbsnews.com/news/china-ai-qwen-artificial-intelligence-bias-analysis/"
-        },
-        {
-          "headline": "Alibaba, ByteDance and Zhipu AI named to Time's AI list",
-          "summary": "Time magazine included Alibaba, ByteDance and Zhipu AI on its first list of the 10 most influential AI companies of 2026, SCMP reports. The recognition highlights how far Chinese AI developers have advanced in models, consumer assistants and enterprise tools despite US chip export restrictions.",
-          "source": "South China Morning Post",
-          "url": "https://www.scmp.com/tech/article/3351823/chinas-alibaba-bytedance-and-zhipu-ai-make-cut-times-first-ai-list"
+          "headline": "OpenAI ties prompt-extraction campaign to Moonshot AI",
+          "summary": "OpenAI said it disrupted a coordinated campaign attempting to extract its models' protected reasoning, linking a core cluster of activity to Chinese startup Moonshot AI, maker of Kimi. The campaign surged to 16,000 requests from more than 4,000 users over two days before OpenAI shut it down in late July.",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/01/openai-chinas-moonshot-ai-kimi.html"
         }
       ]
     },
@@ -108,10 +102,10 @@
       "name": "What the CEOs said",
       "items": [
         {
-          "headline": "Huang: AI 'doomsday narratives' from rivals make no sense",
-          "summary": "Jensen Huang said claims that AI could end the world by 2030 are baseless, calling such warnings from other AI leaders 'irresponsible' and suggesting they have 'ulterior reasons' for making them. Huang maintains Nvidia can move fast on AI while still treating safety as 'paramount.'",
-          "source": "Fortune",
-          "url": "https://fortune.com/2026/10/04/nvidia-jensen-huang-ai-doomerism-foil-risk/"
+          "headline": "Altman: religious framing of AI models is risky",
+          "summary": "OpenAI CEO Sam Altman said treating AI models as religious or spiritual figures poses a genuine \"safety issue,\" as some users form intense emotional attachments to chatbots. His comments came amid broader industry debate over AI's psychological effects on users.",
+          "source": "Axios",
+          "url": "https://www.axios.com/2026/10/03/openai-anthropic-altman-amodei-religious-force-models"
         }
       ]
     },
@@ -119,10 +113,10 @@
       "name": "Washington & policy",
       "items": [
         {
-          "headline": "Musk returns to Trump administration for Pentagon AI study",
-          "summary": "Elon Musk is co-leading a Pentagon study on AI and modern warfare after returning to an advisory role with the Trump administration, euronews reports. His renewed government role comes as the White House pushes to centralize federal AI policy through new oversight bodies.",
-          "source": "euronews",
-          "url": "https://www.euronews.com/2026/10/01/elon-musk-returns-to-trump-administration-to-co-lead-pentagon-war-study"
+          "headline": "FTC puts OpenAI and Anthropic in its crosshairs",
+          "summary": "The Federal Trade Commission is investigating OpenAI, Anthropic and other AI companies over potential safety risks posed by their products. FTC Chair Andrew Ferguson is preparing civil investigative demands that would compel AI executives to turn over documents and testify about model safety.",
+          "source": "Axios",
+          "url": "https://www.axios.com/2026/09/30/ftc-openai-anthropic-ai-safety-investigation"
         }
       ]
     },
@@ -130,10 +124,10 @@
       "name": "World governments",
       "items": [
         {
-          "headline": "UAE's Sharjah forum to explore AI for government services",
-          "summary": "The Sharjah Investment Forum will examine how AI can transform government operations and investor services, Gulf Today reports. The event reflects the UAE's continued push to position itself as a regional hub for applying AI across public administration and finance.",
-          "source": "Gulf Today",
-          "url": "https://www.gulftoday.ae/business/2026/10/03/sharjah-investment-forum-to-analyse-how-ai-can-change-govt-investor-services"
+          "headline": "Malaysia plans its first dedicated AI law",
+          "summary": "Malaysia plans to introduce its first dedicated artificial intelligence law in early 2027, joining a wave of governments tightening AI oversight. The move reflects growing global scrutiny of AI's risks, from safety failures to misuse, even as the technology races ahead commercially.",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-05/malaysia-plans-its-first-ai-law-as-global-scrutiny-intensifies"
         }
       ]
     },
@@ -141,10 +135,10 @@
       "name": "Money & deals",
       "items": [
         {
-          "headline": "AI megadeals lead this week's biggest funding rounds",
-          "summary": "Personal AI assistant startup Instinct raised $1 billion in a Series C round at a $10 billion valuation, while AI agent platform Temporal Technologies raised $550 million at a $12.55 billion valuation, Crunchbase News reports. The rounds show investors still pouring money into AI despite broader market caution.",
-          "source": "Crunchbase News",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/"
+          "headline": "Chip startup Etched draws $40 billion valuation offers",
+          "summary": "AI chip startup Etched is reviewing investment offers valuing it at $40 billion or more, roughly double the $21 billion valuation it secured just months ago. The surge in interest reflects investors' continued appetite for AI infrastructure bets even amid bubble concerns.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/"
         }
       ]
     },
@@ -152,16 +146,16 @@
       "name": "India AI",
       "items": [
         {
-          "headline": "India approves 13 projects to tackle AI deepfakes and bias",
-          "summary": "The IndiaAI Mission's Safe & Trusted AI pillar has greenlit 13 responsible-AI projects at academic institutions covering bias mitigation, deepfake detection, privacy-preserving AI and explainability, per a government press release. The push aims to build citizen trust in AI ahead of India's AI Impact Summit 2026.",
-          "source": "Press Information Bureau, Government of India",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2289946&reg=48&lang=2"
+          "headline": "Lightspeed raises $250 million for early-stage India AI fund",
+          "summary": "Venture firm Lightspeed is targeting $250 million for a new early-stage fund, Lightspeed India Partners V, focused on AI startups, having already secured 80% of its target. The fund bets that AI will drive India's next wave of startup growth.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/"
         },
         {
-          "headline": "Gujarat hosts AI governance conclave ahead of India summit",
-          "summary": "The IndiaAI Mission and the Gujarat government co-hosted a conclave on using AI for good governance, part of preparations for the India AI Impact Summit 2026, The Tribune reports. The event focused on how state governments can responsibly deploy AI in public administration.",
-          "source": "The Tribune",
-          "url": "https://www.tribuneindia.com/news/business/indiaai-mission-gujarat-govt-host-conclave-on-ai-for-good-governance-ahead-of-india-ai-impact-summit-2026"
+          "headline": "India readies $25 billion for deep-tech AI investment",
+          "summary": "India is preparing to deploy $25 billion to support deep-tech startups, including $11 billion from a government Research Development Infrastructure Fund matched by private capital. The push aims to help India catch up with the US and China in the global AI race.",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/29/india-investment-billions-tech-ai-us-china.html"
         }
       ]
     }
