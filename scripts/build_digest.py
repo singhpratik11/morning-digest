@@ -11,6 +11,7 @@ import os
 import re
 import sys
 import html
+import time
 import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
@@ -18,7 +19,7 @@ from datetime import datetime, timezone, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from feeds import (FEEDS, BUCKET_ORDER, LLM_ORDER, AI_ORDER, AI_FEEDS, AI_RSS_ORDER,  # noqa: E402
-                   MIN_ITEMS, CURATED)
+                   MIN_ITEMS, CURATED, IPO_LIST_URL, IPO_GMP_URL)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "digests.json")
@@ -270,6 +271,187 @@ def add_curated(buckets, doy):
         buckets["Framework"] = [curated_card(f["name"], body, f.get("source"), f.get("url"))]
 
 
+# --- IPOs: open + upcoming mainboard issues -------------------------------------------
+MON = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug",
+                                   "sep", "oct", "nov", "dec"], 1)}
+
+
+def page_text(x):
+    return " ".join(html.unescape(re.sub(r"<[^>]+>", " ", x)).split())
+
+
+def table_fields(page):
+    # First two cells of every table row -> {label: value}.
+    out = {}
+    for row in re.findall(r"<tr.*?</tr>", page, re.S):
+        cells = [page_text(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", row, re.S)]
+        if len(cells) >= 2 and cells[0] and cells[0] not in out:
+            out[cells[0]] = cells[1]
+    return out
+
+
+def inr(n):
+    # Indian digit grouping: 1465000 -> 14,65,000
+    s = str(int(round(n)))
+    if len(s) <= 3:
+        return s
+    head, tail = s[:-3], s[-3:]
+    head = re.sub(r"(\d)(?=(\d\d)+$)", r"\1,", head)
+    return head + "," + tail
+
+
+def ipo_key(name):
+    k = re.sub(r"[^a-z0-9 ]", "", name.lower())
+    k = re.sub(r"\b(ipo|limited|ltd|india|open|upcoming|closed)\b", "", k)
+    return re.sub(r"\s+", "", k)
+
+
+def ipo_dates(text, year_hint):
+    # "15 to 19 Oct, 2026" / "29 Oct to 3 Nov, 2026" -> (date, date) or (None, None)
+    m = re.search(r"(\d{1,2})\s*([A-Za-z]{3})?\w*\s+to\s+(\d{1,2})\s+([A-Za-z]{3})\w*,?\s*(\d{4})?", text or "")
+    if not m:
+        return None, None
+    d1, m1, d2, m2, y = m.groups()
+    m2n = MON.get(m2.lower()[:3])
+    m1n = MON.get((m1 or m2).lower()[:3])
+    y = int(y or year_hint)
+    try:
+        close = datetime(y, m2n, int(d2)).date()
+        open_ = datetime(y - (1 if m1n > m2n else 0), m1n, int(d1)).date()
+    except (TypeError, ValueError):
+        return None, None
+    return open_, close
+
+
+def short_date(d):
+    return "%d %s" % (d.day, MONTHS[d.month][:3])
+
+
+def ipo_gmp():
+    # ipowatch's first table is mainboard: Company | GMP | Trend | Price | Est. gain | Date
+    raw = fetch(IPO_GMP_URL)
+    if not raw:
+        return {}
+    page = raw.decode("utf-8", "ignore")
+    tables = re.findall(r"<table.*?</table>", page, re.S)
+    out = {}
+    for row in re.findall(r"<tr.*?</tr>", tables[0] if tables else "", re.S):
+        name = re.search(r"<a[^>]*>(.*?)</a>", row, re.S)
+        cells = [page_text(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]
+        if not name or len(cells) < 2:
+            continue
+        g = re.search(r"(-?)\s*₹?\s*(-?\d[\d,]*)", cells[1])
+        if g:
+            val = int(g.group(2).replace(",", ""))
+            out[ipo_key(page_text(name.group(1)))] = -abs(val) if g.group(1) else val
+    return out
+
+
+def ipo_card(url, name, status, today, gmps):
+    raw = fetch(url)
+    if not raw:
+        return None
+    page = re.sub(r"<script.*?</script>|<style.*?</style>", "", raw.decode("utf-8", "ignore"), flags=re.S)
+    f = table_fields(page)
+    open_, close = ipo_dates(f.get("IPO Date", ""), today.year)
+    band = [int(x.replace(",", "")) for x in re.findall(r"₹\s*([\d,]+)", f.get("Price Band", ""))]
+    top = band[-1] if band else None
+    lot = re.search(r"([\d,]+)\s*Shares", f.get("Lot Size", ""))
+    lot = int(lot.group(1).replace(",", "")) if lot else None
+
+    def crore(label):
+        m = re.search(r"₹\s*([\d,.]+)\s*Cr", f.get(label, ""))
+        return "₹%s Cr" % m.group(1) if m else ""
+    size, fresh, ofs = crore("Total Issue Size"), crore("Fresh Issue"), crore("Offer for Sale")
+    sale = f.get("Sale Type", "")
+    if fresh and ofs:
+        kind = "fresh %s + OFS %s" % (fresh, ofs)
+    elif re.search(r"(?i)ofs|offer for sale", sale) and not re.search(r"(?i)fresh", sale):
+        kind = "OFS only"
+    elif re.search(r"(?i)fresh", sale) and not re.search(r"(?i)offer for sale|ofs", sale):
+        kind = "fresh issue only"
+    else:
+        kind = sale
+
+    about = ""
+    for m in re.finditer(r"<h[2-4][^>]*>(.*?)</h[2-4]>", page, re.S):
+        if re.match(r"(?i)about\b", page_text(m.group(1))):
+            para = re.search(r"<p[^>]*>(.*?)</p>", page[m.end():m.end() + 6000], re.S)
+            if para:
+                about = re.split(r"(?<=[a-z0-9)])\.\s", page_text(para.group(1)) + " ")[0]
+            break
+    cut = about.find(" is ")
+    if 0 < cut < 90:                      # "X Ltd is one of India's ..." -> "One of India's ..."
+        about = about[cut + 4:]
+    about = clean_text(about[:1].upper() + about[1:], 120)
+
+    if status == "open" and close:
+        when = "closes today" if close == today else "open till " + short_date(close)
+    elif open_:
+        when = "opens " + short_date(open_)
+    else:
+        when = "dates to be announced"
+    parts = []
+    if about:
+        parts.append("**Industry:** " + about)
+    if size or kind:
+        parts.append("**Size:** " + " · ".join(x for x in (size, kind) if x))
+    price = "₹%s–%s" % (inr(band[0]), inr(top)) if len(band) >= 2 else (f.get("Price Band") or "to be announced")
+    lot_txt = ("%s shares (₹%s)" % (inr(lot), inr(lot * top))) if lot and top else "to be announced"
+    parts.append("**Price band:** %s · **Lot:** %s" % (price, lot_txt))
+    gmp = next((v for k, v in gmps.items() if k and (k.startswith(ipo_key(name)[:8]) or
+                                                     ipo_key(name).startswith(k[:8]))), None)
+    if gmp is None:
+        parts.append("**GMP:** not quoted yet")
+    elif top:
+        parts.append("**GMP:** ₹%d (%s%.0f%% est. listing, unofficial)" % (gmp, "+" if gmp >= 0 else "", 100.0 * gmp / top))
+    else:
+        parts.append("**GMP:** ₹%d (unofficial)" % gmp)
+    lists = re.search(r"([A-Za-z]{3})\w*\s+(\d{1,2}),\s*(\d{4})", f.get("Listing Date", ""))
+    if open_ and close:
+        dates = ("%d–%s" % (open_.day, short_date(close)) if open_.month == close.month
+                 else "%s–%s" % (short_date(open_), short_date(close)))
+    else:
+        dates = f.get("IPO Date", "")
+    if lists and MON.get(lists.group(1).lower()):
+        dates += " · lists %s %s" % (lists.group(2), MONTHS[MON[lists.group(1).lower()]][:3])
+    if dates:
+        parts.append("**Dates:** " + dates)
+    card = {"headline": brief_text("%s · %s" % (name, when)), "body": " ¶".join(parts),
+            "source": "Chittorgarh", "url": safe_url(url)}
+    return (0 if status == "open" else 1, close or open_ or today, card)
+
+
+def add_ipos(buckets, now):
+    # Open issues (closing soonest first), then upcoming. Any failure just drops the section.
+    try:
+        raw = fetch(IPO_LIST_URL)
+        page = raw.decode("utf-8", "ignore") if raw else ""
+        listed, seen = [], set()
+        for status, para in re.findall(r"(?is)<p>\s*The (current|upcoming) mainboard\b(.*?)</p>", page):
+            for url, title in re.findall(r'href="(https://www\.chittorgarh\.com/ipo/[a-z0-9-]+/\d+/)"'
+                                         r'\s+title="([^"]+)"', para):
+                if url not in seen:
+                    seen.add(url)
+                    listed.append((url, re.sub(r"\s+IPO$", "", html.unescape(title)).strip(),
+                                   "open" if status.lower() == "current" else "upcoming"))
+        if not listed:
+            log("  ! IPOs: no open or upcoming mainboard issues found")
+            return
+        gmps = ipo_gmp()
+        cards = []
+        for url, name, status in listed[:12]:
+            time.sleep(1)
+            c = ipo_card(url, name, status, now.date(), gmps)
+            if c:
+                cards.append(c)
+        cards.sort(key=lambda c: (c[0], c[1]))
+        buckets["IPOs"] = [c[2] for c in cards]
+        log("IPOs:", len(cards), "| GMP quotes:", len(gmps))
+    except Exception as e:  # noqa: BLE001
+        log("  ! IPOs failed:", type(e).__name__, e)
+
+
 def load_llm(path, order, date):
     # Today's synthesized deck from a cloud routine, or None (missing, stale or malformed).
     try:
@@ -354,8 +536,8 @@ def latest_headlines(rss):
     return out
 
 
-NEWS_MIX = ("**The mix:** world, India, business, tech and sport, plus a case to crack, "
-            "a guesstimate to try and a framework to keep.")
+NEWS_MIX = ("**The mix:** world, India, business, open IPOs, tech and sport, plus a case to "
+            "crack, a guesstimate to try and a framework to keep.")
 AI_MIX = "**The mix:** chips, labs, China, what the CEOs said and what Washington is doing."
 AI_RSS_MIX = "**The mix:** labs, chips, China, policy, money and India AI, straight from the outlets."
 
@@ -402,6 +584,7 @@ def main():
     else:
         buckets, overview, order = rss, None, BUCKET_ORDER
     add_curated(buckets, doy)
+    add_ipos(buckets, now)
     markdown, total = build_markdown(buckets, now, order, overview)
 
     story_count = sum(min(len(buckets.get(b, [])), cap)

@@ -30,10 +30,13 @@ news interleaved with practice, ending on a framework:
 2. **India** - The Hindu, Indian Express, NDTV, Hindustan Times
 3. **Case brief** - an Indian company or industry case ([`data/case_briefs.json`](data/case_briefs.json))
 4. **Business & markets** - ET, Business Standard, Mint, BBC Business
-5. **Guesstimate** - ([`data/guesstimates.json`](data/guesstimates.json)), answer behind "try it first, then reveal"
-6. **Startups & tech** - Inc42, Entrackr, ET Tech
-7. **Sports** - ESPNcricinfo, BBC Sport, The Hindu
-8. **Framework** - ([`data/frameworks.json`](data/frameworks.json))
+5. **IPOs** - open and upcoming mainboard IPOs: industry, issue size, fresh issue vs OFS, price
+   band, lot size (and cost of one lot), GMP with the implied listing gain, dates. From
+   Chittorgarh (list + each IPO's page) and ipowatch (grey-market premium, unofficial)
+6. **Guesstimate** - ([`data/guesstimates.json`](data/guesstimates.json)), answer behind "try it first, then reveal"
+7. **Startups & tech** - Inc42, Entrackr, ET Tech
+8. **Sports** - ESPNcricinfo, BBC Sport, The Hindu
+9. **Framework** - ([`data/frameworks.json`](data/frameworks.json))
 
 Curated decks rotate one entry a day. In curated bodies, `¶` is a line break and `‖` splits
 what's shown from what the reveal hides. Live blogs are skipped. Indian news feeds block
