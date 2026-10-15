@@ -13,6 +13,7 @@
 <meta name="theme-color" content="#191b1e" media="(prefers-color-scheme: dark)">
 <style>
   :root{
+    --tab-h:62px;
     --app-bg:#eceae4;
     --ground:#f7f6f3;
     --surface:#fffdf8;
@@ -77,6 +78,7 @@
     .app{height:min(920px,calc(100dvh - 44px));border-radius:var(--frame-radius);
       box-shadow:var(--shadow);border:1px solid var(--hair);}
     .deck{border-radius:var(--frame-radius)}
+    .tabbar{border-radius:0 0 var(--frame-radius) var(--frame-radius)}
   }
 
   /* ---------- HUD ---------- */
@@ -84,9 +86,6 @@
     background:linear-gradient(var(--ground) 62%, transparent);
     padding:calc(env(safe-area-inset-top) + 16px) 14px 8px;}
   .bar{display:flex;align-items:center;gap:6px;pointer-events:auto}
-  .brandmark{font-family:"Newsreader",Georgia,serif;font-weight:700;font-size:1rem;
-    letter-spacing:-.01em;color:var(--ink);display:flex;align-items:center;gap:.35rem;margin-right:2px;}
-  .brandmark .dot{color:var(--accent)}
   .edpick{display:flex;align-items:center;gap:1px;background:var(--surface);border:1px solid var(--hair);
     border-radius:999px;padding:2px;box-shadow:var(--shadow)}
   .edpick .date{font-size:.72rem;font-weight:700;color:var(--ink-soft);padding:.2rem .5rem;border:0;background:transparent;
@@ -96,53 +95,35 @@
   .chev:disabled{opacity:.3;cursor:default}
   .chev:not(:disabled):hover{color:var(--ink)}
   .spacer{flex:1}
-  .hud-btn{position:relative;width:2.2rem;height:2.2rem;border-radius:50%;border:1px solid var(--hair);
-    background:var(--surface);box-shadow:var(--shadow);color:var(--ink-soft);cursor:pointer;
-    display:inline-flex;align-items:center;justify-content:center}
-  .hud-btn:hover{color:var(--ink)}
-  .hud-btn svg{width:1.15rem;height:1.15rem}
-  .hud-btn .count{position:absolute;top:-4px;right:-4px;min-width:1.05rem;height:1.05rem;padding:0 .25rem;
-    border-radius:999px;background:var(--accent);color:var(--accent-ink);font-size:.62rem;font-weight:700;
+  /* bottom tab bar: News · AI · IPOs · Saved (tap the active tab again = back to the first card) */
+  .tabbar{position:absolute;left:0;right:0;bottom:0;z-index:16;display:flex;
+    padding:6px 6px calc(env(safe-area-inset-bottom) + 6px);background:var(--ground);border-top:1px solid var(--hair)}
+  .tabbar[hidden]{display:none}
+  .tabbar button{flex:1;position:relative;display:flex;flex-direction:column;align-items:center;gap:3px;border:0;
+    background:none;color:var(--ink-mute);font:700 .66rem Manrope,sans-serif;letter-spacing:.03em;padding:5px 0 3px;cursor:pointer}
+  .tabbar button[hidden]{display:none}
+  .tabbar svg{width:1.4rem;height:1.4rem}
+  .tabbar button[aria-pressed="true"]{color:var(--accent)}
+  .tabbar button:hover{color:var(--ink)}
+  .tabbar button[aria-pressed="true"]:hover{color:var(--accent)}
+  .count{position:absolute;top:0;left:calc(50% + 5px);min-width:1.05rem;height:1.05rem;padding:0 .25rem;
+    border-radius:999px;background:var(--accent);color:var(--accent-ink);font-size:.6rem;font-weight:700;
     display:inline-flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
   .count[hidden]{display:none}
-  /* story position, bottom-left beside the jump-to-top button: "1/57" */
-  .counter{position:absolute;left:calc(16px + 2.6rem + 10px);bottom:calc(env(safe-area-inset-bottom) + 92px);
-    height:2.6rem;display:flex;align-items:center;z-index:15;pointer-events:none;
-    font-size:.78rem;font-weight:700;color:var(--ink-mute);font-variant-numeric:tabular-nums;white-space:nowrap}
-  .counter.solo{left:16px}
-  .counter[hidden]{display:none}
+  /* story position "12/45", bottom-left of each card */
+  .pos{font-variant-numeric:tabular-nums;font-weight:700;color:var(--ink-mute);margin-right:.55rem}
   .progress{margin:9px 2px 0;height:3px;border-radius:3px;background:var(--hair);overflow:hidden;pointer-events:auto}
   .progress-fill{height:100%;width:0;background:var(--accent);transition:width .18s ease}
   .secnav{position:relative;pointer-events:auto;align-self:flex-start}
-  @media (max-width:420px){.brandmark{display:none}.mode button{padding:.38rem .56rem;font-size:.76rem}}  /* room for date + switch + saved */
   @media (max-height:720px){.card.intro .hero-svg{max-height:9vh;margin-top:.6rem}}  /* short phones: text clears the swipe hint */
-  @media (max-width:385px){.bar{gap:4px}.mode button{padding:.36rem .44rem}.edpick .date{padding:.2rem .3rem}.chev{width:1.25rem}}
-  .row2{display:flex;align-items:flex-start;gap:8px;margin-top:9px;pointer-events:auto}
-  .mode{display:inline-flex;border:1px solid var(--hair);border-radius:999px;background:var(--surface);
-    box-shadow:var(--shadow);padding:2px;flex:none}
-  .mode button{border:0;background:none;font:600 .8rem Manrope,sans-serif;color:var(--ink-mute);
-    padding:.42rem .8rem;border-radius:999px;cursor:pointer}
-  .mode button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
-  .usage{padding:.2rem 0 1rem;font-size:.86rem;color:var(--ink-soft)}
-  .usage .plan{background:var(--accent-soft);border-radius:12px;padding:.8rem .9rem;margin-bottom:.9rem;line-height:1.5}
-  .usage .plan b{color:var(--ink)}
-  .usage .tiles{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:.9rem}
-  .usage .tile{border:1px solid var(--hair);border-radius:12px;padding:.65rem .8rem}
-  .usage .tile .k{font-size:.72rem;color:var(--ink-mute);font-weight:600}
-  .usage .tile .v{font:600 1.2rem Newsreader,Georgia,serif;color:var(--ink)}
-  .usage h3{font:600 .8rem Manrope,sans-serif;color:var(--ink-mute);letter-spacing:.04em;text-transform:uppercase;margin:.4rem 0 .4rem}
-  .usage table{width:100%;border-collapse:collapse;font-size:.8rem}
-  .usage td,.usage th{padding:.45rem .2rem;border-bottom:1px solid var(--hair);text-align:left}
-  .usage th{color:var(--ink-mute);font-weight:600}
-  .usage td.num,.usage th.num{text-align:right}
-  .usage .note{font-size:.76rem;color:var(--ink-mute);margin-top:.8rem;line-height:1.5}
+  @media (max-width:385px){.bar{gap:4px}.edpick .date{padding:.2rem .3rem}.chev{width:1.25rem}.sec-trigger{max-width:46vw}}
   .sec-trigger{display:inline-flex;align-items:center;gap:.4rem;border:1px solid var(--hair);
     background:var(--surface);color:var(--ink);font-size:.72rem;font-weight:700;letter-spacing:.02em;
-    padding:.34rem .7rem;border-radius:999px;cursor:pointer;box-shadow:var(--shadow);max-width:80vw}
+    padding:.34rem .7rem;border-radius:999px;cursor:pointer;box-shadow:var(--shadow);max-width:52vw}
   .sec-trigger span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .sec-trigger .chev-d{width:.85rem;height:.85rem;flex:none;color:var(--ink-mute);transition:transform .18s}
   .sec-trigger[aria-expanded="true"] .chev-d{transform:rotate(180deg)}
-  .sec-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:18;min-width:236px;max-width:88vw;
+  .sec-menu{position:absolute;top:calc(100% + 6px);right:0;z-index:18;min-width:236px;max-width:88vw;
     background:var(--surface);border:1px solid var(--hair);border-radius:14px;box-shadow:var(--shadow);
     padding:5px;max-height:62vh;overflow-y:auto}
   .sec-item{display:flex;align-items:center;gap:.5rem;width:100%;text-align:left;border:0;background:transparent;
@@ -159,7 +140,7 @@
 
   .card{height:100%;scroll-snap-align:start;scroll-snap-stop:always;position:relative;
     display:flex;flex-direction:column;
-    padding:calc(env(safe-area-inset-top) + 110px) 22px calc(env(safe-area-inset-bottom) + 26px);}
+    padding:calc(env(safe-area-inset-top) + 72px) 22px calc(env(safe-area-inset-bottom) + var(--tab-h) + 16px);}
   .chip{align-self:flex-start;font-size:.66rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;
     color:var(--accent);background:var(--accent-soft);padding:.34rem .66rem;border-radius:999px}
   .card-body{flex:1;display:flex;flex-direction:column;justify-content:center;gap:.7rem;min-height:0;padding:6px 0}
@@ -183,15 +164,17 @@
   .chg{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
   .chg.up{color:var(--up)}
   .chg.down{color:var(--down)}
-  .gloss{margin-top:.7rem;font-size:.72rem;line-height:1.55;color:var(--ink-mute);padding-left:3.6rem}
+  .gloss{margin-top:.7rem;font-size:.72rem;line-height:1.55;color:var(--ink-mute)}
   .gloss b{color:var(--ink-soft);font-weight:700}
 
   .card.intro .hl{font-size:clamp(1.9rem,7vw,2.5rem)}
-  .card.intro .card-body{padding-bottom:calc(env(safe-area-inset-bottom) + 92px)} /* keep text clear of the swipe hint */
+  .card.intro .card-body{padding-bottom:70px} /* keep text clear of the swipe hint */
   .card.intro .kicker{display:none} /* the animated SWIPE hint already says it */
   .card.intro .kicker{font-family:"Manrope";font-size:.9rem;color:var(--ink-mute);font-weight:600;margin-top:.2rem}
   .hero-svg{flex:none;width:100%;max-width:330px;height:auto;max-height:16vh;margin:1.1rem auto .1rem;display:block}
-  .byline{position:absolute;right:22px;bottom:calc(env(safe-area-inset-bottom) + 16px);
+  .intro-pos{position:absolute;left:22px;bottom:calc(env(safe-area-inset-bottom) + var(--tab-h) + 16px);
+    font-size:.78rem;font-weight:700;color:var(--ink-mute);font-variant-numeric:tabular-nums}
+  .byline{position:absolute;right:22px;bottom:calc(env(safe-area-inset-bottom) + var(--tab-h) + 16px);
     font-size:.7rem;font-weight:600;color:var(--ink-mute);letter-spacing:.03em}
 
   .card-foot{display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
@@ -215,7 +198,7 @@
   .act.open .ic{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 
   /* swipe hint */
-  .hint{position:absolute;left:0;right:0;bottom:calc(env(safe-area-inset-bottom) + 96px);
+  .hint{position:absolute;left:0;right:0;bottom:calc(env(safe-area-inset-bottom) + var(--tab-h) + 44px);
     display:flex;flex-direction:column;align-items:center;gap:2px;color:var(--ink-mute);
     font-size:.7rem;font-weight:600;letter-spacing:.05em;pointer-events:none;transition:opacity .4s}
   .hint svg{width:1.1rem;height:1.1rem;animation:bob 1.5s ease-in-out infinite}
@@ -266,18 +249,44 @@
 
   /* toast */
   .toast{position:absolute;left:50%;transform:translateX(-50%) translateY(20px);
-    bottom:calc(env(safe-area-inset-bottom) + 22px);z-index:30;background:var(--ink);color:var(--ground);
+    bottom:calc(env(safe-area-inset-bottom) + var(--tab-h) + 14px);z-index:30;background:var(--ink);color:var(--ground);
     font-size:.82rem;font-weight:600;padding:.5rem .95rem;border-radius:999px;opacity:0;pointer-events:none;
     transition:opacity .2s,transform .2s;box-shadow:var(--shadow)}
   .toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
 
-  .totop{position:absolute;left:16px;bottom:calc(env(safe-area-inset-bottom) + 92px);z-index:15;
-    width:2.6rem;height:2.6rem;border-radius:50%;border:1px solid var(--hair);background:var(--surface);
-    color:var(--ink-soft);box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;
-    cursor:pointer;opacity:0;transform:translateY(8px);transition:opacity .2s,transform .2s;pointer-events:none}
-  .totop svg{width:1.15rem;height:1.15rem}
-  .totop:hover{color:var(--ink)}
-  .totop.show{opacity:1;transform:none;pointer-events:auto}
+  /* IPO card: name, status pill, industry, GMP panel, 2-column facts */
+  .card.ipo .card-body{gap:.6rem;justify-content:flex-start;overflow-y:auto;scrollbar-width:none}
+  .card.ipo .card-body::-webkit-scrollbar{display:none}
+  .card.ipo .card-body>:first-child{margin-top:auto}   /* centred when it fits, top-aligned + scrollable when not */
+  .card.ipo .card-body>:last-child{margin-bottom:auto}
+  .ipo-ind{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+  @media (max-height:740px){
+    .card.ipo .card-body{gap:.45rem}
+    .card.ipo .hl{font-size:1.45rem}
+    .ipo-ind{-webkit-line-clamp:2;font-size:.86rem}
+    .ipo-gmp{padding:.5rem .75rem}.ipo-gmp .note{display:none}.ipo-gmp .v{font-size:1.3rem}
+    .ipo-grid{gap:.4rem .9rem}.ipo-grid dd{font-size:.88rem}
+  }
+  .card.ipo .hl{font-size:clamp(1.6rem,6vw,2.1rem)}
+  .ipo-status{align-self:flex-start;font-size:.72rem;font-weight:700;padding:.28rem .62rem;border-radius:999px;
+    background:var(--surface-2);color:var(--ink-soft)}
+  .ipo-status.open{color:var(--up);background:color-mix(in srgb,var(--up) 13%,transparent)}
+  .ipo-status.today{color:var(--down);background:color-mix(in srgb,var(--down) 13%,transparent)}
+  .ipo-status.soon{color:var(--accent);background:var(--accent-soft)}
+  .ipo-ind{margin:0;color:var(--ink-soft);font-size:.92rem;line-height:1.5}
+  .ipo-gmp{display:flex;align-items:baseline;flex-wrap:wrap;gap:.2rem .55rem;padding:.7rem .9rem;
+    border:1px solid var(--hair);border-radius:14px;background:var(--surface)}
+  .ipo-gmp .k{font-size:.64rem;font-weight:800;letter-spacing:.12em;color:var(--ink-mute)}
+  .ipo-gmp .v{font:600 1.55rem Newsreader,Georgia,serif;color:var(--ink);font-variant-numeric:tabular-nums}
+  .ipo-gmp .chg{font-size:1rem}
+  .ipo-gmp .note{flex-basis:100%;font-size:.7rem;color:var(--ink-mute)}
+  .ipo-gmp.none .v{font:600 1rem Manrope,sans-serif;color:var(--ink-mute)}
+  .ipo-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem 1rem;margin:0}
+  .ipo-grid div{border-top:1px solid var(--hair);padding-top:.45rem;min-width:0}
+  .ipo-grid .wide{grid-column:1/-1}
+  .ipo-grid dt{font-size:.62rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-mute)}
+  .ipo-grid dd{margin:.14rem 0 0;font-size:.95rem;font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+  .ipo-grid dd small{display:block;font-size:.72rem;font-weight:600;color:var(--ink-mute)}
 
   :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:8px}
   @media (prefers-reduced-motion:reduce){
@@ -290,34 +299,31 @@
 <div class="app" id="app">
   <div class="hud" id="hud" hidden>
     <div class="bar">
-      <span class="brandmark"><span class="dot">◆</span><span class="bm-word">Digest</span></span>
       <span class="edpick">
         <button class="chev" id="prevDay" aria-label="Older edition"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
         <button class="date" id="editionDate" aria-label="Edition date">—</button>
         <button class="chev" id="nextDay" aria-label="Newer edition"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
       </span>
-      <div class="mode" id="modeSwitch" hidden role="group" aria-label="Deck">
-      <button data-mode="news" aria-pressed="true">News</button><button data-mode="ai" aria-pressed="false" id="aiTab">AI</button><button data-view="tokens" aria-pressed="false">Tokens</button>
-    </div>
       <span class="spacer"></span>
-      <button class="hud-btn" id="openSaved" aria-label="Saved stories">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h12a1 1 0 0 1 1 1v15l-7-4-7 4V5a1 1 0 0 1 1-1z"/></svg>
-        <span class="count" id="savedCount" hidden>0</span>
-      </button>
+      <div class="secnav" id="secnav" hidden>
+        <button class="sec-trigger" id="secTrigger" aria-haspopup="true" aria-expanded="false">
+          <span id="secCurrent">Sections</span>
+          <svg class="chev-d" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="sec-menu" id="secMenu" hidden></div>
+      </div>
     </div>
     <div class="progress"><div class="progress-fill" id="progressFill"></div></div>
-    <div class="row2">
-    <div class="secnav" id="secnav" hidden>
-      <button class="sec-trigger" id="secTrigger" aria-haspopup="true" aria-expanded="false">
-        <span id="secCurrent">Jump to section</span>
-        <svg class="chev-d" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
-      </button>
-      <div class="sec-menu" id="secMenu" hidden></div>
-    </div>
-    </div>
   </div>
 
   <div class="deck" id="deck" tabindex="0" aria-label="News feed" hidden></div>
+
+  <nav class="tabbar" id="tabbar" hidden aria-label="Decks">
+    <button data-mode="news" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h12v14H6a2 2 0 0 1-2-2V5z"/><path d="M16 9h4v8a2 2 0 0 1-2 2h-2"/><path d="M7.5 9h5M7.5 12.5h5M7.5 16h3"/></svg><span>News</span></button>
+    <button data-mode="ai" aria-pressed="false" id="aiTab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 3.5l1.9 4.6 4.6 1.9-4.6 1.9L11 16.5l-1.9-4.6L4.5 10l4.6-1.9z"/><path d="M18.5 14.5l.8 1.9 1.9.8-1.9.8-.8 1.9-.8-1.9-1.9-.8 1.9-.8z"/></svg><span>AI</span></button>
+    <button data-mode="ipo" aria-pressed="false" id="ipoTab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 16.5l5.5-5.5 4 4 7.5-7.5"/><path d="M15 7.5h5.5V13"/><path d="M3.5 20.5h17"/></svg><span>IPOs</span></button>
+    <button data-view="saved" id="openSaved" aria-label="Saved stories"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h12a1 1 0 0 1 1 1v15l-7-4-7 4V5a1 1 0 0 1 1-1z"/></svg><span>Saved</span><span class="count" id="savedCount" hidden>0</span></button>
+  </nav>
 
   <div class="state" id="state">
     <div class="spin"></div>
@@ -334,8 +340,6 @@
   </div>
 
   <div class="toast" id="toast"></div>
-  <span class="counter" id="counter" hidden>1/1</span>
-  <button class="totop" id="toTopBtn" aria-label="Jump to top" title="Jump to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
 </div>
 
 <script>
@@ -398,12 +402,12 @@
     cards.push({kind:"intro",deck:ed.deck,date:ed.date,displayDate:ed.displayDate,tone:ed.tone});
     ed.sections.forEach(function(s){
       var label=/worth opening/i.test(s.title)?"Worth opening":s.title;
-      s.items.forEach(function(it){var c=Object.assign({},it);c.chip=label;cards.push(c);});
+      s.items.forEach(function(it){var c=Object.assign({},it);c.chip=label;c.deck=ed.deck;cards.push(c);});
     });
     var total=cards.length-1;               // number of story/worth cards (excludes intro)
     for(var i=1;i<cards.length;i++){cards[i].n=i;cards[i].total=total;}
     cards[0].total=total;                    // intro shows "<total> stories"
-    cards.push({kind:"end",date:ed.date,total:total});
+    cards.push({kind:"end",deck:ed.deck,date:ed.date,total:total});
     return cards;
   }
 
@@ -433,10 +437,30 @@
     }
     return out.length?'<div class="gloss">'+out.join(" · ")+'</div>':"";
   }
+  // IPO cards carry "**Label:** value ¶" fields (scripts/build_digest.py ipo_card) -> status, GMP panel, facts grid.
+  function ipoFields(why){var f={};String(why||"").split(/\s*¶\s*/).forEach(function(seg){
+    var m=seg.match(/^\*\*([^*:]+):\*\*\s*(.*)$/);if(m)f[m[1].trim()]=m[2].trim();});return f;}
+  function ipoBodyHTML(c){
+    var f=ipoFields(c.why),st=f["Status"]||"",cls=/today/i.test(st)?"today":/^open /i.test(st)?"open":/^opens/i.test(st)?"soon":"";
+    var g=f["GMP"]||"",gv=(g.match(/^(-?\s*₹\s*-?[\d,]+)/)||[])[1],gp=(g.match(/([+−-]\d[\d.]*\s?%)/)||[])[1];
+    var gmp=gv?'<div class="ipo-gmp"><span class="k">GMP</span><span class="v">'+esc(gv.replace(/\s+/g,""))+'</span>'+
+        (gp?renderSum(gp):"")+'<span class="note">Grey-market premium · est. listing gain over the top of the band · unofficial</span></div>'
+      :'<div class="ipo-gmp none"><span class="k">GMP</span><span class="v">Not quoted yet</span></div>';
+    var lot=f["Lot"]||"",lm=lot.match(/^(.*?)\s*\((₹[^)]+)\)$/);
+    function cell(k,v,small,wide){return v?'<div'+(wide?' class="wide"':'')+'><dt>'+esc(k)+'</dt><dd>'+esc(v)+(small?'<small>'+esc(small)+'</small>':'')+'</dd></div>':"";}
+    var type=f["Type"]||"",split=/\+/.test(type)?type.charAt(0).toUpperCase()+type.slice(1):"";
+    if(split)type="Fresh + OFS";             // the ₹ split goes under the issue size, keeping the grid even
+    return '<div class="card-body"><h2 class="hl">'+esc(c.headline)+'</h2>'+
+      (st?'<span class="ipo-status '+cls+'">'+esc(st)+'</span>':'')+
+      (f["Industry"]?'<p class="ipo-ind">'+esc(f["Industry"])+'</p>':'')+gmp+
+      '<dl class="ipo-grid">'+cell("Issue size",f["Size"],split)+cell("Type",type)+
+        cell("Price band",f["Price band"])+cell("Lot",lm?lm[1]:lot,lm?lm[2]+" for one lot":"")+
+        cell("Bidding",f["Dates"])+cell("Listing",f["Listing"])+'</dl></div>';
+  }
   function cardHTML(c,idx){
     if(c.kind==="intro"){
       return '<section class="card intro" data-idx="'+idx+'">'+
-        '<span class="chip">'+(c.deck==="ai"?"AI brief":"Today’s brief")+'</span>'+
+        '<span class="chip">'+(c.deck==="ai"?"AI brief":c.deck==="ipo"?"IPO watch":"Today’s brief")+'</span>'+
         '<svg class="hero-svg" viewBox="0 0 340 150" preserveAspectRatio="xMidYMax meet" aria-hidden="true">'+
           '<circle cx="248" cy="58" r="30" fill="var(--accent)" opacity="0.9"/>'+
           '<g fill="var(--ink-mute)" opacity="0.9">'+
@@ -453,13 +477,15 @@
         (c.tone?c.tone.split("\n").map(function(t){return '<p class="sum">'+inlineMd(esc(t))+'</p>';}).join(""):'')+
         '<div class="kicker">Swipe up to read today’s stories</div></div>'+
         '<div class="hint">'+icDown()+'<span>SWIPE</span></div>'+
+        (c.total?'<div class="intro-pos">0/'+c.total+'</div>':'')+
         '<div class="byline">Pratik Singh</div>'+
       '</section>';
     }
     if(c.kind==="end"){
       return '<section class="card end" data-idx="'+idx+'">'+
-        '<div class="big">That’s the brief.</div>'+
-        '<p>You’re all caught up for '+esc(shortDate(c.date))+'. Fresh stories land through the day.</p>'+
+        '<div class="big">'+(c.deck==="ipo"?"That’s every IPO.":"That’s the brief.")+'</div>'+
+        '<p>'+(c.deck==="ipo"?"Open and upcoming mainboard issues for "+esc(shortDate(c.date))+". GMP updates through the day."
+          :"You’re all caught up for "+esc(shortDate(c.date))+". Fresh stories land through the day.")+'</p>'+
         '<button class="restart" data-restart>Back to top</button>'+
       '</section>';
     }
@@ -470,13 +496,14 @@
     var PRACTICE={"Case brief":"Structure it yourself, then reveal","Guesstimate":"Try it first, then reveal the approach","Framework":""};
     if(c.chip in PRACTICE)longCls+=" brief";
     var open=url?'<a class="act open" href="'+esc(url)+'" target="_blank" rel="noopener noreferrer" aria-label="Open source"><span class="ic">'+icOpen()+'</span><span class="lbl">Open</span></a>':'';
-    return '<section class="card'+longCls+'" data-idx="'+idx+'" data-id="'+esc(c.id)+'">'+
-      '<span class="chip">'+esc(c.chip||c.bucket||"")+'</span>'+
+    var isIpo=c.deck==="ipo";
+    return '<section class="card'+(isIpo?" ipo":longCls)+'" data-idx="'+idx+'" data-id="'+esc(c.id)+'">'+
+      (isIpo?ipoBodyHTML(c):
       '<div class="card-body"><h2 class="hl">'+inlineMd(esc(c.headline))+'</h2>'+
       sumHTML(c.why,PRACTICE[c.chip])+'</div>'+
-      glossHTML(c.headline+" "+(c.why||""))+
+      glossHTML(c.headline+" "+(c.why||"")))+
       '<div class="card-foot">'+
-        '<div class="via">'+(srcName?'via <b>'+esc(srcName)+'</b>':'')+'</div>'+
+        '<div class="via">'+(c.n?'<span class="pos">'+c.n+'/'+c.total+'</span>':'')+(srcName?'via <b>'+esc(srcName)+'</b>':'')+'</div>'+
         '<div class="rail">'+
           '<button class="act save" aria-pressed="'+(isSaved?"true":"false")+'" aria-label="Save story"><span class="ic">'+icBm()+'</span><span class="lbl">'+(isSaved?"Saved":"Save")+'</span></button>'+
           open+
@@ -492,7 +519,7 @@
     CARDS.forEach(function(c,i){ if(c.chip){ if(c.chip!==prev){FILTERS.push({label:c.chip,idx:i});} prev=c.chip; } });
     secMenu.innerHTML=FILTERS.map(function(f){
       return '<button class="sec-item" data-idx="'+f.idx+'">'+esc(f.label)+'</button>';}).join("");
-    secnav.hidden=!FILTERS.length; secCurrent.textContent="Jump to section"; LAST_SEC=-1; closeMenu();
+    secnav.hidden=!FILTERS.length; secCurrent.textContent="Sections"; LAST_SEC=-1; closeMenu();
   }
   function renderDeck(){
     if(!EDITIONS.length){
@@ -517,26 +544,17 @@
     var idx=Math.round(deck.scrollTop/h);
     var max=Math.max(1,(deck.scrollHeight-h));
     progressFill.style.width=(Math.min(1,deck.scrollTop/max)*100)+"%";
-    // story counter (1 / N), reflecting the card in view
-    var c=CARDS[idx];
-    if(c){
-      // always visible: 0/N on the opening card, n/N on stories, N/N on the closing card
-      var total=(CARDS[0]&&CARDS[0].total)||0, pos=c.n||(c.kind==="end"?total:0);
-      counter.textContent=pos+"/"+total;counter.hidden=!total;
-      counter.classList.toggle("solo",idx===0);   // no jump-to-top button on the opening card
-    }
     // reflect the active section in the dropdown (only when it changes)
     var ai=-1;
     for(var k=0;k<FILTERS.length;k++){ if(FILTERS[k].idx<=idx) ai=k; else break; }
     if(ai!==LAST_SEC){
       LAST_SEC=ai;
-      secCurrent.textContent = ai>=0 ? FILTERS[ai].label : "Jump to section";
+      secCurrent.textContent = ai>=0 ? FILTERS[ai].label : "Sections";
       var items=secMenu.children;
       for(var j=0;j<items.length;j++){ items[j].classList.toggle("active", j===ai); }
     }
     // hide swipe hint after first move
     if(deck.scrollTop>12){var hint=deck.querySelector(".hint");if(hint)hint.style.opacity="0";}
-    toTopBtn.classList.toggle("show", idx>0);
   }
 
   // ---------- saved sheet ----------
@@ -559,44 +577,23 @@
     }).join("");
   }
   function openSheetFn(){sheetTitle.textContent="Saved";renderSheet();scrim.classList.add("on");sheet.classList.add("on");}
-  function fmtTok(n){return n==null?"—":n>=1e6?(n/1e6).toFixed(1)+"M":n>=1e3?Math.round(n/1e3)+"K":String(n);}
-  // Tokens tab: per day, incoming = everything the runs read (fresh input + cached re-reads +
-  // cache writes), outgoing = what they wrote. Both runs of a day are added together.
-  function byDay(runs){var d={};runs.forEach(function(x){if(!x.tokens)return;var t=x.tokens,k=x.date;
-    d[k]=d[k]||{date:k,inc:0,out:0,runs:0};d[k].inc+=t.input+t.cacheRead+t.cacheWrite;d[k].out+=t.output;d[k].runs++;});
-    return Object.keys(d).sort().reverse().map(function(k){return d[k];});}
-  function renderUsage(runs){
-    var plan='<div class="plan"><b>Claude Pro plan.</b> The 7:00 news run and 7:30 AI run count against your Pro usage limits. Extra usage is off, so they can never charge you money.</div>';
-    var days=byDay(runs||[]);
-    if(!days.length){sheetList.innerHTML='<div class="usage">'+plan+'<div class="sheet-empty"><span class="big">No runs logged yet</span>The next 7:00 and 7:30 AM runs will appear here.</div></div>';return;}
-    var wk=days.slice(0,7).reduce(function(a,x){a.inc+=x.inc;a.out+=x.out;return a;},{inc:0,out:0});
-    var tiles='<div class="tiles"><div class="tile"><div class="k">Incoming · last 7 days</div><div class="v">'+fmtTok(wk.inc)+'</div></div>'+
-      '<div class="tile"><div class="k">Outgoing · last 7 days</div><div class="v">'+fmtTok(wk.out)+'</div></div></div>';
-    var rows=days.slice(0,30).map(function(x){return '<tr><td>'+esc(shortDate(x.date))+'</td><td class="num">'+fmtTok(x.inc)+'</td><td class="num">'+fmtTok(x.out)+'</td><td class="num">'+x.runs+'</td></tr>';}).join("");
-    sheetList.innerHTML='<div class="usage">'+plan+tiles+'<h3>Tokens per day</h3><table><thead><tr><th>Date</th><th class="num">Incoming</th><th class="num">Outgoing</th><th class="num">Runs</th></tr></thead><tbody>'+rows+'</tbody></table>'+
-      '<div class="note">Incoming is mostly each run re-reading what it has already gathered (the cheaper kind). Outgoing is what it writes. Live 5-hour and weekly limits: Claude app → Settings → Usage.</div></div>';
-  }
-  function openTokensFn(){sheetTitle.textContent="Tokens";sheetList.innerHTML='<div class="usage"><div class="note">Loading…</div></div>';
-    scrim.classList.add("on");sheet.classList.add("on");
-    fetch("data/usage.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():[];}).then(renderUsage).catch(function(){renderUsage([]);});}
   function closeSheetFn(){scrim.classList.remove("on");sheet.classList.remove("on");}
 
   // ---------- state ----------
   var DB=null,EDITIONS=[],CARDS=[],CUR=0,SAVED=new Set(),SAVED_ITEMS=[],toastT=null,FILTERS=[],LAST_SEC=-1,
-      BY={news:[],ai:[]},MODE=(lsGet("md_mode")==="ai")?"ai":"news";
+      BY={news:[],ai:[],ipo:[]},MODE=({ai:1,ipo:1}[lsGet("md_mode")])?lsGet("md_mode"):"news";
   var app=document.getElementById("app"),deck=document.getElementById("deck"),hud=document.getElementById("hud"),
       state=document.getElementById("state"),editionDate=document.getElementById("editionDate"),
       prevDay=document.getElementById("prevDay"),nextDay=document.getElementById("nextDay"),
       openSaved=document.getElementById("openSaved"),savedCount=document.getElementById("savedCount"),
-      progressFill=document.getElementById("progressFill"),counter=document.getElementById("counter"),
+      progressFill=document.getElementById("progressFill"),
       secnav=document.getElementById("secnav"),secTrigger=document.getElementById("secTrigger"),
       secCurrent=document.getElementById("secCurrent"),secMenu=document.getElementById("secMenu"),
       scrim=document.getElementById("scrim"),
       sheet=document.getElementById("sheet"),sheetClose=document.getElementById("sheetClose"),
       sheetList=document.getElementById("sheetList"),toast=document.getElementById("toast"),
-      toTopBtn=document.getElementById("toTopBtn"),
-      modeSwitch=document.getElementById("modeSwitch"),sheetTitle=document.getElementById("sheetTitle"),
-      aiTab=document.getElementById("aiTab");
+      tabbar=document.getElementById("tabbar"),sheetTitle=document.getElementById("sheetTitle"),
+      aiTab=document.getElementById("aiTab"),ipoTab=document.getElementById("ipoTab");
 
   function showToast(msg){toast.textContent=msg;toast.classList.add("on");
     clearTimeout(toastT);toastT=setTimeout(function(){toast.classList.remove("on");},1400);}
@@ -637,13 +634,16 @@
   }
 
   // ---------- events ----------
+  // Smooth scroll, but land there anyway if snapping swallowed it (some engines stall smooth scrolls on a snap deck).
+  function scrollDeck(top){deck.scrollTo({top:top,behavior:"smooth"});
+    setTimeout(function(){if(Math.abs(deck.scrollTop-top)>4)deck.scrollTo({top:top});},450);}
   var raf=false;
   deck.addEventListener("scroll",function(){if(raf)return;raf=true;requestAnimationFrame(function(){raf=false;updateProgress();});});
   deck.addEventListener("click",function(e){
     var save=e.target.closest(".act.save");
     if(save){var host=save.closest(".card[data-id]");if(host){toggleSave(host.getAttribute("data-id"),save);}return;}
     var rs=e.target.closest("[data-restart]");
-    if(rs){deck.scrollTo({top:0,behavior:"smooth"});}
+    if(rs){scrollDeck(0);}
   });
   // Opening a "reveal" scrolls that card's text to the answer (toggle doesn't bubble: capture).
   deck.addEventListener("toggle",function(e){
@@ -656,20 +656,20 @@
     else if(e.key==="ArrowUp"||e.key==="PageUp"){e.preventDefault();deck.scrollBy({top:-deck.clientHeight,behavior:"smooth"});}
   });
 
-  function reflectMode(){modeSwitch.querySelectorAll("button[data-mode]").forEach(function(b){b.setAttribute("aria-pressed",String(b.dataset.mode===MODE));});}
-  modeSwitch.addEventListener("click",function(e){var b=e.target.closest("button[data-mode]");
-    if(!b||b.dataset.mode===MODE||!BY[b.dataset.mode].length)return;
+  function reflectMode(){tabbar.querySelectorAll("button[data-mode]").forEach(function(b){b.setAttribute("aria-pressed",String(b.dataset.mode===MODE));});}
+  // Tab bar: switch deck (keeping the date); tapping the active tab again goes back to the first card.
+  tabbar.addEventListener("click",function(e){var b=e.target.closest("button[data-mode]");
+    if(!b||!BY[b.dataset.mode].length)return;
+    if(b.dataset.mode===MODE){scrollDeck(0);return;}
     var date=EDITIONS[CUR]&&EDITIONS[CUR].date;MODE=b.dataset.mode;lsSet("md_mode",MODE);EDITIONS=BY[MODE];
     var i=EDITIONS.findIndex(function(x){return x.date===date;});CUR=i<0?0:i;reflectMode();renderDeck();deck.scrollTo({top:0});});
-  modeSwitch.addEventListener("click",function(e){if(e.target.closest("button[data-view=tokens]"))openTokensFn();});
   prevDay.addEventListener("click",function(){if(CUR<EDITIONS.length-1){CUR++;renderDeck();}});
   nextDay.addEventListener("click",function(){if(CUR>0){CUR--;renderDeck();}});
-  editionDate.addEventListener("click",function(){deck.scrollTo({top:0,behavior:"smooth"});});
+  editionDate.addEventListener("click",function(){scrollDeck(0);});
   secTrigger.addEventListener("click",function(e){e.stopPropagation();if(secMenu.hidden)openMenu();else closeMenu();});
   secMenu.addEventListener("click",function(e){var b=e.target.closest(".sec-item");if(!b)return;
-    var i=+b.getAttribute("data-idx");closeMenu();deck.scrollTo({top:i*(deck.clientHeight||1),behavior:"smooth"});});
+    var i=+b.getAttribute("data-idx");closeMenu();scrollDeck(i*(deck.clientHeight||1));});
   document.addEventListener("click",function(e){if(!secMenu.hidden&&!secnav.contains(e.target))closeMenu();});
-  toTopBtn.addEventListener("click",function(){deck.scrollTo({top:0,behavior:"smooth"});});
 
   openSaved.addEventListener("click",openSheetFn);
   sheetClose.addEventListener("click",closeSheetFn);
@@ -696,13 +696,13 @@
     return eds;
   }
 
-  // News and AI decks come from the same rows (`markdown` and `ai`); MODE picks which one shows.
+  // News, AI and IPO decks come from the same rows (`markdown`, `ai`, `ipos`); MODE picks which one shows.
   function setEditions(rows){
-    var news=buildEditions(rows,"markdown",""),ai=buildEditions(rows,"ai","ai");
-    if(!news.length&&!ai.length)return false;
-    BY={news:news,ai:ai};
-    if(!BY[MODE].length)MODE=news.length?"news":"ai";
-    EDITIONS=BY[MODE];modeSwitch.hidden=false;aiTab.hidden=!ai.length;reflectMode();
+    var news=buildEditions(rows,"markdown",""),ai=buildEditions(rows,"ai","ai"),ipo=buildEditions(rows,"ipos","ipo");
+    if(!news.length&&!ai.length&&!ipo.length)return false;
+    BY={news:news,ai:ai,ipo:ipo};
+    if(!BY[MODE].length)MODE=news.length?"news":(ai.length?"ai":"ipo");
+    EDITIONS=BY[MODE];tabbar.hidden=false;aiTab.hidden=!ai.length;ipoTab.hidden=!ipo.length;reflectMode();
     return true;
   }
 
@@ -729,7 +729,7 @@
       .then(function(r){return r.ok?r.json():null;})
       .then(function(list){
         if(!list||!list.length)return;
-        var rows=list.map(function(d){return {date:d.date,markdown:d.markdown,ai:d.ai};});
+        var rows=list.map(function(d){return {date:d.date,markdown:d.markdown,ai:d.ai,ipos:d.ipos};});
         if(setEditions(rows)){CUR=0;renderDeck();cacheEditions(rows);}
       })
       .catch(function(){});

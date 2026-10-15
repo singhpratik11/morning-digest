@@ -19,7 +19,7 @@ from datetime import datetime, timezone, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from feeds import (FEEDS, BUCKET_ORDER, LLM_ORDER, AI_ORDER, AI_FEEDS, AI_RSS_ORDER,  # noqa: E402
-                   MIN_ITEMS, CURATED, IPO_LIST_URL, IPO_GMP_URL)
+                   MIN_ITEMS, CURATED, IPO_LIST_URL, IPO_GMP_URL, IPO_ORDER)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "digests.json")
@@ -386,19 +386,22 @@ def ipo_card(url, name, status, today, gmps):
     about = clean_text(about[:1].upper() + about[1:], 120)
 
     if status == "open" and close:
-        when = "closes today" if close == today else "open till " + short_date(close)
+        when = "Closes today" if close == today else "Open till " + short_date(close)
     elif open_:
-        when = "opens " + short_date(open_)
+        when = "Opens " + short_date(open_)
     else:
-        when = "dates to be announced"
-    parts = []
+        when = "Dates to be announced"
+    parts = ["**Status:** " + when]
     if about:
         parts.append("**Industry:** " + about)
-    if size or kind:
-        parts.append("**Size:** " + " · ".join(x for x in (size, kind) if x))
+    if size:
+        parts.append("**Size:** " + size)
+    if kind:
+        parts.append("**Type:** " + kind)
     price = "₹%s–%s" % (inr(band[0]), inr(top)) if len(band) >= 2 else (f.get("Price Band") or "to be announced")
     lot_txt = ("%s shares (₹%s)" % (inr(lot), inr(lot * top))) if lot and top else "to be announced"
-    parts.append("**Price band:** %s · **Lot:** %s" % (price, lot_txt))
+    parts.append("**Price band:** " + price)
+    parts.append("**Lot:** " + lot_txt)
     gmp = next((v for k, v in gmps.items() if k and (k.startswith(ipo_key(name)[:8]) or
                                                      ipo_key(name).startswith(k[:8]))), None)
     if gmp is None:
@@ -413,17 +416,17 @@ def ipo_card(url, name, status, today, gmps):
                  else "%s–%s" % (short_date(open_), short_date(close)))
     else:
         dates = f.get("IPO Date", "")
-    if lists and MON.get(lists.group(1).lower()):
-        dates += " · lists %s %s" % (lists.group(2), MONTHS[MON[lists.group(1).lower()]][:3])
     if dates:
         parts.append("**Dates:** " + dates)
-    card = {"headline": brief_text("%s · %s" % (name, when)), "body": " ¶".join(parts),
+    if lists and MON.get(lists.group(1).lower()):
+        parts.append("**Listing:** %s %s" % (lists.group(2), MONTHS[MON[lists.group(1).lower()]][:3]))
+    card = {"headline": brief_text(name), "body": " ¶".join(parts),
             "source": "Chittorgarh", "url": safe_url(url)}
     return (0 if status == "open" else 1, close or open_ or today, card)
 
 
-def add_ipos(buckets, now):
-    # Open issues (closing soonest first), then upcoming. Any failure just drops the section.
+def build_ipos(now):
+    # {"Open now": [...closing soonest first], "Upcoming": [...]}; any failure -> {} (no IPO tab).
     try:
         raw = fetch(IPO_LIST_URL)
         page = raw.decode("utf-8", "ignore") if raw else ""
@@ -437,7 +440,7 @@ def add_ipos(buckets, now):
                                    "open" if status.lower() == "current" else "upcoming"))
         if not listed:
             log("  ! IPOs: no open or upcoming mainboard issues found")
-            return
+            return {}
         gmps = ipo_gmp()
         cards = []
         for url, name, status in listed[:12]:
@@ -446,10 +449,12 @@ def add_ipos(buckets, now):
             if c:
                 cards.append(c)
         cards.sort(key=lambda c: (c[0], c[1]))
-        buckets["IPOs"] = [c[2] for c in cards]
         log("IPOs:", len(cards), "| GMP quotes:", len(gmps))
+        return {"Open now": [c[2] for c in cards if c[0] == 0],
+                "Upcoming": [c[2] for c in cards if c[0] == 1]}
     except Exception as e:  # noqa: BLE001
         log("  ! IPOs failed:", type(e).__name__, e)
+        return {}
 
 
 def load_llm(path, order, date):
@@ -536,8 +541,8 @@ def latest_headlines(rss):
     return out
 
 
-NEWS_MIX = ("**The mix:** world, India, business, open IPOs, tech and sport, plus a case to "
-            "crack, a guesstimate to try and a framework to keep.")
+NEWS_MIX = ("**The mix:** world, India, business, tech and sport, plus a case to crack, "
+            "a guesstimate to try and a framework to keep.")
 AI_MIX = "**The mix:** chips, labs, China, what the CEOs said and what Washington is doing."
 AI_RSS_MIX = "**The mix:** labs, chips, China, policy, money and India AI, straight from the outlets."
 
@@ -584,7 +589,6 @@ def main():
     else:
         buckets, overview, order = rss, None, BUCKET_ORDER
     add_curated(buckets, doy)
-    add_ipos(buckets, now)
     markdown, total = build_markdown(buckets, now, order, overview)
 
     story_count = sum(min(len(buckets.get(b, [])), cap)
@@ -612,6 +616,13 @@ def main():
     if ai_total < MIN_ITEMS:
         del edition["ai"]   # too thin to show; the app hides the AI switch
     log("AI deck:", ai_total, "stories.")
+    ipos = build_ipos(now)
+    if any(ipos.values()):
+        n_open, n_up = len(ipos["Open now"]), len(ipos["Upcoming"])
+        mix = ("**%d open, %d upcoming.** GMP is the unofficial grey-market premium, a sentiment "
+               "gauge, not a guarantee." % (n_open, n_up))
+        md, _ = build_markdown(ipos, now, IPO_ORDER, None, mix)
+        edition["ipos"] = md.replace(" picks**", " IPOs**", 1)
     editions.insert(0, edition)
     editions = editions[:MAX_EDITIONS]
     with open(DATA, "w", encoding="utf-8") as f:

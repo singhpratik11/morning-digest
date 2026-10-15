@@ -30,19 +30,27 @@ news interleaved with practice, ending on a framework:
 2. **India** - The Hindu, Indian Express, NDTV, Hindustan Times
 3. **Case brief** - an Indian company or industry case ([`data/case_briefs.json`](data/case_briefs.json))
 4. **Business & markets** - ET, Business Standard, Mint, BBC Business
-5. **IPOs** - open and upcoming mainboard IPOs: industry, issue size, fresh issue vs OFS, price
-   band, lot size (and cost of one lot), GMP with the implied listing gain, dates. From
-   Chittorgarh (list + each IPO's page) and ipowatch (grey-market premium, unofficial)
-6. **Guesstimate** - ([`data/guesstimates.json`](data/guesstimates.json)), answer behind "try it first, then reveal"
-7. **Startups & tech** - Inc42, Entrackr, ET Tech
-8. **Sports** - ESPNcricinfo, BBC Sport, The Hindu
-9. **Framework** - ([`data/frameworks.json`](data/frameworks.json))
+5. **Guesstimate** - ([`data/guesstimates.json`](data/guesstimates.json)), answer behind "try it first, then reveal"
+6. **Startups & tech** - Inc42, Entrackr, ET Tech
+7. **Sports** - ESPNcricinfo, BBC Sport, The Hindu
+8. **Framework** - ([`data/frameworks.json`](data/frameworks.json))
 
 Curated decks rotate one entry a day. In curated bodies, `¶` is a line break and `‖` splits
 what's shown from what the reveal hides. Live blogs are skipped. Indian news feeds block
 browser (CORS) access, so everything is fetched server-side by the Action.
 
-## AI deck (News | AI switch)
+## The app: three decks behind a bottom tab bar
+**News · AI · IPOs · Saved.** Tap the active tab again to jump back to the first card; the top row
+is just the edition date and a section picker.
+
+## IPOs deck
+Open and upcoming mainboard IPOs, one card each: status, industry, GMP (with the implied listing
+gain, unofficial), issue size, fresh issue vs OFS (with the split), price band, lot size and the
+cost of one lot, bidding and listing dates. Free: Chittorgarh's mainboard list and each IPO's page,
+plus ipowatch's GMP table (`build_ipos` in `scripts/build_digest.py`); stored as `ipos` on the
+day's edition. A scrape failure just hides the tab.
+
+## AI deck
 Also free RSS: TechCrunch AI, The Verge AI, Ars Technica AI, MIT Technology Review and
 VentureBeat, routed by keyword into Labs & models / Chips & compute / China AI / Policy &
 governments / Money & deals, plus India AI (ET Tech and Inc42 stories about AI). Stored as an

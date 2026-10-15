@@ -43,7 +43,6 @@ BUCKET_ORDER = [
     ("India", 10),
     ("Case brief", 1),          # curated: data/case_briefs.json
     ("Business & markets", 10),
-    ("IPOs", 10),               # open + upcoming mainboard IPOs (build_digest.add_ipos)
     ("Guesstimate", 1),         # curated: data/guesstimates.json
     ("Startups & tech", 6),
     ("Sports", 6),
@@ -76,6 +75,8 @@ AI_RSS_ORDER = [
 # (dates, price band, lot, sale type, size, business), plus ipowatch's grey-market premium table.
 IPO_LIST_URL = "https://www.chittorgarh.com/report/ipo-in-india-list-main-board-sme/82/mainboard/"
 IPO_GMP_URL = "https://ipowatch.in/ipo-grey-market-premium-latest-ipo-gmp/"
+# The IPOs deck (its own tab in the app, stored as `ipos` on the day's edition).
+IPO_ORDER = [("Open now", 10), ("Upcoming", 10)]
 
 # Curated lanes (not counted toward MIN_ITEMS).
 CURATED = {"Case brief", "Guesstimate", "Framework"}
@@ -91,7 +92,6 @@ LLM_ORDER = [
     ("India", 12),
     ("Case brief", 1),
     ("Business & markets", 12),
-    ("IPOs", 10),
     ("Guesstimate", 1),
     ("Tech & AI", 8),
     ("Science & health", 4),
