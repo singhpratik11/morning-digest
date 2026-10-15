@@ -10,7 +10,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Digest">
 <meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#191b1e" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#0b0b0c" media="(prefers-color-scheme: dark)">
 <style>
   :root{
     --tab-h:62px;
@@ -30,30 +30,37 @@
     --down:#b0553f;
     --shadow:0 1px 2px rgba(43,47,54,.05), 0 10px 34px rgba(43,47,54,.10);
     --frame-radius:30px;
+    /* Apple type: SF for UI/body, New York for headlines; Manrope/Newsreader off Apple devices */
+    --font-ui:-apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,"Manrope","Segoe UI",sans-serif;
+    --font-serif:ui-serif,"New York","Newsreader",Georgia,serif;
+    /* section tints (muted Apple system colours) */
+    --t-world:#2f6db5;--t-india:#c0691b;--t-biz:#2c7a51;--t-tech:#7254b8;--t-sport:#c03f35;--t-ai:#1f8585;--t-ipo:#2c7a51;
   }
   :root:not([data-theme="light"]){
     @media (prefers-color-scheme: dark){
-      --app-bg:#0f1113;
-      --ground:#191b1e;
-      --surface:#212429;
-      --surface-2:#262a2f;
+      --app-bg:#000000;
+      --ground:#0b0b0c;
+      --surface:#1c1c1e;
+      --surface-2:#2c2c2e;
       --ink:#eceae4;
       --ink-soft:#bcbdc0;
       --ink-mute:#8a8d93;
       --accent:#96a2d1;
       --accent-ink:#15171a;
       --accent-soft:#2a2f3d;
-      --hair:#33373c;
-      --hair-strong:#3d4249;
+      --hair:#2c2c2e;
+      --hair-strong:#3a3a3c;
+      --t-world:#6aa2ee;--t-india:#eb9a4f;--t-biz:#5fbf8c;--t-tech:#a88be8;--t-sport:#f0776b;--t-ai:#5cc6c6;--t-ipo:#5fbf8c;
       --up:#6fb98d;
       --down:#d98a72;
       --shadow:0 1px 2px rgba(0,0,0,.4), 0 14px 40px rgba(0,0,0,.45);
     }
   }
   :root[data-theme="dark"]{
-    --app-bg:#0f1113;--ground:#191b1e;--surface:#212429;--surface-2:#262a2f;
+    --app-bg:#000000;--ground:#0b0b0c;--surface:#1c1c1e;--surface-2:#2c2c2e;
     --ink:#eceae4;--ink-soft:#bcbdc0;--ink-mute:#8a8d93;--accent:#96a2d1;--accent-ink:#15171a;
-    --accent-soft:#2a2f3d;--hair:#33373c;--hair-strong:#3d4249;--up:#6fb98d;--down:#d98a72;
+    --accent-soft:#2a2f3d;--hair:#2c2c2e;--hair-strong:#3a3a3c;--up:#6fb98d;--down:#d98a72;
+    --t-world:#6aa2ee;--t-india:#eb9a4f;--t-biz:#5fbf8c;--t-tech:#a88be8;--t-sport:#f0776b;--t-ai:#5cc6c6;--t-ipo:#5fbf8c;
     --shadow:0 1px 2px rgba(0,0,0,.4), 0 14px 40px rgba(0,0,0,.45);
   }
 
@@ -62,7 +69,7 @@
   html,body{height:100%}
   body{
     margin:0;background:var(--app-bg);color:var(--ink);
-    font-family:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+    font-family:var(--font-ui);
     -webkit-font-smoothing:antialiased;overscroll-behavior:none;
   }
   button{font-family:inherit;color:inherit}
@@ -83,7 +90,8 @@
 
   /* ---------- HUD ---------- */
   .hud{position:absolute;top:0;left:0;right:0;z-index:12;pointer-events:none;
-    background:linear-gradient(var(--ground) 62%, transparent);
+    background:color-mix(in srgb,var(--ground) 80%,transparent);
+    -webkit-backdrop-filter:saturate(180%) blur(22px);backdrop-filter:saturate(180%) blur(22px);
     padding:calc(env(safe-area-inset-top) + 16px) 14px 8px;}
   .bar{display:flex;align-items:center;gap:6px;pointer-events:auto}
   .edpick{display:flex;align-items:center;gap:1px;background:var(--surface);border:1px solid var(--hair);
@@ -97,10 +105,12 @@
   .spacer{flex:1}
   /* bottom tab bar: News · AI · IPOs · Saved (tap the active tab again = back to the first card) */
   .tabbar{position:absolute;left:0;right:0;bottom:0;z-index:16;display:flex;
-    padding:6px 6px calc(env(safe-area-inset-bottom) + 6px);background:var(--ground);border-top:1px solid var(--hair)}
+    padding:6px 6px calc(env(safe-area-inset-bottom) + 6px);border-top:.5px solid var(--hair-strong);
+    background:color-mix(in srgb,var(--ground) 80%,transparent);
+    -webkit-backdrop-filter:saturate(180%) blur(22px);backdrop-filter:saturate(180%) blur(22px)}
   .tabbar[hidden]{display:none}
   .tabbar button{flex:1;position:relative;display:flex;flex-direction:column;align-items:center;gap:3px;border:0;
-    background:none;color:var(--ink-mute);font:700 .66rem Manrope,sans-serif;letter-spacing:.03em;padding:5px 0 3px;cursor:pointer}
+    background:none;color:var(--ink-mute);font:700 .66rem var(--font-ui);letter-spacing:.03em;padding:5px 0 3px;cursor:pointer}
   .tabbar button[hidden]{display:none}
   .tabbar svg{width:1.4rem;height:1.4rem}
   .tabbar button[aria-pressed="true"]{color:var(--accent)}
@@ -113,9 +123,8 @@
   /* story position "12/45", bottom-left of each card */
   .pos{font-variant-numeric:tabular-nums;font-weight:700;color:var(--ink-mute);margin-right:.55rem}
   .progress{margin:9px 2px 0;height:3px;border-radius:3px;background:var(--hair);overflow:hidden;pointer-events:auto}
-  .progress-fill{height:100%;width:0;background:var(--accent);transition:width .18s ease}
+  .progress-fill{height:100%;width:0;background:var(--tint,var(--accent));transition:width .18s ease,background-color .4s}
   .secnav{position:relative;pointer-events:auto;align-self:flex-start}
-  @media (max-height:720px){.card.intro .hero-svg{max-height:9vh;margin-top:.6rem}}  /* short phones: text clears the swipe hint */
   @media (max-width:385px){.bar{gap:4px}.edpick .date{padding:.2rem .3rem}.chev{width:1.25rem}.sec-trigger{max-width:46vw}}
   .sec-trigger{display:inline-flex;align-items:center;gap:.4rem;border:1px solid var(--hair);
     background:var(--surface);color:var(--ink);font-size:.72rem;font-weight:700;letter-spacing:.02em;
@@ -144,7 +153,7 @@
   .chip{align-self:flex-start;font-size:.66rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;
     color:var(--accent);background:var(--accent-soft);padding:.34rem .66rem;border-radius:999px}
   .card-body{flex:1;display:flex;flex-direction:column;justify-content:center;gap:.7rem;min-height:0;padding:6px 0}
-  .hl{font-family:"Newsreader",Georgia,serif;font-weight:600;letter-spacing:-.01em;line-height:1.16;
+  .hl{font-family:var(--font-serif);font-weight:600;letter-spacing:-.01em;line-height:1.16;
     margin:0;color:var(--ink);text-wrap:balance;
     font-size:clamp(1.7rem,6.4vw,2.35rem);}
   .card.long .hl{font-size:clamp(1.45rem,5.4vw,1.95rem)}
@@ -156,7 +165,7 @@
   .reveal summary::before{content:"+ "}
   .reveal[open] summary::before{content:"\2212  "}
   .reveal[open] summary{margin-bottom:.45rem}
-  .sum{margin:0;color:var(--ink-soft);font-size:1.02rem;line-height:1.62;text-wrap:pretty;
+  .sum{margin:0;color:var(--ink-soft);font-size:1.0625rem;line-height:1.5;text-wrap:pretty;
     overflow-y:auto;scrollbar-width:none}
   .sum::-webkit-scrollbar{display:none}
   .sum strong{font-weight:600;color:var(--ink)}
@@ -170,8 +179,7 @@
   .card.intro .hl{font-size:clamp(1.9rem,7vw,2.5rem)}
   .card.intro .card-body{padding-bottom:70px} /* keep text clear of the swipe hint */
   .card.intro .kicker{display:none} /* the animated SWIPE hint already says it */
-  .card.intro .kicker{font-family:"Manrope";font-size:.9rem;color:var(--ink-mute);font-weight:600;margin-top:.2rem}
-  .hero-svg{flex:none;width:100%;max-width:330px;height:auto;max-height:16vh;margin:1.1rem auto .1rem;display:block}
+  .card.intro .kicker{font-family:var(--font-ui);font-size:.9rem;color:var(--ink-mute);font-weight:600;margin-top:.2rem}
   .intro-pos{position:absolute;left:22px;bottom:calc(env(safe-area-inset-bottom) + var(--tab-h) + 16px);
     font-size:.78rem;font-weight:700;color:var(--ink-mute);font-variant-numeric:tabular-nums}
   .byline{position:absolute;right:22px;bottom:calc(env(safe-area-inset-bottom) + var(--tab-h) + 16px);
@@ -206,7 +214,7 @@
 
   /* end card */
   .card.end{align-items:center;justify-content:center;text-align:center}
-  .card.end .big{font-family:"Newsreader",Georgia,serif;font-size:1.7rem;color:var(--ink);margin:.4rem 0}
+  .card.end .big{font-family:var(--font-serif);font-size:1.7rem;color:var(--ink);margin:.4rem 0}
   .card.end p{color:var(--ink-mute);max-width:15rem;margin:.2rem auto 1.2rem;font-size:.92rem;line-height:1.5}
   .restart{border:1px solid var(--hair);background:var(--surface);color:var(--ink);border-radius:999px;
     padding:.6rem 1.2rem;font-weight:700;font-size:.85rem;cursor:pointer;box-shadow:var(--shadow)}
@@ -214,7 +222,7 @@
   /* ---------- states ---------- */
   .state{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
     text-align:center;padding:2rem;gap:.5rem;color:var(--ink-mute)}
-  .state .big{font-family:"Newsreader",Georgia,serif;font-size:1.4rem;color:var(--ink-soft)}
+  .state .big{font-family:var(--font-serif);font-size:1.4rem;color:var(--ink-soft)}
   .spin{width:26px;height:26px;border-radius:50%;border:3px solid var(--hair);border-top-color:var(--accent);
     animation:spin 1s linear infinite;margin-bottom:.4rem}
   @keyframes spin{to{transform:rotate(360deg)}}
@@ -231,21 +239,21 @@
   .sheet.on{transform:translateY(0)}
   .sheet-grip{width:38px;height:4px;border-radius:4px;background:var(--hair-strong);margin:10px auto 4px}
   .sheet-head{display:flex;align-items:center;justify-content:space-between;padding:.4rem 1.1rem .6rem}
-  .sheet-head h2{font-family:"Newsreader",Georgia,serif;font-size:1.2rem;margin:0}
+  .sheet-head h2{font-family:var(--font-serif);font-size:1.2rem;margin:0}
   .sheet-close{border:0;background:var(--surface-2);width:2rem;height:2rem;border-radius:50%;cursor:pointer;
     color:var(--ink-soft);display:inline-flex;align-items:center;justify-content:center}
   .sheet-list{overflow-y:auto;padding:0 1.1rem 1.1rem}
   .srow{display:grid;grid-template-columns:1fr auto auto;gap:.4rem .5rem;align-items:center;
     padding:.85rem 0;border-bottom:1px solid var(--hair)}
   .srow:last-child{border-bottom:0}
-  .srow .st{grid-column:1;font-family:"Newsreader",Georgia,serif;font-size:1.02rem;line-height:1.28;color:var(--ink)}
+  .srow .st{grid-column:1;font-family:var(--font-serif);font-size:1.02rem;line-height:1.28;color:var(--ink)}
   .srow .smeta{grid-column:1;font-size:.72rem;color:var(--ink-mute);font-weight:600;margin-top:.15rem}
   .srow .sbtn{width:2rem;height:2rem;border-radius:50%;border:1px solid var(--hair);background:var(--surface);
     color:var(--ink-soft);cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
   .srow .sbtn svg{width:1rem;height:1rem}
   .srow .sbtn:hover{color:var(--ink)}
   .sheet-empty{text-align:center;color:var(--ink-mute);padding:2.4rem 1rem;line-height:1.5}
-  .sheet-empty .big{font-family:"Newsreader",Georgia,serif;font-size:1.25rem;color:var(--ink-soft);display:block;margin-bottom:.3rem}
+  .sheet-empty .big{font-family:var(--font-serif);font-size:1.25rem;color:var(--ink-soft);display:block;margin-bottom:.3rem}
 
   /* toast */
   .toast{position:absolute;left:50%;transform:translateX(-50%) translateY(20px);
@@ -277,10 +285,10 @@
   .ipo-gmp{display:flex;align-items:baseline;flex-wrap:wrap;gap:.2rem .55rem;padding:.7rem .9rem;
     border:1px solid var(--hair);border-radius:14px;background:var(--surface)}
   .ipo-gmp .k{font-size:.64rem;font-weight:800;letter-spacing:.12em;color:var(--ink-mute)}
-  .ipo-gmp .v{font:600 1.55rem Newsreader,Georgia,serif;color:var(--ink);font-variant-numeric:tabular-nums}
+  .ipo-gmp .v{font:600 1.55rem var(--font-serif);color:var(--ink);font-variant-numeric:tabular-nums}
   .ipo-gmp .chg{font-size:1rem}
   .ipo-gmp .note{flex-basis:100%;font-size:.7rem;color:var(--ink-mute)}
-  .ipo-gmp.none .v{font:600 1rem Manrope,sans-serif;color:var(--ink-mute)}
+  .ipo-gmp.none .v{font:600 1rem var(--font-ui);color:var(--ink-mute)}
   .ipo-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem 1rem;margin:0}
   .ipo-grid div{border-top:1px solid var(--hair);padding-top:.45rem;min-width:0}
   .ipo-grid .wide{grid-column:1/-1}
@@ -288,10 +296,72 @@
   .ipo-grid dd{margin:.14rem 0 0;font-size:.95rem;font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
   .ipo-grid dd small{display:block;font-size:.72rem;font-weight:600;color:var(--ink-mute)}
 
+
+  /* ---------- alive: tints, photos, Today card, monograms, motion ---------- */
+  [data-tint=world]{--tint:var(--t-world)}[data-tint=india]{--tint:var(--t-india)}[data-tint=biz]{--tint:var(--t-biz)}
+  [data-tint=tech]{--tint:var(--t-tech)}[data-tint=sport]{--tint:var(--t-sport)}[data-tint=ai]{--tint:var(--t-ai)}
+  [data-tint=ipo]{--tint:var(--t-ipo)}[data-tint=practice],[data-tint=accent]{--tint:var(--accent)}
+  .sec-k{font:700 .7rem var(--font-ui);letter-spacing:.09em;text-transform:uppercase;color:var(--tint,var(--accent))}
+  .ph{margin:0;flex:none;width:100%;aspect-ratio:16/10;max-height:34vh;border-radius:20px;overflow:hidden;
+    background:var(--surface-2);box-shadow:0 1px 2px rgba(0,0,0,.06),0 10px 28px rgba(0,0,0,.10)}
+  .ph img{width:100%;height:100%;object-fit:cover;display:block}
+  .card.has-img .card-body{justify-content:flex-start;gap:.65rem}
+  .card.has-img .card-body>:first-child{margin-top:auto}
+  .card.has-img .card-body>:last-child{margin-bottom:auto}
+  .card.has-img .hl{font-size:clamp(1.4rem,5.4vw,1.85rem)}
+  .card.has-img .sum{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:5;overflow:hidden}
+  @media (max-height:740px){.ph{max-height:25vh}.card.has-img .sum{-webkit-line-clamp:3}.card.has-img .hl{font-size:1.3rem}}
+
+  /* opening card, Apple News "Today" style */
+  .card.intro .card-body.today{justify-content:center;gap:.5rem}
+  .t-date{font:700 .78rem var(--font-ui);letter-spacing:.06em;text-transform:uppercase;color:var(--tint,var(--accent))}
+  .t-title{margin:0;font:700 clamp(2.5rem,11.5vw,3.2rem)/1.02 var(--font-serif);letter-spacing:-.02em;color:var(--ink)}
+  .card.intro .sum{font-size:1rem;line-height:1.45}
+  .t-list{margin-top:.55rem;border-top:.5px solid var(--hair-strong)}
+  .t-list-h{font:700 .68rem var(--font-ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink-mute);padding:.75rem 0 .15rem}
+  .t-item{display:flex;align-items:center;gap:.8rem;width:100%;text-align:left;border:0;background:none;
+    padding:.55rem 0;cursor:pointer;border-bottom:.5px solid var(--hair)}
+  .t-item:last-child{border-bottom:0}
+  .t-th{position:relative;flex:none;width:56px;height:56px;border-radius:12px;overflow:hidden;display:flex;
+    align-items:center;justify-content:center;font:700 1rem var(--font-ui);color:var(--tint,var(--accent));
+    background:color-mix(in srgb,var(--tint,var(--accent)) 15%,var(--surface))}
+  .t-th img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .t-txt{min-width:0;display:flex;flex-direction:column;gap:.12rem}
+  .t-k{font:700 .62rem var(--font-ui);letter-spacing:.08em;text-transform:uppercase;color:var(--tint,var(--accent))}
+  .t-h{font:600 .97rem/1.28 var(--font-serif);color:var(--ink);display:-webkit-box;-webkit-box-orient:vertical;
+    -webkit-line-clamp:2;overflow:hidden}
+  @media (max-height:740px){.t-item:nth-child(4){display:none}.t-title{font-size:2.3rem}}
+
+  /* IPO monogram tile (like Stocks / Wallet) */
+  .ipo-head{display:flex;align-items:center;gap:.75rem}
+  .ipo-head .hl{min-width:0}
+  .mono{flex:none;width:46px;height:46px;border-radius:12px;display:flex;align-items:center;justify-content:center;
+    font:700 1rem var(--font-ui);letter-spacing:.02em;color:var(--tint);background:color-mix(in srgb,var(--tint) 15%,var(--surface))}
+
+  /* motion with purpose: content settles in as each card arrives (off under Reduce Motion) */
+  .deck.motion .card .card-body>*,.deck.motion .card .card-foot,.deck.motion .card .gloss{
+    transition:opacity .55s cubic-bezier(.2,.8,.2,1),transform .65s cubic-bezier(.2,.8,.2,1)}
+  .deck.motion .card:not(.in) .card-body>*,.deck.motion .card:not(.in) .card-foot,.deck.motion .card:not(.in) .gloss{
+    opacity:0;transform:translateY(12px)}
+  .deck.motion .card .card-body>:nth-child(2){transition-delay:.05s}
+  .deck.motion .card .card-body>:nth-child(3){transition-delay:.1s}
+  .deck.motion .card .card-body>:nth-child(4){transition-delay:.15s}
+  .deck.motion .card .card-body>:nth-child(n+5){transition-delay:.2s}
+  .deck.motion .card .card-foot,.deck.motion .card .gloss{transition-delay:.22s}
+  .deck.motion .card .ph img{transition:transform 1.1s cubic-bezier(.2,.8,.2,1)}
+  .deck.motion .card:not(.in) .ph img{transform:scale(1.06)}
+  .deck.swap{animation:deckIn .32s ease both}
+  @keyframes deckIn{from{opacity:0}to{opacity:1}}
+  .tabbar button.bounce svg{animation:tabBounce .5s cubic-bezier(.3,1.6,.5,1)}
+  @keyframes tabBounce{0%{transform:none}35%{transform:scale(1.22) translateY(-2px)}100%{transform:none}}
+  /* press feedback: things you touch give a little */
+  .tabbar button svg,.restart,.chev,.sec-trigger,.t-item,.act .ic{transition:transform .25s cubic-bezier(.3,1.5,.5,1)}
+  .tabbar button:active svg,.restart:active,.chev:active,.sec-trigger:active,.t-item:active{transform:scale(.94)}
+  .act:active .ic{transform:scale(.9)}
   :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:8px}
   @media (prefers-reduced-motion:reduce){
     .deck{scroll-behavior:auto}
-    .hint svg,.act.pop .ic{animation:none}
+    .hint svg,.act.pop .ic,.tabbar button.bounce svg,.deck.swap{animation:none}
     .sheet,.scrim,.toast{transition:none}
   }
 </style>
@@ -366,12 +436,12 @@
   // ---------- parser ----------
   function pullLinks(text){var links=[];var stripped=text.replace(/\[([^\]]+)\]\(([^)]+)\)/g,function(_,label,url){
     links.push({label:label.trim(),url:url.trim()});return "";});return {stripped:stripped,links:links};}
-  function makeItem(text,bucket,date){var pl=pullLinks(text);var body=pl.stripped;var hl="",m=body.match(/\*\*([^*]+)\*\*/);
+  function makeItem(text,bucket,date){var img="";text=text.replace(/\s*!\[[^\]]*\]\(([^)\s]+)\)/g,function(_,u){if(!img)img=u;return "";});var pl=pullLinks(text);var body=pl.stripped;var hl="",m=body.match(/\*\*([^*]+)\*\*/);
     if(m){hl=m[1].trim();body=body.replace(m[0],"");}
     hl=hl.replace(/^\d+[.)]\s+/,"").trim();
     body=body.replace(/\s{2,}/g," ").replace(/\s+([.,;:])/g,"$1").trim();
     if(!hl&&body){hl=body;body="";}if(!hl)return null;
-    return {id:date+"::"+ID_PFX+slug(hl),kind:"story",date:date,bucket:bucket,headline:hl,why:body,links:pl.links};}
+    return {id:date+"::"+ID_PFX+slug(hl),kind:"story",date:date,bucket:bucket,headline:hl,why:body,links:pl.links,img:safeUrl(img)};}
   function makeWorth(text,bucket,date){var pl=pullLinks(text);var link=pl.links[0];
     var title=link?link.label:text.replace(/\*\*/g,"").split("—")[0].trim();
     var rest=pl.stripped.replace(/^[\s—-]+/,"").trim();var src="";var mm=rest.match(/\(([^)]+)\)\s*$/);
@@ -437,6 +507,25 @@
     }
     return out.length?'<div class="gloss">'+out.join(" · ")+'</div>':"";
   }
+  // Section tints, monograms and thumbnails (Apple-style colour + identity without clutter).
+  var TINTS={"World":"world","Top stories":"world","Latest headlines":"world","India":"india","Business & markets":"biz",
+    "Startups & tech":"tech","Tech & AI":"tech","Science & health":"ai","Sports":"sport",
+    "Case brief":"practice","Guesstimate":"practice","Framework":"practice"};
+  function tintFor(chip,deck){return deck==="ipo"?"ipo":deck==="ai"?"ai":(TINTS[chip]||"accent");}
+  var MONO_T=["world","india","biz","tech","sport","ai"];
+  function initials(name){var w=String(name||"").replace(/[^A-Za-z0-9 ]/g," ").split(/\s+/).filter(function(x){
+    return x&&!/^(the|of|and|ltd|limited|india)$/i.test(x);});
+    return ((w[0]||"?").charAt(0)+(w[1]?w[1].charAt(0):"")).toUpperCase();}
+  function monoTint(name){var h=0;String(name).split("").forEach(function(ch){h=(h*31+ch.charCodeAt(0))>>>0;});return MONO_T[h%MONO_T.length];}
+  function photoTag(u,cls){return '<img'+(cls?' class="'+cls+'"':'')+' src="'+esc(u)+'" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">';}
+  // Opening-card list: the first photo story from each of the first sections, so it reads like a cover.
+  function topPicks(n){var st=CARDS.filter(function(x){return x.kind==="story";}),out=[],secs={};
+    st.forEach(function(x){if(out.length<n&&x.img&&!secs[x.chip]){secs[x.chip]=1;out.push(x);}});
+    st.forEach(function(x){if(out.length<n&&out.indexOf(x)<0)out.push(x);});
+    return out.sort(function(a,b){return a.n-b.n;});}
+  function thumbHTML(x){return '<span class="t-th" data-tint="'+(x.deck==="ipo"?monoTint(x.headline):tintFor(x.chip,x.deck))+'">'+
+    esc(initials(x.headline))+(x.img?photoTag(x.img):'')+'</span>';}
+
   // IPO cards carry "**Label:** value ¶" fields (scripts/build_digest.py ipo_card) -> status, GMP panel, facts grid.
   function ipoFields(why){var f={};String(why||"").split(/\s*¶\s*/).forEach(function(seg){
     var m=seg.match(/^\*\*([^*:]+):\*\*\s*(.*)$/);if(m)f[m[1].trim()]=m[2].trim();});return f;}
@@ -450,7 +539,8 @@
     function cell(k,v,small,wide){return v?'<div'+(wide?' class="wide"':'')+'><dt>'+esc(k)+'</dt><dd>'+esc(v)+(small?'<small>'+esc(small)+'</small>':'')+'</dd></div>':"";}
     var type=f["Type"]||"",split=/\+/.test(type)?type.charAt(0).toUpperCase()+type.slice(1):"";
     if(split)type="Fresh + OFS";             // the ₹ split goes under the issue size, keeping the grid even
-    return '<div class="card-body"><h2 class="hl">'+esc(c.headline)+'</h2>'+
+    return '<div class="card-body"><div class="ipo-head"><span class="mono" data-tint="'+monoTint(c.headline)+'">'+
+      esc(initials(c.headline))+'</span><h2 class="hl">'+esc(c.headline)+'</h2></div>'+
       (st?'<span class="ipo-status '+cls+'">'+esc(st)+'</span>':'')+
       (f["Industry"]?'<p class="ipo-ind">'+esc(f["Industry"])+'</p>':'')+gmp+
       '<dl class="ipo-grid">'+cell("Issue size",f["Size"],split)+cell("Type",type)+
@@ -459,23 +549,18 @@
   }
   function cardHTML(c,idx){
     if(c.kind==="intro"){
-      return '<section class="card intro" data-idx="'+idx+'">'+
-        '<span class="chip">'+(c.deck==="ai"?"AI brief":c.deck==="ipo"?"IPO watch":"Today’s brief")+'</span>'+
-        '<svg class="hero-svg" viewBox="0 0 340 150" preserveAspectRatio="xMidYMax meet" aria-hidden="true">'+
-          '<circle cx="248" cy="58" r="30" fill="var(--accent)" opacity="0.9"/>'+
-          '<g fill="var(--ink-mute)" opacity="0.9">'+
-            '<rect x="16" y="70" width="26" height="80"/><rect x="46" y="96" width="18" height="54"/>'+
-            '<rect x="68" y="50" width="30" height="100"/><rect x="102" y="84" width="18" height="66"/>'+
-            '<rect x="124" y="104" width="34" height="46"/><rect x="162" y="64" width="22" height="86"/>'+
-            '<rect x="188" y="38" width="28" height="112"/><rect x="220" y="88" width="18" height="62"/>'+
-            '<rect x="242" y="72" width="30" height="78"/><rect x="276" y="98" width="20" height="52"/>'+
-            '<rect x="300" y="58" width="26" height="92"/>'+
-          '</g>'+
-          '<rect x="0" y="149" width="340" height="1" fill="var(--hair-strong)"/>'+
-        '</svg>'+
-        '<div class="card-body"><h2 class="hl">'+esc(c.displayDate)+'</h2>'+
-        (c.tone?c.tone.split("\n").map(function(t){return '<p class="sum">'+inlineMd(esc(t))+'</p>';}).join(""):'')+
-        '<div class="kicker">Swipe up to read today’s stories</div></div>'+
+      var title=c.deck==="ai"?"AI":c.deck==="ipo"?"IPOs":"Today";
+      var top=topPicks(3);
+      return '<section class="card intro" data-idx="'+idx+'" data-tint="'+(c.deck==="ai"?"ai":c.deck==="ipo"?"ipo":"accent")+'">'+
+        '<div class="card-body today">'+
+          '<div class="t-date">'+esc(c.displayDate)+'</div>'+
+          '<h1 class="t-title">'+title+'</h1>'+
+          (c.tone?c.tone.split("\n").map(function(t){return '<p class="sum">'+inlineMd(esc(t))+'</p>';}).join(""):'')+
+          (top.length?'<div class="t-list"><div class="t-list-h">'+(c.deck==="ipo"?"Closing soonest":"Top stories")+'</div>'+
+            top.map(function(x){return '<button class="t-item" data-go="'+x.n+'" data-tint="'+tintFor(x.chip,x.deck)+'">'+thumbHTML(x)+
+              '<span class="t-txt"><span class="t-k">'+esc(x.chip||"")+'</span><span class="t-h">'+esc(x.headline)+'</span></span></button>';}).join("")+
+          '</div>':'')+
+        '</div>'+
         '<div class="hint">'+icDown()+'<span>SWIPE</span></div>'+
         (c.total?'<div class="intro-pos">0/'+c.total+'</div>':'')+
         '<div class="byline">Pratik Singh</div>'+
@@ -496,10 +581,10 @@
     var PRACTICE={"Case brief":"Structure it yourself, then reveal","Guesstimate":"Try it first, then reveal the approach","Framework":""};
     if(c.chip in PRACTICE)longCls+=" brief";
     var open=url?'<a class="act open" href="'+esc(url)+'" target="_blank" rel="noopener noreferrer" aria-label="Open source"><span class="ic">'+icOpen()+'</span><span class="lbl">Open</span></a>':'';
-    var isIpo=c.deck==="ipo";
-    return '<section class="card'+(isIpo?" ipo":longCls)+'" data-idx="'+idx+'" data-id="'+esc(c.id)+'">'+
+    var isIpo=c.deck==="ipo",photo=(!isIpo&&c.img)?'<figure class="ph">'+photoTag(c.img)+'</figure>':'';
+    return '<section class="card'+(isIpo?" ipo":longCls)+(photo?" has-img":"")+'" data-idx="'+idx+'" data-id="'+esc(c.id)+'" data-tint="'+tintFor(c.chip,c.deck)+'">'+
       (isIpo?ipoBodyHTML(c):
-      '<div class="card-body"><h2 class="hl">'+inlineMd(esc(c.headline))+'</h2>'+
+      '<div class="card-body">'+photo+'<div class="sec-k">'+esc(c.chip||"")+'</div><h2 class="hl">'+inlineMd(esc(c.headline))+'</h2>'+
       sumHTML(c.why,PRACTICE[c.chip])+'</div>'+
       glossHTML(c.headline+" "+(c.why||"")))+
       '<div class="card-foot">'+
@@ -530,6 +615,7 @@
     var ed=EDITIONS[CUR];
     CARDS=toCards(ed);
     deck.innerHTML=CARDS.map(cardHTML).join("");
+    deck.classList.toggle("motion",MOTION);
     buildFilters();
     deck.hidden=false; state.hidden=true; hud.hidden=false;
     editionDate.textContent=shortDate(ed.date);
@@ -544,6 +630,9 @@
     var idx=Math.round(deck.scrollTop/h);
     var max=Math.max(1,(deck.scrollHeight-h));
     progressFill.style.width=(Math.min(1,deck.scrollTop/max)*100)+"%";
+    // the card in view "arrives" once (content settles in) and lends its tint to the top bar
+    var el=deck.children[idx];
+    if(el){if(!el.classList.contains("in"))el.classList.add("in");hud.setAttribute("data-tint",el.getAttribute("data-tint")||"accent");}
     // reflect the active section in the dropdown (only when it changes)
     var ai=-1;
     for(var k=0;k<FILTERS.length;k++){ if(FILTERS[k].idx<=idx) ai=k; else break; }
@@ -634,12 +723,18 @@
   }
 
   // ---------- events ----------
+  var MOTION=!(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches);
+  // A photo that fails to load is dropped (the card falls back to its text layout; a thumb shows its monogram).
+  deck.addEventListener("error",function(e){var t=e.target;if(!t||t.tagName!=="IMG")return;
+    var ph=t.closest(".ph");if(ph){var card=ph.closest(".card");ph.remove();if(card)card.classList.remove("has-img");}else t.remove();},true);
   // Smooth scroll, but land there anyway if snapping swallowed it (some engines stall smooth scrolls on a snap deck).
   function scrollDeck(top){deck.scrollTo({top:top,behavior:"smooth"});
     setTimeout(function(){if(Math.abs(deck.scrollTop-top)>4)deck.scrollTo({top:top});},450);}
   var raf=false;
   deck.addEventListener("scroll",function(){if(raf)return;raf=true;requestAnimationFrame(function(){raf=false;updateProgress();});});
   deck.addEventListener("click",function(e){
+    var go=e.target.closest("[data-go]");
+    if(go){scrollDeck(+go.getAttribute("data-go")*(deck.clientHeight||1));return;}
     var save=e.target.closest(".act.save");
     if(save){var host=save.closest(".card[data-id]");if(host){toggleSave(host.getAttribute("data-id"),save);}return;}
     var rs=e.target.closest("[data-restart]");
@@ -662,7 +757,9 @@
     if(!b||!BY[b.dataset.mode].length)return;
     if(b.dataset.mode===MODE){scrollDeck(0);return;}
     var date=EDITIONS[CUR]&&EDITIONS[CUR].date;MODE=b.dataset.mode;lsSet("md_mode",MODE);EDITIONS=BY[MODE];
-    var i=EDITIONS.findIndex(function(x){return x.date===date;});CUR=i<0?0:i;reflectMode();renderDeck();deck.scrollTo({top:0});});
+    var i=EDITIONS.findIndex(function(x){return x.date===date;});CUR=i<0?0:i;reflectMode();renderDeck();deck.scrollTo({top:0});
+    if(MOTION){b.classList.remove("bounce");void b.offsetWidth;b.classList.add("bounce");
+      deck.classList.remove("swap");void deck.offsetWidth;deck.classList.add("swap");}});
   prevDay.addEventListener("click",function(){if(CUR<EDITIONS.length-1){CUR++;renderDeck();}});
   nextDay.addEventListener("click",function(){if(CUR>0){CUR--;renderDeck();}});
   editionDate.addEventListener("click",function(){scrollDeck(0);});

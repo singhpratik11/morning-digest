@@ -115,8 +115,40 @@ def get_link(item):
     return best
 
 
+IMG_RE = re.compile(r"""<img[^>]+src=["']([^"']+)""", re.I)
+
+
+def item_image(node):
+    # The story's own photo: the widest media:content / media:thumbnail, else an image
+    # enclosure, else the first <img> in the description. https only (the app is https).
+    best, best_w = "", -1
+    for ch in node.iter():
+        t, a = strip_ns(ch.tag), ch.attrib
+        u = (a.get("url") or "").strip()
+        if not u:
+            continue
+        if t in ("content", "thumbnail"):
+            if t == "content" and not re.search(r"image", a.get("medium", "") + a.get("type", "image")):
+                continue
+            w = int(a["width"]) if str(a.get("width", "")).isdigit() else 0
+            if w > best_w:
+                best, best_w = u, w
+        elif t == "enclosure" and a.get("type", "").startswith("image") and best_w < 0:
+            best, best_w = u, 0
+    if not best:
+        for ch in node:
+            if strip_ns(ch.tag) in ("description", "encoded", "content", "summary") and ch.text:
+                m = IMG_RE.search(ch.text)
+                if m:
+                    best = html.unescape(m.group(1))
+                    break
+    best = re.sub(r"^http://", "https://", best.strip())
+    best = re.sub(r"(ichef\.bbci\.co\.uk/(?:ace/)?(?:standard|branded_news)/)\d{2,3}/", r"\g<1>800/", best)
+    return safe_url(best)
+
+
 def parse_feed(raw):
-    """Return a list of (title, link, description) from RSS or Atom bytes."""
+    """Return a list of (title, link, description, image) from RSS or Atom bytes."""
     if not raw:
         return []
     try:
@@ -142,7 +174,7 @@ def parse_feed(raw):
         link = get_link(node)
         title = html.unescape(TAG_RE.sub("", title)).strip()
         if title and link:
-            out.append((title, link.strip(), desc))
+            out.append((title, link.strip(), desc, item_image(node)))
     return out
 
 
@@ -166,7 +198,7 @@ def collect(feeds=FEEDS):
         log("- fetching", source, "->", bucket)
         items = parse_feed(fetch(url))
         feed_list, taken = [], 0
-        for title, link, desc in items:
+        for title, link, desc, img in items:
             if taken >= maxn:
                 break
             u = safe_url(link)
@@ -177,7 +209,7 @@ def collect(feeds=FEEDS):
             body = "" if source == "Not the Onion" else \
                 clean_text(desc, 220 if bucket == "Made me smile" else 320)
             feed_list.append({"headline": clean_text(title, 160), "body": body,
-                              "source": source, "url": u, "key": norm(title)})
+                              "source": source, "url": u, "key": norm(title), "img": img})
             taken += 1
         log("    kept", taken)
         if bucket not in index:
@@ -568,7 +600,8 @@ def build_markdown(buckets, now, order, overview=None, mix=NEWS_MIX):
         for it in items:
             link = " [%s](%s)" % (it["source"], it["url"]) if it["url"] and it["source"] else ""
             body = (" " + it["body"]) if it["body"] else ""
-            lines.append("**%s**%s%s" % (it["headline"], body, link))
+            photo = " ![](%s)" % it["img"] if it.get("img") else ""   # the app shows it as the card photo
+            lines.append("**%s**%s%s%s" % (it["headline"], body, link, photo))
             lines.append("")
     return "\n".join(lines).strip() + "\n", total
 

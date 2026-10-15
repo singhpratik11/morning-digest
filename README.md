@@ -43,6 +43,13 @@ browser (CORS) access, so everything is fetched server-side by the Action.
 **News · AI · IPOs · Saved.** Tap the active tab again to jump back to the first card; the top row
 is just the edition date and a section picker.
 
+## Look and feel
+Apple-style: SF for text and New York for headlines on Apple devices (Manrope / Newsreader
+elsewhere), a colour per section (World blue, India saffron, Business green, Startups purple,
+Sports red, AI teal, IPOs green), frosted top bar and tab bar, and each story's own photo from its
+feed (`item_image` in the build; ~85% of News cards). Content settles in as each card arrives;
+switched off under Reduce Motion. The opening card is a "Today" cover with three photo stories.
+
 ## IPOs deck
 Open and upcoming mainboard IPOs, one card each: status, industry, GMP (with the implied listing
 gain, unofficial), issue size, fresh issue vs OFS (with the split), price band, lot size and the
