@@ -29,6 +29,8 @@ GUESSES = os.path.join(ROOT, "data", "guesstimates.json")
 FRAMES = os.path.join(ROOT, "data", "frameworks.json")
 NEWS_LLM = os.path.join(ROOT, "data", "news_llm.json")   # written by the 07:00 IST cloud routine
 AI_LLM = os.path.join(ROOT, "data", "ai_llm.json")       # written by the 07:30 IST AI routine
+POOL = os.path.join(ROOT, "data", "pool.json")            # article text for the morning summary run
+SUMMARIES = os.path.join(ROOT, "data", "summaries.json")  # written by the 07:15 IST summary routine
 MAX_EDITIONS = 21
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
@@ -606,6 +608,76 @@ def build_markdown(buckets, now, order, overview=None, mix=NEWS_MIX):
     return "\n".join(lines).strip() + "\n", total
 
 
+# --- Story summaries -----------------------------------------------------------------
+# Feeds mostly carry a one-sentence blurb. The morning builds also save each story's article
+# text to data/pool.json; a short cloud run at 07:15 IST (no web access) turns that into
+# data/summaries.json, and every build uses those summaries in place of the blurbs.
+BOILER = re.compile(r"(?i)cookie|subscri|sign up|newsletter|copyright|all rights reserved|follow us|"
+                    r"javascript|video can ?not be played|listen \d|ai narration|catch all the|"
+                    r"download the app|also read|click here|whatsapp|unlock these|advertisement")
+
+
+def article_text(url, words=180):
+    raw = fetch(url, timeout=12)
+    if not raw:
+        return ""
+    page = re.sub(r"(?is)<(script|style|nav|header|footer|aside|figure|form|noscript)\b[^>]*>.*?</\1>",
+                  " ", raw.decode("utf-8", "ignore"))
+    paras = [page_text(x) for x in re.findall(r"(?is)<p\b[^>]*>(.*?)</p>", page)]
+    paras = [x for x in paras if len(x.split()) >= 12 and not BOILER.search(x)]
+    return clean_text(" ".join(" ".join(paras).split()[:words]), 2000)
+
+
+def deck_items(buckets, order):
+    # The stories that actually make a deck (caps applied); curated cards excluded.
+    return [(b, it) for b, cap in order if b not in CURATED
+            for it in buckets.get(b, [])[:cap] if it.get("url")]
+
+
+def write_pool(now, news, ai):
+    try:
+        prev = {x["url"]: x.get("text", "") for x in json.load(open(POOL, encoding="utf-8")).get("items", [])}
+    except Exception:  # noqa: BLE001
+        prev = {}
+    items, fetched = [], 0
+    for deck, pairs in (("news", news), ("ai", ai)):
+        for section, it in pairs:
+            text = prev.get(it["url"])
+            if text is None:
+                time.sleep(0.4)
+                text, fetched = article_text(it["url"]), fetched + 1
+            items.append({"url": it["url"], "deck": deck, "section": section, "headline": it["headline"],
+                          "source": it.get("source", ""), "blurb": it.get("body", ""), "text": text})
+    with open(POOL, "w", encoding="utf-8") as f:
+        json.dump({"date": now.strftime("%Y-%m-%d"), "builtAt": now.strftime("%Y-%m-%d %H:%M IST"),
+                   "items": items}, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+    log("Pool:", len(items), "stories,", fetched, "articles fetched,",
+        sum(1 for x in items if x["text"]), "with text.")
+
+
+def load_summaries(now):
+    try:
+        d = json.load(open(SUMMARIES, encoding="utf-8"))
+        made = datetime.strptime(str(d.get("generatedAt", ""))[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc)
+    except Exception:  # noqa: BLE001
+        return {}
+    if now - made > timedelta(hours=36):
+        log("  summaries.json is older than 36h - using the feed blurbs.")
+        return {}
+    return {u: clean_text(t, 700) for u, t in (d.get("items") or {}).items() if t}
+
+
+def apply_summaries(summ, *bucket_sets):
+    n = 0
+    for buckets in bucket_sets:
+        for items in buckets.values():
+            for it in items:
+                if summ.get(it.get("url")):
+                    it["body"], n = summ[it["url"]], n + 1
+    return n
+
+
 def main():
     now = datetime.now(IST)
     date = now.strftime("%Y-%m-%d")
@@ -621,6 +693,12 @@ def main():
         log("Using today's cloud-routine news (%d sections)." % len(buckets))
     else:
         buckets, overview, order = rss, None, BUCKET_ORDER
+    ai = load_llm(AI_LLM, AI_ORDER, date)
+    ai_buckets, ai_order = (ai[0], AI_ORDER) if ai else (build_ai_rss(), AI_RSS_ORDER)
+    # Morning builds (and BUILD_POOL=1) save article text for the 07:15 summary run.
+    if 4 <= now.hour < 9 or os.environ.get("BUILD_POOL"):
+        write_pool(now, deck_items(buckets, order), deck_items(ai_buckets, ai_order))
+    log("Summaries used:", apply_summaries(load_summaries(now), buckets, ai_buckets))
     add_curated(buckets, doy)
     markdown, total = build_markdown(buckets, now, order, overview)
 
@@ -641,11 +719,10 @@ def main():
     edition = {"date": date, "displayDate":
                "%s, %d %s %d" % (WEEKDAYS[now.weekday()], now.day, MONTHS[now.month], now.year),
                "markdown": markdown}
-    ai = load_llm(AI_LLM, AI_ORDER, date)
     if ai:
-        edition["ai"], ai_total = build_markdown(ai[0], now, AI_ORDER, ai[1], AI_MIX)
+        edition["ai"], ai_total = build_markdown(ai_buckets, now, AI_ORDER, ai[1], AI_MIX)
     else:
-        edition["ai"], ai_total = build_markdown(build_ai_rss(), now, AI_RSS_ORDER, None, AI_RSS_MIX)
+        edition["ai"], ai_total = build_markdown(ai_buckets, now, AI_RSS_ORDER, None, AI_RSS_MIX)
     if ai_total < MIN_ITEMS:
         del edition["ai"]   # too thin to show; the app hides the AI switch
     log("AI deck:", ai_total, "stories.")

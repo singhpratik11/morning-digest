@@ -43,6 +43,14 @@ browser (CORS) access, so everything is fetched server-side by the Action.
 **News · AI · IPOs · Saved.** Tap the active tab again to jump back to the first card; the top row
 is just the edition date and a section picker.
 
+## Story summaries (one small morning run)
+Feeds mostly carry a one-sentence blurb, so the morning builds (04:00–08:59 IST) also save each
+story's article text to `data/pool.json` (free; NDTV, ESPNcricinfo and Ars block it). A Claude
+cloud routine, "Story summaries (7:15 AM IST)", with no web access, reads that file once and writes
+`data/summaries.json`: 45–60 words per story (what happened, context, why it matters), using only
+the article text. Every build uses those summaries instead of the blurbs; if the run fails or is
+older than 36 hours, cards fall back to the blurbs.
+
 ## Look and feel
 Apple-style: SF for text and New York for headlines on Apple devices (Manrope / Newsreader
 elsewhere), a colour per section (World blue, India saffron, Business green, Startups purple,

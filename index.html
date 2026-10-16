@@ -302,15 +302,15 @@
   [data-tint=tech]{--tint:var(--t-tech)}[data-tint=sport]{--tint:var(--t-sport)}[data-tint=ai]{--tint:var(--t-ai)}
   [data-tint=ipo]{--tint:var(--t-ipo)}[data-tint=practice],[data-tint=accent]{--tint:var(--accent)}
   .sec-k{font:700 .7rem var(--font-ui);letter-spacing:.09em;text-transform:uppercase;color:var(--tint,var(--accent))}
-  .ph{margin:0;flex:none;width:100%;aspect-ratio:16/10;max-height:34vh;border-radius:20px;overflow:hidden;
+  .ph{margin:0;flex:none;width:100%;aspect-ratio:16/10;max-height:28vh;border-radius:20px;overflow:hidden;
     background:var(--surface-2);box-shadow:0 1px 2px rgba(0,0,0,.06),0 10px 28px rgba(0,0,0,.10)}
   .ph img{width:100%;height:100%;object-fit:cover;display:block}
   .card.has-img .card-body{justify-content:flex-start;gap:.65rem}
   .card.has-img .card-body>:first-child{margin-top:auto}
   .card.has-img .card-body>:last-child{margin-bottom:auto}
   .card.has-img .hl{font-size:clamp(1.4rem,5.4vw,1.85rem)}
-  .card.has-img .sum{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:5;overflow:hidden}
-  @media (max-height:740px){.ph{max-height:25vh}.card.has-img .sum{-webkit-line-clamp:3}.card.has-img .hl{font-size:1.3rem}}
+  .card.has-img .sum{flex:0 1 auto;min-height:0}   /* full summary; scrolls inside the card if it must */
+  @media (max-height:740px){.ph{max-height:22vh}.card.has-img .hl{font-size:1.3rem}}
 
   /* opening card, Apple News "Today" style */
   .card.intro .card-body.today{justify-content:center;gap:.5rem}
