@@ -358,6 +358,11 @@
   .tabbar button svg,.restart,.chev,.sec-trigger,.t-item,.act .ic{transition:transform .25s cubic-bezier(.3,1.5,.5,1)}
   .tabbar button:active svg,.restart:active,.chev:active,.sec-trigger:active,.t-item:active{transform:scale(.94)}
   .act:active .ic{transform:scale(.9)}
+  /* "New stories" pill: appears under the top bar when fresh content lands mid-read */
+  .fresh{position:absolute;left:50%;top:calc(env(safe-area-inset-top) + 66px);z-index:17;transform:translateX(-50%);
+    border:0;border-radius:999px;padding:.5rem 1rem;background:var(--accent);color:var(--accent-ink);
+    font:700 .8rem var(--font-ui);box-shadow:var(--shadow);cursor:pointer;animation:freshIn .45s cubic-bezier(.3,1.4,.5,1)}
+  @keyframes freshIn{from{opacity:0;transform:translate(-50%,-10px)}to{opacity:1;transform:translate(-50%,0)}}
   :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:8px}
   @media (prefers-reduced-motion:reduce){
     .deck{scroll-behavior:auto}
@@ -410,6 +415,7 @@
   </div>
 
   <div class="toast" id="toast"></div>
+  <button class="fresh" id="freshPill" hidden>↑ New stories</button>
 </div>
 
 <script>
@@ -682,7 +688,8 @@
       sheet=document.getElementById("sheet"),sheetClose=document.getElementById("sheetClose"),
       sheetList=document.getElementById("sheetList"),toast=document.getElementById("toast"),
       tabbar=document.getElementById("tabbar"),sheetTitle=document.getElementById("sheetTitle"),
-      aiTab=document.getElementById("aiTab"),ipoTab=document.getElementById("ipoTab");
+      aiTab=document.getElementById("aiTab"),ipoTab=document.getElementById("ipoTab"),
+      freshPill=document.getElementById("freshPill");
 
   function showToast(msg){toast.textContent=msg;toast.classList.add("on");
     clearTimeout(toastT);toastT=setTimeout(function(){toast.classList.remove("on");},1400);}
@@ -820,16 +827,40 @@
     setEditions(rows); CUR=0; renderDeck(); reflectSaved();
   }catch(e){ try{setEditions(EMBEDDED);renderDeck();}catch(e2){} }
 
-  // 2) hydrate from the published data on Vercel (same-origin fetch, always fresh)
-  try{
-    fetch("data/digests.json",{cache:"no-store"})
-      .then(function(r){return r.ok?r.json():null;})
-      .then(function(list){
-        if(!list||!list.length)return;
-        var rows=list.map(function(d){return {date:d.date,markdown:d.markdown,ai:d.ai,ipos:d.ipos};});
-        if(setEditions(rows)){CUR=0;renderDeck();cacheEditions(rows);}
-      })
-      .catch(function(){});
-  }catch(e){}
+  // 2) hydrate from the published data on Vercel (same-origin fetch, always fresh), and check
+  //    again whenever the app comes back to the foreground (a home-screen app resumes from
+  //    memory without reloading) and every 10 minutes while it's open.
+  //    New content: re-render if you're on the first card, it's a new day, or you've been away
+  //    20+ minutes; otherwise show a "New stories" pill so a story you're reading never jumps.
+  var SIG=sigOf(lsGet("md_editions"))||null,LAST_FETCH=0,HIDDEN_AT=0,STALE=false,PENDING=null;  // unchanged data = no re-render
+  function sigOf(rows){var r=rows&&rows[0];return r?r.date+"|"+String(r.markdown||"").slice(0,200)+"|"+String(r.markdown||"").length:"";}
+  function applyRows(rows){if(setEditions(rows)){CUR=0;renderDeck();}PENDING=null;freshPill.hidden=true;}
+  function refresh(){
+    LAST_FETCH=Date.now();
+    try{
+      fetch("data/digests.json",{cache:"no-store"})
+        .then(function(r){return r.ok?r.json():null;})
+        .then(function(list){
+          if(!list||!list.length)return;
+          var rows=list.map(function(d){return {date:d.date,markdown:d.markdown,ai:d.ai,ipos:d.ipos};});
+          var sig=sigOf(rows),first=SIG===null;
+          if(sig===SIG){STALE=false;return;}
+          var newDay=!EDITIONS.length||rows[0].date!==EDITIONS[0].date,atTop=deck.scrollTop<10;
+          SIG=sig;cacheEditions(rows);
+          if(first||newDay||atTop||STALE){STALE=false;applyRows(rows);}
+          else{PENDING=rows;freshPill.hidden=false;}
+        })
+        .catch(function(){});
+    }catch(e){}
+  }
+  freshPill.addEventListener("click",function(){if(PENDING)applyRows(PENDING);});
+  document.addEventListener("visibilitychange",function(){
+    if(document.hidden){HIDDEN_AT=Date.now();return;}
+    if(HIDDEN_AT&&Date.now()-HIDDEN_AT>20*60*1000)STALE=true;
+    if(Date.now()-LAST_FETCH>30*1000)refresh();
+  });
+  window.addEventListener("pageshow",function(e){if(e.persisted)refresh();});
+  setInterval(function(){if(!document.hidden)refresh();},10*60*1000);
+  refresh();
 })();
 </script>
