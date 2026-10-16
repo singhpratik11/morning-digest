@@ -523,14 +523,14 @@
     return x&&!/^(the|of|and|ltd|limited|india)$/i.test(x);});
     return ((w[0]||"?").charAt(0)+(w[1]?w[1].charAt(0):"")).toUpperCase();}
   function monoTint(name){var h=0;String(name).split("").forEach(function(ch){h=(h*31+ch.charCodeAt(0))>>>0;});return MONO_T[h%MONO_T.length];}
-  function photoTag(u,cls){return '<img'+(cls?' class="'+cls+'"':'')+' src="'+esc(u)+'" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">';}
+  function photoTag(u,eager){return '<img src="'+esc(u)+'" alt="" loading="'+(eager?"eager":"lazy")+'" decoding="async" referrerpolicy="no-referrer">';}
   // Opening-card list: the first photo story from each of the first sections, so it reads like a cover.
   function topPicks(n){var st=CARDS.filter(function(x){return x.kind==="story";}),out=[],secs={};
     st.forEach(function(x){if(out.length<n&&x.img&&!secs[x.chip]){secs[x.chip]=1;out.push(x);}});
     st.forEach(function(x){if(out.length<n&&out.indexOf(x)<0)out.push(x);});
     return out.sort(function(a,b){return a.n-b.n;});}
   function thumbHTML(x){return '<span class="t-th" data-tint="'+(x.deck==="ipo"?monoTint(x.headline):tintFor(x.chip,x.deck))+'">'+
-    esc(initials(x.headline))+(x.img?photoTag(x.img):'')+'</span>';}
+    esc(initials(x.headline))+(x.img?photoTag(x.img,true):'')+'</span>';}   // the cover's thumbs load at once
 
   // IPO cards carry "**Label:** value ¶" fields (scripts/build_digest.py ipo_card) -> status, GMP panel, facts grid.
   function ipoFields(why){var f={};String(why||"").split(/\s*¶\s*/).forEach(function(seg){
