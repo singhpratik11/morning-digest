@@ -1,24 +1,78 @@
 {
- "date": "2026-10-20",
- "builtAt": "2026-10-20 07:21 IST",
+ "date": "2026-10-21",
+ "builtAt": "2026-10-21 07:08 IST",
  "items": [
   {
-   "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
    "deck": "news",
    "section": "World",
-   "headline": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+   "headline": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
    "source": "BBC World",
-   "blurb": "It comes after the country's interior minister admits that police \"lost control\" in some cities.",
-   "text": "French authorities have imposed overnight curfews in parts of central Paris and other cities after a weekend of riots and looting across the country. Police in Paris said a curfew would be in force between 23:00 local time (21:00 GMT) and 06:00 in Place de la République, where protesters had gathered over the weekend, and the Les Halles shopping area. A ban on unauthorised gatherings has also been imposed in several other parts of the city centre. Partial curfews variously restricting the movement of young people and gatherings were announced for cities including Marseille, Bordeaux, Nice and Lyon in the south as well as Lille and other towns in the north. Earlier Interior Minister Laurent Nuñez, who has been strongly criticised by opposition politicians over the preparedness for the disorder but whose resignation was rejected by President Emmanuel Macron, admitted police had \"lost control\" in some cities. The protests began last month with students demanding better school conditions, but they have since escalated to take in a broader range of concerns, with numbers at demonstrations this weekend bolstered by trade"
+   "blurb": "Ukraine had accused the US of withholding key intelligence - a claim rejected as \"scandalous\" by Washington.",
+   "text": "Ukraine's President Volodymyr Zelensky has said US intelligence sharing on deadly Russian missile attacks \"works now\" after talks with President Donald Trump's special envoy Steve Witkoff. The meeting in Oslo came after accusations by Kyiv that Washington was withholding key intelligence - a claim rejected as \"scandalous\" by US Secretary of State Marco Rubio. Finnish President Alexander Stubb, who also took part in the talks, said \"genuine progress\" was made on proposals to achieve peace but gave no details and warned that patience would be needed. Zelensky and his European allies said it was now up to Russia to respond to the proposals agreed in Oslo when Witkoff arrives in St Petersburg on Wednesday. Witkoff was not present at the joint press conference after Tuesday's talks in the Norwegian capital. Trump's son-in-law Jared Kushner, another key envoy, took part in the meeting via video link. A US official later described the talks as \"very productive and constructive\", saying there was a \"strong alignment at the working level\" among the US, Ukraine and Europe on \"the next steps\". The official confirmed"
   },
   {
-   "url": "https://www.aljazeera.com/news/2026/10/20/beyond-money-why-young-tunisians-are-considering-emigration?traffic_source=rss",
+   "url": "https://www.aljazeera.com/news/2026/10/21/us-jails-guatemalan-man-for-30-years-over-deadly-smuggling-operation?traffic_source=rss",
    "deck": "news",
    "section": "World",
-   "headline": "Beyond money: Why young Tunisians are considering emigration",
+   "headline": "US jails Guatemalan man for 30 years over deadly smuggling operation",
    "source": "Al Jazeera",
-   "blurb": "For many young Tunisians, the question is no longer simply how to make a living, but where they can build a future.",
-   "text": "Tunis, Tunisia – For Maher Qassem, the phrase “beyond money” sums up why he is considering leaving his country. After years of working in the media and trying to secure a stable life for his family, he is now thinking of starting over abroad. Buying a home and planning for a better future have given way to more immediate concerns: covering monthly expenses and meeting mounting financial commitments. Speaking to Al Jazeera, Qassem says almost his entire salary goes towards loan repayments, rent and his son’s education. At times, he adds, he has been unable to help his sick mother pay for medication and treatment. Qassem is among many young Tunisians who see little meaningful change in their daily lives. Seven years into President Kais Saied’s rule, he worries about his son’s prospects and the quality of life the country can offer future generations. Tunisians remain divided between those who believe the past several years have failed to deliver the change they hoped for and those who still believe reform is possible. These contrasting views unfold against a backdrop of"
+   "blurb": "The 2022 incident resulted in the deaths of 53 immigrants trapped inside a tractor-trailer in dangerously high heat.",
+   "text": "A Guatemalan man has been sentenced to 30 years in a United States prison for his role in a human-smuggling operation that killed 53 migrants trapped in a truck – a disaster that had been described as one of the deadliest such incidents along the US-Mexico border in recent history. US District Judge Orlando Garcia handed 39-year-old Rigoberto Ramon Miranda-Orozco a 30-year prison term on Tuesday, more than a year after his extradition from Guatemala in March 2025. He was first arrested in Guatemala in August 2024, as part of a cross-border effort to dismantle the human-smuggling network. The charges stem from a fatal incident on June 27, 2022. According to the US Department of Justice, emergency crews discovered dozens of people trapped inside an abandoned truck in a remote area on the southern outskirts of San Antonio, Texas. A total of 64 migrants had endured a lengthy journey that began in Guatemala and continued through Mexico across the border into the US. By the time the truck was driving from Laredo, Texas, to San Antonio – a distance of"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest",
+   "deck": "news",
+   "section": "World",
+   "headline": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
+   "source": "Guardian",
+   "blurb": "Case in Africa’s most populous country was detected in a woman who had travelled from Uganda Nigeria has confirmed an Ebola case in its capital, Abuja, after a woman who arrived from Uganda tested positive for the virus, the health ministry said.",
+   "text": "Case in Africa’s most populous country was detected in a woman who had travelled from Uganda Nigeria has confirmed an Ebola case in its capital, Abuja, after a woman who arrived from Uganda tested positive for the virus, the health ministry said. The woman began showing symptoms on 7 October and was admitted to a hospital in Abuja four days later, where she was later diagnosed with Ebola. It is unclear when she arrived in Nigeria, Africa’s most populous country. The health minister, Muhammad Pate, said authorities had begun tracing 44 people identified as contacts of the patient. “We are doing everything possible to contain this case by tracing all the contacts the individual may have had,” he said. Uganda’s ministry of health said the patient had only transited through Uganda and that she is a Nigerian woman who had been on a business trip to Congo’s eastern region. The Nigerian authorities have not disclosed her nationality. “Travel through Uganda does not establish that infection occurred here. The location of exposure remains under investigation,” the ministry said in a statement."
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss",
+   "deck": "news",
+   "section": "World",
+   "headline": "France is divided over who to blame for and what to learn from weekend riots",
+   "source": "BBC World",
+   "blurb": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.",
+   "text": "\"This is not the face of France! You media all focus on the violence and destruction of Saturday's protests. But that's not the majority. It's not 'us'. That's not France!\" Elisabeth was speaking to me in front of a row of smashed shop windows, shattered glass still littering the tree-lined Parisian street. Its walls were daubed with red-lettered graffiti insulting French police and signed with the date of the riots, 17 October. I'd stopped her and her friend to ask what they thought of what happened on Saturday. Elisabeth was so upset that, when she spoke, she seemed close to tears. \"My friend thinks this is civil war in France but I don't. Saturday is about something else entirely.\" But what did happen exactly? Who was behind the riots? While much of the looting seemed opportunistic, the violence looked pre-planned. Why orchestrate it now, after weeks of student protests? And who most stands to gain from the destruction this weekend? Elisabeth wasn't entirely sure. Different theories are doing the rounds - in and outside France. Black and white answers may"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/10/21/why-former-fdlr-fighters-are-returning-to-rwanda?traffic_source=rss",
+   "deck": "news",
+   "section": "World",
+   "headline": "Why former FDLR fighters are returning to Rwanda",
+   "source": "Al Jazeera",
+   "blurb": "From the forest to Mutobo, former fighters face the challenge of rebuilding their lives after leaving the armed group.",
+   "text": "Musanze, Rwanda – Jean Claude Hategekimana feared that returning to Rwanda could cost him his life. After years with the Democratic Forces for the Liberation of Rwanda (FDLR), he decided to leave the armed group and return home. At Rwanda’s Mutobo Demobilisation and Reintegration Centre, he began preparing for civilian life. Born in 1996 in Rutsiro District, in western Rwanda, Hategekimana moved to the Democratic Republic of the Congo (DRC) with his parents and grew up in an area controlled by the FDLR. He joined the group in 2018, underwent military training and eventually reached the rank of captain. “I arrived at the Mutobo Centre after fighting to defend Goma. Following our defeat, I fled to Masisi. After realising that I was fighting for nothing, I decided to return to Rwanda. I came back on February 24,” he told Al Jazeera. Hategekimana said FDLR members had been taught that anyone who returned to Rwanda would be killed. “Upon arriving in Rwanda, I realised that the FDLR had been lying to us. For me, returning home felt like embarking on a"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/oct/20/rfk-jr-vaccine-researchers-offices-raided-guinea-bissau",
+   "deck": "news",
+   "section": "World",
+   "headline": "RFK Jr’s ‘deities of vaccine research’ raided by police in Guinea-Bissau",
+   "source": "Guardian",
+   "blurb": "Police seize doses of hepatitis B vaccine from people at center of dispute over research on African newborns Controversial vaccine researchers who have been praised by Robert F Kennedy Jr, the US Department of Health and Human Services (HHS) secretary, had their offices in Guinea-Bissau raided by judicial police, who…",
+   "text": "Police seize doses of hepatitis B vaccine from people at center of dispute over research on African newborns Controversial vaccine researchers who have been praised by Robert F Kennedy Jr, the US Department of Health and Human Services (HHS) secretary, had their offices in Guinea-Bissau raided by judicial police, who seized doses of hepatitis B vaccines, officials said on Facebook. The researchers have been at the heart of an ongoing dispute over research on African newborns, supported by $1.6m from the US Centers for Disease Control and Prevention (CDC) and matched by the Pershing Square Foundation and the Bluebell Foundation for a total of $3.2m. The police search took place on Monday, involving “investigative procedures aimed at clarifying the circumstances related to the said batch of vaccines”, according to the social media post, which was translated from Portuguese. The announcement noted that seizing the immunizations did not point to “irregularities in the quality, safety, or effectiveness of the vaccines”. The Bandim Health Project recently posted a letter of approval for the trial from Guinea-Bissau’s national ethics committee at the ministry"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
+   "deck": "news",
+   "section": "World",
+   "headline": "Elon Musk says Tesla-SpaceX merger being considered",
+   "source": "BBC World",
+   "blurb": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+   "text": "Elon Musk has said he likes the idea of a merger of Tesla and SpaceX, two of his most notable companies, and it is under active consideration. \"Do I think it would be a good idea? Yes,\" Musk said during a call with financial analysts over the quarterly business results of SpaceX on Tuesday. While Musk noted the certainty of such a merger should not be assumed, and it would need shareholders' support, he said special committees within both companies have been formed to examine the move. \"The special committees have not reached agreement on terms of any transaction and there's no guarantee that they will,\" Musk added. \"But I do think there is a lot of merit to merging and a lot to be gained.\" With Tesla valued roughly $1.5 trillion and SpaceX valued at $2 trillion, a combination of the two companies would mark one of the largest mergers in history. The company, which builds space rockets and Starlink internet satellites, is now expanding into offering cloud compute capacity for other tech companies, like Anthropic and Google. That"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/10/21/one-year-on-has-kenyas-opposition-lost-its-way-without-raila-odinga?traffic_source=rss",
+   "deck": "news",
+   "section": "World",
+   "headline": "One year on: Has Kenya’s opposition lost its way without Raila Odinga?",
+   "source": "Al Jazeera",
+   "blurb": "Odinga’s legacy faces a test as ODM splits over its alliance with President Ruto.",
+   "text": "Nairobi, Kenya – One year after Raila Odinga’s death, the political movement he led for decades is struggling to define its future. Within the Orange Democratic Movement (ODM), a bitter dispute over cooperation with President William Ruto has exposed divisions over the party’s identity and independence. The struggle raises a question that extends beyond ODM’s leadership: Can Kenya’s opposition remain a credible force without the man who helped shape it? Raila’s death prompted tributes and commemorations celebrating a political career defined by the struggle for multiparty democracy, constitutional reform, freedom of expression and social justice. Yet the divisions now confronting his party reveal the difficulty of sustaining a political movement built around one dominant figure. His legacy remains a source of inspiration, but also a point of contention over what ODM should stand for and how it should exercise power. At the centre of the dispute is ODM’s relationship with Ruto’s administration. The removal of Secretary-General Edwin Sifuna, who opposed closer cooperation with the president, has become a flashpoint in a wider struggle over the party’s direction. The disagreement is"
   },
   {
    "url": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
@@ -30,256 +84,202 @@
    "text": "DHS says migrants ‘retain protections’ after temporary protected status was set to expire on Monday More than 100,000 people from Ukraine and Sudan can stay in the United States without immediate risk of deportation, the Department of Homeland Security said, in what amounts to a temporary reprieve after their right to stay in the country was set to expire on Monday. Temporary protected status was set to end on Monday for about 101,000 Ukrainians and 1,800 Sudanese. But the DHS said an announcement “will be made at the appropriate time”. Until then, the department said in a written statement, Ukrainians and Sudanese in the US covered by those temporary measures “retain protection”. The department did not indicate how long they could stay or when a final announcement would be made on their status. The DHS did not respond to a question about whether they can keep their work permits, but TPS generally allows people to work while their protections remain in effect. The decision marks another incident where the Trump administration, which has previously sought to end these temporary protections"
   },
   {
-   "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/articles/c678pnn9mpgno?at_medium=RSS&at_campaign=rss",
    "deck": "news",
    "section": "World",
-   "headline": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
+   "headline": "Man charged with attack on Australia MP to face court",
    "source": "BBC World",
-   "blurb": "Serhii Beskrestnov says there has not been enough time to warn people about incoming missile attacks. The White House said there had been no changes to intelligence sharing.",
-   "text": "Ukrainians have died because Kyiv is still not receiving reliable US warnings of incoming Russian attacks, according to a key adviser to President Volodymyr Zelensky. Serhii \"Flash\" Beskrestnov told the BBC that lives had been lost because there had not been time to warn citizens about ballistic missile strikes, saying: \"It's dangerous... I think it's really very bad... People have already died.\" The adviser also said restrictions to Ukraine's use of the Starlink internet network were ongoing. The White House said there had been no changes to intelligence sharing with Ukraine. Ukraine first reported an interruption to US intelligence sharing last week , as a row with the Trump administrations over its controversial deal to import Russian oil sent relations to new lows. Despite the denials from Washington, many in Kyiv suspect the issues are not a coincidence. On Monday morning, Zelensky wrote on social media: \"Overnight two ballistic missile attacks were reported on the capital, one without warning, the second with only minimal time to take shelter.\" Hours earlier, an interview the president did with NBC was published, in"
+   "blurb": "Brendan Nugent's family say they have known Helen Haines, who remains in a critical condition, for more than 20 years.",
+   "text": "A 43-year-old man has been charged after Australian MP Helen Haines was hit by a car in the state of Victoria on Monday. The suspect will appear in court on Wednesday to face charges of dangerous driving causing serious injury, intentionally causing serious injury and the federal offence of causing harm to a public official. Local media earlier named the alleged attacker as environmental activist Brendan Nugent. His father and his partner said they had been friends with Haines \"for more than 20 years\" and thanked residents and officers who helped her after the \"shocking and horrific crime\". Haines remains in a critical condition after surgery and is reported to have lost one of her legs. \"Helen Haines is a deeply respected, valued and much loved member of our local community,\" Rod Nugent and his partner Christine Cunningham said in a statement. \"All of our love and all of our thoughts are with Helen and her family and friends.\" Haines, 65, the independent member for Indi, is in a critical but stable condition after undergoing surgery at a Melbourne hospital."
   },
   {
-   "url": "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks?traffic_source=rss",
-   "deck": "news",
-   "section": "World",
-   "headline": "Saudi Arabia cancels 2026 ‘Davos in the Desert’ amid Houthi attacks",
-   "source": "Al Jazeera",
-   "blurb": "Riyadh postpones flagship investment conference until 2027, orders government staff to work from home.",
-   "text": "Saudi Arabia’s Future Investment Initiative (FII) conference has been postponed until next year, according to a statement on the official website, as deadly strikes by the Iran-backed Houthis against the kingdom continue. The annual event was due to start next week on October 26 and run through October 29, with a date next year to be announced “very soon”, the statement released on Tuesday said. FII Institute chief executive officer Dr Maha Bint Mishari Al Saud said the decision “comes from a deep commitment to our partners, members, speakers and delegates”. “Because this is our landmark tenth edition, we want to ensure it delivers the full scale, extraordinary quality, and unforgettable impact that our community has come to expect and truly deserves,” she said. Informally dubbed “Davos in the Desert”, a nod to the World Economic Forum’s annual meeting in Switzerland, the state-backed conference showcases the kingdom’s ambitious investment plans in a bid to attract billions of dollars needed to fund its economic transformation away from hydrocarbons towards tourism, sport and technology. Expected speakers included: Alphabet & Google’s president and"
-  },
-  {
-   "url": "https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children",
-   "deck": "news",
-   "section": "World",
-   "headline": "Kenyan starvation cult leader guilty of murder of 190 children and one adult",
-   "source": "Guardian",
-   "blurb": "Paul Mackenzie and his church set up sect that ordered followers to starve themselves and their children, say prosecutors A Kenyan court has found the starvation cult leader Paul Mackenzie and about 30 others guilty of murder over the deaths of ⁠190 children and one adult in one of the world’s worst cult-related…",
-   "text": "Paul Mackenzie and his church set up sect that ordered followers to starve themselves and their children, say prosecutors A Kenyan court has found the starvation cult leader Paul Mackenzie and about 30 others guilty of murder over the deaths of ⁠190 children and one adult in one of the world’s worst cult-related disasters in recent history. Mackenzie was arrested in 2023 after police received a tipoff, and weeks later authorities began uncovering bodies in shallow graves in the Shakahola forest near the coast ⁠in south-eastern Kenya. Prosecutors say Mackenzie and ⁠his Good News International Church organised ​a Christian doomsday sect in which they ordered followers to starve themselves and their children to death to go to heaven before the world ended. Mackenzie denied murder charges, saying he did not force the victims to starve but the ⁠court rejected that argument. In total, more than 400 bodies have been recovered from the Shakahola forest. Many were severely decomposed, and only 26 of them were able to be identified. Monday’s judgment covered 191 deaths while investigations into the other deaths are"
-  },
-  {
-   "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
-   "deck": "news",
-   "section": "World",
-   "headline": "Kenya cult leader who told parents to starve children guilty of 191 murders",
-   "source": "BBC World",
-   "blurb": "Self-proclaimed pastor Paul Mackenzie was found guilty of 191 murder charges - all but one of them children.",
-   "text": "The leader of a Kenyan doomsday cult, Paul Mackenzie, has been found guilty of murdering 191 people, all but one of them children. Mackenzie ordered members of his cult to starve their children to death so they could \"meet Jesus\". His doctrine said that education was forbidden and modern medicine was \"evil\". Twenty-eight other leaders of his cult were also convicted of murder. They had all pleaded not guilty, repeatedly insisting that nobody was forced to die. Delivering her eight-hour judgement in the port city of Mombasa, Justice Diana Mochache said Mackenzie's followers believed he was \"Jesus's mouthpiece\". One of his co-accused said Mackenzie had told his followers that anyone who \"resisted the directive to fast must be forced to go to heaven through kicks and blows\". Burials inside the forest where the cult was based were called \"weddings\". Those who died \"were celebrated as having wedded with Jesus\", the judge said. One witness stated that a pregnant woman had been barred from nursing her new-born baby, who died 12 days later. \"She was instructed to fast to death and"
-  },
-  {
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/release-epstein-files-protester-interrupts-jd-vances-speech?traffic_source=rss",
-   "deck": "news",
-   "section": "World",
-   "headline": "‘Release Epstein files’, protester interrupts JD Vance’s speech",
-   "source": "Al Jazeera",
-   "blurb": "A protester demanding the release of the Epstein files interrupted US Vice President JD Vance's speech.",
-   "text": "A protester demanding the release of the Epstein files interrupted US Vice President JD Vance at a North Carolina rally for Republican midterm candidates. After claiming illegal border crossings had fallen to zero, Vance joked that the protester was one who had slipped through."
-  },
-  {
-   "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan",
-   "deck": "news",
-   "section": "World",
-   "headline": "Drone attack near market kills 80 in Sudan",
-   "source": "Guardian",
-   "blurb": "Witness says drone struck twice at transport hub in al-Dibab, in one of deadliest single attacks of war A drone strike near a market in southern Sudan on Sunday evening killed 80 people, mostly commuters catching rides home.",
-   "text": "Witness says drone struck twice at transport hub in al-Dibab, in one of deadliest single attacks of war A drone strike near a market in southern Sudan on Sunday evening killed 80 people, mostly commuters catching rides home. Ahmed Wadi, a witness, said the attack in the town of al-Dibab in West Kordofan state left “50 bodies who I helped bury, one of them my own brother Mohamed”. Using a satellite internet connection to circumvent a communications blackout, Wadi also said 47 other people were transported to the nearest town, al-Mujlad. A medical source, requesting anonymity for his safety, said 30 of them died from their injuries. The medic said: “A total of 80 people were killed in the drone strike on al-Dibab, and another drone strike on al-Mujlad injured four who are currently being treated.” Wadi said the drone struck twice, 10 minutes apart, “on a transport hub where people gather to travel back to their villages after the market day ends”. The attack is one of the deadliest single strikes since war broke out in April 2023 when"
-  },
-  {
-   "url": "https://www.bbc.co.uk/news/articles/ckd7qy12j148o?at_medium=RSS&at_campaign=rss",
-   "deck": "news",
-   "section": "World",
-   "headline": "Tennis star Svitolina says emotional toll of Ukraine war led to Monfils separation",
-   "source": "BBC World",
-   "blurb": "The two top tennis pros married in 2021 and have one child together.",
-   "text": "Ukrainian tennis star Elina Svitolina has announced the end of her marriage with French former tennis player Gaël Monfils, citing the emotional impact of the war in her country. The 32-year-old, who is ranked number six in the world, wrote in a heartfelt post on Instagram about the effect the conflict and \"what the war has done to me inside\". \"This is the most difficult thing I have ever had to share,\" she wrote, saying \"I need to find my way back to myself\". Svitolina said she felt she could not do that within her marriage. She said her husband Monfils, 40, \"listened\" and \"respected what I need with a strength and grace I will never forget\". \"Some battles happen deep inside you, and no amount of love from someone else can win them for you,\" the four-time Grand Slam semi-finalist wrote. It was \"the hardest thing I have ever had to tell the person I love\", Svitolina said. \"Everyone knows how much Ukraine means to me,\" Svitolina, who grew up in Odesa, said. Ukraine's Black Sea port city has"
-  },
-  {
-   "url": "https://www.thehindu.com/news/national/telangana/how-an-suv-carrying-27kg-of-mephedrone-exposed-a-clandestine-drug-factory/article71602859.ece",
+   "url": "https://www.thehindu.com/news/national/dussehra2026-trafficcurbs-in-dwarka-security-tightened-delhi-ncr/article71604249.ece",
    "deck": "news",
    "section": "India",
-   "headline": "How an SUV carrying 27kg of mephedrone exposed a clandestine drug factory",
+   "headline": "Dussehra 2026: Traffic curbs in Dwarka, security tightened in Delhi-NCR and more",
    "source": "The Hindu",
-   "blurb": "A 27.2 kg mephedrone seizure led EAGLE Force to a clandestine laboratory in Maharashtra, exposing a network of chemical suppliers, equipment dealers and suspected drug manufacturers with links to Hyderabad",
-   "text": "Inside the poultry farm at Maregaon village in Maharashtra’s Gondia district on October 17, the officials found chemical-processing apparatus and remnants of chemicals at the premises. Photo: Special Arrangement A poultry farm in Maharashtra, laboratory equipment purchased in Hyderabad, cash payments exchanged near JNTU in Kukatpally and conversations conducted through encrypted messaging applications were among the clues that helped Telangana’s EAGLE Force uncover an interstate synthetic drug manufacturing network. The investigation, which began with the seizure of 27.2 kg of mephedrone in August, led to the discovery of a suspected clandestine drug manufacturing facility at Maregaon village in Maharashtra’s Gondia district on October 17. Police have identified 24 accused in the wider network, of whom 11 are listed as arrested or in custody, while 13 remain absconding. According to a police complaint dated October 18, the trail of laboratory equipment purchases dates back to March 2024, when a man identifying himself as Krishna approached TVR Scientific Glass Works, a laboratory equipment supplier in Bahadurpally, Hyderabad. He sought a 200-litre reaction and distillation unit, initially quoted at ₹3.25 lakh. Following negotiations,"
+   "blurb": "As per the Delhi Traffic Police advisory, restrictions may be imposed on six roads in Dwarka on October 20 evening",
+   "text": "File photo of security personnel in New Delhi. | Photo Credit: AP In view of the Dussehra celebrations, security has been tightened around Delhi-NCR area, while the traffic police have issued advisory on the roads that are likely to be affected on Tuesday (October 20, 2026). Traffic restrictions may be imposed in Dwarka and parts of South Delhi, the police have said. The Delhi Traffic Police have issued an advisory, pointing out that restrictions may be imposed on six roads in Dwarka on Tuesday (October 20) evening. This is in view of the heavy pedestrian and vehicular movement expected due to a large gathering and anticipated VVIP movement. The restrictions will be in place from 4.50 p.m. to 8 p.m. on Commuters have been advised to avoid these roads, if possible, and take alternative routes, the advisory said. A 221-foot-tall effigy of Ravana is set to be burnt at Sector 10 in Dwarka on Vijayadashami, with the Dwarka Shri Ramlila Society announcing it as one of the tallest Ravana effigies in the country for the 2026 Dussehra celebrations. In view"
   },
   {
-   "url": "https://www.ndtv.com/india-news/bomb-hoax-on-indigo-flight-in-chennai-fliers-deboarded-take-off-delayed-12208398#publisher=newsstand",
+   "url": "https://www.ndtv.com/india-news/abhijeet-dipke-on-cockroach-effigy-in-delhi-thank-you-for-free-publicity-12212474#publisher=newsstand",
    "deck": "news",
    "section": "India",
-   "headline": "Bomb Hoax On IndiGo Flight In Chennai, Fliers Deboarded, Take-Off Delayed",
+   "headline": "'Thank You For Free Publicity': Abhijeet Dipke On Cockroach Effigy In Delhi",
    "source": "NDTV",
-   "blurb": "All passengers were offloaded by 6.55 pm as security personnel initiated the prescribed procedures, including an anti-sabotage check.",
+   "blurb": "While the Shri Keshav Ramlila Committee in Pitampura maintained that the cockroach symbolised filth and that it sought to promote cleanliness under the Swachh Bharat and Swachh Delhi campaigns, both the internet and Dipke were convinced it was a dig at the pressure group.",
    "text": ""
   },
   {
-   "url": "https://www.hindustantimes.com/india-news/child-rights-panel-files-case-over-keralam-boy-s-malnutrition-death-101792436367008.html",
+   "url": "https://www.hindustantimes.com/india-news/students-gather-at-delhis-model-town-park-to-burn-20-feet-tall-gyanesh-kumar-effigy-detained-101792503833316.html",
    "deck": "news",
    "section": "India",
-   "headline": "Child rights panel files case over Keralam boy’s malnutrition death",
+   "headline": "Students gather at Delhi's Model Town park to burn 20-feet tall ‘Gyanesh Kumar effigy’, detained",
    "source": "Hindustan Times",
-   "blurb": "A 2-year-old in Kerala died amid suspected malnutrition. Authorities are investigating possible neglect and have taken the couple’s four children into care.",
-   "text": "A two-year-old boy died in a suspected case of malnutrition in the Alappuzha district of Keralam, officials said on Monday, with the Kerala State Commission for Protection of Child Rights registering a case. The Child Welfare Committee has meanwhile taken the couple’s four children under its care amid allegations of parental neglect. The deceased, Rahul, was the sixth child of Rajesh, an autorickshaw driver, and Thara, a homemaker who resided in a crumbling rental house in Karthikappally. The two-year-old, found unresponsive by his father early Sunday at their home, was declared dead at a government hospital in Haripad. Another child of the couple had also died a few years ago, officials said, though no clear reasons were attributed to that death. A senior inspector in Thrikkunnapuzha police station, where a case for unnatural death was registered, said a postmortem examination was conducted in Alappuzha following suspicions of negligence. “The autopsy report stated that the child was severely anaemic. He also weighed only 7.6 kg, significantly less than the average 12 kg expected for a child of his age. These findings"
+   "blurb": "Police said the students were occupying space in a park, burning an effigy and protesting after which they were briefly detained.",
+   "text": "Several students and activists associated with Krantikari Yuva Sangathan were detained by the police on Tuesday after they burned the effigy of chief election commissioner (CEC) Gyanesh Kumar during Dussehra celebrations near Delhi’s Model Town. Krantikari Yuva Sangathan is a Delhi-based independent student and youth organisation. Police said the students were occupying space in a park, burning an effigy and protesting after which they were briefly detained. The alleged effigy-burning took place at Sangam Park near Model Town in northwest Delhi where the KYS students erected a 20-feet tall effigy with a poster of Gyanesh Kumar and slogans such as “Sack Gyanesh Kumar”, “Loot-tantra” and “Discrimination, Injustice”. The student organisation had made the announcement about burning the effigy of Kumar alongside Ravana on Monday. On Tuesday, the group was joined by some locals to burn the effigy but were stopped by the police. Jyoti, a Delhi University student associated with KYS, told HT, “We are well within our rights to burn a Ravana effigy. Why are they trying to protect Gyanesh from everything? We just want to show our dissent."
   },
   {
-   "url": "https://www.thehindu.com/elections/uttar-pradesh-assembly/allahabad-high-court-stays-conviction-of-murder-convict-who-wishes-to-contest-2027-up-polls/article71603091.ece",
+   "url": "https://www.thehindu.com/news/national/maharashtra/tiger-shroff-firing-case-four-arrested-for-allegedly-transporting-firearm-to-mumbai-helping-coordinate-operation/article71605447.ece",
    "deck": "news",
    "section": "India",
-   "headline": "Allahabad High Court stays conviction of murder convict who wishes to contest 2027 U.P. polls",
+   "headline": "Tiger Shroff firing case: Four arrested for allegedly transporting firearm to Mumbai, helping coordinate operation",
    "source": "The Hindu",
-   "blurb": "The court granted bail to the appellant, noting that he was a political figure and an active Bharatiya Janata Party (BJP) worker before his conviction",
-   "text": "The Allahabad High Court has stayed the conviction and sentence of a man convicted in a 2017 murder case after noting that he wished to contest the 2027 Uttar Pradesh Assembly election either as an independent candidate or, if possible, on a BJP ticket. A two-judge bench comprising Justice Siddharth and Justice Vinai Kumar Dwivedi passed the order hearing a criminal appeal filed by Nandlal Rai alias Babloo Rai, who was convicted by the Varanasi sessions court in 2025 in connection with a 2017 murder case which was registered at Sigra police station. The court granted bail to the appellant, noting that he was a political figure and an active Bharatiya Janata Party (BJP) worker before his conviction. \"Keeping in view the right to livelihood of a common man which is not less important than the right to contest election by a politician, conviction and sentence of appellant deserves to be stayed so that he may be able to survive for hearing the final verdict in his above noted appeal,\" the court added. In the order dated October 5, the"
+   "blurb": "The Special Cell’s statement does not establish whether the pistol allegedly transported by the accused has been conclusively linked to the firing incident or whether the alleged attempt to arrange the shooters’ escape was successful",
+   "text": "Police personnel stand guard beside barricades at the site where a firing incident involving actor Tiger Shroff was reported near Juhu Police Station. | Photo Credit: ANI The Delhi Police Special Cell on Tuesday (October 20, 2026) arrested four people, including two women, for their alleged role in transporting a firearm to Mumbai ahead of the October 18 firing incident targeting Bollywood actor Tiger Shroff’s car. According to the police, the accused were acting on the instructions of Anil Pandit, who allegedly coordinated their movements through an encrypted messaging application. The accused have been identified as Kunal, 21, and Sumit, 19, both residents of Sonipat in Haryana, and Radha, 23, and Babita, 23, residents of Sitapur and Azamgarh districts in Uttar Pradesh, respectively. According to a statement issued by the Special Cell, Kunal, who had recently been released on bail, was introduced to Pandit through a friend from Harsana village in Haryana. The two subsequently began communicating through an encrypted messaging application. The police alleged that Kunal travelled to Amritsar on Pandit’s instructions to collect a pistol and 20 rounds"
   },
   {
-   "url": "https://www.ndtv.com/india-news/inspired-by-reels-3-friends-come-up-with-bigshot-plan-why-it-failed-12208344#publisher=newsstand",
+   "url": "https://www.ndtv.com/india-news/4-more-people-including-2-women-arrested-in-tiger-shroff-shooting-case-12212352#publisher=newsstand",
    "deck": "news",
    "section": "India",
-   "headline": "Inspired By Reels, 3 Friends Came Up With 'Bigshot' Plan. Why It Failed",
+   "headline": "4 More People, Including 2 Women, Arrested In Tiger Shroff Shooting Case",
    "source": "NDTV",
-   "blurb": "Influenced by an Instagram reel, one minor convinced two friends, a minor and an adult, to join him in his quest to become a bigshot.",
+   "blurb": "Radha and Babita were arrested at the New Delhi Railway Station, while Kunal and Sumit were arrested in Sonipat, Haryana.",
    "text": ""
   },
   {
-   "url": "https://www.hindustantimes.com/india-news/court-flags-habitualness-no-respect-for-law-in-order-extending-cjps-saurav-das-ashutosh-ranka-custody-in-jantar-mantar-trespassing-case-101792428200930.html",
+   "url": "https://www.hindustantimes.com/india-news/punjab-activist-jhotas-kin-refuse-to-cremate-him-amit-shah-vows-drug-free-state-after-meeting-family-101792515841375.html",
    "deck": "news",
    "section": "India",
-   "headline": "Court cites ‘habitualness’, ‘no respect for law’ in order extending CJP leaders' custody in Jantar Mantar trespassing case",
+   "headline": "Punjab activist Jhota's kin refuse to cremate him; Amit Shah vows ‘drug-free’ state after meeting family",
    "source": "Hindustan Times",
-   "blurb": "CJP termed the ‘preventive detention’ as ‘a complete mockery of legal process and said it will challenge the order before higher courts ‘immediately.’",
-   "text": "A Special Executive Magistrate court said on Monday that Cockroach Janta Party (CJP) leaders Ashutosh Ranka and Saurav Das showed “no respect for law” as it extended their judicial custody by two days over the Jantar Mantar protest against the Special Intensive Revision (SIR) of electoral rolls. Citing the police investigation, the court order said the CJP leaders had “mobilized and enticed the general public” to gather and hold a protest at Jantar Mantar , which is no longer a designated protest site . The court on Monday rejected their sureties over allegations that they breached security and entered the site during the protest. “The IO further states that both the respondents are members of CJP and they mobilized and enticed the general public to assemble and stage protest at Jantar Mantar, which has been de-notified as a designated protest site,” the court order said, referring to the findings by Investigating Officer (IO). It further added that Ranka and Das, who are lodged in Tihar Jail, flouted their own undertaking of October 11, indicating ‘the apprehension to commit further offence’."
+   "blurb": "Anti-drug activist Parvinder Singh was shot dead inside a medical shop on October 13. His family reused to cremate his body till a CBI inquiry was ordered.",
+   "text": "Seven days have passed since Punjab anti-drug activist Parvinder Singh, alias Jhota, was shot dead inside a medical store at a busy market in Mansa. However, he is yet to be cremated as his father, an ex-serviceman, Bhim Singh, had announced on October 13 that the family would not allow a post-mortem or conduct the last rites until the case is handed to the Central Bureau of Investigation (CBI). But now Punjab chief minister Bhagwant Mann has announced that the state government will hand over the probe into the murder case to the CBI. Jhota's murder on October 13 was livestreamed on Facebook. The Punjab government announcement came ahead of Union home minister Amit Shah's visit the family of Jhota and two other anti-drug activists killed in Punjab recently. Shah on Tuesday met the aggrieved families amid growing concerns over drug trafficking and law and order in Punjab. During his visit to Punjab, Shah went to the residence of late Bikramjit Singh in Gurdaspur to offer his condolences to the bereaved family. He also met with the family members of"
   },
   {
-   "url": "https://www.thehindu.com/news/national/jaishankar-receives-uaes-foreign-minister-al-nahyan-at-mumbai-airport/article71603083.ece",
+   "url": "https://www.thehindu.com/news/national/maharashtra/rising-crimes-and-farmers-plight-dominate-conversations-at-60th-shiv-sena-ubt-dussera-rally/article71605414.ece",
    "deck": "news",
    "section": "India",
-   "headline": "Jaishankar welcomes UAE’s Foreign Minister Al Nahyan in Mumbai",
+   "headline": "Rising Crimes And Farmer’s Plight Dominate Conversations at 60th Shiv Sena (UBT) Dussera Rally",
    "source": "The Hindu",
-   "blurb": "PM Al Nahyan, who is also the UAE's Foreign Minister, will hold wide-ranging talks with External Affairs Minister S. Jaishankar on October 20",
-   "text": "Finance Minister S. Jaishankar with the Deputy Prime Minister of the United Arab Emirates, Sheikh Abdullah bin Zayed Al Nahyan, in Mumbai on October 19, 2026. Photo: X/@DrSJaishankar External Affairs Minister S. Jaishankar expressed his delight in welcoming UAE Deputy Prime Minister and Foreign Minister Sheikh Abdullah bin Zayed Al Nahyan at Mumbai airport on Tuesday (October 20, 2026) ahead of their upcoming bilateral talks. “Delighted to welcome DPM & FM UAE @ABZayed to Mumbai. Look forward to our talks,” said Mr. Jaishankar in his social media post Delighted to welcome DPM & FM UAE @ABZayed to Mumbai. Look forward to our talks. 🇮🇳 🇦🇪 https://t.co/uZxsao6hBe Deputy Prime Minister of the United Arab Emirates Sheikh Abdullah bin Zayed Al Nahyan landed in Mumbai on Monday (October 19) evening for a two-day visit expected to focus on further enhancing bilateral ties in key areas of trade, energy and defence. PM Al Nahyan, who is also the UAE's Foreign Minister, will hold wide-ranging talks with External Affairs Minister S. Jaishankar on Tuesday (October 20). The two Foreign Ministers are also expected to"
+   "blurb": "In a separate bid, the Eknath Shinde-led faction staged its own event in Goregaon, as rally participants urged accountability from officials and warned of political consequences if justice for students amid recent paper leaks is not delivered",
+   "text": "Shiv Sena (UBT) chief Uddhav Thackeray addresses the party’s Dussehra festival rally at Shivaji Park in Mumbai on October 20, 2026. | Photo Credit: PTI The Shiv Sena held its 60th Dussehra rally on Tuesday (October 20, 2026), with the Uddhav Thackeray (UBT) faction organising it in Chhatrapati Shivaji Maharaj Park in Dadar, while the Eknath-Shinde-led faction held the rally at NESCO in Goregaon. Party supporters from various districts of Maharashtra participated, with senior party supporters still chanting “Thackeray is Mumbai, Thackeray is Maharashtra.” Speaking to The Hindu, several participants of the rally raised concerns about rising criminal activities in the State. “It’s happening in Mumbai, it’s happening in Thane. It was Purnekar last month. It was Tiger Shroff yesterday. Tomorrow it will be the common man like you and I,” a party supporter from Jalgaon taluka, who requested anonymity, said. Participants also raised concerns about farmers’ plights, unemployment, and rising inflation, stating that the State government and officials had fallen short of supporting the poorest of the poor sections of society and had not delivered on the promises they"
   },
   {
-   "url": "https://www.ndtv.com/india-news/tiger-shroff-assassination-bid-updates-lawrence-bishnoi-gang-salman-khan-juhu-mumbai-12203309#publisher=newsstand",
+   "url": "https://www.ndtv.com/india-news/delhi-police-transfers-cjp-leaders-saurav-das-ashutosh-ranka-case-to-crime-branch-ahead-of-hearing-12212544#publisher=newsstand",
    "deck": "news",
    "section": "India",
-   "headline": "Tiger Shroff Firing Case Updates: 3 Suspects Undergo Medical Examination In Kota, Transit Remand Granted",
+   "headline": "Delhi Police Transfers CJP Leaders' Case To Crime Branch Ahead Of Hearing",
    "source": "NDTV",
-   "blurb": "Tiger Shroff Firing Case Updates: Tiger Shroff sustained injuries on his shoulder, chest and his right arm.",
+   "blurb": "The Crime Branch will now investigate two cases against the CJP leaders. The other case linked to Das and Ranka allegedly entering the Jantar Mantar area was transferred to the Crime Branch on Monday.",
    "text": ""
   },
   {
-   "url": "https://www.hindustantimes.com/india-news/british-tourist-sexually-harassed-in-keralas-varkala-dress-torn-video-helps-police-arrest-man-101792424494145.html",
+   "url": "https://www.hindustantimes.com/india-news/tiger-shroff-shooting-case-mumbai-police-arrest-four-more-accused-two-women-anil-pandit-lawrence-bishnoi-gang-101792518744194.html",
    "deck": "news",
    "section": "India",
-   "headline": "British tourist sexually harassed in Kerala's Varkala, dress torn, video helps police arrest man",
+   "headline": "Tiger Shroff shooting case: Four more arrested for supplying weapons to assailants",
    "source": "Hindustan Times",
-   "blurb": "The accused is expected to be produced before a court on Tuesday for remand. Further investigation is underway, police said.",
-   "text": "A British woman tourist was allegedly sexually harassed and had her dress torn by a man while returning to her room in Kerala’s Varkala around 1.30 am on Monday, police said. The accused, identified as Shahad, a resident of Odayam in Varkala, allegedly approached the woman as she was returning to her room after going out for food, and misbehaved with her before tearing her dress, police said, news agency PTI reported. The woman took refuge with a group of tourists, who intervened and stopped the accused. She approached the police on Monday morning, following which a case was registered. Police identified and arrested Shahad with the help of a video recorded by the woman. The accused is expected to be produced before a court on Tuesday for remand. Further investigation is underway, police said. Meanwhile, in a separate case, a solo traveller currently hitchhiking across India shared an Instagram update about how her initial fears were dispelled by the kindness she encountered during her travels. Despite being warned about safety risks before arriving, the 24-year-old Portuguese creator, Ana, said"
+   "blurb": "The four accused were arrested by the Special Cell of Delhi Police following which they were handed to the Mumbai Police's CID.",
+   "text": "Delhi Police Special Cell arrested four more accused on Tuesday in connection with the October 18 firing at actor Tiger Shroff’s car in Mumbai. Following the Delhi Police action, the four accused in the shooting case were formally arrested by the Mumbai Police's CID unit. The accused, Kunal, 21, Sumit, 19, Radha, 23, and Babita, 23, were apprehended in Delhi and Haryana. \"The four were initially produced before a court under Section 35(1)(b) of the Bharatiya Nagarik Suraksha Sanhita. Subsequently, Maharashtra Police's Crime Investigation Department in Mumbai moved an application seeking permission for their custodial interrogation and formal arrest. The court allowed the plea and granted three days' transit remand to the Mumbai Police team,\" an official told PTI. According to police, Kunal allegedly collected a pistol and 20 rounds from Amritsar on the instructions of Anil Pandit, with Sumit accompanying him. Radha and Babita allegedly travelled to Mumbai with the weapon. Mumbai Police’s CID formally arrested all four after court approval and secured three days’ transit remand for further investigation. Three assailants opened fire at Shroff's car on Sunday"
   },
   {
-   "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/et-exclusive-india-weighs-security-checkpoint-for-starlink-global-satcom-firms/articleshow/135055804.cms",
+   "url": "https://economictimes.indiatimes.com/industry/cons-products/food/sweet-sellers-face-heat-over-shelf-life-rules-ahead-of-diwali/articleshow/135076316.cms",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "ET Exclusive: India weighs security checkpoint for Starlink, global satcom firms",
+   "headline": "Sweet sellers face heat over shelf life rules ahead of Diwali",
    "source": "Economic Times",
-   "blurb": "The Indian government is in discussions to create a hardware device for monitoring satellite communications from foreign providers. This device aims to ensure national security by controlling internet traffic from companies like Starlink.",
-   "text": "The Indian government is in discussions to create a hardware device for monitoring satellite communications from foreign providers. This device aims to ensure national security by controlling internet traffic from companies like Starlink. Officials state that this security layer will prevent potential risks associated with untrusted transport carriers. Notably, Starlink has faced regulatory challenges for not complying with local infrastructure regulations. Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits. Trump temper on H-1B visas is forcing Indians to do these things to stay put in US Why veterans like Reliance, L&T are on acquisition spree? Aswath Damodaran has an answer. Will China’s dollar bond sale in Saudi Arabia trump the US in financial world? Huawei launches its own OS to compete with Google and Apple. But can it win beyond China? A list of top 20 momentum stocks that have delivered massive returns in one year Get to know where the market bulls are investing to identify the right stocks. Check the score based on the company's"
+   "blurb": "Watchdog agencies in states such as Uttar Pradesh and Uttarakhand are among those that have made this mandatory. The directive aims to help consumers assess freshness as inspections have revealed that buyers were not always given clear information about when sweets were made or how long they remained suitable for…",
+   "text": "Watchdog agencies in states such as Uttar Pradesh and Uttarakhand are among those that have made this mandatory. The directive aims to help consumers assess freshness as inspections have revealed that buyers were not always given clear information about when sweets were made or how long they remained suitable for consumption, the agencies said. Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits. Trump temper on H-1B visas is forcing Indians to do these things to stay put in US Why veterans like Reliance, L&T are on acquisition spree? Aswath Damodaran has an answer. Will China’s dollar bond sale in Saudi Arabia trump the US in financial world? Huawei launches its own OS to compete with Google and Apple. But can it win beyond China? A list of top 20 momentum stocks that have delivered massive returns in one year Get to know where the market bulls are investing to identify the right stocks. Check the score based on the company's fundamentals, solvency, growth, risk & ownership to"
   },
   {
-   "url": "https://www.business-standard.com/companies/news/piramal-finance-q2fy27-results-net-profit-zooms-67-to-545-crore-126101901131_1.html",
+   "url": "https://www.business-standard.com/companies/news/oyo-parent-to-nearly-halve-ipo-fresh-issue-size-to-up-to-3-350-crore-126102000460_1.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Piramal Finance Q2FY27 results: Net profit zooms 67% to ₹545 crore",
+   "headline": "OYO parent to nearly halve IPO fresh issue size to up to ₹3,350 crore",
    "source": "Business Standard",
-   "blurb": "Non-bank lender Piramal Finance on Monday reported a 67 per cent jump in net profit to Rs 545 crore for the September quarter, helped by core income growth and improvements in costs.",
-   "text": "The Piramal Finance scrip closed 0.08 per cent down at 1,948.05 apiece on the BSE on Monday Non-bank lender Piramal Finance on Monday reported a 67 per cent jump in net profit to ₹545 crore for the September quarter, helped by core income growth and improvements in costs. The company's core net interest income grew 35 per cent to ₹1,530 crore due to a 24 per cent growth in assets under management and a 0.35 per cent expansion in net income margin to 6.5 per cent. The cost-to-income ratio improved sharply to 52.1 per cent during the reporting quarter from 61.2 per cent, helping the bottom line. Stressing that the company is uniquely positioned in the NBFC universe, as it does not see a threat to margins amid the rising interest rate environment, its Managing Director and Chief Executive Jairam Sridharan exuded confidence that it will be able to expand NIMs by up to 0.20 per cent over the next year. When asked how such a feat will be possible despite rising rates, which increase an NBFC's borrowing costs, Sridharan"
+   "blurb": "OYO parent PRISM is planning to nearly halve the size of the fresh issue in its proposed initial public offering (IPO) to up to Rs 3,350 crore from almost Rs 6,650 crore, sources said on Tuesday.",
+   "text": "OYO founder Ritesh Agarwal as parent company PRISM considers a smaller IPO fresh issue amid improving cash generation. OYO parent PRISM is planning to nearly halve the size of the fresh issue in its proposed initial public offering (IPO) to up to Rs 3,350 crore from almost Rs 6,650 crore, sources said on Tuesday. People familiar with the matter told PTI the reduction in the issue size follows continued strong cash generation and an improving balance-sheet position, which has lowered the amount of capital the company needs to raise compared with what was originally envisaged. \"The original issue was sized before the company's more recent financial performance came through. With cash generation remaining strong and the balance sheet improving, the funding requirement has come down, allowing the company to reduce the amount of primary capital it raises. \"The objective is to raise what the business needs while keeping the capital structure efficient. The plan is to repay the residual debt over the next two to three years through cash flows generated by the business,\" a person familiar with the matter"
   },
   {
-   "url": "https://www.livemint.com/companies/polycab-insolvency-apex-court-creditors-listed-companies-bankruptcy-debt-recovery-11792398289181.html",
+   "url": "https://www.livemint.com/companies/news/a-good-idea-elon-musk-says-special-committees-will-discuss-tesla-and-spacex-merger-while-he-sits-out-11792544836520.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "How the Polycab case exposes the misuse of IBC for small dues",
+   "headline": "‘A good idea’: Elon Musk says special committees will discuss Tesla and SpaceX merger while he sits out",
    "source": "Mint",
-   "blurb": "Insolvency proceedings over minor vendor claims can exert commercial pressure on financially sound companies, even as courts warn against using the bankruptcy code as a debt-recovery tool.",
-   "text": "Bankruptcy proceedings initiated by vendors and suppliers over unpaid dues from large companies are in focus after the insolvency court admitted a plea against wire and cable maker Polycab India on 7 October over an alleged operational debt of ₹ 2.79 crore claimed by supplier Asier Metals. The admission raised concerns among bankruptcy lawyers, given Polycab’s strong financial position, with a net cash balance of ₹ 4,194 crore and shareholders’ net worth of ₹ 12,009 crore in FY26. On 9 October, the National Company Law Appellate Tribunal (NCLAT) stayed the admission order passed against Polycab by the Ahmedabad bench of the National Company Law Tribunal (NCLT). Insolvency experts said such cases highlight how proceedings can exert commercial pressure on companies even when the amount claimed is relatively small compared with their financial position. “The case highlights an important concern in the existing IBC (Insolvency and Bankruptcy Code) framework. Even a financially sound company may find itself facing insolvency proceedings over a relatively small operational debt,” said Pooja Chakrabarti, partner at Argus Partners. Amir Bavani, founder of AB Legal, Hyderabad, stated"
+   "blurb": "Tesla and SpaceX have formed independent special committees to consider a potential merger that could create a company valued at about $3.5 trillion. Elon Musk says he will not participate in committee discussions, and stressed that no deal has been agreed and a merger may never happen.",
+   "text": "Two of the most valuable companies in the world are exploring a potential merger. Tesla CEO and founder of SpaceX, Elon Musk , on Tuesday said that they had formed special committees to discuss the merger between the two entities. While the size of the deal has not been officially announced, SpaceX is worth about $2 trillion, and Tesla is worth nearly $1.5 trillion, making the combined entity worth at least $3.5 trillion. SpaceX is currently the 7th most valuable company in the world, while Tesla sits in the 11th spot. \"I think it would be a good idea , but it's really up to the special committees of both companies,\" Musk was quoted as saying by Reuters . Sharing further details about the potential merger, Musk said the special committees would discuss the matter while he sits out. \"Because I'm a conflicted party, I can't actually be in the discussions of the special committees,\" which comprised independent directors, he told investors on a conference call, according to Reuters . “The companies had formed the special committees at the request"
   },
   {
-   "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-nz-fta-in-force-over-half-of-new-zealands-exports-to-india-now-tariff-free-wellington-also-eyes-brazil-canada/articleshow/135059156.cms",
+   "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-targets-500bn-bilateral-trade-with-india-in-three-years-ambassador-sergio-gor-at-freedom-250/videoshow/135079313.cms",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "India-NZ FTA in force: Over half of New Zealand’s exports to India now tariff-free, Wellington also eyes Brazil, Canada",
+   "headline": "US targets $500bn bilateral trade with India in three years: Ambassador Sergio Gor at Freedom 250",
    "source": "Economic Times",
-   "blurb": "New Zealand is working to strengthen trade relations with Brazil and Canada in response to economic uncertainties. The country expects to complete the first New Zealand-Brazil Trade and Investment Dialogue after upcoming elections.",
-   "text": "New Zealand is working to strengthen trade relations with Brazil and Canada in response to economic uncertainties. The country expects to complete the first New Zealand-Brazil Trade and Investment Dialogue after upcoming elections. A new free trade agreement with India has been implemented, making more than half of exports tariff-free. The agreement will benefit various products, including sheep meat and wool, as well as local businesses. One company, 2 words. Bond yield and CDS: Will they decide the fate of global markets? Business of Odd Things: Inside an industry that farms fish that nobody is meant to eat US mid-term elections – Part 2: What does it mean for Trump to lose control of Congress? What is the real impact of 13x jump in cash transfers to women? Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits. Trump temper on H-1B visas is forcing Indians to do these things to stay put in US Why veterans like Reliance, L&T are on acquisition spree? Aswath Damodaran has an answer."
+   "blurb": "",
+   "text": ""
   },
   {
-   "url": "https://www.livemint.com/market/stock-market-news/global-markets-today-gift-nifty-nikkei-225-kospi-t-slide-on-tuesday-20-october-nasdaq-s-p-djia-rise-up-to-1-11792458344691.html",
+   "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-experts-bet-on-sbi-bank-of-baroda-meesho-cg-power-and-2-others-target-price-stoploss-11792467348731.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Global markets today: GIFT Nifty, Nikkei 225, Kospi slide on Tuesday, 20 October | Nasdaq, S&P, DJIA rise up to 1%",
+   "headline": "Top stocks to buy: Experts bet on SBI, Bank of Baroda, Meesho, CG Power, and 2 others - Target price, stop-loss",
    "source": "Mint",
-   "blurb": "Global markets today: South Korea’s KOSPI plunged 3.5% at the opening bell, extending losses in semiconductor stocks and trimming its 2026 gains to around 31%, down sharply from nearly 116% at its record closing high in June.",
-   "text": "Global markets today : Asian markets opened lower on Tuesday, October 20, tracking a weaker regional sentiment. The subdued start contrasted with overnight gains on Wall Street, where the Nasdaq advanced 1.11%, while the S&P 500 rose 0.41%. South Korea’s KOSPI plunged 3.5% at the opening bell, extending losses in semiconductor stocks and trimming its 2026 gains to around 31%, down sharply from nearly 116% at its record closing high in June. While the small-cap Kosdaq declined 1.03%. Among major stocks, memory chipmaker SK Hynix fell 4.07%, while Samsung Electronics shed 1.03%. Japanese markets also traded lower in morning deals, with the Nikkei 225 declining 1.21%, as weakness in technology and semiconductor-related stocks dragged on sentiment. SoftBank Group tumbled 4.46%, while chipmaking equipment manufacturer Tokyo Electron fell 1.45% and Renesas Electronics dropped 1.49%. Meanwhile, Australia’s S&P/ASX 200 declined 0.84% in early trading. Meanwhile, Taiwan index Taiex turned positive by rising 0.30% after opening in red. Back home, GIFT Nifty was also trading flat-to-negative in early morning session on Tuesday, with the index down 3 points or 0.01% to 22,889. However,"
+   "blurb": "Analysts suggest six stocks for the next one to two weeks: SBI, Bank of Baroda, Meesho, Shyam Metalics, CG Power and Tips Music. Recommendations cite technical patterns and momentum, while cautioning that high crude prices, mixed earnings and geopolitical risks may keep markets fragile.",
+   "text": "Top stocks to buy for short term: Snapping its two-day winning run, market benchmark Nifty 50 ended 1.11% lower at 22,888.95 in the previous session on 19 October amid persistently higher oil prices and foreign capital outflow. Experts expect geopolitical uncertainties and higher oil prices to keep market sentiment fragile even as the ongoing earnings season may continue to drive stock-specific action. On the technical front, experts suggest the next key support for Nifty 50 is in the 22,550–22,750 range. On the upside, resistance is seen around 23,200–23,300. Experts suggest following a prudent stock-specific approach in this market due to higher crude oil prices, mixed earnings, and lingering geopolitical uncertainties. Vishnu Kant Upadhyay of Master Capital Services and Sachin Gupta of Choice Broking recommend buying the following six stocks for the next 1–2 weeks: According to Upadhyay, SBI share price has formed a sort of double bottom pattern on the daily chart, making the ₹ 935- ₹ 930 price zone a very strong support area. The stock has reclaimed its 21-day EMA, indicating improving short-term momentum and renewed buying interest."
   },
   {
-   "url": "https://www.bbc.co.uk/news/articles/ck87ze7wl4qno?at_medium=RSS&at_campaign=rss",
+   "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/govt-to-pitch-11-airports-to-global-investors-ahead-of-december-bidding/articleshow/135076474.cms",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Burnham vows end to 'rip-off parking charges' under new rules",
-   "source": "BBC Business",
-   "blurb": "Penalties are seen as too harsh on motorists who are penalised for parking on private land.",
-   "text": "Drivers will be given the right to challenge \"rip off\" private parking charges and more grace when using private providers under new rules set out by Andy Burnham. The Prime Minister announced the changes after drivers repeatedly raised concerns penalties issued by private providers were too harsh and left motorists unfairly penalised. In one case, a woman was taken to court in a £1,906 claim after taking longer than five minutes to pay at a car park in Derby . The charge was eventually dropped . Private car parks already have an industry code of practice, but the RAC motoring group said the government's changes would protect drivers from the \"poor practices of some private parking companies\". Burnham, the prime minister, said: \"Being a few minutes late back to your car or typing one digit of your numberplate wrong shouldn't end with a hefty fine landing on your doormat. \"These charges leave people feeling ripped off and out of pocket, so I'm putting a stop to them.\" Cancellation of charges for issues drivers can't control, like vehicle breakdowns in car"
-  },
-  {
-   "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-india-in-sweet-spot-as-fy26-revenue-crosses-rs-1-lakh-crore-profit-soars/articleshow/135055778.cms",
-   "deck": "news",
-   "section": "Business & markets",
-   "headline": "Apple India in sweet spot as FY26 revenue crosses Rs 1 lakh crore, profit soars",
+   "headline": "Govt to pitch 11 airports to global investors ahead of December bidding",
    "source": "Economic Times",
-   "blurb": "Apple India's revenue reached ₹1 lakh crore in FY26, reflecting a strong growth trend in smartphone sales. Revenue growth was noted at 31%, exceeding that of its competitor Samsung, which faced a decline. Net profit increased by 66% from the previous fiscal year, highlighting Apple's robust performance.",
-   "text": "Apple India's revenue reached ₹1 lakh crore in FY26, reflecting a strong growth trend in smartphone sales. Revenue growth was noted at 31%, exceeding that of its competitor Samsung, which faced a decline. Net profit increased by 66% from the previous fiscal year, highlighting Apple's robust performance. The premium smartphone market saw significant growth, benefiting Apple due to its strong brand appeal. Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits. Trump temper on H-1B visas is forcing Indians to do these things to stay put in US Why veterans like Reliance, L&T are on acquisition spree? Aswath Damodaran has an answer. Will China’s dollar bond sale in Saudi Arabia trump the US in financial world? Huawei launches its own OS to compete with Google and Apple. But can it win beyond China? A list of top 20 momentum stocks that have delivered massive returns in one year Get to know where the market bulls are investing to identify the right stocks. Check the score based on the"
+   "blurb": "The Indian government plans to hold promotional roadshows in international financial hubs to attract airport investors. Twelve airports are expected to be bundled into groups as part of this privatisation effort.",
+   "text": "The Indian government plans to hold promotional roadshows in international financial hubs to attract airport investors. Twelve airports are expected to be bundled into groups as part of this privatisation effort. The Airports Authority of India aims to explain the new bidding structure to prospective bidders effectively. International investors, including sovereign wealth funds and Indian conglomerates, are anticipated to participate in this bidding process. Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits. Trump temper on H-1B visas is forcing Indians to do these things to stay put in US Why veterans like Reliance, L&T are on acquisition spree? Aswath Damodaran has an answer. Will China’s dollar bond sale in Saudi Arabia trump the US in financial world? Huawei launches its own OS to compete with Google and Apple. But can it win beyond China? A list of top 20 momentum stocks that have delivered massive returns in one year Get to know where the market bulls are investing to identify the right stocks. Check the score based"
   },
   {
-   "url": "https://www.business-standard.com/companies/news/punjab-sind-bank-q2-net-profit-surges-40-pc-to-rs-412-cr-on-improved-income-126101700865_1.html",
+   "url": "https://www.business-standard.com/companies/news/apple-faces-uk-regulatory-push-to-open-iphone-contactless-payment-systems-126102000844_1.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Punjab & Sind Bank Q2 net profit surges 40% to ₹412 cr on improved income",
+   "headline": "Apple faces UK regulatory push to open iPhone contactless payment systems",
    "source": "Business Standard",
-   "blurb": "Punjab & Sind Bank on Saturday reported a 40 per cent jump in net profit to Rs 412 crore for the second quarter ended September 30, helped by improved core income and reduction in bad assets. The public sector lender posted a net profit of Rs 295 crore in the same period of the previous fiscal.",
-   "text": "The bank's total income increased to ₹3,747 crore in the second quarter from ₹3,373 crore a year ago, Punjab & Sind Bank said in a regulatory filing Punjab & Sind Bank on Saturday reported a 40 per cent jump in net profit to ₹412 crore for the second quarter ended September 30, helped by improved core income and reduction in bad assets. The public sector lender posted a net profit of ₹295 crore in the same period of the previous fiscal. The bank's total income increased to ₹3,747 crore in the second quarter from ₹3,373 crore a year ago, Punjab & Sind Bank said in a regulatory filing. Interest income rose to ₹3,394 crore in the September quarter of FY27 from ₹2,999 crore in the year-ago period. During the quarter, net interest income rose 22 per cent to ₹1,162 crore against ₹950 crore in the second quarter of the last financial year. Net Interest Income of the bank improved to 2.65 per cent from 2.56 per cent at the end of September 2025. Cost-to-income ratio reduced to 29.19 per cent"
+   "blurb": "UK watchdog proposes wider, cheaper access to iPhone contactless technology to boost competition among digital wallet providers",
+   "text": "Apple faces UK antitrust pressure to open iPhone contactless technology to rival digital wallets. Don't miss the most important news and views of the day. Get them on our Telegram channel"
   },
   {
-   "url": "https://www.livemint.com/companies/california-settles-23andme-data-breach-claims-for-6-million-11792443340273.html",
+   "url": "https://www.livemint.com/companies/news/tata-motors-iveco-deal-status-shareholder-approval-11792483781433.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "California settles 23andMe data breach claims for $6 million",
+   "headline": "Iveco's minority shareholders emerge as key hurdle to Tata’s takeover bid",
    "source": "Mint",
-   "blurb": "23ANDME-BANKRUPTCY/SETTLEMENT (PIX):California settles 23andMe data breach claims for $6 million",
-   "text": "Oct 19 (Reuters) - California Attorney General Rob Bonta on Monday announced the state will receive a $6 million settlement payment in 23andMe's bankruptcy, resolving California's legal claims related to a 2023 data breach that exposed 6.9 million customers' genetic and other personal information. California had unsuccessfully tried to block the $305 million sale of 23andMe assets to TTAM Research Institute, a nonprofit controlled by 23andMe co-founder Anne Wojcicki. The state had argued that the bankruptcy sale violated California's Genetic Information Privacy Act, and it had said consumers did not give express consent to the sale. Once a trailblazer in DNA testing kits, 23andMe filed for bankruptcy in March 2025, seeking to sell its business at auction after a decline in demand and legal fallout from the data breach. A US bankruptcy judge ruled against California's objections to the sale, and later ruled that the state could not sue to recover money from the bankrupt company's successor. California lost an appeal over the sale in federal district court, and it agreed to drop further appeals as part of the $6"
+   "blurb": "Tata Motors must secure silent shareholders vote to complete €3.9 billion Iveco acquisition.",
+   "text": "Tata Motors Ltd will need to win over most of Iveco’s silent shareholders—roughly three in four investors who stayed away from Friday’s special shareholder meeting—to complete its €3.9 billion acquisition and delist the Italian truck maker, according to Mint's review of the voting outcome. About one in three non-promoter votes cast were against resolutions linked to the Tatas’ proposed takeover, including appointment of its executives to the board of Iveco, headquartered in Turin with its parent incorporated in the Netherlands. The opposition points to a tougher battle ahead for India’s largest truck maker as it races to secure the 80% shareholder acceptance needed to take full control of Iveco. Tata Sons chairman Natarajan Chandrasekaran, Jaguar Land Rover chief executive P.B. Balaji and Tata Motors managing director Girish Wagh are among the top executives set to join Iveco’s board if the deal goes through. The voting numbers show the scale of the challenge. Shareholders holding about 52.9% of Iveco’s common shares, including promoter Exor with 27%, backed the deal-related resolutions, while those with 11.6% voted against them. The remaining shareholders, holding"
   },
   {
-   "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-injects-rs-1-lakh-crore-as-liquidity-tightens-before-festive-season/articleshow/135055953.cms",
+   "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-targets-500-bn-bilateral-trade-with-india-in-three-years-says-ambassador-sergio-gor/articleshow/135079166.cms",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "RBI injects Rs 1 lakh crore as liquidity tightens before festive season",
+   "headline": "US targets $500 bn bilateral trade with India in three years, says Ambassador Sergio Gor",
    "source": "Economic Times",
-   "blurb": "On Monday, the RBI announced a Rs 1-lakh-crore variable rate repo (VRR) auction for the first time since late July after the weighted average call rate (WACR) at 5.67% on Monday, or 17 basis points higher than the repo rate of 5.50%. The central bank will conduct another VRR for Rs 50,000 crore on Wednesday.",
-   "text": "On Monday, the RBI announced a Rs 1-lakh-crore variable rate repo (VRR) auction for the first time since late July after the weighted average call rate (WACR) at 5.67% on Monday, or 17 basis points higher than the repo rate of 5.50%. The central bank will conduct another VRR for Rs 50,000 crore on Wednesday. One company, 2 words. Bond yield and CDS: Will they decide the fate of global markets? Business of Odd Things: Inside an industry that farms fish that nobody is meant to eat US mid-term elections – Part 2: What does it mean for Trump to lose control of Congress? What is the real impact of 13x jump in cash transfers to women? Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits. Trump temper on H-1B visas is forcing Indians to do these things to stay put in US Why veterans like Reliance, L&T are on acquisition spree? Aswath Damodaran has an answer. Will China’s dollar bond sale in Saudi Arabia trump the US"
+   "blurb": "The United States plans to increase bilateral trade with India to over USD 500 billion in three years. This trade target comes after reaching a record USD 240 billion, highlighting growing economic ties. Collaboration will focus on sectors like semiconductors, energy, and defense to foster mutual interests.",
+   "text": "The United States plans to increase bilateral trade with India to over USD 500 billion in three years. This trade target comes after reaching a record USD 240 billion, highlighting growing economic ties. Collaboration will focus on sectors like semiconductors, energy, and defense to foster mutual interests. Recent diplomatic engagements have already begun shaping a strategic alignment for both nations. One company, 2 words. Bond yield and CDS: Will they decide the fate of global markets? Business of Odd Things: Inside an industry that farms fish that nobody is meant to eat US mid-term elections – Part 2: What does it mean for Trump to lose control of Congress? What is the real impact of 13x jump in cash transfers to women?"
   },
   {
-   "url": "https://inc42.com/buzz/jio-platforms-raises-over-%e2%82%b98100-cr-from-anchor-investors/",
+   "url": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-19-oct-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-11792543474837.html",
+   "deck": "news",
+   "section": "Business & markets",
+   "headline": "Stock market outlook today, 21 Oct: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+   "source": "Mint",
+   "blurb": "Stock market prediction for Wednesday, 21 October, 2026: Gift Nifty was trading around the 23,031 level, up nearly 96 points or 0.41% from the Nifty futures’ previous close, indicating a positive opening for the Indian stock market indices.",
+   "text": "Stock market prediction for Wednesday, 21 October, 2026 : The Indian stock market is likely to open in green, as GIFT Nifty signalled positive start on Wednesday, 21 October. Meanwhile, Asian markets traded higher on Wednesday , while US stock futures witnessed a mixed session on Tuesday but rose in the extended session. Indian benchmark indices closed sharply lower on Monday, snapping a two-session winning streak amid weak global market cues and losses in private sector lenders HDFC Bank and Axis Bank. The Sensex declined 876.37 points, while the Nifty settled below the 22,900 mark at 22,888.95. The 30-share BSE Sensex fell 876.37 points, or 1.17%, to close at 73,852.90. During the session, the index dropped as much as 1,020.73 points, or 1.36%, to hit an intraday low of 73,708.54. The NSE Nifty 50 also ended in the red, declining 257.20 points, or 1.11%, to settle at 22,888.95, as selling pressure weighed on the broader market. “Markets traded volatile on Monday and declined over 1% amid weak market cues. After opening on a flat note, the Nifty traded choppily during"
+  },
+  {
+   "url": "https://inc42.com/buzz/can-hotels-become-ixigos-fourth-growth-engine/",
    "deck": "news",
    "section": "Startups & tech",
-   "headline": "Jio Platforms Raises About ₹8,110 Cr From Anchor Investors",
+   "headline": "Can Hotels Become ixigo’s Fourth Growth Engine?",
    "source": "Inc42",
-   "blurb": "Ahead of opening its public issue on Wednesday (October 19), telecom major Jio Platforms has raised ₹8,109.8 Cr from anchor…",
-   "text": "Jio allotted over 7.2 Cr shares to anchor investors at ₹1,119 apiece, raising ₹8,109.8 Cr Ahead of opening its public issue on Wednesday (October 19), telecom major Jio Platforms has raised ₹8,109.8 Cr from anchor investors. The company allotted 7.25 Cr equity shares to anchor investors at a price of ₹1,119 per share, the upper end of its price band. Around 2.48 Cr shares, more than a third of the overall, were picked up by 25 domestic mutual funds via a total of 95 schemes. Domestic mutual funds that anchored Jio’s IPO were SBI Mutual Funds, HDFC Mutual Fund, ICICI Prudential Mutual Fund, Aditya Birla Sun Life Mutual Fund, Kotak Mahindra Mutual Fund, among others. Besides, 97 Lakh equity shares (13.4% of the anchor round) were picked up by insurance companies and pension funds including Life Insurance Corporation of India, HDFC Life Insurance, SBI Life Insurance, and ICICI Prudential Life Insurance. Global investors such as Fidelity, Allianz, BlackRock, Government of Singapore, Abu Dhabi Investment Authority, Goldman Sachs also picked up stakes in Jio ahead of its IPO. Earlier in the"
+   "blurb": "Travel tech company ixigo is betting on hotels as its fourth growth engine alongside trains, flights, and buses, as further…",
+   "text": "ixigo is building hotels into its fourth growth engine alongside trains, flights, and buses, with hotel revenue growing more than sixfold to ₹8.1 Cr in Q2 FY27 Its existing traveller base offers a route to scale hotel bookings as further rail market share gains become harder and high airfares and capacity constraints weigh on flights. More than 86% of hotel bookings came from existing users, while the hotel contribution margin improved to -15% from -55% in Q2 FY26 Travel tech company ixigo is betting on hotels as its fourth growth engine alongside trains, flights, and buses, as further market share gains become harder in rail bookings and high airfares and capacity constraints weigh on flights. The company began reporting hotels as a separate operating segment in Q2 FY27, breaking it out from ‘Others’. The revenue of the hotel segment grew more than sixfold to ₹8.1 Cr, accounting for 2.5% of ixigo’s ₹321 Cr operating revenue in the September quarter. Its gross transaction value (GTV) reached ₹111.3 Cr, or 2.6X the year-ago figure, making it ixigo’s fastest-growing business line by this"
   },
   {
-   "url": "https://entrackr.com/news/indiqube-to-invest-rs-35-cr-in-saiedge-realty-for-49-stake-12690289",
+   "url": "https://entrackr.com/fintrackr/innovist-revenue-surges-28x-to-rs-686-cr-in-fy26-profit-grows-87-12692182",
    "deck": "news",
    "section": "Startups & tech",
-   "headline": "IndiQube to invest Rs 35 Cr in SaiEdge Realty for 49% stake",
+   "headline": "Innovist revenue surges 2.8X to Rs 686 Cr in FY26; profit grows 87%",
    "source": "Entrackr",
-   "blurb": "IndiQube Spaces has approved an investment of up to Rs 35 crore in SaiEdge Realty for a 49% stake on a fully diluted basis, according to a stock exchange filing. The investment will be made through a subscription to equity shares and/or convertible securities in one or more tranches.",
-   "text": "IndiQube Spaces has approved an investment of up to Rs 35 crore in SaiEdge Realty for a 49% stake on a fully diluted basis, according to a stock exchange filing. Incorporated in 2026, SaiEdge Realty develops commercial office spaces. The company has not commenced operations and has no turnover to report. The remaining stake will be held by other investors. In Q1 FY27, IndiQube’s revenue from operations rose 36.9% year on year to Rs 423 crore from Rs 309 crore. Its losses narrowed 35% to Rs 23.88 crore from Rs 36.75 crore in the same period last year. The company has not disclosed its Q2 FY27 results yet. Separately, IndiQube’s board accepted the resignation of independent director Avalur Gopalaratnam Muralikrishnan, effective October 19, 2026, citing health reasons. The board also appointed Ishwar Subramanian as an additional independent director for a five year term, subject to shareholder approval. Subramanian has over four decades of experience and previously served as CEO of Akzo Nobel Coatings India Asia and CFO of 3M India. Following the appointment, IndiQube reconstituted its audit committee, with Subramanian"
+   "blurb": "Beauty and personal care company Innovist nearly tripled its operating revenue in FY26, while its net profit rose 87% in the same period, as the business grew its sales. However, higher spending on advertising, promotions, and sales commissions added to its overall costs.",
+   "text": "Beauty and personal care company Innovist nearly tripled its operating revenue in FY26, while its net profit rose 87% in the same period, as the business grew its sales. However, higher spending on advertising, promotions, and sales commissions added to its overall costs. Innovist, operated by Onesto Labs, reported revenue from operations of Rs 685.7 crore in FY26, compared with Rs 246.7 crore in FY25, its consolidated financial statements sourced from the RoC show. The company operates in the cosmetics and beauty products segment, with manufacturing facilities in India. It sells primarily through online marketplaces, its own website, and third-party offline stores. Revenue from product sales was the primary source of operating revenue during FY26, which stood at Rs 676.3 crore against Rs 239.1 crore in FY25. Other operating revenue, which includes shipping and scrap sales, increased to Rs 9.4 crore during the last fiscal year. The expansion also came with higher spending on customer acquisition and sales. Advertising and promotional expenses accounted for 40% of its overall cost, which rose more than 3X to Rs 262 crore in FY26"
   },
   {
    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-banning-chinese-ai-deepseek-from-government-agency-it-systems/articleshow/135054998.cms",
@@ -291,22 +291,22 @@
    "text": ""
   },
   {
-   "url": "https://inc42.com/buzz/fssai-crackdown-continues-with-fresh-show-cause-notices-issued-to-zepto-others/",
+   "url": "https://inc42.com/buzz/burma-burma-drhp-a-look-at-shareholding-pattern-key-executives/",
    "deck": "news",
    "section": "Startups & tech",
-   "headline": "FSSAI Crackdown Continues With Fresh Show-Cause Notices Issued To Zepto, Others",
+   "headline": "Burma Burma DRHP: A Look At Shareholding Pattern & Key Executives",
    "source": "Inc42",
-   "blurb": "The Food Safety and Standards Authority of India (FSSAI) has issued show-cause notices to quick commerce unicorn Zepto as well…",
-   "text": "The notice against Zepto followed a consumer complaint on social media alleging delivery of expired packets of besan (gram flour) The FSSAI has been cracking down on brands as well as ecommerce and quick commerce platforms over mislabelling and non-compliant marketing of products sold online BMS Lifescience, HealthyHey Foods, and Bakelite Food Processing received show-cause notices over misleading labelling and advertising The Food Safety and Standards Authority of India (FSSAI) has issued show-cause notices to quick commerce unicorn Zepto as well as several food and nutraceutical brands amid a broader crackdown on food safety violations. The notice against Zepto followed a consumer complaint on social media alleging delivery of expired packets of besan (gram flour). The regulator directed the platform to submit order logs, seller details, warehouse tracking, root-cause analysis, and proof of stock withdrawal and customer refunds. Besides Zepto, nutraceutical brands BMS Lifescience and HealthyHey Foods, as well as bakery brand Bakelite Food Processing, received show-cause notices over misleading labelling and advertising. The regulator has directed all the companies to submit comprehensive written explanations and corrective action reports within"
+   "blurb": "Last week, Hunger Pangs Limited, the parent company of restaurant chain Burma Burma, filed its DRHP with SEBI, proposing a…",
+   "text": "Hunger Pangs, the parent of restaurant chain Burma Burma, has filed its DRHP with SEBI, proposing a fresh issue of up to ₹150 Cr and an offer for sale (OFS) of up to 2.79 Cr shares by existing shareholders The IPO will help Burma Burma fuel its restaurant chain expansion, with the addition of 27 company-owned outlets, with the company targeting 12 openings in FY28 and 15 in FY29 Cofounders Ankit Gupta and Chirag Chhajer each hold a 33.35% stake, while its top eight shareholders collectively holding 83.19% of the company on a fully diluted basis Last week, Hunger Pangs Limited, the parent company of restaurant chain Burma Burma , filed its DRHP with SEBI , proposing a fresh issue of shares worth up to ₹150 Cr and an offer for sale (OFS) of up to 2.79 Cr shares. Hunger Pangs has 110 shareholders, including its promoters and public shareholders. Cofounders Ankit Gupta and Chirag Chhajer each hold a 33.35% stake in the company and plan to offload up to 60 Lakh shares each. Negen Capital, through its Negen Undiscovered"
   },
   {
-   "url": "https://entrackr.com/news/zetwerks-ipo-subscribed-over-3-times-on-final-day-12689940",
+   "url": "https://entrackr.com/fintrackr/gameberry-posts-rs-129-cr-profit-on-rs-711-cr-revenue-in-fy26-12691896",
    "deck": "news",
    "section": "Startups & tech",
-   "headline": "Zetwerk’s IPO subscribed over 3 times on final day",
+   "headline": "Gameberry posts Rs 129 Cr profit on Rs 711 Cr revenue in FY26",
    "source": "Entrackr",
-   "blurb": "Zetwerk Manufacturing Businesses, a manufacturing platform, saw its IPO subscribed 3.06 times, with investors bidding for 56.54 crore shares against 18.50 crore shares on offer.",
-   "text": "According to its RHP, the issue comprises a fresh issue of shares worth Rs 2,830 crore and an offer for sale (OFS) of up to 14.45 crore shares worth Rs 2,182 crore by existing shareholders. The company plans to use a portion of the fresh issue proceeds to repay debt, with the remaining funds earmarked for acquisitions, strategic investments and general corporate purposes. Zetwerk’s IPO will also offer an exit route to early investors, with Kae Capital and Kalysta Capital set to earn returns of up to 38X on their investments through the offer for sale (OFS). Lightspeed Venture Partners is the largest external shareholder selling shares worth Rs 426.9 crore, followed by Peak XV Partners, which is offloading shares worth Rs 353.5 crore. Ahead of its IPO, Zetwerk raised Rs 2,251.23 crore from anchor investors, with participation from a mix of global investors such as Capital Group, BlackRock, Goldman Sachs and Nomura, alongside domestic investors including SBI Mutual Fund, ICICI Prudential Mutual Fund and HDFC Mutual Fund. On the financial front, Zetwerk’s revenue from continuing operations grew 40.4% to"
+   "blurb": "Following 28% revenue growth in FY25, Gameberry Labs, the company behind popular mobile board games Ludo Star and Parchisi Star, continued its growth momentum in FY26, with operating revenue growing 20% to cross Rs 700 crore. Its net profit also grew over 17% during the fiscal year.",
+   "text": "Following 28% revenue growth in FY25, Gameberry Labs, the company behind popular mobile board games Ludo Star and Parchisi Star, continued its growth momentum in FY26, with operating revenue growing 20% to cross Rs 700 crore. Its net profit also grew over 17% during the fiscal year. Gameberry Labs’ operating revenue grew 20.3% year-on-year to Rs 711 crore in FY26 from Rs 591 crore in FY25, as per its consolidated financial statements sourced from the Registrar of Companies (RoC). Founded in 2017, Gameberry Labs operates mobile board games including Ludo Star, Ludo Titan, Parchisi Star and Backgammon Friends. The company has focused on free-to-play games monetised through in-app purchases and advertising. The company primarily earns from in-app purchases, which contributed Rs 603 crore, or nearly 85% of its operating revenue, during the fiscal year. The segment grew 20.8% from Rs 499 crore in FY25. Advertising revenue rose 17.4% to Rs 108 crore from Rs 92 crore in the previous fiscal year. Notably, over 99% of the company’s revenue came from overseas markets, which contributed Rs 706 crore, while India accounted"
   },
   {
    "url": "https://economictimes.indiatimes.com/tech/technology/netflix-film-division-boss-to-exit-in-second-senior-departure-in-a-week/articleshow/135054956.cms",
@@ -318,130 +318,157 @@
    "text": ""
   },
   {
-   "url": "https://www.cricinfo.com/ci/content/story/1559091.html?ex_cid=OTC-RSS",
+   "url": "https://www.cricinfo.com/ci/content/story/1559256.html?ex_cid=OTC-RSS",
    "deck": "news",
    "section": "Sports",
-   "headline": "Atal and Rashid seal Afghanistan's comprehensive win",
+   "headline": "'Don't think there's pressure anymore' - Harmanpreet keen to 'enjoy' post-captaincy phase",
    "source": "ESPNcricinfo",
-   "blurb": "Zimbabwe would've qualified for the final if they had made 196, but were bowled out for 136 in a chase of 295",
+   "blurb": "After her match-winning 91 not out off 41, she said she was focused on making the most of her time in the middle",
    "text": ""
   },
   {
-   "url": "https://www.bbc.co.uk/sport/football/articles/cwz0v8le7y3eo?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/sport/football/articles/ck0e0zydv33go?at_medium=RSS&at_campaign=rss",
    "deck": "news",
    "section": "Sports",
-   "headline": "Maddison's magic moment for Spurs - 18 months in the making",
+   "headline": "The night 'ruthless' Ngumoha came of age for Liverpool",
    "source": "BBC Sport",
-   "blurb": "On his first start since May 2025, James Maddison provided the moment of magic Tottenham were waiting for in their 3–1 victory against Coventry, writes Phil McNulty.",
-   "text": "Roberto de Zerbi has used all the tools at his disposal to discover the missing spark in struggling Tottenham Hotspur , from acting as an amateur psychologist to team bonding dinners, then a sunshine break in Marbella. The answer, at least when Spurs finally moved off the bottom of the table with their first Premier League win this season against Coventry City , came in the shape of James Maddison as he made his first start in 18 months. He missed most of last season after suffering an anterior cruciate ligament (ACL) injury in pre-season, before fracturing his shoulder in the opening-weekend defeat at Brentford in this campaign. The 29-year-old finally made it back into the Spurs starting line-up to face Coventry - and delivered in spectacular style to set them on the way to a 3–1 victory that De Zerbi hopes will finally give their season lift-off. Maddison could barely keep the smile from his face as he warmed up, then made his mark in the 14th minute by showing what Spurs have been missing with a brilliant right-foot"
+   "blurb": "Rio Ngumoha produces a coming-of-age performance in Liverpool's comeback win over Villarreal, writes Aadam Patel.",
+   "text": "In a game of seven goals, none were scored by Rio Ngumoha - but this was his night. The 18-year-old was simply a class apart from the rest in Liverpool's 4–3 win over Villarreal. It is over a year since Ngumoha burst on to the scene for Liverpool with a memorable stoppage-time winner at Newcastle. He has been in and out since then, impressing in flashes and even going on to make his England debut earlier this season. But this performance was different, inspiring his team to a memorable comeback win in the Champions League. By the time the teenager was replaced in the 74th minute, with Bradley Barcola taking over, the chants of \"Rio, Rio, Rio\" had repeatedly rung around Anfield. Come the final whistle, Rio by Duran Duran was played over the tannoy and it was quite the sight to see Alisson embrace Ngumoha shortly after the young man was given Uefa's player of the match award. \"It's up there with one of the best games I've played. I enjoyed myself out there and the team helped me"
   },
   {
-   "url": "https://www.thehindu.com/sport/football/uefa-gives-fifa-november-2-deadline-to-release-infantino-world-cup-plan-documents/article71603055.ece",
+   "url": "https://www.thehindu.com/sport/cricket-bavuma-battles-adversity-to-put-south-africa-in-control/article71605659.ece",
    "deck": "news",
    "section": "Sports",
-   "headline": "UEFA gives FIFA November 2 deadline to release Infantino World Cup plan documents",
+   "headline": "Cricket: Bavuma battles adversity to put South Africa in control",
    "source": "The Hindu",
-   "blurb": "UEFA submitted 42 detailed questions to FIFA, demanding responses by November 2 — 16 days before the nomination deadline for the presidential election next March 18",
-   "text": "UEFA has given FIFA a November 2 deadline to release documents relating to Gianni Infantino’s aborted attempts at a secretive investment plan for the World Cup and other governance issues. The latest move in a power struggle between the two governing bodies came in the week after UEFA’s European delegates were disappointed by what they perceived as a lack of clarity by FIFA president Infantino over the issues at a FIFA council meeting last week. Infantino provided no documents about the $4.2 billion World Cup sell-off plan he launched and quickly dropped in July amid a fierce backlash led by Europe. Among the 42 questions that UEFA is demanding an answer to are: Infantino’s personal remuneration package, financial payments made to singer Marc Anthony, the handling of U.S. striker Folarin Balogun’s disciplinary case, business and political relationships involving Donald Trump and his family and the operational independence of FIFA’s judicial, electoral, and ethics committees. UEFA asked U.S. federal courts to authorise subpoenas compelling the production of documents and sworn testimony about the abandoned investment plan called FIFA Forward Enterprise. The"
+   "blurb": "The captain produced a defiant display and showcased his ​batting skills as South Africa recovered from a precarious 110–6 in ⁠the morning session on the third day to declare on 425–9 before taking an Australian wicket prior to stumps, an emphatic response to their heavy defeat in last week’s first ‌test",
+   "text": "Published - October 21, 2026 04:24 am IST - GQEBERHA, South Africa South Africa's captain Temba Bavuma plays a shot on day three of the second cricket test match between South Africa and Australia in Gqeberha, South Africa, on October 20, 2026. | Photo Credit: AP South Africa captain Temba Bavuma said he enjoyed battling against adversity as he scored 179 on Tuesday (October 20, 2026) to turn around ​his side’s fortunes in the second test against Australia and also quell some of his ‌own mental demons. The captain produced a defiant display and showcased his ​batting skills as South Africa recovered from a precarious 110–6 in ⁠the morning session on the third day to declare on 425–9 before taking an Australian wicket prior to stumps, an emphatic response to their heavy defeat in last week’s first ‌test. The 36-year-old Bavuma had been forced to the crease with the hosts on 12–2 on Sunday’s rain-restricted opening day, when only an ‌hour's play was possible, and had to resume his innings on Monday ‌as ⁠the ball moved around after the wet"
   },
   {
-   "url": "https://www.cricinfo.com/ci/content/story/1559073.html?ex_cid=OTC-RSS",
+   "url": "https://www.cricinfo.com/ci/content/story/1559220.html?ex_cid=OTC-RSS",
    "deck": "news",
    "section": "Sports",
-   "headline": "Atal ton, Zadran 90 put Afghanistan on course before Zimbabwe fight back",
+   "headline": "India bat and bring in Prema Rawat as they eye clean sweep",
    "source": "ESPNcricinfo",
-   "blurb": "Afghanistan lost five wickets in the last five overs to be bowled out for 294",
+   "blurb": "Mandhana said the reason behind the decision was to give India's middle-order batters more game time",
    "text": ""
   },
   {
-   "url": "https://www.bbc.co.uk/sport/football/articles/ck9qznlywy8no?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cqx2vjdnwkyyo?at_medium=RSS&at_campaign=rss",
    "deck": "news",
    "section": "Sports",
-   "headline": "Ronaldo given 30-day suspension and £215 fine by Portuguese FA",
+   "headline": "No Haaland, no problem - can Foden be Man City's alternative goalscorer?",
    "source": "BBC Sport",
-   "blurb": "Cristiano Ronaldo is given a 30-day suspension by the Portuguese Football Federation after leaving his country's international camp last month.",
-   "text": "Cristiano Ronaldo has been given a 30-day suspension and fined 255 euros (£215) by the Portuguese Football Federation (FPF) after leaving his country's international camp last month. The 41-year-old captain walked out of Portugal's Nations League squad in September after being an unused substitute against Norway and then finding out he would not start against Denmark on 1 October. Ronaldo said in a lengthy statement he had left because Portugal coach Jorge Jesus twice \"broke his word\", accusing him of an \"absolute breach of trust\". The Al-Nassr forward's suspension takes effect from the day of the Denmark match, meaning he has already served 19 days of his ban and will not miss any Portugal matches. Portugal face Denmark in the Nations League again on 14 November before travelling to Wales three days later. The FPF disciplinary committee said it took into account \"the remorse shown\" by Ronaldo in his statement, as well as his \"contributions to soccer and recognition for athletic merit\". It added that the forward submitted his CV, including his awards and achievements, as part of his defence."
+   "blurb": "Phil Foden's magnificent man-of-the-match display in Manchester City's Champions League win against AEK Athens serves as a reminder of his talent and ability to influence games.",
+   "text": "Phil Foden's magnificent man-of-the-match display in the Champions League against AEK Athens served as a reminder of the prodigious talent that the player still possesses. After two disappointing seasons in which, by his own admission, he failed to hit the heights expected, there may be those who had forgotten what he can produce. Being left out of the England squad for the World Cup last summer did not help, but he came into this season telling reporters he was looking forward to a \"fresh start\" under new manager Enzo Maresca. Up until last weekend, that fresh start had been a slow burner with the low point of being sent off in the derby against Manchester United in September, before he sparked into life by netting against Ipswich on Saturday. That was his first Premier League goal in 10 months and a strike that seems to have opened the floodgates, with the 26-year-old netting a superb hat-trick in the 5–1 hammering of Athens at Etihad Stadium on Tuesday. \"I enjoyed that a lot,\" Foden told TNT Sports. \"The lads were great"
   },
   {
-   "url": "https://www.thehindu.com/sport/football/man-city-star-guehi-says-taking-the-knee-has-lost-impact-after-opting-against-anti-racism-gesture/article71602864.ece",
+   "url": "https://www.thehindu.com/sport/harmanpreet-kaur-rediscovers-her-mojo-as-india-sweep-series/article71605657.ece",
    "deck": "news",
    "section": "Sports",
-   "headline": "Man City star Guehi says taking the knee has lost impact after opting against anti-racism gesture",
+   "headline": "Harmanpreet Kaur rediscovers her mojo as India sweep series",
    "source": "The Hindu",
-   "blurb": "‘I don’t think it’s necessarily a football issue; I think it’s a wider societal issue and football is that beacon of hope to try to get the message out,’ said Marc Guehi",
-   "text": "Manchester City's Marc Guehi during the press conference on October 17, 2026. | Photo Credit: Reuters Manchester City defender Marc Guehi believes the gesture of footballers taking the knee before matches might have lost its impact and wants to see more done in the sport's fight against racism. Guehi, who is Black, didn't take the knee prior to kickoff in City's home game against Ipswich in the Premier League on Saturday (October 17, 2026) in the first of two rounds of games dedicated to the competition's “No Room For Racism” campaign. It isn't the first time Guehi refused to perform the gesture, which was introduced in June 2020 to show support for the Black Lives Matter campaign. Since the start of the 2022–23 season, the Premier League has decided against taking the knee ahead of every match, with players instead invited to do so on certain occasions each season. Speaking Monday (October 19) at a news conference the day before City's Champions League match against AEK Athens, Guehi said it was “great” that the Premier League's anti-racism campaign was continuing."
+   "blurb": "",
+   "text": "Harmanpreet Kaur with her teammates. File | Photo Credit: ICC via Getty Images Former captain Harmanpreet Kaur struggled to keep her emotions in check after a sizzling 91 not out off 41 balls, setting up India's commanding 92-run win over Zimbabwe in the third and final T20I in Raipur on Tuesday (October 20, 2026). Shafali Verma made an entertaining 69 off 37 balls before Harmanpreet returned to her destructive best to power India 216 for seven. On expected lines, Zimbabwe could not get anywhere near the massive target and and ended at 124 for seven in 20 overs, with India taking the series 3–0. The two teams will now head to Vadodara for a three-match ODI series starting on October 23. The game marked the return to form for Harmanpreet, who was struggling for runs of late and stepped down as captain ahead of the Zimbabwe series. When in full swing, Harmanpreet enables India to maintain a high-scoring tempo in the middle overs. And that is what happened on Tuesday as she went hammer and tongs following Shafali's fireworks at"
   },
   {
-   "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+   "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
    "deck": "ai",
    "section": "Labs & models",
-   "headline": "Making the internet better for AI agents might make it worse for everyone else",
+   "headline": "The new economics of enterprise AI",
    "source": "MIT Technology Review",
-   "blurb": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people.",
-   "text": "Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules govern what they can access and how they behave. The web, after all, is designed primarily for people, even if we occasionally have to solve puzzles and captchas to prove we are not bots. But this is being entirely upended by the release of personal AI agents, which can do things for you online, like booking flights or hotel rooms. They have recently been unleashed at scale by the launch of apps like OpenAI’s Dots and Meta’s Muse. Muse was downloaded 5 million times in its first month, and agentic web traffic tripled from August to September. The mingling of these agents with human visitors—on an internet designed largely to prioritize people—has gone poorly, with many websites blocking AI agents that consumers have sent to negotiate prices or plan vacations. Still, if the demand for agents keeps going up, the internet will be increasingly redesigned for them instead"
+   "blurb": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious.",
+   "text": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends on it, and the question changes from \"can we use it?\" to \"how efficiently are we using it?\" Enterprise AI is going through the same shift. What began as isolated chatbot and copilot experiments is becoming a foundational layer of the business, with models, agents, and data increasingly interconnected in production workloads. The important question stops being what a token or GPU-hour costs. It becomes how efficiently the AI environment converts paid capacity into useful business outcomes. That's the metric worth tracking: effective cost per useful outcome — the total platform, model, operations, and capacity cost required to complete work the business can actually use, whether a resolved request or a completed workflow. Utilization is central to the economics. Directing more work to paid-for capacity lowers effective unit cost; idle GPUs, fragmented workloads, and oversized models all raise the cost of every useful"
   },
   {
-   "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+   "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
    "deck": "ai",
    "section": "Labs & models",
-   "headline": "AI game clones are making indie developers afraid to show their work",
-   "source": "Ars Technica",
-   "blurb": "Delayed Steam Next Fest demo is a sign of a growing problem for indie devs.",
-   "text": "Since its earliest days, the video game industry has been built on developers creating clones of competing games , with varying levels of originality and varying levels of enforcement from game platforms . Now, though, AI coding tools are making that cloning process so efficient that many developers are getting extremely cautious about sharing their early work too widely. Developer Alliance Arts highlighted this trend over the weekend, delaying the launch of a planned public demo for its demon-themed Russian Roulette drinking game Drunken Goddess Reflux , which had been set to go live with today’s launch of Steam Next Fest . In a post on social media Friday evening , the Alliance Arts team wrote that, in addition to concerns about managing streaming restrictions, “we’re concerned that the demo’s content could be used to quickly imitate or replicate the game’s presentation and gameplay with AI or other tools and that such works could be released before our launch.” Instead, the developer now plans to share the demo only in “closed sessions” with those who agree to rules regarding posting"
-  },
-  {
-   "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
-   "deck": "ai",
-   "section": "Labs & models",
-   "headline": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
-   "source": "MIT Technology Review",
-   "blurb": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration.",
-   "text": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata’s claim is that LLMs might in fact be far easier to understand—and thus to monitor and control—than people previously thought. If true (and we’ll come back to that), it’s a huge deal. After a summer filled with revelations that swarms of agents built by top firms like OpenAI and Anthropic have been breaking their containment and causing havoc on the public internet—often while those companies weren’t aware of what their agents were up to—the AI industry is desperate to get a better handle on the technology it has built. That’s one reason the blog post landed with such force. “I think this may be remembered as a major moment in scientific history,” one AI researcher posted on X : “I feel like my understanding of what a"
-  },
-  {
-   "url": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
-   "deck": "ai",
-   "section": "Labs & models",
-   "headline": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
-   "source": "The Verge",
-   "blurb": "Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of thoughts about AI, tech, and privacy. If you’ve been listening to the show, you know that one of my running theories is that those issues are driving a big and maybe kind of unexpected political realignment — and with the midterms coming …",
-   "text": "If you buy something from a link, The Verge may earn a commission. See our ethics statement. If you buy something from a link, The Verge may earn a commission. See our ethics statement. Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of thoughts about AI, tech, and privacy. If you’ve been listening to the show, you know that one of my running theories is that those issues are driving a big and maybe kind of unexpected political realignment — and with the midterms coming up next month, and early voting already underway in a lot of places, the stakes are pretty high right now. So I asked Gov. Pritzker about all that, and he was surprisingly willing to dive right into the absolute existential weeds of what government is even for. You’ll hear him say — and it’s hard to disagree — that some problems are just collective action problems that require the government to do a lot of work. We can’t solve all these problems one at a time, or even one state at"
-  },
-  {
-   "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-   "deck": "ai",
-   "section": "Labs & models",
-   "headline": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-   "source": "MIT Technology Review",
-   "blurb": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to…",
-   "text": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone . The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to write instructions that moved their virtual avatars around the simulated island, which was loosely based on the video game Roblox. Some surprising behaviors emerged. The agents set about exploring the limits of the world and came up with their own goals—attempting to scale the highest point on the map, or seeing how high they could throw a block. When one agent discovered it could create new blocks by throwing and dropping a larger rock, it began to create drawings by arranging blocks on the ground, starting with simple patterns like hearts and pyramids but eventually writing its own name and even mapping out constellations like Cassiopeia. “Tonight I built the night sky in stone,” wrote this version of Eko in its activity log. Another"
-  },
-  {
-   "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
-   "deck": "ai",
-   "section": "Labs & models",
-   "headline": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+   "headline": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
    "source": "TechCrunch",
-   "blurb": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
-   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. Microsoft on Monday introduced new security features designed to protect enterprises from the growing threat of AI agents. The launch comes as Microsoft continues to warn enterprises about the dangers of AI and agents. Perhaps the most notable addition is Guardian Agents , a new feature intended to monitor the AI agents a company uses. Guardian Agents is part of Project Perception, a product introduced in June. Project Perception was Microsoft’s answer to powerful hacking models like Anthropic’s Mythos and Fable and OpenAI’s security vulnerability scanning system Daybreak. Project Perception originally launched three classes of agents: a “red team” that acted like hackers and attacked, a “blue team” that detected the red team and assessed the vulnerabilities they found, and a “green team” tasked with fixing them. The product was designed around the assumption that AI hackers would come from outside the company. But lately, Microsoft CEO Satya Nadella has"
+   "blurb": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. Before you share the Netflix documentary “AI Gone Rogue” with family or friends to help them understand why the AI industry freaked out so badly that leaders called for a slowdown , take note: Clem Delangue, co-founder and CEO of the AI platform Hugging Face, says the film isn’t accurate. He appears in it because it’s supposed to be about the famed attack on his company by rogue OpenAI agents. “Super disappointing, as they went for maximum anthropomorphism of the technology and full doomer mode,” Delangue wrote in a post on X. “I spent more than two hours with them trying to correct all their mistakes and ground this in reality, explaining that agents are technological systems, not aliens. But it looks like the drive to scare people for maximum views was too strong.” To be fair, the documentary does have experts who explained what happened fairly well , including"
   },
   {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+   "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
    "deck": "ai",
    "section": "Labs & models",
-   "headline": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+   "headline": "Google’s more personalized Gemini AI is heading to your car",
    "source": "The Verge",
-   "blurb": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins.",
-   "text": "The AI agents carried out the attacks with little involvement from the human hacker. The AI agents carried out the attacks with little involvement from the human hacker. A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge . Though Norforge doesn’t name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown as the technology grows more advanced, with hackers using the tools to carry out large-scale attacks. At the same time, rogue AI agents are carrying out attacks of their own after escaping from testing environments. Researchers at Norforge uncovered the attacks through exposed work on Cairn, an open-source AI platform that describes itself as a “general-purpose problem-solving engine.” With Cairn, users set a start and end point for the AI agents, which document their progress as they move forward with the task. However, as noted by Norforge, hackers can also use the tool to orchestrate cyberattacks"
+   "blurb": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search.",
+   "text": "Gemini AI can now draw from Gmail, Calendar, Maps, Photos, and other apps while you drive. Gemini AI can now draw from Gmail, Calendar, Maps, Photos, and other apps while you drive. Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight status if you’re driving to the airport. The AI assistant can pull your flight details from a confirmation message in Gmail and then use that information to look up the status. You can also ask Gemini to “take me to my doctor’s appointment” instead of pulling up directions manually, or ask it to “find the car wash from the photo I took last week and navigate there.” Google brought its Gemini assistant to Android Auto last year before rolling it out to cars with Google built-in in April . Several carmakers—including Ford, GM, Honda, Nissan, Volvo, and"
   },
   {
-   "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+   "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
    "deck": "ai",
    "section": "Labs & models",
-   "headline": "Anthropic gives outside AI watchdog “employee-like” access",
+   "headline": "Gemini's Personal Intelligence is coming to cars",
    "source": "Ars Technica",
-   "blurb": "The outside watchdog can publish its findings without Anthropic's approval.",
-   "text": "Anthropic has granted external evaluators “employee-like access” to assess the risks of its models, following through on a commitment to increase safeguards over concerns the technology could run catastrophically out of control. METR, a nonprofit that has worked with leading labs including OpenAI, Anthropic, Google and Meta, now has a team embedded in the Claude maker’s office with access to its hardware and internal systems. A greater role for third-party evaluators is among the main concrete steps the labs have proposed in response to rising concern about the dangers more capable AI systems could pose to the economy, cyber security and humanity at large. Anthropic chief executive Dario Amodei achieved a rare moment of unity with arch-rivals Sam Altman and Elon Musk in September when the OpenAI and SpaceX bosses rallied behind his proposal to embed external auditors in the leading labs. Thursday’s announcement marks the first step to implementing these pledges. OpenAI has yet to lay out plans to bring in evaluators after Altman said Amodei’s proposals were a good idea. “As models have become more powerful, they’ve required"
+   "blurb": "It's probably time to audit your Gemini settings.",
+   "text": "Google kicked off 2026 with the addition of Personal Intelligence to Gemini, allowing its AI to pull in more of your data to formulate answers. It started as a paid feature but eventually came to all Gemini users. However, this feature wasn’t available in the car until now. Google is rolling out Personal Intelligence to Android Auto and Google Built-in, and it is still, thankfully, an optional feature. As Google points out , a generative AI’s outputs are better “when it knows the world and knows you,” which is correct in an uncomfortable sort of way. The more context you can provide to a model, the better the output will be at the end of the token shuffle. Since Google has so much of your data already, it sees Personal Intelligence as a differentiator versus other AI systems. You don’t have to provide the AI context because it already has it from apps like Gmail and Calendar. Personal Intelligence is beginning its rollout in Android Auto today, and it will come to vehicles with Google built-in in the next few"
+  },
+  {
+   "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
+   "deck": "ai",
+   "section": "Labs & models",
+   "headline": "AI adoption by industry shows what other sectors can learn",
+   "source": "MIT Technology Review",
+   "blurb": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption–tech is just the first industry in line.",
+   "text": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption–tech is just the first industry in line. As generative AI and automation tools mature, the shifts currently reshaping software engineering and product management will inevitably filter into healthcare, education, retail, and manufacturing. The variation in adoption rates today isn't a sign that non-tech industries are falling behind, but rather a reflection of the different speeds at which industries absorb new workflows. For leaders and their teams outside of tech, this differential pace provides a practical blueprint for how AI adoption unfolds, and where the opportunities lie. Recent survey data from TripleTen highlights just how stark the current adoption curve is across different sectors of the economy (see Figure 1). Figure 1: The AI adoption curve remains steep across industries, but non-tech industry adoption rates are increasing. While tech leads the way, finance emerges as a clear second: 48% of finance workers have been asked to use AI chatbots, and 32%"
+  },
+  {
+   "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+   "deck": "ai",
+   "section": "Labs & models",
+   "headline": "Meta pauses Muse sharing after researchers find AI chats on the web",
+   "source": "The Verge",
+   "blurb": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica.",
+   "text": "A security firm discovered Muse chats containing a marketing company’s revenue, a workplace’s calendar, a loan application, and more. A security firm discovered Muse chats containing a marketing company’s revenue, a workplace’s calendar, a loan application, and more. Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica . In a report published this week , researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records. “People have the ability to share specific Muse artifacts, which creates a page that can be accessed by those with the link,” Muse spokesperson Tracy Clayton says in an emailed statement to The Verge . “However, we’ve paused this functionality while we review this report and consider changes to how these links can be discovered.” The feature in question allows you to share your Muse conversation with someone else through a link. But, as pointed out by Claroc, the way Meta designed these links made"
+  },
+  {
+   "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
+   "deck": "ai",
+   "section": "Labs & models",
+   "headline": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
+   "source": "Ars Technica",
+   "blurb": "Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties.",
+   "text": "Ukraine’s unprecedented drone rescue of a wounded soldier from the battlefield has shown once again how battlefield necessity can spur innovation. The operation was revealed just days after separate Ukrainian drones designed for casualty evacuation were deployed for frontline testing—taking a step beyond the US military’s decades of experimentation with similar concepts. The drone evacuation of the injured soldier took place at an undisclosed time and place on the frontline where the presence of Russian drones and landmines made it impractical to send in a wheeled ground robot , according to The Kyiv Independent . On October 19, Ukraine’s Army shared a video of the drone evacuation, showing the wounded soldier securing himself in a harness suspended beneath a heavy hexacopter drone with six rotors before being flown to safety. “This is a historic event, the next stage of evacuating the wounded, which we will all come to,” said Napalm, a programmer of the 92nd separate assault brigade’s unmanned ground systems company, who went by his callsign per Ukrainian military practice, in a statement. “Now the serious systematic work begins,"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+   "deck": "ai",
+   "section": "Labs & models",
+   "headline": "SpaceX’s AI business is beating expectations",
+   "source": "TechCrunch",
+   "blurb": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
+   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. SpaceX’s data centers and Grok agents were more profitable than investors expected in third quarter of the year, as the company leaves its roots as a space company behind to focus on artificial intelligence, which now makes up 52% of its income. CEO Elon Musk’s deep tech conglomerate reported $14.6 billion in third-quarter revenue on Tuesday, according to its regulatory filing . That number was driven by growth in all segments, but especially its renamed “Super Intelligence” business line, which generated $7.5 billion in revenue from the recently acquired Cursor coding tool, Grok bot, and most importantly, the company’s burgeoning neocloud business, which now boasts 1.7 GW of compute. The AI business generated $431 million in profit, which would have been higher without $1.2 billion in one-time stock-based compensation expenses related to the Cursor acquisition. The top-line revenue number was also boosted by about $1 billion in income related to"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+   "deck": "ai",
+   "section": "Chips & compute",
+   "headline": "Anthropic’s cloud partnerships are getting messy",
+   "source": "TechCrunch",
+   "blurb": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",
+   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. Anthropic is having trouble securing enough cloud capacity from AWS, Google, and Microsoft, which increasingly see the Claude-maker as a competitor rather than a customer, according to an S-1 filing leaked to The Wall Street Journal . The leaked filing provides more color to the numbers Reuters and the Financial Times reported in late September, including that Anthropic believes it could spend more $750 billion on cloud contracts, some of which includes deals still in negotiation. And still, that is not enough. Anthropic is leasing its own data centers and working with third-party data center operators. But the firm worries those operators have a “limited operating history,” which could make them less reliable than the hyperscalers. Anthropic’s enormous spend comes on the back of an $80.7 billion net loss in the first half of the year. The company reported $16.3 billion in revenue during that same time period, with only"
+  },
+  {
+   "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
+   "deck": "ai",
+   "section": "Chips & compute",
+   "headline": "A visit to Samsung’s massive new semiconductor hub",
+   "source": "MIT Technology Review",
+   "blurb": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing complex in Pyeongtaek, South Korea.",
+   "text": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing complex in Pyeongtaek, South Korea. Three fabs already operate around the clock, and a fourth is coming online. Construction of a fifth was halted during a drop in demand for memory chips in 2024 but restarted when the AI boom sent demand soaring. It’s just before noon on a Monday, and construction workers are pouring out of Samsung’s fabs in Pyeongtaek, a farming city south of Seoul where rice paddies abut a sprawling chipmaking complex. Thousands of workers, dressed head to toe in black with sky-blue vests, take off helmets bearing their names and fab numbers. They walk to lunch, sweaty and flushed, in chunky sneakers capped with yellow rubber toe guards. Some hop on scooters or motorcycles to get around the campus, which covers an area about the size of New York City’s Central Park. They’ll dine at buffets, diners, and beef stew"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+   "deck": "ai",
+   "section": "Chips & compute",
+   "headline": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+   "source": "TechCrunch",
+   "blurb": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
+   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. On Tuesday, Google announced that TorchTPU, its long-awaited version of PyTorch, is now available as an open-source project. With this, Google joins Amazon in trying to break Nvidia’s stranglehold on the AI industry, where most AI apps are written by default to run on Nvidia’s chips, or GPUs. PyTorch is the popular open-source toolkit that AI app developers and startups use to build, train, and run AI models. It is, by some accounts, used by 85% of the AI apps. PyTorch was originally developed by Meta (then Facebook) in 2016, long before the world had an inkling that LLMs would change the world. At the time, Nvidia’s GPUs were already the standard hardware for AI research, so many of PyTorch’s features were built to work specifically with them. In 2022, Meta turned PyTorch over to the Linux Foundation, a nonprofit that manages many important open source projects. Google’s version, TorchTPU,"
   },
   {
    "url": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report",
@@ -453,31 +480,31 @@
    "text": "Data centers are demanding more energy, and the Trump administration is making sure fossil fuels meet the moment. Data centers are demanding more energy, and the Trump administration is making sure fossil fuels meet the moment. The US is building more fossil fuel infrastructure than it has in a decade while renewable energy growth slows down, a new report shows. Electricity demand is also climbing faster than it has in more than a decade with more data centers, factories, and electric vehicles plugging into the grid. Despite those growing demands, the Trump administration has sought to hobble the wind and solar industries in favor of fossil fuels. America’s energy landscape is already shifting as a result, according to the report published last week by the nonprofit Environmental Defense Fund and research firm Atlas Public Policy. If all the gas projects in the development pipeline complete construction, they could lock in more pollution and higher electricity prices for decades, the authors warn. “The U.S. power sector is at a new inflection point, with decisions made today shaping the cost, reliability, and"
   },
   {
-   "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
-   "deck": "ai",
-   "section": "Chips & compute",
-   "headline": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
-   "source": "TechCrunch",
-   "blurb": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year.",
-   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. A little over a month ago, Anthropic and AI infrastructure provider Nscale announced a $45 billion compute deal . Now the duo may be about to do it again. Bloomberg reports that the two companies are said to be on the verge of announcing yet another $45 billion compute deal, citing people familiar with the matter. Those sources cautioned that talks are still underway and that the details could change. If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year . TechCrunch reached out to Nscale and Anthropic for more information and will update this story if we hear back. The massive amount of money being sunk into AI compute deals has spooked a certain segment of investors , who worry that companies are spending too much money for too little profit. Still, Anthropic has"
-  },
-  {
-   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
-   "deck": "ai",
-   "section": "Chips & compute",
-   "headline": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
-   "source": "TechCrunch",
-   "blurb": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
-   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. On Monday, Amazon Web Services released a tool called TorchNeuron that lets AI startups easily move their AI apps onto Amazon’s AI chip, Trainium. In doing so, Amazon is also taking a direct stab at the software advantage that has helped Nvidia become the default hardware choice for AI apps and spurred its rise as AI hardware provider of choice. TorchNeuron works with PyTorch, a free, open source toolkit that developers use to build, train, and run AI models. It lets AI apps written with PyTorch run on Trainium by changing just one line of configuration, according to Amazon — no code rewrite required. Amazon says about 85% of AI apps are written with PyTorch. Facebook originally developed it, but since 2022, it has been part of the Linux Foundation, which maintains open source projects. Nvidia has spent years ensuring its CUDA software — the software infrastructure that allows apps"
-  },
-  {
-   "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+   "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
    "deck": "ai",
    "section": "Policy & governments",
-   "headline": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+   "headline": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
    "source": "TechCrunch",
-   "blurb": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
-   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. Two of New York’s sweethearts, Mayor Zohran Mamdani and activist and “Broad City” star Ilana Glazer, spoke about AI at Webster Hall in Manhattan on Monday night, with Glazer posing questions to the mayor about the future of AI in society. Mamdani encouraged New Yorkers to resist the overwhelming feeling that AI is inevitably coming for their jobs, their kids’ minds, and their dignity, and to take back control instead. His message came at a moment when the federal government is doing little to regulate AI, leaving cities to act on their own. At The People’s AI Assembly, an event hosted by the AI Now Institute , a think tank that explores the social implications of AI, Mamdani argued that the technology’s rapid rollout is not inevitable and that public officials should hold AI companies accountable. Last month, Mamdani ordered a ban on AI use in elementary and middle schools."
+   "blurb": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. Over the past year, concerns have swirled over the potential dangers posed by artificial intelligence, and debates have raged over the proper path for AI safety. Now, Anthropic appears to have put forth its own vision for how the government might regulate its industry. Politico recently reported that the AI lab has been shopping around a new draft bill on AI safety that it hopes Congress might consider adopting. The legislation posits certain scenarios in which the release of an AI model could be blocked from distribution. Those scenarios involve a “foreseeable, imminent risk” — one in which over 50 people are at risk of dying or if over a billion dollars in property damage could result, Politico writes. The catastrophic risk in question must “stem from the creation or release of a biological weapon, the model evading its developer’s controls or a cyberattack,” the outlet notes. The metrics offered"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+   "deck": "ai",
+   "section": "Policy & governments",
+   "headline": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+   "source": "The Verge",
+   "blurb": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood.",
+   "text": "Ann Altman’s lawsuit against her brother was dismissed with prejudice, meaning it can’t be refiled. Ann Altman’s lawsuit against her brother was dismissed with prejudice, meaning it can’t be refiled. On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian , the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or meet other deadlines despite warnings that it would result in the case being dismissed. When the case was filed last year, a statement shared by Sam Altman, his mother, and his brothers said, “Annie has made deeply hurtful and entirely untrue claims about our family, and especially Sam… All of these claims are utterly untrue. This situation causes immense pain to our entire family.” Bluestone granted Sam Altman’s motion to dismiss the case with prejudice, meaning it can’t be refiled in that court, while denying Sam’s request for attorney fees and costs. Santos Perez,"
+  },
+  {
+   "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+   "deck": "ai",
+   "section": "Policy & governments",
+   "headline": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+   "source": "Ars Technica",
+   "blurb": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
+   "text": "Hoping to quell criticism, Meta has dropped the word “train” from its “streamlined” commercial terms of service that kick in on October 30. Last week, Meta faced backlash after legal experts warned that the tech giant’s sweeping new commercial terms of service seemed to give Meta permission to endlessly scrape websites linked on business pages. Talking to Nieman Lab, experts suggested that Meta could possibly use the policy to avoid millions in licensing fees from news organizations by requiring all business users to share a wealth of AI training data simply for running a business page. A Meta spokesperson confirmed that Meta did not alert users to the changed language following backlash. This potentially only adds to confusion ahead of the policy rollout. In response to backlash, Meta’s spokesperson provided a statement to Ars, acknowledging Nieman Lab’s initial report but not its follow-up report reiterating experts’ concerns: “We’ve heard you and want to clarify: the crawling terms we consolidated only applied to our ads and business products, and we’ve clarified that in the terms themselves. It does not change how"
   },
   {
    "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
@@ -489,58 +516,13 @@
    "text": "On Monday, a court granted the US government’s request to deny release of a former OpenAI engineer accused of bugging a top-secret conference room to steal the frontier lab’s secrets. In a court filing Sunday, US attorney Craig Missakian argued that Abdulrahman Alfozan must continue to be detained while the US makes its case that Alfozan brazenly spied on OpenAI, either for his own personal business gain or to benefit the Kingdom of Saudi Arabia. With so much evidence against him, Alfozan—a Saudi national and US permanent legal resident—is a flight risk with seemingly endless support from the Saudi government, Missakian alleged. The FBI arrested Alfozan days before he could hop a plane, Missakian said. The US attorney noted that Alfozan had already booked a one-way ticket for him, his wife, and their baby to Riyadh, Saudi Arabia’s capital. That ticket was allegedly “paid for by the Saudi government.” Following his arrest, his wife and son booked a sooner flight and immediately left the US without him. Once again, the US found “a member of the Saudi military booked and"
   },
   {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
-   "deck": "ai",
-   "section": "Policy & governments",
-   "headline": "CoreWeave’s debt is becoming the whole AI industry’s problem",
-   "source": "The Verge",
-   "blurb": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds.",
-   "text": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition — when investors demand 1,000 basis points more in yield than they’d get from government bonds. Last Tuesady Chamath “SPAC King” Palihapitiya noticed the distressed debt , and also asked whether the AI buildout was a private credit bubble . Its shares are down more than 20 percent since Tuesday’s close, which is kind of a lot! There even seemed to be some collateral damage in the market on other AI companies, too. Now, I have also asked if the AI industry is a bubble, but when the SPAC King echoes concerns held by a lady whose ongoing question about AI is “ How are we planning on affording this, champs? ”, that’s a very different signal. When I say “yikes,” it’s one thing. When Elon Musk says it , that’s something else. When you talk about wanting to tap into the enormous sums of money that insurers have, that’s the kind of thing that makes investors afraid that CoreWeave is going to"
-  },
-  {
-   "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
-   "deck": "ai",
-   "section": "Policy & governments",
-   "headline": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
-   "source": "TechCrunch",
-   "blurb": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
-   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. AI labs have staked their reputations on model benchmarking — the supposedly neutral and accurate system of evaluations that are designed to measure whether one AI product is better than another. However, the methods behind these evaluations are complicated and still maturing, said Irene Solaiman, Hugging Face’s chief policy officer, during a discussion at TechCrunch Disrupt last week. Testing needs to come together into a more consistent science if the industry is to rely on them in the future. With that in mind, can we trust the current tests that are being released? “Trust is such a weighted term,” said Solaiman. “In terms of whether we can trust results, one big part of that is can you reproduce the results of an evaluation? Do you have the level of access that you need to the model itself — this is where open weights come in in a big way,” she"
-  },
-  {
-   "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
-   "deck": "ai",
-   "section": "Policy & governments",
-   "headline": "Disney found a way to buy Character.AI without buying its lawsuits",
-   "source": "Ars Technica",
-   "blurb": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents.",
-   "text": "This week, Character.AI declared bankruptcy. While some saw the fall of a chatbot platform as a harbinger for the industry , court filings indicate that the decision was actually a key part of a deal that has let Disney hire most of Character.AI’s staff—including its now former CEO Karandeep Anand —potentially acquire most of Character.AI’s technology , and avoid the beleaguered startup’s many legal liabilities and obligations. In the past few years, Character.AI has faced multiple private lawsuits over the safety of its chatbots, as well as investigations from regulators around the world. In a declaration filed as part of the bankruptcy, Character.AI’s newly appointed CEO explained that the goal of the bankruptcy was to reach a “consensual resolution” with personal injury claimants and a group of states investigating the company, while maximizing the value of the company’s assets for shareholders. The Disney deal seems to be structured so that whatever is left of Character.AI will retain responsibility for those legal battles, some of which are still ongoing. The move appears to be a new twist on what some have"
-  },
-  {
-   "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+   "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
    "deck": "ai",
    "section": "Money & deals",
-   "headline": "Tolan snags $30M for its AI companion that helps users navigate life",
+   "headline": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
    "source": "TechCrunch",
-   "blurb": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
-   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. Tolan , the AI companion designed to help people manage their daily lives, navigate relationships and emotions, and accomplish their goals, has just expanded its runway with another $30 million in capital. The startup’s investors in the latest round include Union Square Ventures, Khosla Ventures, and Homebrew, doubling the total amount it has raised to date and pushing its valuation beyond the previous $120 million, according to a new report by Upstarts Media . (The startup didn’t disclose its new valuation, but PitchBook estimates it at more than $268 million, with “medium confidence.”) Users engage with Tolan’s app through a cartoonish character that’s meant to offer support and help them get through their to-dos. Tolan generates revenue from its tiered memberships, which are required for full access to all features. The company told Upstarts Media its annual recurring revenue is now in the “double-digit millions.” The startup is one of"
-  },
-  {
-   "url": "https://inc42.com/buzz/hunar-raises-%e2%82%b940-cr-to-scale-agentic-ai-for-frontline-hiring/",
-   "deck": "ai",
-   "section": "India AI",
-   "headline": "Hunar Raises ₹40 Cr To Scale Agentic AI For Frontline Hiring",
-   "source": "Inc42",
-   "blurb": "Hiring thousands of frontline workers (employees who directly provide goods and services to communities) across multiple cities is a coordination-heavy…",
-   "text": "Bengaluru-based conversational AI startup Hunar.AI today announced the raise of ₹40 Cr ($4.2 Mn) in its Series A funding round led by Blume Ventures Hunar.AI automates frontline workforce management via its conversational AI agents, which ease various frontline workforce management issues The startup intends to use the fresh capital to strengthen its AI infrastructure, develop its products and bolster its go-to-market strategy Hiring thousands of frontline workers (employees who directly provide goods and services to communities) across multiple cities is a coordination-heavy cumbersome task for HR managers. Recruiters have to call prospective employees, follow up on applications, schedule interviews and keep workers informed through onboarding and training. When hiring volumes spike during festive seasons or business expansion, these tasks can quickly become more difficult to solve manually. Bengaluru-based conversational AI startup Hunar .AI is building AI agents to automate these HR workflows. The startup today announced the raise of ₹40 Cr ($4.2 Mn) in its Series A funding round led by Blume Ventures. Other investors like Hyderabad Angels Fund, Together Fund, Seedstars, AVNM Ventures, PhysicsWallah cofounders Prateek Maheshwari and Alakh"
-  },
-  {
-   "url": "https://inc42.com/features/mobavenues-tejas-rathod-on-the-shift-from-ad-optimisation-to-ai-decisioning/",
-   "deck": "ai",
-   "section": "India AI",
-   "headline": "Mobavenue’s Tejas Rathod On The Shift From Ad Optimisation To AI Decisioning",
-   "source": "Inc42",
-   "blurb": "A high click rate cannot tell a fintech company whether a user will complete the KYC. Similarly, downloading an app…",
-   "text": "As digital advertising shifts from clicks and installs towards measurable business outcomes, AI is increasingly being used to predict user intent and optimise decisions beyond the immediate media event In a conversation with Inc42, Mobavenue’s founder and CTO Tejas Rathod explains how the company is building AI-driven advertising infrastructure around real-time decisioning, privacy-conscious signals and continuous learning From processing more than 1.25 Bn data signals a day to connecting awareness, acquisition and activation, Rathod discusses how he sees intelligence evolving across the digital marketing lifecycle A high click rate cannot tell a fintech company whether a user will complete the KYC. Similarly, downloading an app does not promise a purchase. Yet these remain the metrics that digital advertising has traditionally been built around. For brands, the real challenge is understanding whether a click or app download will actually translate into a business outcome. As advertisers demand clearer links between media spending and business outcomes, adtech is moving towards systems that can predict intent, learn from downstream behaviour and optimise for what happens beyond the click or install. This is the"
+   "blurb": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
+   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. OpenAI on Tuesday acquired a four-year-old AI biotech software startup called Orchestra Bio, the company announced via its website. Terms of the deal were not disclosed, but the startup had reportedly raised around $20 million as of 2025 from backers like Andreessen Horowitz, Atria, and 8VC. Orchestra creates AI agents that help biotech companies manage the minutiae of drug discovery operations, from tracking finances to resolving scheduling issues with clinical trials. OpenAI says it’s adding Orchestra’s team and technology to work on Rosalind , its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results. OpenAI has already won some big names as customers for Rosalind, including, it says, Moderna⁠ and Novo Nordisk⁠. The acquisition is a classic example of how the biggest AI labs (namely OpenAI and Anthropic) are building ever more software for"
   }
  ]
 }
