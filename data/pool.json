@@ -1,24 +1,78 @@
 {
- "date": "2026-11-06",
- "builtAt": "2026-11-06 08:58 IST",
+ "date": "2026-11-07",
+ "builtAt": "2026-11-07 07:20 IST",
  "items": [
   {
-   "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
    "deck": "news",
    "section": "World",
-   "headline": "Global tech stocks plunge as US midterms add to AI slowdown fears",
+   "headline": "AI stocks climb after trillions wiped from market values",
    "source": "BBC World",
-   "blurb": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
-   "text": "Hundreds of billions of dollars in market value has been wiped from major tech firms in the US and Asia in a stock market rout after the US midterm elections sparked concerns of a slowdown in artificial intelligence development. Shares in firms across the tech and AI sectors plummeted following Democratic wins after election campaigns run on slowing AI. The tech-heavy Nasdaq composite index closed down by more than 5.5%, losing an estimated $2.5tn (£1.9tn) in market value, according to Dow Jones data, while other key US stock indexes also saw big losses in their worst days since 2025. The sell-off comes on top of broader concerns about whether the huge amounts being spent on AI will pay off. In Asia, tech-heavy indexes fell sharply on Friday morning as firms that make the computer chips and other equipment that power AI saw their shares slide. The Nikkei 225 in Japan was 6% lower in early trading as shares in memory chip maker Kioxia lost over 12.6% and rival Tokyo Electron slipped by 9.5%. South Korean chipmaker SK Hynix fell by"
+   "blurb": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+   "text": "Shares in artificial intelligence and technology firms have recovered slightly from an enormous sell-off that wiped trillions of dollars off stock values. The tech-heavy Nasdaq stock index closed in positive territory following a market rout that began in the US on Thursday before spilling over to Asian and European markets into Friday. Investors had been selling off tech shares in part due to concerns the Democrat victory in the midterm elections would mean slower artificial intelligence development. However the latest US employment figures added to a mixed picture for American markets on Friday morning, with an unexpectedly strong 165,000 jobs added to the economy in September. On Thursday, businesses closely linked to artificial intelligence development took a hammering on stock markets, particularly chip and semiconductor makers. But the Nasdaq Composite bounced back slightly on Friday, ending the day up 1.1%, partly reversing some of its 5.5% fall. The S&P 500, which tracks the share prices of the largest publicly-traded US companies, closed up 0.3%, while the Dow Jones Industrial Average was flat through the day before ending slightly down 0.4%."
   },
   {
-   "url": "https://www.aljazeera.com/news/2026/11/6/irans-security-chief-meets-putin-delivers-message-from-khamenei?traffic_source=rss",
+   "url": "https://www.aljazeera.com/news/2026/11/7/eu-prosecutor-office-investigates-fatal-train-crash-in-spain?traffic_source=rss",
    "deck": "news",
    "section": "World",
-   "headline": "Iran’s security chief meets Putin, delivers message from Khamenei",
+   "headline": "EU prosecutor office investigates fatal train crash in Spain",
    "source": "Al Jazeera",
-   "blurb": "Putin meets Iran's top security official to discuss regional security and receives a letter from Mojtaba Khamenei.",
-   "text": "Russia’s President Vladimir Putin has met Iran’s security chief Mohsen Rezaei in Moscow to discuss regional security as diplomatic efforts gather pace to end the United States and Israel’s war on Iran. During the meeting on Thursday, Rezaei also delivered a letter to Putin from Iran’s Supreme Leader Mojtaba Khamenei, according to the Iranian state broadcaster Press TV. Speaking after the meeting, Rezaei said the talks had focused on security arrangements in the region, as well as Russia’s support for ending what he called the US’s “aggression” against Iran. “Important regional issues were discussed with Putin and significant conversations took place regarding"
+   "blurb": "The EU office carries out probes at Spanish rail network administrator, safety agency and state auditors.",
+   "text": "The European Union’s public prosecutors have launched a probe into possible fraud in the financing of Spain’s rail network after a high-speed train crash killed at least 69 passengers last month. The European Public Prosecutor’s Office (EPPO) said on Friday that it had carried out investigations ‌at the headquarters of Spain’s railway infrastructure manager, its railway safety agency and its court of auditors to determine possible fraud in the financing of the ⁠Madrid-Seville high-speed line. “Today, the European Public Prosecutor’s Office (EPPO) in Madrid (Spain) is conducting investigative measures at the Administrator of Railway Infrastructure (ADIF), the State Railway Safety Agency (AESF) and the Court of Auditors in Spain,” a statement from the prosecutors said. “This comes after the opening of an investigation into possible fraud affecting EU funds allocated to the renovation and upgrading of safety, signaling and communications systems on the Madrid-Seville high-speed railway line,” the EPPO added. Spain’s rail infrastructure manager, Adif, confirmed the visit from the EPPO to the Reuters news agency, stating that it complied with the search and provided any requested information. The other"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
+   "deck": "news",
+   "section": "World",
+   "headline": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
+   "source": "Guardian",
+   "blurb": "Paul Mackenzie convicted over deaths of children and one adult after followers were ordered to starve themselves and their families The leader of a Kenyan doomsday sect has been sentenced to 200 years in prison for the murders of 190 children and one adult in one of the world’s worst cult disasters in recent history.",
+   "text": "Paul Mackenzie convicted over deaths of children and one adult after followers were ordered to starve themselves and their families The leader of a Kenyan doomsday sect has been sentenced to 200 years in prison for the murders of 190 children and one adult in one of the world’s worst cult disasters in recent history. The sentence, comprising 100 years for murder by starvation and 100 years by direct homicide, came two weeks after the court in Kenya’s coastal city of Mombasa found the cult leader guilty of the crimes. Prosecutors said Paul Mackenzie and his Good News International church ran ​a Christian doomsday sect whose members were ordered to starve themselves and their children to death to go to heaven before the world ended. His accomplices threatened and beat victims to ensure they followed his orders. The emaciated bodies were found scattered in shallow graves and dumped in latrines. Some had been buried alive. Mackenzie was arrested in 2023 after police received a tipoff, and weeks later authorities began uncovering bodies in shallow graves in the Shakahola forest near"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss",
+   "deck": "news",
+   "section": "World",
+   "headline": "Four midterms takeaways for 2028 White House race",
+   "source": "BBC World",
+   "blurb": "The buzz about the presidential election is already under way - here's what we learned this week.",
+   "text": "Ballots are still being counted in the US midterm elections but the political landscape is already pivoting to the 2028 White House race. Buoyed by major gains in Congress, Democrats will have momentum as they prepare for the contest to succeed President Donald Trump. But a good showing in the midterms does not guarantee a White House win two years later. Barack Obama was re-elected in 2012 despite huge Republican gains in 2010. No one has yet entered the presidential race but potential candidates will be preparing behind the scenes. Vice-President's JD Vance's reflection on where the midterms went wrong for Republicans has been interpreted as him paving the way for a 2028 run. The results of Tuesday's election and the historic size of Democratic gains could shape the White House race in several ways. Here are four takeaways. Several prominent potential presidential candidates were running in the 2026 midterms - and some emerged looking strong. Georgia Democratic Senator Jon Ossoff won by a sizeable margin in the politically competitive state that Trump won in 2024. While he has previously"
+  },
+  {
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/pope-leo-xiv-arrives-for-south-american-tour-after-cancer-surgery?traffic_source=rss",
+   "deck": "news",
+   "section": "World",
+   "headline": "Pope Leo XIV arrives for South American tour after cancer surgery",
+   "source": "Al Jazeera",
+   "blurb": "Pope Leo XIV arrives in Uruguay kicking off a 12-day tour of South America after undergoing lung surgery last month.",
+   "text": "Pope Leo XIV begins a 12-day tour of Uruguay, Argentina and Peru, marking his return to South America after undergoing lung surgery last month."
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
+   "deck": "news",
+   "section": "World",
+   "headline": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
+   "source": "Guardian",
+   "blurb": "Former liberation movement’s share of national vote almost 14 percentage points below 2021 result The African National Congress is on course to suffer a bruising defeat in South Africa’s local elections, with the once dominant party of Nelson Mandela falling to under a third of the vote nationally with more than 80%…",
+   "text": "Former liberation movement’s share of national vote almost 14 percentage points below 2021 result The African National Congress is on course to suffer a bruising defeat in South Africa’s local elections, with the once dominant party of Nelson Mandela falling to under a third of the vote nationally with more than 80% of ballots counted. Wednesday’s fragmented vote marks another stage in the decline of the ANC, which has led national governments since the end of white minority apartheid rule in 1994. High unemployment, crime, corruption and poor local service delivery have all contributed to voters turning away from the party . The former liberation movement is projected to lose its status as the biggest party in the two most populous provinces, Gauteng and KwaZulu-Natal, as parties began coalition negotiations behind closed doors. The final results are expected to be announced on Sunday. The ANC was on 31.8% of the vote nationally, almost 14 percentage points below its 2021 local election result. The centre-right, white-led Democratic Alliance (DA) had 24.1% of the vote, while the uMkhonto weSizwe (MK) party of"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
+   "deck": "news",
+   "section": "World",
+   "headline": "Two dead after bus crashes in France, officials say",
+   "source": "BBC World",
+   "blurb": "One child and one young adult were killed in the crash, local authorities say, with more injured.",
+   "text": "A young girl and an 18-year-old man have died after a bus crashed in eastern France, local authorities have said. The bus was travelling between Lyon and Bourg-en-Bresse when it crashed at around 07:00 local time on Friday in the town of Lent. The bus was carrying 43 passengers, including 15 children, the Bourg-en-Bresse prosecutor's office said. Three people are in a critical condition and at least 13 others have sustained minor injuries. French President Emmanuel Macron said his thoughts were with the victims, the injured, and their families. In a post on X, he said the nation stood by their side and thanked the rescue teams involved. The town's mayor Yves Cristin told French media the bus \"left the road and hit a tree in the ditch\". The two people killed have been identified by authorities. However, there have been differing reports as to the age of the girl. The prosecutor's office said it was \"opening an investigation into the incident, on charges of road homicide and aggravated road traffic injuries\". The driver has been taken to hospital after"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in?traffic_source=rss",
+   "deck": "news",
+   "section": "World",
+   "headline": "Paraguay’s Santiago Pena under arrest, new president Pedro Alliana sworn in",
+   "source": "Al Jazeera",
+   "blurb": "The sudden leadership change comes as Paraguay reels from the collapse of the Ueno Bank, a popular lender.",
+   "text": "Pedro Alliana has been sworn in as the new president of Paraguay, after a banking scandal led to the impeachment of his predecessor, Santiago Pena. On Friday, Alliana, 52, took the oath of office to become the South American country’s 53rd president. Previously, Alliana had served as vice president under Pena since the start of the latter’s term in 2023. But Pena’s tenure came to an abrupt end earlier in the day, after 44 of Paraguay’s senators voted to remove him from office. One senator in the 45-member chamber abstained. “I take my leave with gratitude, while fully acknowledging the anguish of those who are currently awaiting answers,” Pena wrote on social media on Friday afternoon. The impeachment marked a rapid fall from power for Pena, a member of the long-governing Colorado Party. His departure coincides this week with the sudden collapse of a prominent lending institution, Ueno Bank. Questions have arisen about whether the bank was properly regulated by government institutions, and whether Pena himself had conflicts of interest involving the bank. After Pena’s impeachment, prosecutors ordered him placed"
   },
   {
    "url": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows",
@@ -30,355 +84,328 @@
    "text": "Patient is ⁠in ​stable condition and will be transferred to a specialist ‘high consequence’ infectious disease unit A British healthcare worker with Ebola is being evacuated from the Democratic Republic of the Congo to the UK for medical treatment, it has been confirmed. “A British citizen currently in the DR Congo has tested positive for Ebola ,” a spokesperson for the UK government said in a statement on Wednesday. “The UK has well-established procedures for dealing with cases like this, and those processes have been activated … The risk to the UK public from Ebola remains low.” The patient, whose identity is unknown, is in a stable condition and is expected to arrive in the UK on Wednesday or Thursday before being transferred in a specialist ambulance to a “high consequence” infectious disease unit, according to an official document seen by Reuters. A humanitarian organisation sent the worker to DR Congo to help in the response to the outbreak, which is the second largest on record. It is the first case involving a British national contracting Ebola in the current"
   },
   {
-   "url": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
    "deck": "news",
    "section": "World",
-   "headline": "Trump signs order preventing future presidents from changing Oval Office",
+   "headline": "New wave of bomb threats hit European airlines",
    "source": "BBC World",
-   "blurb": "The order comes after Trump made a series of big changes to the decor of the Oval Office and tore down the White House East Wing.",
-   "text": "US President Donald Trump has signed an executive order that he says will prevent future presidents from making certain changes to the White House Oval Office. Trump, a former real estate mogul, has drastically altered the look of the president's official office during his second term, most notably with adding many gold features. \"We're making it a national monument, and it will not be allowed to be touched by anybody, destroyed, ripped down by stupid people, in order to build something in a slightly different shape,\" Trump told reporters on Thursday. American presidents currently have the power to make some changes to the White House but large projects require the permission of Congress. The executive order, which Trump signed on Thursday, declares the Oval Office to be a national monument, along with some of its surrounding rooms. The document also says that it does not \"restrict the President's authority to redecorate the monument, select furnishings, or make ordinary operational and security modifications that do not substantially impair the monument's historic structure or architectural character\". \"We like the Oval Office, and"
+   "blurb": "No link has been established between the threats against the airlines and those against the media outlets.",
+   "text": "European airlines have again been hit with a new wave of bomb threats - in the third such incident this week. On Friday multiple flights to and from Lisbon, Rome, Prague and Sofia were targeted and the threats saw three planes escorted by Hungarian fighter jets, authorities said. It also saw a number of high-profile media organisations, including Ireland's public broadcaster RTÉ , evacuated after threats were made against them - although there has been no concrete links between the messages against airlines and the broadcasters. The disruption comes after nearly 30 aircraft and several airports across Europe were impacted by threats earlier this week , in what the UK called a \"malicious hoax\". A Ryanair flight scheduled to leave Lisbon for Rome on Friday was targeted with a threat, the airline said, while at least 11 flights were targeted in the Czech Republic and Bulgaria, according to AFP. France also reported at least four of its flights were targeted by threats, however they all landed safely. As airlines were dealing with this latest wave of threats, several media outlets,"
   },
   {
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/gaza-turns-discarded-cooking-pots-into-seawalls?traffic_source=rss",
-   "deck": "news",
-   "section": "World",
-   "headline": "Gaza turns discarded cooking pots into seawalls",
-   "source": "Al Jazeera",
-   "blurb": "As winter approaches, Palestinians in Gaza are turning damaged cooking pots into makeshift seawalls to avoid flooding.",
-   "text": "As winter approaches, aid groups in Gaza are turning damaged cooking pots into makeshift seawalls to protect shelters and schools from flooding. Al Jazeera’s Tareq Abu Azzoum reports on efforts to hold back the sea."
-  },
-  {
-   "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
-   "deck": "news",
-   "section": "World",
-   "headline": "ANC faces anger over poor services as South Africans vote in local elections",
-   "source": "Guardian",
-   "blurb": "Party expected to get less than a third of the vote amid frustration over water outages and power cuts The African National Congress is on course for a bruising result in South Africa’s local elections on Wednesday as voters go to the polls amid deep discontent over water outages, power cuts and crumbling…",
-   "text": "Party expected to get less than a third of the vote amid frustration over water outages and power cuts The African National Congress is on course for a bruising result in South Africa’s local elections on Wednesday as voters go to the polls amid deep discontent over water outages, power cuts and crumbling infrastructure. The former liberation movement, which Nelson Mandela led to power in 1994 at the end of apartheid as South Africa’s first black president, is still likely to be the largest party. However, polls showed it getting less than a third of the vote, down from 45.6% at the last municipal elections in 2021 and 40.2% in 2024’s national elections . In Kensington, a diverse Johannesburg suburb that has sustained repeated water and power outages in recent weeks, voters said they wanted to see change. The city is currently led by Dada Morero, the ANC mayor, in coalition with the far-left Economic Freedom Fighters (EFF) and the rightwing populist Patriotic Alliance (PA). “Service delivery is bad, it’s horrible,” said Tshepiso Makotse, 26, a call centre worker. “Water,"
-  },
-  {
-   "url": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss",
-   "deck": "news",
-   "section": "World",
-   "headline": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
-   "source": "BBC World",
-   "blurb": "The Trump administration has downplayed reports the pair could be on their way out after heavy Republicans election losses.",
-   "text": "The White House has denied rumours that Defence Secretary Pete Hegseth and Secretary of State Marco Rubio might leave their jobs in a post-election shakeup of the Trump administration. US media have reported there are calls to replace Hegseth - in particular over his handling of the Iran war, which is being blamed for heavy Republican election losses. One outgoing congressional Republican has threatened to force an impeachment vote against Hegseth as early as next week. The defence secretary posted a video statement defending his record and denouncing the effort. \"You see, they attack me. They attack us because we are effective,\" he said. \"It's not going to work. We will not back down.\" Meanwhile, Rubio is denying reports he is considering leaving his post ahead of a 2028 presidential run. Working for Trump until the end of his term has \"always been my plan,\" Rubio told The New York Times in an interview. \"I love the work I'm doing,\" Rubio said. \"And plus I always laugh when they say he's going to leave his job. I go, 'Which one?'\""
-  },
-  {
-   "url": "https://www.aljazeera.com/news/2026/11/6/california-governor-commutes-sentences-of-more-than-500-people-on-death-row?traffic_source=rss",
-   "deck": "news",
-   "section": "World",
-   "headline": "California governor commutes sentences of more than 500 people on death row",
-   "source": "Al Jazeera",
-   "blurb": "Gavin Newsom cites state values and flaws in the legal system as he grants largest mass clemency in US history.",
-   "text": "California Governor Gavin Newsom has announced that he will commute the sentences of all 548 people on death row in the state, the largest mass clemency in United States history. The announcement on Thursday effectively clears out California’s death row , although the state has not executed a prisoner for 20 years. Those on death row will instead serve life sentences without the possibility of parole. “I take this action because I firmly believe that state-sanctioned killing is incompatible with California’s values, undermines the foundations of our legal system, and diminishes each of us,” Newsom said in an open letter. Support for the death penalty in the US has largely declined since the 1990s, although it still holds majority backing. A Pew Research Center poll released in August found that 66 percent of Americans supported the punishment for those convicted of murder. Roughly 73 percent, however, acknowledged there was a risk of executing an innocent person. Because death penalty cases often involve long and arduous legal appeals, many of those on death row are never executed. Twenty-three states have banned"
-  },
-  {
-   "url": "https://www.theguardian.com/business/2026/oct/30/sinkholes-scarred-land-scapegoats-illegal-gold-mining-johannesburg",
-   "deck": "news",
-   "section": "World",
-   "headline": "Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg",
-   "source": "Guardian",
-   "blurb": "There is no end in sight for the drivers of illegal mining, while police action appears ineffective Cora Bailey has been encountering illegal miners ever since she first started treating injured animals in the townships around Roodepoort, west of Johannesburg, in 1991.",
-   "text": "There is no end in sight for the drivers of illegal mining, while police action appears ineffective C ora Bailey has been encountering illegal miners ever since she first started treating injured animals in the townships around Roodepoort, west of Johannesburg, in 1991. But as the price of gold has soared, so too has activity in the abandoned mine shafts that mark the area. In late September, dozens of zama zamas – the name given to illegal miners in South Africa , meaning roughly “to take a chance” in Zulu – arrived to dig for gold across the dirt road from her charity, Claw (Community Led Animal Welfare). Soon, they were taking water for their panning and processing from the organisation’s two 25,000-litre water tanks, which are filled irregularly by the city government for the 100 or so rescued and injured animals on site. “We’ve asked them really nicely and haven’t ever refused them water to drink … But, for the first time ever, we closed the gate at 12 midday, because we literally had about two buckets of water"
-  },
-  {
-   "url": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
-   "deck": "news",
-   "section": "World",
-   "headline": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
-   "source": "BBC World",
-   "blurb": "Pope Leo, who had part of a lung removed last month, will visit Uruguay, Argentina and Peru.",
-   "text": "Pope Leo XIV is beginning a lengthy trip to Latin America just three weeks after surgery for lung cancer - a tour that includes a much-anticipated \"homecoming\" to Peru where he was a priest for many years. The Vatican says no extraordinary measures are being taken in relation to the Pope's health, describing him as a \"71-year-old who has undergone an operation\" not someone with a \"permanent medical condition\". It was Leo himself who revealed last month that doctors had discovered a tumour during a routine scan. The growth was removed along with the lower lobe of his right lung and his medical team then confirmed the cancer had not spread. At a briefing in Rome ahead of the trip, which takes in Uruguay and Argentina as well as Peru, a spokeswoman stressed that Pope Leo had \"fantastic stamina\" and was \"extremely enthusiastic\" about the schedule which he had \"personally confirmed... with no changes\". \"The Vatican's message with this trip is, 'that was a short episode and now we're back on track',\" Professor Massimo Faggioli of Villanova University told the"
-  },
-  {
-   "url": "https://www.thehindu.com/news/national/telangana/diktats-boycotts-and-the-fight-for-rights/article71671593.ece",
+   "url": "https://www.thehindu.com/news/cities/bangalore/a-missing-persons-complaint-that-unravelled-bengalurus-seven-murders/article71675640.ece",
    "deck": "news",
    "section": "India",
-   "headline": "Diktats, boycotts and the fight for rights",
+   "headline": "A missing persons complaint that unravelled Bengaluru’s seven murders",
    "source": "The Hindu",
-   "blurb": "For over two years, 45 toddy-tapper and 10 Dalit families in Nizamabad’s Tallarampur have allegedly faced a complete social boycott for defying their Village Development Committee’s (VDC) orders. Denied access to groceries, medical aid and social gatherings, they have been pushed to the margins of everyday life.",
-   "text": "Residents of different villages at a public hearing held by Telangana State Commission for Backward Classes, in Nizamabad last month. Nearly 90 complaints concerning alleged excesses by village development committees were put forth. | Photo Credit: Nagara Gopal On a sunny afternoon last year, 40-year-old Kairi Kalyani dressed in her festive best and stepped out of her home with a plate of offerings, including turmeric, kumkum , flowers, coconuts and fruits. It was Sri Rama Navami, and Kalyani, along with a dozen other women from her neighbourhood in Tallarampur village of Nizamabad district, arrived at the local Ramalayam to perform kumkumarchana . But what was meant to be a day of prayer and celebration quickly turned into an experience of humiliation. Just as the women settled among the other devotees, the temple priest allegedly asked them to leave. The reason? They belonged to the Goud (toddy-tapper) community and were not permitted to perform rituals at the temple! Telangana / Spotlight / police / crime / crime, law and justice / criminal Comments have to be in English, and in full"
+   "blurb": "Senior police officers said that Sunita, the accused’s wife, and Roopavathi, his mother-in-law, were the first to be murdered.",
+   "text": "A view of the house in Rajajinagar where Indushekhar allegedly murdered seven members of his wife's family. | Photo Credit: PTI It was not until the mother of Nalini, one of the seven allegedly killed by cab driver-turned-YouTuber Indushekhar , lodged a missing person complaint that the police found the first clue to the murders. While the murders allegedly took place between October 16 and October 31, the last two bodies were disposed of on November 1 or 2. Senior police officers said that Sunita, the accused’s wife, and Roopavathi, his mother-in-law, were the first to be murdered. Sunita and Indushekhar had been married for 20 years, and an officer said they had been having regular arguments throughout their marriage. Sunita worked as a typist for an advocate, while Indushekhar was a cab driver. Their respective jobs were often a point of contention between them. “Indushekhar claimed that he was verbally abused and harassed by his wife and her family, while her brothers also encouraged her to fight with him,” a senior officer said. Prima facie , the police have"
   },
   {
-   "url": "https://www.ndtv.com/india-news/cuddalore-poultry-crisis-50-000-chickens-dead-farmers-in-distress-12290358#publisher=newsstand",
+   "url": "https://www.ndtv.com/india-news/5-killed-several-injured-in-road-accident-in-ups-sitapur-12295117#publisher=newsstand",
    "deck": "news",
    "section": "India",
-   "headline": "50,000 Chickens Dead, Tamil Nadu Farmers Face Diwali Season Disaster",
+   "headline": "5 Killed, Several Injured In Road Accident In UP: Cops",
    "source": "NDTV",
-   "blurb": "Farmers are staring at huge economic losses, with the crisis striking just ahead of the peak Diwali season, when they would normally expect business to pick up.",
+   "blurb": "Five persons were killed and several others sustained injuries in a fatal road accident involving a tractor-trolley in Uttar Pradesh's Sitapur district, a senior police official said here on Saturday.",
    "text": ""
   },
   {
-   "url": "https://www.hindustantimes.com/india-news/how-ugc-s-equity-rules-evolved-and-why-their-contentious-definitions-are-back-under-review-101793934534556.html",
+   "url": "https://www.hindustantimes.com/india-news/weather-bee-el-ni-o-boosts-eastern-pacific-cyclone-activity-to-record-levels-101793985540168.html",
    "deck": "news",
    "section": "India",
-   "headline": "How UGC’s equity rules evolved and why their contentious definitions are back under review",
+   "headline": "Weather Bee: El Niño boosts eastern Pacific cyclone activity to record levels",
    "source": "Hindustan Times",
-   "blurb": "The Union government told the Supreme Court that it was considering setting up a panel to reconsider the framework",
-   "text": "The University Grants Commission’s (UGC) 2026 equity regulations, now at the centre of a legal dispute over their definition of caste-based discrimination, followed a nearly seven-year legal battle and a year-long exercise involving an expert committee, stakeholder consultations and suggestions from petitioners seeking stronger safeguards against discrimination in higher education institutions. On Thursday, the Union government told the Supreme Court that it was considering setting up a committee to reconsider the framework, and was examining the issue to ensure that “no section feels dissatisfied or apprehensive”. The development comes over nine months after the court stayed the regulations, saying some provisions were “vague and could be misused”. The process began with a January 3, 2025, Supreme Court order directing the UGC to frame fresh regulations within six weeks in petitions filed in 2019 by Radhika Vemula and Abeda Salim Tadvi, the mothers of Rohith Vemula and Payal Tadvi. Tadvi, a second-year resident doctor pursuing a post-graduate degree, died by suicide at a Mumbai college hostel. Vemula was a PhD scholar at the University of Hyderabad, whose death by suicide in"
-  },
-  {
-   "url": "https://www.thehindu.com/news/national/maharashtra/maharashtra-government-makes-provision-for-160-crore-in-2026-27-budget-for-development-of-primitive-tribes/article71671155.ece",
-   "deck": "news",
-   "section": "India",
-   "headline": "Maharashtra Government makes provision for ₹160 crore in 2026–27 Budget for development of primitive tribes",
-   "source": "The Hindu",
-   "blurb": "The package includes 130 crore reserved for primitive tribes, ₹30 crore reserved for the Pardhi community, and also provides for 100% government grant for individual and collective benefit schemes",
-   "text": "Maharashtra Chief Minister Devendra Fadnavis speaks during a meeting with the advisory committee for ‘Viksit Maharashtra 2047 ’ at Sahyadri Guest House in Mumbai. File | Photo Credit: ANI Under ‘Viksit Maharashtra 2047’, the Maharashtra Government made provision for a special package of ₹160 crore in the 2026–27 Budget for the “holistic development of the primitive tribes” — Katkari, Kolam and Madia — along with the Pardhi community. The package includes 130 crore reserved for primitive tribes, ₹30 crore reserved for the Pardhi community, and also provides for 100% government grant for individual and collective benefit schemes. The ₹130 crore will be further divided and allocated as follows: ₹100 crore for basic amenities and ₹30 crore for individual and collective benefit schemes. For the Pardhi community, ₹10 crore will be allocated for basic amenities and ₹20 crore for individual and collective benefit schemes. The announcement to provide funds through a special package for the holistic development of primitive communities was made in the 2026–27 Budget. The State Government issued a Government Resolution (GR) on 2 November 2026 to implement the"
-  },
-  {
-   "url": "https://www.ndtv.com/india-news/gujarat-man-faisal-lakhani-jailed-for-life-for-killing-partner-at-bus-station-12290454#publisher=newsstand",
-   "deck": "news",
-   "section": "India",
-   "headline": "Gujarat Man Jailed For Life For Killing Girfriend At Bus Station",
-   "source": "NDTV",
-   "blurb": "On November 5, the court formally pronounced its verdict, directing that Faisal Lakhani remain behind bars for the rest of his natural life.",
+   "blurb": "El Niño has driven accumulated cyclone energy in the eastern Pacific to its highest level since 1950, with 2026 already breaking previous records.",
    "text": ""
   },
   {
-   "url": "https://www.hindustantimes.com/india-news/supreme-court-acquits-school-officials-in-maharashtra-tribal-girl-s-death-in-2020-pillar-collapse-101793933317126.html",
+   "url": "https://www.thehindu.com/news/national/india-eu-conclude-multi-billion-euro-global-innovation-programme/article71677171.ece",
    "deck": "news",
    "section": "India",
-   "headline": "Supreme Court acquits school officials in Maharashtra tribal girl’s death in 2020 pillar collapse",
-   "source": "Hindustan Times",
-   "blurb": "The Bench said the school administrators could not be held criminally responsible merely for failing to ensure the pillar was properly constructed.",
-   "text": "The Supreme Court has acquitted the president and hostel superintendent of a Maharashtra tribal residential school of culpable homicide charges over the death of a 12-year-old girl who was crushed when a poorly constructed pillar collapsed on her in 2020. In a judgment released on Thursday, the court held that a mere breach of duty or failure to ensure proper construction was insufficient to establish criminal liability in the absence of requisite knowledge or proof of gross negligence. A bench of justices JB Pardiwala and Manmohan said the school administrators could not be held criminally responsible merely for failing to ensure proper construction of the pillar, particularly when the actual construction work had been entrusted to a contractor. “The mere failure to attain the standard of care prescribed by the law, thereby committing breach of such duty as observed by the high court would not be a criminal act,” noted the bench, setting aside the Bombay High Court’s February 2026 order refusing to quash the criminal proceedings against the two school officials. The court emphasised that culpable homicide under Section"
-  },
-  {
-   "url": "https://www.thehindu.com/opinion/editorial/danger-in-the-sewer-on-indias-sewer-cleaning-deaths/article71670120.ece",
-   "deck": "news",
-   "section": "India",
-   "headline": "Danger in the sewer: On India’s sewer cleaning deaths",
+   "headline": "India, EU conclude multi-billion Euro global innovation programme",
    "source": "The Hindu",
-   "blurb": "India must eliminate situations that lead to sewer cleaning deaths",
-   "text": "Despite legislation, Supreme Court orders, government programmes, the availability of mechanised cleaning technologies, and exhortations from politicians, India continues to lose sanitation workers to foreseeable, and largely preventable, circumstances. In a recent incident, four workers lost their lives in Ujjain, Madhya Pradesh , cleaning a hotel’s food-waste chamber. According to Parliament and the National Commission for Safai Karamcharis data, the number of workers who died on jobs involving sewer and septic tanks was 859 between 2014 and 2025, 498 from 2019 to mid-2026, 332 across 18 States and Union Territories in 2021–26, and 1,350 between 1993 and 2025. The figures have never tended towards zero even as the Safai Karamchari Andolan has repeatedly alleged severe under-reporting. Further, the government has maintained since at least 2021 that the practice of manually cleaning excreta from insanitary latrines has been eliminated, effectively signalling that it believes it has addressed the root of the problem when it has not, and freeing administrative bodies of the urgency of inspecting municipalities and private establishments. Members of historically marginalised castes are also overrepresented in these jobs. The"
+   "blurb": "India’s association with the Horizon programme is seen as part of the comprehensive strategic agenda of the two sides for the next five years",
+   "text": "The European Commission and India have concluded negotiations on New Delhi’s association with the Horizon Europe programme. Photo: X/@EUAmbIndia. India and the European Union have concluded negotiations on New Delhi’s association with a Euro 93.5 billion flagship research and innovation programme, paving the way for expanded collaboration under their broader strategic partnership. The decision comes weeks before India and the 27-nation bloc are set to seal a landmark free trade agreement — billed as the “mother of all deals” — to create a market of two billion people. The European Commission and India have successfully concluded negotiations on New Delhi’s association with the Horizon Europe programme, the EU said. This marks an important step forward for EU-India relations, strengthening scientific cooperation, creating new opportunities in research, and deepening the strategic partnership, it said. India’s association with the Horizon programme is seen as part of the comprehensive strategic agenda of the two sides for the next five years. For researchers, businesses and research organisations across Europe, India’s association will open up more opportunities to collaborate with Indian partners and build lasting"
   },
   {
-   "url": "https://www.ndtv.com/india-news/mahabharata-arthashastra-rajatarangini-added-to-unesco-memory-register-12290542#publisher=newsstand",
+   "url": "https://www.ndtv.com/india-news/biryani-by-kilo-d-mart-face-action-in-maharashtra-crackdown-ahead-of-diwali-12293918#publisher=newsstand",
    "deck": "news",
    "section": "India",
-   "headline": "Mahabharata, Arthashastra, Rajatarangini Added To UNESCO Memory Register",
+   "headline": "Biryani By Kilo, D-Mart Face Action In Maharashtra Crackdown Ahead Of Diwali",
    "source": "NDTV",
-   "blurb": "Recognition highlights India's enduring contributions to historical documentation, literature, philosophy and political thought.",
+   "blurb": "The drive covered several big quick-commerce platforms and popular food chains. In Mumbai, the licences of Zepto (Worli) and Blinkit (Blink Commerce Pvt Ltd) were suspended. Eateries including Biryani By Kilo, Tossin Pizza (Worli) and Jumbo Burger also faced the same action.",
    "text": ""
   },
   {
-   "url": "https://www.hindustantimes.com/india-news/traffic-curbs-in-place-between-nov-5-15-around-anand-vihar-isbt-amid-festival-rush-101793931411736.html",
+   "url": "https://www.hindustantimes.com/india-news/petrol-pumps-ethanol-blending-e-20-fuel-vehicles-hindustan-petroleum-corporation-ltd-indian-oil-bharat-petroleum-corporatio-ltd-101794010038415.html",
    "deck": "news",
    "section": "India",
-   "headline": "Traffic curbs in place between Nov 5–15 around Anand Vihar ISBT amid festival rush",
+   "headline": "Petrol pumps to check tanks for water ‘every 2–8 hours’: Officials",
    "source": "Hindustan Times",
-   "blurb": "The arrangements have been made in view of the rush expected during Dhanteras, Diwali, Bhai Dooj and Chhath Puja",
-   "text": "The Delhi Traffic Police has put in place special traffic arrangements on roads around Anand Vihar inter-state bus terminal (ISBT) and adjoining transport hubs from November 5 to 15 to manage the anticipated surge in passenger movement during the festive season, two senior police officers said. Additionally, the traffic police have also issued an advisory, warning the public about the possible traffic commotion likely to be caused by heavy movement of passengers and informing them about the restrictions and diversions implemented on the roads. According to the advisory, two arterial roads – Chaudhary Charan Singh Marg (also known as Road No-56), connecting Dilshad Garden with Ghazipur roundabout, and Swami Dayanand Marg (Road No-57), connecting the Ghazipur flyover with Shahdara flyover via Jagatpuri and Hasanpur Depot – are likely to remain affected due to the festive rush at the transport hubs around the Anand Vihar. Anand Vihar is a major transport hub for migrants from Bihar, Uttar Pradesh and Jharkhand, as a majority of trains towards such states originate and culminate from the Anand Vihar Terminal railway station. Uttar Pradesh-bound government"
+   "blurb": "Experts said frequent testing with an alcohol-resistant water-finding paste is essential because ethanol readily absorbs water from its surroundings.",
+   "text": "State-run oil marketing companies (OMCs) have decided that the over 93,000 petrol pumps nationwide will need to check their storage tanks and fuel dispensing nozzles for water every two to eight hours depending on shifts and weather conditions, to protect the quality of 20% ethanol-blended petrol (E20), persons aware of the matter said. The first such order passing on the decision for more frequent testing was issued in July, and another more recently in late October by one of the OMCs, according to people aware of the matter. The other two OMCs may follow suit, they added. It comes at a time when rains have lashed certain parts of the country. Most retail outlets (ROs) of Indian Oil Corporation (IOC) and Hindustan Petroleum Corporation Ltd (HPCL) carry out these mandatory checks every two to four hours, the people cited above said, asking not to be named. Bharat Petroleum Corporation Ltd (BPCL) pumps have, however, reduced the frequency of testing to every eight hours. BPCL recently reduced the frequency to every eight hours, they said, citing a company letter to dealers"
   },
   {
-   "url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/arcelormittal-reports-usd-391-million-loss-in-july-sept-quarter/articleshow/135580228.cms",
+   "url": "https://www.thehindu.com/news/national/karnataka/did-all-the-murders-happen-in-the-small-house-on-the-terrace/article71675859.ece",
+   "deck": "news",
+   "section": "India",
+   "headline": "Did all the murders happen in the small house on the terrace?",
+   "source": "The Hindu",
+   "blurb": "Seven murders in Bengaluru have raised law and order concerns. Here’s a look at accused Indushekhar’s whereabouts and criminal history",
+   "text": "Reaching the second floor itself through a very narrow staircase itself is a task. This has raised questions as to whether all seven murders were committed here in the house. | Photo Credit: SUDHAKARA JAIN Indushekhar lived with his wife Sunita and daughter in a small house, barely 500 sq. ft, on the terrace of a two-storey building, nestled among several commercial establishments, 50 metres from the famous Bhashyam Circle, Rajajinagar. The building has commercial establishments on the ground floor, including a watch repair shop, a tea stall and a small condiments shop. The entire first floor was occupied by a small political party. Indushekar’s house is on the second floor, which also serves as the terrace. Household appliances were crammed into the space, with several other household items scattered around. A board on the wall read, “Police Voice”. Reaching the second floor itself through a very narrow staircase itself is a task. This has raised questions as to whether all seven murders were committed here in the house. However, the accused claimed that the murders took place inside his"
+  },
+  {
+   "url": "https://www.ndtv.com/india-news/analysis-pm-modi-call-praful-patel-visit-sharad-pawars-politics-from-hospital-keeps-maharashtra-guessing-over-ncp-merger-nda-move-12293203#publisher=newsstand",
+   "deck": "news",
+   "section": "India",
+   "headline": "Analysis: From Hospital Bed, Sharad Pawar Keeps Maharashtra Guessing Over NCP-NDA Move",
+   "source": "NDTV",
+   "blurb": "For the last six decades, Sharad Pawar has been one of the most unpredictable leaders in Maharashtra's, or even India's, politics.",
+   "text": ""
+  },
+  {
+   "url": "https://www.hindustantimes.com/india-news/bengaluru-cab-driver-kills-in-laws-11-year-old-nephew-narrates-events-after-murder-101793984254081.html",
+   "deck": "news",
+   "section": "India",
+   "headline": "'He said we were going on a trip': Boy narrates events after Bengaluru cab driver killed family",
+   "source": "Hindustan Times",
+   "blurb": "Indusekar, who also runs a Kannada-English monthly tabloid, allegedly confessed during interrogation, Bengaluru police commissioner Seemant Kumar Singh said.",
+   "text": "A Bengaluru cab driver allegedly killed his wife and six of her relatives and dumped some of the bodies across Karnataka while his 11-year-old nephew, whose parents were among the dead, travelled with him believing they were on a holiday, police said on Friday. Indusekar alias Sekar , who also runs a Kannada-English monthly tabloid, allegedly confessed during interrogation, Bengaluru police commissioner Seemant Kumar Singh said. The victims were his wife Sunita, his mother-in-law Rupavathi, his brothers-in-law Shankar and Shivakumar, their wives Nalini and Divya, and Shivakumar and Divya’s seven-year-old son. Shankar and Nalini were the boy’s parents. “The accused claimed to have committed the murders over 15 to 20 days, a timeline that is still being verified,” Singh said. “He is giving a version that he called them one by one, murdered them, and disposed of the bodies in places he has indicated.” Police have recovered the child victim's body near Nandi Hills. “Six bodies are yet to be found,” Singh said. The boy, rescued when Indusekar was arrested, told reporters that his uncle took him to Kempegowda International"
+  },
+  {
+   "url": "https://economictimes.indiatimes.com/industry/banking/finance/nbfc-credit-to-gold-jewellery-consumer-durables-grows-over-50-pc-in-sep-rbi-data/articleshow/135615629.cms",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "ArcelorMittal reports USD 391 million loss in July-Sept quarter",
+   "headline": "NBFC credit to gold jewellery, consumer durables grows over 50 pc in Sep: RBI data",
    "source": "Economic Times",
-   "blurb": "ArcelorMittal reported a net loss of USD 391 million for the September quarter due to rising energy costs. The company's sales increased to USD 16,466 million while steel production saw a slight rise. Adjusted net income grew to USD 0.9 billion, indicating improvement in earnings capacity over time.",
-   "text": "ArcelorMittal reported a net loss of USD 391 million for the September quarter due to rising energy costs. The company's sales increased to USD 16,466 million while steel production saw a slight rise. Adjusted net income grew to USD 0.9 billion, indicating improvement in earnings capacity over time. AMNS India, its joint venture with Nippon Steel, also reported increased EBITDA for the same period."
+   "blurb": "In September 2026, non-banking finance companies' credit to gold jewellery and consumer durables surged significantly. Credit for gold jewellery rose by 66.1 per cent to Rs 3.74 lakh crore compared to the previous year. Consumer durables also saw a 54.4 per cent increase in credit, reaching Rs 77,896 crore.",
+   "text": "In September 2026, non-banking finance companies' credit to gold jewellery and consumer durables surged significantly. Credit for gold jewellery rose by 66.1 per cent to Rs 3.74 lakh crore compared to the previous year. Consumer durables also saw a 54.4 per cent increase in credit, reaching Rs 77,896 crore. Overall, credit growth for NBFCs stood at 15.4 per cent, totaling Rs 61.69 lakh crore."
   },
   {
-   "url": "https://www.business-standard.com/companies/quarterly-results/britannia-q2-net-profit-rises-10-8-to-726-crore-on-volume-growth-126110501905_1.html",
+   "url": "https://www.business-standard.com/technology/tech-news/apple-s-predictive-text-curbs-vulgar-sensitive-drug-related-phrases-126110602044_1.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Britannia Q2 net profit rises 10.8% to ₹726 crore on volume growth",
+   "headline": "Apple's predictive text curbs vulgar, sensitive, drug-related phrases",
    "source": "Business Standard",
-   "blurb": "Bakery food company Britannia Industries Ltd on Thursday reported an increase of 10.82 per cent rise in consolidated net profit to Rs 725.99 crore for the September quarter of FY27, on a year-on-year basis, led by volume growth.",
-   "text": "Britannia Industries reported a 10.82% year-on-year rise in consolidated net profit to ₹725.99 crore in Q2FY27, as revenue from product sales grew 16.6% to ₹5,541.57 crore, driven by 13% volume growth. Bakery food company Britannia Industries Ltd on Thursday reported an increase of 10.82 per cent rise in consolidated net profit to Rs 725.99 crore for the September quarter of FY27, on a year-on-year basis, led by volume growth. The company had posted a net profit of Rs 655.06 crore in the July-September quarter a year ago, according to a regulatory filing from Britannia Industries. Britannia Industries' revenue from the sale of products was up 16.6 per cent to Rs 5,541.57 crore in the September quarter. The sales growth was \"led by volume growth of 13 per cent\", said Britannia Industries in its earnings statement. Its revenue from operations was up 15.64 per cent to Rs 5,597.79 crore in the second quarter of FY27. It was at Rs 4,840.63 crore in the corresponding quarter. Britannia's total expenses were at Rs 4,690.47 crore, up 17 per cent in Q2, FY27. Its"
+   "blurb": "An undisclosed multilingual list restricts iPhone autocomplete and swipe-typing suggestions for thousands of words and phrases, including politically sensitive terms",
+   "text": "Apple’s iOS keyboard reportedly restricts autocomplete and swipe-typing suggestions for nearly 100,000 words and phrases, including politically sensitive expressions. | Image: Bloomberg Don't miss the most important news and views of the day. Get them on our Telegram channel"
   },
   {
-   "url": "https://www.livemint.com/companies/news/anthropics-largest-ipo-on-record-ambition-on-hold-ai-backlash-could-threaten-timing-1-5-trillion-valuation-11793930460210.html",
+   "url": "https://www.livemint.com/companies/news/anthropic-ipo-valuation-why-investors-are-lowering-expectations-after-wall-street-selloff-11794013538561.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Anthropic's 'largest IPO on record' ambition on hold? 'AI backlash could threaten timing, $1.5 trillion valuation'",
+   "headline": "Anthropic IPO valuation: Why investors are lowering expectations after Wall Street sell-off",
    "source": "Mint",
-   "blurb": "Anthropic IPO: Three major investors who plan to take part in the offering told a US media outlet that the valuation would likely need to be lowered, with one saying it could end up closer to $1 trillion.",
-   "text": "Anthropic may have to accept a lower valuation than the $1.5 trillion it had been targeting for its stock market debut, after a sharp tech sell-off spooked key investors, the Wall Street Journal reported Thursday. The development comes as rival OpenAI has delayed its plans to trade on Wall Street until next year, and companies in the Nasdaq composite lost $2.5 trillion in market value on Thursday as investors pulled back from AI bets. The artificial intelligence company is aiming to hold its initial public offering the week of November 16 and had been expected to raise up to $100 billion, which would make it the largest IPO on record. However, three major investors who plan to take part in the offering told the Journal the valuation would likely need to be lowered, with one saying it could end up closer to $1 trillion. Previous estimates had put the valuation at between $1.5 trillion and $2 trillion. Anthropic's listing had been expected to surpass the record set by SpaceX's IPO in June, which raised $86 billion. Reports also cited investors"
+   "blurb": "Anthropic's IPO valuation expectations have fallen sharply after a Wall Street sell-off, with investors now discussing a range of $1.2 trillion to $1.3 trillion, down from earlier expectations of up to $2 trillion.",
+   "text": "Anthropic's ambitious initial public offering (IPO) plans are facing fresh valuation concerns after a sharp sell-off in US technology stocks, with prospective investors lowering their estimates of what the artificial intelligence company could be worth when it lists. Investors are now discussing a valuation of around $1.2 trillion to $1.3 trillion for Anthropic , with some considering a figure as low as $1.1 trillion, Bloomberg reported. The deliberations are ongoing and no final decisions have been made. The revised estimates mark a retreat from the $2 trillion valuation that Anthropic had reportedly been considering earlier. Even a valuation of $1.5 trillion is now facing resistance, with one investor describing that figure as a stretch, CNBC reported. According to CNBC , some investors now see a valuation of $1 trillion to $1.25 trillion as a more realistic target, although expectations could change depending on market conditions. The reassessment comes ahead of Anthropic's expected IPO roadshow next week. The company plans to list on the Nasdaq under the ticker symbol ANT, in what would be the first public offering by a developer"
   },
   {
-   "url": "https://economictimes.indiatimes.com/news/economy/indicators/tax-reporting-lapses-could-risk-indias-sovereign-rating-trigger-withholding-tax-penalties-income-tax-principal-dg-debjyoti-das/articleshow/135578399.cms",
+   "url": "https://economictimes.indiatimes.com/news/economy/agriculture/sugar-output-jumps-to-nearly-13-lakh-tonnes-so-far-in-2026-27-market-year-isma/articleshow/135611877.cms",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Tax reporting lapses could risk India's sovereign rating, trigger withholding tax penalties: Income Tax Principal DG Debjyoti Das",
+   "headline": "Sugar output jumps to nearly 13 lakh tonnes so far in 2026–27 market year: ISMA",
    "source": "Economic Times",
-   "blurb": "Speaking to the media on the sidelines of the 'Summit on Global Financial Compliance (FATCA & CRS)' in Mumbai, Debjyoti Das, Principal Director General of Income Tax (Intelligence & Criminal Investigation), highlighted the growing risks associated with non-compliance in cross-border financial reporting.",
-   "text": "Speaking to the media on the sidelines of the 'Summit on Global Financial Compliance (FATCA & CRS)' in Mumbai, Debjyoti Das, Principal Director General of Income Tax (Intelligence & Criminal Investigation), highlighted the growing risks associated with non-compliance in cross-border financial reporting. Some elections matter more than you know: No crop changed in the fields, yet sugar, coffee and soya got cheaper in a day You can buy a walkie-talkie online. But can you legally use it? KYB and KYC: Quick commerce, the Damani premium and what DMart must deliver – 3rd and concluding part KYC and KYB: Inside Damani’s DMart, the retail chain for the middle class. And stock for the long term? – Part 2 of 3 Will it be a regulatory nightmare if an exchange lists on its own platform? KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3"
+   "blurb": "Indian Sugar & Bio-Energy Manufacturers Association (ISMA), in a statement on Friday, said the 184 sugar mills have commenced crushing operations across the country as of November 5, 2026, compared to 154 mills during the corresponding period of the preceding year.",
+   "text": "Indian Sugar & Bio-Energy Manufacturers Association (ISMA), in a statement on Friday, said the 184 sugar mills have commenced crushing operations across the country as of November 5, 2026, compared to 154 mills during the corresponding period of the preceding year. Junk bonds are cracking at the bottom. Will the noise get loud enough to make ‘junk bond’ a household term again? PNG connections rise half a million, but how many use piped gas for cooking? Some elections matter more than you know: No crop changed in the fields, yet sugar, coffee and soya got cheaper in a day You can buy a walkie-talkie online. But can you legally use it? KYB and KYC: Quick commerce, the Damani premium and what DMart must deliver – 3rd and concluding part KYC and KYB: Inside Damani’s DMart, the retail chain for the middle class. And stock for the long term? – Part 2 of 3"
   },
   {
-   "url": "https://www.livemint.com/market/commodities/dhanteras-2026-today-buy-gold-at-current-rates-or-avoid-shopping-guide-20-price-down-from-2026-peak-experts-views-11793932229932.html",
+   "url": "https://www.livemint.com/market/stock-market-news/three-warship-manufacturing-stocks-to-watch-in-india-11793980065116.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Dhanteras 2026 today: Buy gold at current rates or avoid? Shopping guide - 20% price down from 2026 peak; Experts' views",
+   "headline": "Three warship manufacturing stocks to watch in India",
    "source": "Mint",
-   "blurb": "Dhanteras 2026: With gold prices correcting sharply from their record highs, experts believe Dhanteras 2026 could offer an opportunity for long-term investors to accumulate the precious metal.",
-   "text": "Dhanteras 2026 : Gold prices have witnessed significant volatility in 2026, with the yellow metal undergoing a sharp correction after scaling record highs earlier this year. As investors prepare for Dhanteras 2026, traditionally considered an auspicious occasion to purchase gold, the key question is whether the recent decline offers an opportunity to buy or whether prices could fall further. Domestic gold prices have corrected more than 20% from their 2026 peak, driven by concerns over inflation, higher crude oil prices, geopolitical uncertainty and expectations of an interest rate hike by the US Federal Reserve, according to brokerage firm Axis Direct. Despite the near-term weakness, market experts remain constructive on gold's long-term outlook. They believe the recent correction has improved entry valuations for long-term investors, although traders should remain cautious about short-term price movements. Gold has delivered extraordinary returns over the past five years, benefiting from global economic uncertainty, geopolitical tensions, central bank purchases and changing expectations around interest rates. According to Axis Direct, domestic gold prices have climbed from approximately ₹ 47,600 per 10 grams in November 2021 to around"
+   "blurb": "Considering stocks with a focus on warship manufacturing. Here are 3 such stocks with a solid track record in warship manufacturing.",
+   "text": "India's rising defence spending and focus on modernising its armed forces have created significant opportunities for domestic warship manufacturers. With the government pushing for self-reliance in defence production, a growing share of naval procurement is being directed towards Indian shipyards. Investments in advanced warships, submarines, frigates and aircraft carriers are expected to support the industry's long-term growth. Since 1774, Mazagon Dock Shipbuilders has played a vital role in building India’s maritime strength. It is India’s only shipyard to have built destroyers, conventional submarines for the Indian Navy & manufactured corvettes in India. MDL is the lead shipyard for building 4 Nilgiri-class stealth frigates. The company has also delivered the Kalvari Class submarines, with 6 submarines delivered between 2017 and 2025. Overall, MDL has delivered 809 vessels since 1960, which also includes 34 warships, from advanced Destroyers to missile boats, and 8 submarines. The company’s performance in Q2FY27 was weak. Consolidated revenue dropped sharply to ₹ 2,446 crore from ₹ 2,929 crore, while net profit plunged 58% to ₹ 346 crore from ₹ 749 crore. Meanwhile, MDL has signed an MoU"
   },
   {
-   "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/adani-cng-price-crosses-rs-100-per-kg-mark-in-ahmedabad-for-first-time/articleshow/135580099.cms",
+   "url": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/frontier-raas-opens-new-store-in-ahmedabad-kangana-ranaut-attends-inauguration-as-chief-guest/articleshow/135614867.cms",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Adani CNG price crosses Rs 100 per kg mark in Ahmedabad for first time",
+   "headline": "Frontier Raas opens new store in Ahmedabad, Kangana Ranaut attends inauguration as Chief Guest",
    "source": "Economic Times",
-   "blurb": "Adani CNG prices in Ahmedabad have crossed Rs 100 per kg for the first time in history. This price hike has increased rates from Rs 98.47 to Rs 100.77 per kg. In Vadodara, CNG prices have also risen, reaching Rs 98.95 per kg recently. Currently, petrol prices in Ahmedabad are slightly higher at Rs 101.83 per litre.",
-   "text": "Adani CNG prices in Ahmedabad have crossed Rs 100 per kg for the first time in history. This price hike has increased rates from Rs 98.47 to Rs 100.77 per kg. In Vadodara, CNG prices have also risen, reaching Rs 98.95 per kg recently. Currently, petrol prices in Ahmedabad are slightly higher at Rs 101.83 per litre. These changes have brought CNG prices closer to petrol rates in the region."
+   "blurb": "Indian ethnic and occasionwear brand Frontier Raas inaugurated its new store in Ahmedabad on November 1, 2026, marking another step in its retail expansion. Actor Kangana Ranaut attended the inauguration as the chief guest, alongside prominent business personalities, leading families and members of the city's fashion…",
+   "text": "Indian ethnic and occasionwear brand Frontier Raas inaugurated its new store in Ahmedabad on November 1, 2026, marking another step in its retail expansion. Actor Kangana Ranaut attended the inauguration as the chief guest, alongside prominent business personalities, leading families and members of the city's fashion and cultural communities."
   },
   {
-   "url": "https://www.business-standard.com/companies/start-ups/bengaluru-startup-aina-unveils-ai-ring-to-predict-users-next-actions-126110502214_1.html",
+   "url": "https://www.business-standard.com/companies/news/marico-to-acquire-51-stake-in-bonorizon-consumer-ventures-for-35-crore-126110601971_1.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Bengaluru startup Aina unveils AI ring to predict users' next actions",
+   "headline": "Marico to acquire 51% stake in Bonorizon Consumer Ventures for ₹35 crore",
    "source": "Business Standard",
-   "blurb": "Founded by former Ultrahuman executive Apoorv Shankar, Aina has unveiled an AI-powered ring that anticipates user needs and controls apps and devices, with pre-orders from $399",
-   "text": "Aina’s AI-powered smart ring is designed to anticipate user needs, control apps and devices, and interact with AI agents. Don't miss the most important news and views of the day. Get them on our Telegram channel"
+   "blurb": "The FMCG major will acquire the stake through primary subscription and retain the right to purchase the remaining equity after three years, subject to certain conditions",
+   "text": "Marico will acquire a 51% stake in Bonorizon Consumer Ventures for up to ₹35 crore to strengthen its international business. | Photo: Shutterstock Don't miss the most important news and views of the day. Get them on our Telegram channel"
   },
   {
-   "url": "https://www.livemint.com/companies/people/musks-470-million-political-bet-why-tesla-spacexs-texas-expansion-faces-a-regulatory-test-after-us-midterms-11793931940497.html",
+   "url": "https://www.livemint.com/companies/company-results/mphasis-coforge-q2-earnings-sonata-hexaware-headwinds-11793957129564.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Musk's $470 million political bet: Why Tesla, SpaceX's Texas expansion faces a regulatory test after US midterms",
+   "headline": "Mphasis, Coforge shine in strong Q2 for IT midcaps while Sonata faces seasonal headwinds",
    "source": "Mint",
-   "blurb": "Elon Musk's $470 million bet on Republicans has raised questions over Tesla and SpaceX's Texas expansion after Democrats won the US midterms. Investors fear tighter data-centre regulations could delay projects, increase costs and complicate a potential merger.",
-   "text": "It seems Elon Musk's political bet on Republican candidates, especially in Texas, in the US midterm elections has failed to deliver the outcome he may have hoped for. The shares of his companies have tumbled spectacularly in the last two trading sessions, losing $456 billion since Tuesday's close. With Democrats flipping several Republican held seats to take control of both chambers of Congress and winning the governor race in Texas, investors are increasingly concerned that Tesla and SpaceX could face tougher regulatory scrutiny, particularly over their ambitious artificial intelligence (AI) and data-centre expansion plans in the state, according to a report by CNBC . Tesla shares fell more than 11% on Thursday, while SpaceX shares declined nearly 9%. By the end of the session, the combined market capitalisation losses for the two companies had reached about $456 billion since Tuesday's close. Democratic victories in Texas have raised investor concerns about tougher oversight of data centres and AI infrastructure. New rules could delay projects or increase their costs. Tesla and SpaceX have announced Terafab, a proposed chip-manufacturing complex in Grimes County"
+   "blurb": "Mid-sized IT firms delivered mixed Q2 results amid macro headwinds, with Mphasis and Coforge posting strong growth while Sonata faced seasonal pressures.",
+   "text": "Mphasis Ltd capped a strong outing in the second quarter for India’s mid-sized tech services companies, which were undeterred by an uncertain demand environment and cautious client spending. However, the exception was Sonata Software, which reported revenue of $256 million on Friday, a 26% drop from the previous quarter. The second quarter is seasonally weak for Sonata’s domestic business, which primarily involves selling software licences and makes up about three-fifths of the company’s overall revenue. Fewer software licences are sold during the quarter. A day earlier, Blackstone-owned Mphasis reported its best second quarter in five years with a 3.2% sequential increase in revenue to $486 million in the July-September period. Almost three-fourths of its incremental revenue came from financial institutions, which account for more than half of the company’s overall business. The two companies capped the earnings season for India’s mid-sized tech services firms with annual revenues of $1 billion to $4 billion. Coforge Ltd was the fastest-growing tech services firm in Q2 while Hexaware Technologies Ltd was the slowest. The two companies capped the earnings season for India’s mid-sized"
   },
   {
-   "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/american-midterm-results-will-not-have-an-impact-on-india-us-interim-trade-deal-sources/articleshow/135575578.cms",
+   "url": "https://economictimes.indiatimes.com/news/economy/infrastructure/nhai-issues-guidelines-to-standardise-design-and-infrastructure-for-multi-lane-free-flow-tolling/articleshow/135610828.cms",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "American midterm results will not have an impact on India-US interim trade deal: Sources",
+   "headline": "NHAI issues guidelines to standardise design and infrastructure for multi-lane free flow tolling",
    "source": "Economic Times",
-   "blurb": "The Democrats' sweeping victory in the US midterm elections is unlikely to affect the India-US interim trade agreement, as the pact does not require formal Congressional ratification, sources said.",
-   "text": "The Democrats' sweeping victory in the US midterm elections is unlikely to affect the India-US interim trade agreement, as the pact does not require formal Congressional ratification, sources said. However, ongoing Section 301 investigations into forced labour and excess industrial capacity could influence Washington's tariff structure and the finalisation of the agreement. Some elections matter more than you know: No crop changed in the fields, yet sugar, coffee and soya got cheaper in a day You can buy a walkie-talkie online. But can you legally use it? KYB and KYC: Quick commerce, the Damani premium and what DMart must deliver – 3rd and concluding part KYC and KYB: Inside Damani’s DMart, the retail chain for the middle class. And stock for the long term? – Part 2 of 3 Will it be a regulatory nightmare if an exchange lists on its own platform? KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3"
+   "blurb": "NHAI, in a statement, said the guidelines will ensure that upcoming and ongoing national highway projects are equipped to support MLFF-based barrier-free toll collection without requiring vehicles to stop at toll booths.",
+   "text": "NHAI, in a statement, said the guidelines will ensure that upcoming and ongoing national highway projects are equipped to support MLFF-based barrier-free toll collection without requiring vehicles to stop at toll booths. Junk bonds are cracking at the bottom. Will the noise get loud enough to make ‘junk bond’ a household term again? PNG connections rise half a million, but how many use piped gas for cooking? Some elections matter more than you know: No crop changed in the fields, yet sugar, coffee and soya got cheaper in a day You can buy a walkie-talkie online. But can you legally use it? KYB and KYC: Quick commerce, the Damani premium and what DMart must deliver – 3rd and concluding part KYC and KYB: Inside Damani’s DMart, the retail chain for the middle class. And stock for the long term? – Part 2 of 3"
   },
   {
-   "url": "https://www.livemint.com/market/indian-stocks-set-for-pullback-after-sharp-rally-on-oil-slide-foreign-inflows-11793932289845.html",
+   "url": "https://www.livemint.com/market/arinis-hedge-fund-losses-grow-to-32-as-it-sells-some-positions-11794005315599.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Indian stocks set for pullback after sharp rally on oil slide, foreign inflows",
+   "headline": "Arini’s Hedge Fund Losses Grow to 32% as It Sells Some Positions",
    "source": "Mint",
-   "blurb": "Foreign institutional investors bought stocks worth about 150 billion rupees ($1.6 billion), their biggest single-day net purchase in nearly six years, as investors rotated out of AI-linked trades globally.",
-   "text": "Nov 6 (Reuters) - Indian shares are expected to break their winning run on Friday as a rout in global markets triggered a cautious undertone for investors as they assessed the impact of the US Democratic win on AI regulations and foreign policy. Both the Nifty 50 and the BSE Sensex have gained for six sessions in a row, culminating in their best session in seven months on Thursday, aided by lower oil prices and strong foreign fund inflows. Foreign institutional investors bought stocks worth about 150 billion rupees ($1.6 billion), their biggest single-day net purchase in nearly six years, as investors rotated out of AI-linked trades globally. GIFT Nifty futures were at 24,460 as of 7:49 a.m. IST, indicating a weaker start for the benchmark Nifty 50, which closed at 24,536.6 on Thursday. \"The indicated decline is relatively contained compared with the severe global selloff, suggesting that lower crude and India's limited direct exposure to the AI-hardware trade are providing some insulation,\" said Hariselvan Radhakrishnan, founder and CEO of HST Wealth. Domestic markets are likely to face a volatile"
+   "blurb": "Losses at Arini Capital Management’s main hedge fund deepened in the final days of October, taking declines to 32% for the year, according to a letter to investors seen by Bloomberg.",
+   "text": "(Bloomberg) -- Losses at Arini Capital Management’s main hedge fund deepened in the final days of October, taking declines to 32% for the year, according to a letter to investors seen by Bloomberg. The high-yield debt specialist suffered a 19.7% loss in October alone as credit markets remained persistently weak, the letter said. Against that backdrop, the master fund run by Hamza Lemssouguer re-underwrote each of its five largest positions, representing about two-thirds of its net asset value. It also saw $389 million of inflows over the past week, part of its $1.5 billion raise. The fund “underestimated” the dislocation in CCC rated debt, which makes up the majority of the fund’s exposure, leading to a highly correlated portfolio, the letter said. It trimmed some positions and cut gross leverage to the lowest level since early 2022, while planning to build in more diversification. “As for our core positions, let us be clear: Our conviction remains firm,” Arini’s letter said. “Mark-to-market volatility of this kind is inherent in a concentrated, contrarian mandate. The fund has the structural duration of capital"
   },
   {
-   "url": "https://inc42.com/buzz/ceo-harsh-jain-teases-a-revamped-dream11-by-2026-end/",
+   "url": "https://inc42.com/buzz/oyo-parent-prisms-profit-jumps-17-yoy-to-%e2%82%b9353-cr-in-q1/",
    "deck": "news",
    "section": "Startups & tech",
-   "headline": "CEO Harsh Jain Teases A Revamped Dream11 By 2026-End",
+   "headline": "OYO Parent PRISM’s Profit Jumps 17% YoY To ₹353 Cr In Q1",
    "source": "Inc42",
-   "blurb": "Erstwhile real money gaming (RMG) giant Dream11’s cofounder and CEO Harsh Jain has hinted at plans to launch a revamped…",
-   "text": "Jain said that the “brand new Dream11” would be built by sports fans and for sports fans. He did not disclose the upcoming platform’s features, commercial model or a specific launch date The move signals Dream11’s next phase of evolution after the ban on online real-money gaming last year disrupted the platform’s paid fantasy sports business This comes as Dream11 has been rethinking many of its newer bets. In the past year, the startup has shut down Dream Money, Dream Play and FanCode’s sports merchandise business Erstwhile real money gaming (RMG) giant Dream11’s cofounder and CEO Harsh Jain has hinted at plans to launch a revamped version of the platform by 2026-end. In a post on social media platform X, Jain said that the “brand new Dream11” would be built by sports fans and for sports fans. He did not disclose the upcoming platform’s features, commercial model or a specific launch date. “A brand new Dream11 is launching (at the) end of Dec – by sports fans, for sports fans. Stay tuned…,” said Jain in his post. The move signals"
+   "blurb": "IPO-bound hospitality chain PRISM, the parent entity of OYO, reported a consolidated profit after tax (PAT) of ₹353 Cr in…",
+   "text": "PRISM’s revenue from operations zoomed 35% to ₹2,814 Cr in Q1 FY27 as against ₹2,078 Cr reported in the year ago quarter The profitability came largely on the back of a deferred tax credit of nearly ₹244 Cr in the quarter under review and a sharp growth in the top line The numbers come as PRISM is gearing up to list on the bourses. The startup has already filed its UDRHP with SEBI for a ₹6,650 Cr IPO, which will consist entirely of a fresh issue of shares IPO-bound hospitality chain PRISM , the parent entity of OYO, reported a consolidated profit after tax (PAT) of ₹353 Cr in the first quarter (Q1) of the fiscal year 2026–27 (FY27), up 17.3% from ₹301 Cr in the year-ago period. According to PRISM’s audited financials seen by Inc42, the profitability came largely on the back of a deferred tax credit of nearly ₹244 Cr in the quarter under review. Nevertheless, PRISM continued to grow its top line and generated an operating revenue of ₹2,814 Cr in Q1 FY27. This was nearly 35%"
   },
   {
-   "url": "https://entrackr.com/snippets/spacetech-startup-cosmoserve-space-raises-6-mn-in-seed-round-12787035",
+   "url": "https://entrackr.com/news/makemytrip-acquires-majority-stake-in-quick-ride-to-enter-shared-mobility-segment-12789293",
    "deck": "news",
    "section": "Startups & tech",
-   "headline": "Spacetech startup Cosmoserve Space raises $6 Mn in seed round",
+   "headline": "MakeMyTrip acquires majority stake in Quick Ride to enter shared mobility segment",
    "source": "Entrackr",
-   "blurb": "Hyderabad-based spacetech startup Cosmoserve Space has raised $6 million in a seed funding round from Japan-based Rebright Partners, Aranya Holdings, Naandi Ventures and existing investors AUM Ventures and Shakti VC. The latest round takes its total funding to over $9 million.",
-   "text": "Hyderabad-based spacetech startup Cosmoserve Space has raised $6 million in a seed funding round from Japan-based Rebright Partners, Aranya Holdings, Naandi Ventures and existing investors AUM Ventures and Shakti VC. The latest round takes its total funding to over $9 million. The fresh capital will support the development of Base 1, technology demonstrations and two upcoming missions, Cosmoserve said in a press release. The startup has also inaugurated Base 1, a private facility dedicated to space debris removal and satellite servicing. The facility is designed to support the development of technologies for in-orbit repairs, refuelling and the recovery of defunct satellites. According to the company, Base 1 is the world’s sixth facility equipped with space vision effects and microgravity simulation capabilities. It brings together infrastructure for designing, building, testing and operating technologies required for satellite servicing and space debris recovery. Cosmoserve currently sources nearly 60% of its mission components locally. It aims to increase domestic manufacturing by developing critical technologies in-house and reducing dependence on imported optics, avionics and space-grade electronics. In July 2026, Cosmoserve flew its first payload, Mission"
+   "blurb": "Travel technology platform MakeMyTrip has acquired a majority stake in Bengaluru-based shared mobility startup Quick Ride, marking its entry into the ride pooling segment. The acquisition will expand MakeMyTrip’s ground transportation portfolio and strengthen its presence in daily urban commutes.",
+   "text": "Travel technology platform MakeMyTrip has acquired a majority stake in Bengaluru-based shared mobility startup Quick Ride, marking its entry into the ride pooling segment. The acquisition will expand MakeMyTrip’s ground transportation portfolio and strengthen its presence in daily urban commutes. Entrackr exclusively reported on October 19 that MakeMyTrip was in talks to acquire Quick Ride through its subsidiary redBus. However, the financial details of the transaction have not been disclosed. Founded in 2015 by KNM Rao, Quick Ride is an asset-light mobility platform that connects people travelling along similar routes for car and bike pooling. It enables users to share rides for everyday commutes and offers services to corporate employees through partnerships with companies, IT parks and business campuses. The platform aims to make commuting more affordable while reducing the number of vehicles on roads. According to MakeMyTrip, Quick Ride’s ride pooling business and brand have undergone an internal restructuring and are now housed under a new entity, Co Ride Mobility Private Limited. MakeMyTrip has acquired the brand and its ride pooling business through a majority stake in this entity."
   },
   {
-   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-sued-over-suicide-related-ai-chats-on-school-computer/articleshow/135591823.cms",
+   "url": "https://economictimes.indiatimes.com/tech/technology/vaishnaw-puts-onus-on-social-media-platforms-to-curb-online-harm-stops-short-of-safe-harbour-clarity/articleshow/135609932.cms",
    "deck": "news",
    "section": "Startups & tech",
-   "headline": "Google sued over suicide-related AI chats on school computer",
+   "headline": "Vaishnaw puts onus on social media platforms to curb online harm, stops short of safe-harbour clarity",
    "source": "ET Tech",
-   "blurb": "The parents of a 13-year-old girl have sued Google claiming she planned a potential suicide and funeral using its AI technology on a school-issued computer. Developers of fast-evolving AI technology are facing a litany of similar lawsuits in the US.",
+   "blurb": "Vaishnaw said social media companies could no longer remain passive intermediaries as the digital ecosystem evolved and must take responsibility for the harmful consequences of content circulated through their platforms, including cyber fraud and so-called digital arrest scams.",
    "text": ""
   },
   {
-   "url": "https://inc42.com/buzz/this-is-not-about-money-deepinder-goyal-defends-temple-amid-credibility-row/",
+   "url": "https://inc42.com/buzz/ed-searches-coindcx-delta-exchange-over-alleged-illegal-cross-border-transfers/",
    "deck": "news",
    "section": "Startups & tech",
-   "headline": "This Is Not About Money: Deepinder Goyal Defends Temple Amid Credibility Row",
+   "headline": "ED Searches CoinDCX & Delta Exchange Over Alleged Illegal Cross-Border Transfers",
    "source": "Inc42",
-   "blurb": "Addressing social media debates over the scientific validity of Temple’s eponymous brain-monitoring wearable, founder Deepinder Goyal issued a statement directed…",
-   "text": "Following criticism over Temple’s credibility and scientific validation, Deepinder Goyal defended the research behind the wearable and said it is a fitness tracker and not a medical device Several medical experts on social media had questioned Temple over whether the wearable can reliably measure cerebral blood flow Critics also pointed out that studies published on Temple’s website were not peer-reviewed, and were funded and conducted by the company itself Addressing social media debates over the scientific validity of Temple ’s eponymous brain-monitoring wearable, founder Deepinder Goyal issued a statement directed at “Concerned Indian Doctors”, asserting confidence in the R&D behind the wearables. Goyal pointed out that Temple had already spent $30 Mn on its development, including $20 Mn of his personal money. He also noted that the company is raising funding from its employees and customers. “Selling a few thousand devices recovers a small fraction of this investment. A scam that pays nothing is not a scam anyone would run,” the CEO wrote in his post. Goyal further said the product’s 14-day no-questions-asked return policy would validate its product in"
+   "blurb": "The Enforcement Directorate (ED) conducted searches at three premises linked to crypto exchanges CoinDCX and Delta Exchange India (DEI) over…",
+   "text": "While CoinDCX is yet to issue a statement on the matter, Delta Exchange India claims that it is not involved in “any cross-border transfer of VDAs in any form or manner” ED’s central allegation is that the two platforms facilitated spot trading, F&Os and trading in tokenised shares of foreign companies via cryptos despite not being authorised to offer them The agency believes that these unauthorised crypto trading transactions involving the two platforms run into thousands of crores of Rupees The Enforcement Directorate (ED) conducted searches at three premises linked to crypto exchanges CoinDCX and Delta Exchange India (DEI) over alleged unauthorised cross-border transactions involving crypto derivatives and tokenised foreign stocks. In a statement, the agency said the searches were conducted between November 4 and November 5 across Bengaluru. The crypto trading transactions in question run into thousands of crores of Rupees, as per ED. “ED Bengaluru has conducted search(es) at three premises linked to Neblio Technologies Pvt. Ltd. (CoinDCX parent) and Excelium Technologies Pvt. Ltd.(which operates Delta Exchange India) under FEMA 1999 in the case of large scale unauthorised"
   },
   {
-   "url": "https://entrackr.com/fintrackr/moneyviews-q2-fy27-profit-jumps-515x-to-rs-201-cr-12786613",
+   "url": "https://entrackr.com/fintrackr/mamaearth-parent-honasa-profit-jumps-87-to-rs-73-cr-in-q2-fy27-revenue-grows-36-12788897",
    "deck": "news",
    "section": "Startups & tech",
-   "headline": "Moneyview's Q2 FY27 profit jumps 5.15X to Rs 201 Cr",
+   "headline": "Mamaearth parent Honasa profit jumps 87% to Rs 73 Cr in Q2 FY27, revenue grows 36%",
    "source": "Entrackr",
-   "blurb": "Digital lending platform Moneyview reported a 41% year-on-year growth in revenue from operations in Q2 FY27, while its net profit jumped 5.15 times during the period.",
-   "text": "Digital lending platform Moneyview reported a 41% year-on-year growth in revenue from operations in Q2 FY27, while its net profit jumped 5.15 times during the period. Moneyview’s revenue from operations rose to Rs 1,120 crore in Q2 FY27 from Rs 794 crore in the corresponding quarter last fiscal year, according to its consolidated financial statements filed with the National Stock Exchange (NSE). The Bengaluru-based company also reported Rs 26 crore in other income, taking its total income to Rs 1,146 crore in Q2 FY27, compared with Rs 804.6 crore in Q2 FY26. Founded in 2014 by Puneet Agarwal and Sanjay Aggarwal, Moneyview provides digital lending products such as instant personal loans, credit cards, Buy Now Pay Later (BNPL) and financial management solutions through partner lenders. Its lending partners include Aditya Birla Capital, Northern Arc, Vivriti Capital and Oxyzo. Impairment of financial instruments increased 18.7% to Rs 286 crore in Q2 FY27 from Rs 241 crore in Q2 FY26. Employee benefits expenses rose 41.3% to Rs 97.5 crore from Rs 69 crore during the same period. Finance costs increased 25.6% to"
+   "blurb": "Honasa Consumer, the parent company of Mamaearth, announced its financial results for the second quarter of the fiscal year ending March 2027. The company reported a 36% year-on-year growth in its revenue during the quarter, while its net profit surged 86.7% to Rs 73.25 crore.",
+   "text": "Honasa Consumer, the parent company of Mamaearth, announced its financial results for the second quarter of the fiscal year ending March 2027. The company reported a 36% year-on-year growth in its revenue during the quarter, while its net profit surged 86.7% to Rs 73.25 crore. The Gurugram-based company's revenue from operations increased to Rs 731 crore in Q2 FY27 from Rs 538 crore in the corresponding quarter of the previous fiscal year, according to its financial statements accessed from the National Stock Exchange of India (NSE). The firm also recorded Rs 22 crore in other income, taking its total income to Rs 753 crore in Q2 FY27, compared with Rs 558 crore in Q2 FY26. On the expense front, the cost of materials consumed remained the largest expense component, increasing 38.4% to Rs 220 crore in Q2 FY27 from Rs 159 crore in the corresponding quarter last year. Employee benefit expenses also increased 21.7% to Rs 73 crore. Depreciation expenses, however, marginaly declined to Rs 11 crore from Rs 11.75 crore. Other expenses rose 26.9% to Rs 348 crore which"
   },
   {
-   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-kicks-off-charm-offensive-to-change-voters-view-of-data-centers/articleshow/135591129.cms",
+   "url": "https://economictimes.indiatimes.com/tech/technology/want-only-serious-players-no-place-for-frivolous-applicants-in-semicon-2-0-vaishnaw-to-industry/articleshow/135609881.cms",
    "deck": "news",
    "section": "Startups & tech",
-   "headline": "OpenAI kicks off charm offensive to change voters' view of data centers",
+   "headline": "Want only serious players, no place for frivolous applicants in Semicon 2.0: Vaishnaw to industry",
    "source": "ET Tech",
-   "blurb": "Stunning victories by Democrats in US midterm elections this week have been interpreted by many as Americans repudiating tech industry plans to build data centers across the country.",
+   "blurb": "On Friday, the government launched the web application portal for Semicon 2.0, which will initially receive applications related to three of the programme's six pillars: machines and materials, fabs, and packaging.",
    "text": ""
   },
   {
-   "url": "https://www.cricinfo.com/ci/content/story/1561610.html?ex_cid=OTC-RSS",
+   "url": "https://www.cricinfo.com/ci/content/story/1561704.html?ex_cid=OTC-RSS",
    "deck": "news",
    "section": "Sports",
-   "headline": "Hussey joins Australia's coaching ranks for 2027 Ashes, World Cup and 2028 T20 World Cup",
+   "headline": "'It was all of us' - Khawaja exposes sandpaper details from 2018",
    "source": "ESPNcricinfo",
-   "blurb": "Hussey will be a consultant with a major focus on the 2028 Olympics and T20 World Cup but will also work with the team for the 2027 Ashes and ODI World Cup",
+   "blurb": "Set to unveil his version of events in explosive autobiography, Usman Khawaja tells Nine papers he was never interviewed by CA about Cape Town 2018",
    "text": ""
   },
   {
-   "url": "https://www.bbc.co.uk/sport/football/articles/ckn9rwr2zzpvo?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cm4g114p9e7go?at_medium=RSS&at_campaign=rss",
    "deck": "news",
    "section": "Sports",
-   "headline": "A bitter end for Ronaldo - the icon who transformed Portugal",
+   "headline": "England 'disappointment' fuels Dewsbury-Hall's Everton heroics",
    "source": "BBC Sport",
-   "blurb": "As Cristiano Ronaldo retires from international football, Guillem Balague looks at why and what is next for the Portugal legend.",
-   "text": "Cristiano Ronaldo's old rival Leo Messi left Argentina less than a month ago with a nation applauding him. The Portugal legend has gone another way, and it was always going to be the case. The 41-year-old announced his international retirement after 23 years but also after a fallout with coach Jorge Jesus which was resolved with a sanction of 30 days, that had already been served, and a fine of 255 euros. It was the punishment imposed on the Portuguese striker for leaving the team's training camp without permission. Jesus kept him on the bench for one match and said he did not plan to start him in the next, so Ronaldo went home. His last appearance came on 24 September against Wales. He ends his international career with 146 goals in 234 games. A message went around Portugal with a big thank you for everything, calling Ronaldo a global ambassador and an inspiration to millions. Even so, the way it ended leaves a bit of a bitter taste. Was he going to be named in the next squad? Possibly,"
+   "blurb": "Kiernan Dewsbury-Hall responds to his England omission by scoring a stunning goal to inspire Everton's 3–1 comeback victory over Coventry City.",
+   "text": "Kiernan Dewsbury-Hall let his performance do all the talking at Hill Dickinson Stadium on Friday night. The Everton midfielder endured a disappointing start to his matchday preparations just hours earlier after learning that, despite his impressive performances in recent weeks, he had been overlooked by England manager Thomas Tuchel for this month's Nations League fixtures. It was a setback for the 28-year-old, who was tipped to earn a place in Tuchel's latest squad but was ultimately left out, with Borussia Dortmund teenager Jobe Bellingham selected instead. By the end of the night, though, Dewsbury-Hall had every reason to smile. The midfielder was celebrating alongside the Everton faithful after his thunderous strike helped the Blues to a comeback victory over Coventry City , securing an impressive 3–1 win and lifting them to fifth in the Premier League table. \"It was a disappointing morning, I'm not going to lie. It's a massive dream of mine to play for my country. I know I was close,\" Dewsbury-Hall told Sky Sports after Everton made it back-to-back Premier League wins. \"I'm sad, yeah, but really"
   },
   {
-   "url": "https://www.thehindu.com/sport/cricket/ind-vs-nz-odi-series-devon-conway-ruled-out-of-remaining-matches-kelly-called-in/article71672672.ece",
+   "url": "https://www.thehindu.com/sport/cricket/england-to-focus-on-preparation-and-fitness-ahead-of-odi-wc-brook/article71677162.ece",
    "deck": "news",
    "section": "Sports",
-   "headline": "IND vs NZ ODI series: Devon Conway ruled out of remaining matches, Kelly called in",
+   "headline": "England to focus on preparation and fitness ahead of ODI WC: Brook",
    "source": "The Hindu",
-   "blurb": "Devon Conway has been withdrawn from the remaining matches owing to the concussion he sustained during training on November 3, 2026",
-   "text": "File photo of New Zealand’s opener Devon Conway | Photo Credit: The Hindu Dealing a massive blow to New Zealand in the ongoing ODI series against India, big-hitting batter Devon Conway has been withdrawn from the remaining matches owing to the concussion he sustained during training on Tuesday (November 3, 2026) . Conway had to be taken to the Accident and Emergency unit of an Auckland medical facility for assessment following the incident prior to the first ODI. Left-handed batter Nick Kelly, who was named in New Zealand's squad for the fourth and fifth ODIs, will join the team in Wellington on Friday (November 6, 2026) and replace Conway for the second match of the series on Saturday (November 7, 2026), New Zealand Cricket stated in a press release. Matt Henry, with whom Conway collided during the fielding incident, has been cleared of concussion and is available for selection. Auckland Aces batter Dale Phillips has been called up to the New Zealand A squad as a replacement for Kelly for the final four-day match against India A, which also begins"
+   "blurb": "England has several selection decisions to make ahead of the series, particularly regarding the spin bowling combination",
+   "text": "England captain Harry Brook has stressed the importance of improving the team’s preparation and fitness standards ahead of the upcoming white-ball series against Australia. With England set to play three ODIs and five T20Is against Australia down under, Brook said the team would use the series as an opportunity to sharpen their skills, strengthen their fitness and establish higher standards in their preparations for next year’s ODI World Cup in Africas. “With the World Cup 12 months away, it’s a good period now to really start to try and nestle down, hone the skills and the lessons that we’ve learned,” Brook said. “The key is to try and be one of the fittest and strongest sides in the world. To be able to try and dominate throughout that competition (World Cup),” he added. Meanwhile, England has several selection decisions to make ahead of the series, particularly regarding the spin bowling combination. Adil Rashid was left out for three matches in Pakistan, with left-arm spinner Liam Dawson being preferred by the team. Comments have to be in English, and in full"
   },
   {
-   "url": "https://www.cricinfo.com/ci/content/story/1561601.html?ex_cid=OTC-RSS",
+   "url": "https://www.cricinfo.com/ci/content/story/1561683.html?ex_cid=OTC-RSS",
    "deck": "news",
    "section": "Sports",
-   "headline": "Rain threat hangs over second ODI in Wellington",
+   "headline": "Anderson in talks with Surrey to extend county career",
    "source": "ESPNcricinfo",
-   "blurb": "Weather interruptions could feature for a second straight match as New Zealand look to come back from 1–0 down",
+   "blurb": "Seamer on verge of extending career with move south, following Lancashire axe",
    "text": ""
   },
   {
-   "url": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cr15jj0yy8xeo?at_medium=RSS&at_campaign=rss",
    "deck": "news",
    "section": "Sports",
-   "headline": "What new Kane deal means for England and the Premier League record",
+   "headline": "Lampard feels hair pull should have led to Coventry penalty",
    "source": "BBC Sport",
-   "blurb": "Harry Kane's new deal at Bayern Munich may end his Premier League career but offers fresh hope he can lead England to glory, writes Phil McNulty.",
-   "text": "Harry Kane's decision to sign a new contract with Bayern Munich carries heavy significance for the Bundesliga giants, who have been celebrating his status as a Ballon d'Or winner, but also for England and the Premier League's record books. Bayern have acted swiftly to secure the 33-year-old on a deal taking him through to 2029 after he was crowned the world's best player, ensuring England's captain and record goalscorer will spend the final peak years of a magnificent career at Allianz Arena. Kane has written himself into Bayern legend since joining from Spurs for £86m in August 2023, scoring 102 goals in 102 Bundesliga matches, winning two league titles and three successive Golden Boot awards. It is why Bayern could not contemplate his departure as other clubs eyed his next move - and why the announcement Kane is staying casts ripples far beyond Munich. Does it mean Kane will never grace the Premier League again? And does it mean - far more enticingly - he has his sights set on two more major tournaments and two more chances to grasp"
+   "blurb": "Coventry had a trio of decisions go against them in defeat at Everton, with Frank Lampard suggesting a hair pull should have been a penalty.",
+   "text": "Coventry boss Frank Lampard questioned why his side were not given a penalty after a trio of decisions went against them in defeat at Everton . Thierno Barry's double and Kiernan Dewsbury-Hall's late goal helped the hosts come from behind to win 3–1 on Friday . Yann Gboho gave Coventry the lead after the break, yet the visitors felt they should have had a first-half spot-kick. James Tarkowski tugged Caleb Yirenkyi's hair while jumping for a ball, with referee Stuart Attwell dismissing the Sky Blues' claims. The rules have been relaxed around hair pulling this season and it does not automatically mean a foul or a red card, with excessive force and intent also being taken into consideration - but former Everton boss Lampard believes the officials got it wrong. He said: \"They're saying it's not enough of a pull and I think it's a hard area to be in. What is a hair pull? You've decided it is but it's not enough. \"I have looked at them, sometimes with emotions in the moment you can't be clear on the"
   },
   {
-   "url": "https://www.thehindu.com/sport/cricket/deepti-in-contention-for-icc-player-of-the-month-honour/article71671773.ece",
+   "url": "https://www.thehindu.com/sport/football/carrick-seeks-breathing-space-as-united-manager/article71677155.ece",
    "deck": "news",
    "section": "Sports",
-   "headline": "Deepti in contention for ICC ‘Player of the Month’ honour",
+   "headline": "Carrick seeks breathing space as United manager",
    "source": "The Hindu",
-   "blurb": "In three T20Is that preceded the ODIs, Deepti batted only once, scoring 49 off 37 balls and chipped in with two scalps with her off-spin",
-   "text": "India’s Deepti Sharma was among the six players shortlisted for the ICC Player of the Month awards here on Thursday. Deepti scored an unbeaten 106 in her only outing with the bat in a home ICC Women’s Championship series match against Zimbabwe and took five wickets at an economy rate of 3.42. India blanked Zimbabwe 3–0 in the 50-overs series. In three T20Is that preceded the ODIs, Deepti batted only once, scoring 49 off 37 balls and chipped in with two scalps with her off-spin. The other players who were shortlisted include South Africa’s Marco Jansen, Pakistan’s Arafat Minhas, West Indies captain Shai Hope, Australia’s Annabel Sutherland, and Bangladesh’s Sobhana Mostary. Jansen topped the bowlers’ and all-rounders’ tables in the ICC Men’s Test Player Rankings during this period, and Arafat was named the Player of the Series in the Pakistan Tri-Series. Hope made the shortlist on the back of some outstanding performances in white-ball cricket. Comments have to be in English, and in full sentences. They cannot be abusive or personal. Please abide by our community guidelines for posting your"
+   "blurb": "The reality is that the club could be bottom of the table when it kicks off on November 8 if results go against it; City meets Forest in the quest to break a string of losses as it plays catch up with Arsenal",
+   "text": "Michael Carrick takes charge of Manchester United for what could be the last time against Aston Villa this weekend as he battles to save his job despite a morale-boosting midweek victory over Roma. United’s dramatic win in the Champions League gave the coach breathing space but he remains under intense pressure ahead of the international break. Elsewhere, Manchester City will be seeking to avoid a rare third straight league defeat when it faces Nottingham Forest as it tries to keep pace with leader Arsenal. When Manchester United’s players trudged off at half-time against Roma on Tuesday, 2–0 down and seemingly out of ideas, Carrick’s fate appeared to be sealed. Instead, his underperforming team somehow turned things around, with Matheus Cunha scoring two late goals in a 3–2 win at a feverish Old Trafford. It ended a run of nine games without a victory — United’s longest winless run since the 1988/89 season. The brutal reality is that United could be bottom of the Premier League when it kicks off on Sunday if results go against it. Whatever the outcome, the"
   },
   {
-   "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+   "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
    "deck": "ai",
    "section": "Labs & models",
-   "headline": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+   "headline": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+   "source": "Ars Technica",
+   "blurb": "Meta won't force Facebook page owners to allow AI training on linked content.",
+   "text": "After weeks of backlash —and a failed attempt to quell it —Meta has indefinitely delayed plans to update its commercial terms and require Meta Business account users to allow extensive AI training on external websites linked on Facebook. “We’re pausing the ‌changes ⁠as we continue to engage with stakeholders and ​take ​our ⁠time to get this right. ​In the ​meantime, ⁠our existing terms remain in ⁠effect,” a Meta spokesperson told Reuters. Soon after Meta notified business account holders of the upcoming changes, legal experts warned Nieman Lab that the vague language could allow the company to ignore scraping preferences specified in robots.txt files and exhaustively crawl vast amounts of off-Facebook content for AI training. Since virtually every news publisher has a Facebook page, Nieman Lab sounded the alarm that Meta could potentially avoid millions in licensing fees if the TOS update happened as planned. Ars broke down the changes after Meta announced them, noting that businesses—including news publishers involved in drawn-out legal battles over unwanted AI scraping—had no way to opt out. To keep a business Facebook page, they had"
+  },
+  {
+   "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+   "deck": "ai",
+   "section": "Labs & models",
+   "headline": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+   "source": "MIT Technology Review",
+   "blurb": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…",
+   "text": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed up for the waitlist. I wanted my apartment to feel like The Jetsons , even if just for an hour. I was also motivated by journalistic interest. In order to ensure an authentic experience, I didn’t tell Tau Robotics, the startup behind the X post, that I was a journalist—though I did use my real name, so it’s possible someone looked me up. Tau’s long-term goal is to make autonomous cleaning robots a reality, but they’re not quite there yet: For now, the robots are piloted remotely by humans, who watch what’s going on via cameras mounted in the robots’ heads and wrists. As the robots clean, they collect data that Tau will use to train up their more independent descendants. Every counter successfully wiped"
+  },
+  {
+   "url": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
+   "deck": "ai",
+   "section": "Labs & models",
+   "headline": "Could potential AI clones of GTA VI force a quicker official port?",
+   "source": "Ars Technica",
+   "blurb": "A former Rockstar tech director thinks the developer is facing new time pressures.",
+   "text": "Yesterday, when reporting on emerging efforts to pipe the console version of GTA VI through a PC’s DLSS-powered Nvidia GPU , we mentioned in passing that PC players could instead just wait for the AI-assisted decompilation port that will no doubt be coming in short order. Now, a former Rockstar tech director says he thinks that exact threat could cause the developer to work faster on the official PC version of its soon-to-release crime/lifestyle simulator. Obbe Vermeij hasn’t worked at Rockstar since 2009 , but in a new interview with Rock Paper Shotgun , he recalled how artists for the PC version of the original top-down Grand Theft Auto were incensed when the console version squashed the game’s 256-color textures down to 16 colors for the PS1 release. “So it always has been that sort of awkward relationship between PC and the console,” Vermeij said. “So in those days, it was like PC first and then console second, even though that didn’t really make much sense for the sales, because the PlayStation versions sold way better.” Those sales caused Rockstar"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+   "deck": "ai",
+   "section": "Labs & models",
+   "headline": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
    "source": "TechCrunch",
-   "blurb": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
-   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. Airbnb has teased its plans to build its own AI travel agent before, but on Thursday the company announced that the new AI feature will launch in the first half of 2027. In the company’s Q3 shareholder letter on Thursday , Airbnb also provided more detail about how the agent will work, what it will actually do, and how it’s different from a typical AI chatbot. In prior interviews, CEO Brian Chesky sketched out the travel company’s approach to AI, describing a plan to build an AI agent that has a richer interface than a conventional chatbot. He also expressed his opinions about how chatbots aren’t the right interface for travel, noting that people take pleasure in the planning process and in anticipating a trip. Any agent that it built, then, shouldn’t take away from the inspiration and the browsing, he told TechCrunch in an interview last month. Chesky"
+   "blurb": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. Security researchers have discovered hundreds of copies of a Chinese-made AI hacking tool publicly exposed to the internet for anyone to access, potentially allowing outsiders to launch cyberattacks against unsuspecting targets. The hacking software, called Artex, is an open source autonomous penetration testing tool, meaning software that automatically probes computer systems for weaknesses, and it’s been linked to several cyberattacks since its public release in July. As open source software, it’s free for anyone to download and run on their own servers, making it a popular tool for those who cannot access Anthropic or OpenAI’s most advanced cybersecurity AI models for discovering security vulnerabilities. Microsoft has previously described Artex as a system of AI agents that can conduct cyberattacks “from reconnaissance through data exfiltration with little needed human interaction.” In a blog post , cybersecurity firm Censys, which scans the internet for exposed or vulnerable systems, said that it"
   },
   {
    "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
@@ -390,24 +417,6 @@
    "text": "Google faced the ire of educators and parents earlier this week when it announced a new AI policy for K–12 schools . Google said that it developed its new approach to give schools more control, but early reporting also suggested Google would block search access for schools that didn’t want to use AI. Google didn’t see the backlash coming, but now that it’s here, the search giant is clarifying what exactly its new policy means and what’s changing. The gist of the new policy, according to Google’s blog post, is that schools using Google apps will have to opt into its AI products going forward. Since the company considers search part of its AI portfolio (Gemini, Gemini Notebook, Gemini in Classroom, and Search), schools have to specifically turn that on for logged-in student accounts. When Google revealed its new policy, the company’s VP for education spoke exclusively to The New York Times , which interpreted the situation as Google will “turn off search” if schools reject AI. This has a nefarious vibe, but it’s probably not the most accurate way"
   },
   {
-   "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
-   "deck": "ai",
-   "section": "Labs & models",
-   "headline": "Meta says US users can now video chat with their Muse AI avatar",
-   "source": "TechCrunch",
-   "blurb": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
-   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. Muse Voice, a feature that lets users call and video chat with Meta’s consumer AI agent, Muse, is now available to everyone in the U.S., the company announced on Thursday. First introduced at Meta’s Connect developer conference in September, the video-chatting feature involves new AI models, Muse Realtime Avatar and Muse Realtime Voice technology, which help power the digital avatar that chats with the user. While other AI competitors offer voice chat features, Meta’s Muse offers a cute, animated avatar (nicknamed Jolly), which users interact with as they ask questions or request tasks to be handled on their behalf. Users can also customize the avatar as they choose, changing it to something that looks more like a person, animal, or some other character. The company believes that anthropomorphizing Muse in this way could make consumers feel more connected to their AI agent — a connection that could grow even"
-  },
-  {
-   "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
-   "deck": "ai",
-   "section": "Labs & models",
-   "headline": "Airbnb is working on an AI travel agent",
-   "source": "The Verge",
-   "blurb": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said.",
-   "text": "The travel company is planning an “AI-native” trip-planning experience that’s set to roll out next year. The travel company is planning an “AI-native” trip-planning experience that’s set to roll out next year. Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today . “Today’s AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,” Airbnb said. “But planning a trip on Airbnb is different.” The company argued that its experience matching hosts and guests, its current role in being part of reservations already, and a “new interface” built “specifically for travel” gives it an edge. We don’t think a traditional chatbot is the right way to plan a trip. We’re developing a custom-designed, AI-native experience that builds the interface around your question. Rather than a chat window, our agent draws on a library of hundreds of travel-specific interface elements—maps, photos, comparisons, calendars, itineraries—and composes them in real time to"
-  },
-  {
    "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
    "deck": "ai",
    "section": "Labs & models",
@@ -417,58 +426,76 @@
    "text": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s discovered that the proposal includes unapproved, confidential, and sensitive information, no one can trace where the problematic data entered the workflow or how it spread across systems, files, and agents. This scenario illustrates why AI governance needs to evolve, rapidly and dynamically. As more enterprises begin to use agentic AI in daily workflows, they’re realizing that they must manage more than static files; they must manage moving and fragmented data that is continuously ingested, copied, summarized, transformed, reused, and redistributed in new forms. In short, AI security isn’t a tool problem; it’s a data visibility problem. Consequently, traditional security approaches built solely around applications, systems, networks, or endpoints are no longer sufficient. Securing agentic AI at scale requires understanding how data moves. Teams, therefore, need"
   },
   {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+   "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
    "deck": "ai",
    "section": "Labs & models",
-   "headline": "Perplexity launches its own take on AI agents for work",
-   "source": "The Verge",
-   "blurb": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use.",
-   "text": "Like OpenAI’s Dots and Claude Duet, Perplexity’s Teammates can perform an array of tasks while running 24/7. Like OpenAI’s Dots and Claude Duet, Perplexity’s Teammates can perform an array of tasks while running 24/7. Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup’s new always-on “Teammates” can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Perplexity notes that you can keep tabs on Teammates’ progress through individual threads in the Perplexity app, as well as interact with them in Slack. “Over time, we envision every org having hundreds of teammates working for each person,” Perplexity CEO Aravind Srinivas says on X . Sign in to see your notifications or create an account to join the conversation."
-  },
-  {
-   "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
-   "deck": "ai",
-   "section": "Labs & models",
-   "headline": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
-   "source": "Ars Technica",
-   "blurb": "US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
-   "text": "Humanoid robots remain unproven at scale and have not yet achieved widespread commercialization, compared with industrial robots that have decades of proven track records in warehouses and factories. That frank acknowledgment is among the risks outlined in a securities filing by Agility Robotics—the first dedicated developer of humanoid robots to become a publicly traded company in the United States. The robotics company, headquartered in Salem, Oregon, previously became the first to achieve full-time commercial deployment of humanoid robots at a customer warehouse in 2024. Now, Agility’s public listing on the Nasdaq stock exchange as of November 5 has come with financial disclosures detailing how the company plans to build a business around renting out or selling humanoid robots to perform manual labor. “When we are doing robots as a service, it is much lower risk for customers to use it because they are getting a return on investment on day one,” Jonathan Hurst , co-founder and chief robot officer at Agility Robotics, told Ars. “Because they’re paying a rate that is comparable to the human labor rate, and that makes"
-  },
-  {
-   "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
-   "deck": "ai",
-   "section": "Labs & models",
-   "headline": "How “reverse game theory” could keep AI agents in check",
-   "source": "MIT Technology Review",
-   "blurb": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t…",
-   "text": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law, hack into unauthorized servers, or release poison gas into major cities and kill us all. Until now, this work has mostly focused on trying to peer into an AI’s “brain” to understand what it is “thinking,” or training models to hew to values that we hold dear. Claude, for instance, has its constitution —a sort of moral code. The trouble is, these techniques don’t seem to work particularly well: Models have been shown to deliberately underperform on tests, hide their intentions , and mislead their evaluators . Now some alignment researchers believe that reverse game theory, also known as mechanism design, might get better results. Where game theory tries to predict how rational actors will behave when given a particular set of rules, reverse game"
-  },
-  {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-   "deck": "ai",
-   "section": "Chips & compute",
-   "headline": "OpenAI is stepping back from NDAs for data center projects",
-   "source": "The Verge",
-   "blurb": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials.",
-   "text": "The ChatGPT maker won’t use NDAs with public officials as part of its new data center community commitments. The ChatGPT maker won’t use NDAs with public officials as part of its new data center community commitments. Following this week’s midterms where voters resoundingly voiced their opposition to data center expansion , OpenAI today announced new commitments to communities where it is working on data center projects, including that it won’t use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions between developers and local officials. However, OpenAI says it is now allowing “only narrow protections covering legitimate security information, trade secrets, or proprietary or competitively sensitive information.” In October, Amazon announced it would no longer use NDAs with government agencies it works with on data center projects. OpenAI’s additional commitments include paying “the full cost” of electricity it uses and the “infrastructure needed to serve us.” It will make opportunities for local communities by publishing the jobs it expects to create and by reporting on hiring. And every"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
-   "deck": "ai",
-   "section": "Chips & compute",
-   "headline": "Meta warns that election backlash against data centers could make AI expansion harder",
+   "headline": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
    "source": "TechCrunch",
-   "blurb": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
-   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. Meta president Dina Powell McCormick said that the Democratic wins in the midterm elections are going to make it a lot harder for companies to build data centers, adding that the industry has “not done as good a job as we needed to explain the benefits of these investments.” Speaking at the WSJ Tech conference on Wednesday, the Meta exec pointed out that the backlash against data centers — which was very much on the ballot during this election season — was also tied to people’s feelings about AI technology overall. “The visible sort of manifestation of AI is a data center, and it’s something that people can say, ‘I don’t want this in my community,’” she explained. “I think there’s an underlying bigger issue, which is how people feel about AI in general.” Meta believes it could turn around the negative consumer sentiment around AI if it’s able"
+   "blurb": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. Meta recently launched its Muse agents — a new generation of cuddly agentic helpers. Now, the company has launched Spaces, a new way to communicate and collaborate with them. As far as I can tell, Spaces are basically breakout conversations that revolve around a particular topic — although Meta refers to them as “custom experiences.” They live in the sidebar of the interface where you interact with your Muse agent. Clicking on the Space brings up the conversation, where Muse works toward a particular goal on your behalf. For instance, if you wanted to plan a vacation, you could open a new Space focused on that particular project, and whenever you want to work on it with Muse, you would click to open that particular tab. Or, if you’re focused on collecting recipes for an upcoming family event, you’d open a new Space for that particular project. Other examples"
   },
   {
-   "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+   "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+   "deck": "ai",
+   "section": "Labs & models",
+   "headline": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+   "source": "The Verge",
+   "blurb": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app.",
+   "text": "You can create things like a shopping hub, school dashboard, or music tracker directly within Muse. You can create things like a shopping hub, school dashboard, or music tracker directly within Muse. Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called “spaces,” allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by describing it. If you connect an outside app to Muse — like Gmail, Google Calendar, OpenTable, Notion, and others Muse works with — the AI assistant will continuously pull information from them, allowing it to update pricing, dates, and other information in your space in the background. You can also interact with elements inside your spaces by checking things off, adding notes, and making edits. You can also change the placement of your spaces in the Muse app, too, as Meta lets you keep them in the sidebar, move them into your main"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
    "deck": "ai",
    "section": "Chips & compute",
-   "headline": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
-   "source": "Ars Technica",
-   "blurb": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
-   "text": "Russian tech companies are scrambling to harden and hide their data centers underground after Ukrainian drone strikes damaged facilities housing AI supercomputers and disrupted cloud services for millions of Russian users. Meanwhile, the Kremlin is requiring data center owners to reserve computing capacity for emergency state needs and has even authorized possible use of foreign data centers. These consequences of Russia’s war against Ukraine come as the Russian military has bombarded Ukrainian cities with drones and missiles nearly night and day in recent months, along with specifically targeting Ukrainian data centers since late September. But Ukraine has retaliated with its own drone strikes on military and infrastructure targets across Russia, degrading or knocking out data centers operated by Russian tech giant Yandex , the state-owned bank Sberbank, social media site VKontakte, and the Russian Ministry of Finance. Now, state-owned telecommunications company Rostelcom has raised the possibility of moving some Russian data centers underground in talks with the nickel and palladium mining company Norilsk, according to Russian newspaper Vedomosti . The industry publication Data Center Dynamics also pointed to a recent"
+   "headline": "Crusoe sells troubled Wyoming data center project to Google",
+   "source": "TechCrunch",
+   "blurb": "The deal highlights the challenges of developing massive AI data centers.",
+   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. Crusoe, an eight-year-old, Denver-based data center developer recently valued at $30.9 billion , confirmed Friday it has sold an unfinished data center project in southeastern Wyoming to Google. Google, which Crusoe had tried and failed to land as a customer for the project, is taking over the development after reportedly raising concerns about its cost and construction timeline under Crusoe’s management. Crusoe initially announced the project last year with Blackstone-backed infrastructure company Tallgrass, planning to eventually scale it to 10 gigawatts of power capacity. Google did not disclose how much it paid Crusoe for the unfinished project, bu it announced plans to invest $17 billion to develop the data center campus. The deal highlights how difficult it can be for independent data center developers to deliver massive projects on time and within budget, given the challenges of securing equipment and power. Growing opposition from local communities can further complicate"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+   "deck": "ai",
+   "section": "Chips & compute",
+   "headline": "All the latest updates on AI data centers",
+   "source": "The Verge",
+   "blurb": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment.",
+   "text": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead of the 2026 midterms , and voters largely opposed data center expansion at the polls. Tech giants like OpenAI and Amazon are promising to work more closely with local communities and cover their data center energy costs. But following the election, Democratic leaders are calling for further data center restrictions and slowdowns that the AI companies will have to grapple with. From audacious plans about data centers into space , heated local battles over buildouts , and potential environmental impacts , here’s The Verge ’s news, coverage, and reporting surrounding data centers and the companies that are building them. A massive permitting bill that could help energy projects come online much quicker and potentially lower utility bills for Americans is advancing with bipartisan support. And"
+  },
+  {
+   "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+   "deck": "ai",
+   "section": "Chips & compute",
+   "headline": "How a Blue Wave midterm might reshape the AI industry",
+   "source": "TechCrunch",
+   "blurb": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development.",
+   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a major talking point, with newly-elected Democratic governors and congressmembers likely to support additional regulation . On the latest episode of TechCrunch’s Equity podcast, Kirsten Korosec, Sean O’Kane, and Anthony Ha discuss what the election will mean for the tech industry moving forward — not just when it comes to data centers (which OpenAI is already trying to rebrand ), but also increased government scrutiny of Big Tech. Theresa Loconsolo is an audio producer at TechCrunch focusing on Equity, the network’s flagship podcast. Before joining TechCrunch in 2022, she was one of 2 producers at"
+  },
+  {
+   "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+   "deck": "ai",
+   "section": "Chips & compute",
+   "headline": "After the midterms, is the AI industry in for a rough two years?",
+   "source": "TechCrunch",
+   "blurb": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development.",
+   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a major talking point, with newly-elected Democratic governors and congressmembers likely to support additional regulation . On the latest episode of TechCrunch’s Equity podcast, Kirsten Korosec, Sean O’Kane, and Anthony Ha discuss what the election will mean for the tech industry moving forward — not just when it comes to data centers (which OpenAI is already trying to rebrand ), but also increased government scrutiny of Big Tech. Theresa Loconsolo is an audio producer at TechCrunch focusing on Equity, the network’s flagship podcast. Before joining TechCrunch in 2022, she was one of 2 producers at"
+  },
+  {
+   "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+   "deck": "ai",
+   "section": "Chips & compute",
+   "headline": "Big Tech lost big in the 2026 election",
+   "source": "The Verge",
+   "blurb": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks trying to build them. On this episode of The Vergecast, Nilay and David …",
+   "text": "On The Vergecast: blue waves, the confusing business of AI search, and the many thoughts of RAM Altman. On The Vergecast: blue waves, the confusing business of AI search, and the many thoughts of RAM Altman. On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back , and the fight over data centers is looking even harder for the folks trying to build them. On this episode of The Vergecast , Nilay and David discuss what the 2026 midterms mean for the tech industry going forward. They dig into the self-quarantining echo chamber that is X , the congressional energy likely to be pointed at tech CEOs and AI regulation, and whether anything is actually likely to get done in the next two years. After that, the hosts turn to AI. Specifically, whether anyone has figured out how to make money on AI. Specifically, whether OpenAI’s explosive growth in web search means much, when even Google can’t figure out how to"
+  },
+  {
+   "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+   "deck": "ai",
+   "section": "Policy & governments",
+   "headline": "China reportedly recruited AI exec to spy on Jensen Huang",
+   "source": "The Verge",
+   "blurb": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made…",
+   "text": "Nvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips. Nvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips. China’s intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times . The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and “potentially influence the company to push for its most advanced chips to be made available to China.” Megaspeed is a customer of Nvidia’s, and Alice Huang also has “relationships with executives at the highest levels of the A.I. chip industry,” including leaders at Gigabyte, the NYT says. Last week, the NYT reported that Jensen Huang was seen as the target of a “Chinese spy plot” and shared details about Alice Huang and Jensen Huang’s relationship, but the information that China’s MSS had recruited her is new. The NYT describes the relationship between Alice Huang and Jensen Huang, who are not related, as “close.” President Trump, who is friendly"
   },
   {
    "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
@@ -489,15 +516,6 @@
    "text": "ChatGPT allegedly helped a North Carolina woman, Cheryl Gates, craft a “personalized plan” to poison her husband, James, after fueling her delusions that he planned to divorce her and leave her with nothing. A grand jury indicted Cheryl Gates on charges of attempted first-degree murder and food contamination in October. About a week prior, the accusations that ChatGPT was a co-conspirator in the attempted murder came in a lawsuit filed in San Francisco County Superior Court that was made public this week. In it, James Gates alleged that OpenAI and Sam Altman failed to employ technical safeguards to shut down Cheryl’s chats even after her queries became “obviously suspicious” and sought advice on how to execute and conceal a homicide. At first, Cheryl told ChatGPT that she was researching poisoning out of fear that her husband might possibly try to kill her—framing her queries as “self-protection.” Coming to the rescue, ChatGPT did not terminate the conversation. Instead, it helped her “with specific instructions for the preparation, dosage, and administration of Oleander, including whether anti-nausea medicine would accelerate or inhibit death,"
   },
   {
-   "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
-   "deck": "ai",
-   "section": "Policy & governments",
-   "headline": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
-   "source": "Ars Technica",
-   "blurb": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
-   "text": "Donald Trump’s big, rapid American AI buildout now faces a major slowdown as voters in yesterday’s elections overwhelmingly supported candidates and measures that favored increasing restrictions on AI and data centers nationwide. One resource from a polling firm, called Redbud Consulting, tracked data center initiatives on the ballot and reported that out of 44 measures across 10 states seeking to restrict data centers, 38 passed so far. Those measures included dozens of moratoriums and bans. Analysts suggested those won’t impact data centers already under construction or approved through 2027, instead largely impacting future projects planned for 2028. Only one measure passed allowing a data center to proceed. But even that small win represented pushback on the AI industry—requiring data center developers in a North Dakota city to pay for independent reviews and hold public hearings when expanding or proposing projects. In addition to increasing regulations on data centers, voters also backed anti-AI candidates, electing officials vowing crackdowns in key states building out the most data center capacity in the US. Most notably, Democratic challenger Gina Hinojosa won the Texas governor"
-  },
-  {
    "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
    "deck": "ai",
    "section": "Policy & governments",
@@ -507,40 +525,58 @@
    "text": "At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That term beat out other contenders, including “Extreme Intelligence” and “Supreme Intelligence,” offered by the president in a poll on X a couple of weeks earlier. Rebrands are, of course, now a White House tradition: Trump has changed names to project US dominance of certain bodies of water (the Gulf of America and Lake America), to signal new institutional priorities (Department of War), or simply to leave his mark on storied places (see the ongoing fight over renaming the Kennedy Center). The stated reason for this name change is that today’s AI systems “amplify human ingenuity” rather than merely “imitate” intelligence, and the government’s terminology should reflect that. But if this rebrand follows the pattern of others, its effects will extend beyond government. It will turn a choice of words into a political loyalty test: Those who use the new term demonstrate allegiance to the administration, and those who"
   },
   {
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
+   "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
    "deck": "ai",
    "section": "Policy & governments",
-   "headline": "‘Total repudiation’: The blue wave is about to hit AI",
+   "headline": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
+   "source": "Ars Technica",
+   "blurb": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
+   "text": "Donald Trump’s big, rapid American AI buildout now faces a major slowdown as voters in yesterday’s elections overwhelmingly supported candidates and measures that favored increasing restrictions on AI and data centers nationwide. One resource from a polling firm, called Redbud Consulting, tracked data center initiatives on the ballot and reported that out of 44 measures across 10 states seeking to restrict data centers, 38 passed so far. Those measures included dozens of moratoriums and bans. Analysts suggested those won’t impact data centers already under construction or approved through 2027, instead largely impacting future projects planned for 2028. Only one measure passed allowing a data center to proceed. But even that small win represented pushback on the AI industry—requiring data center developers in a North Dakota city to pay for independent reviews and hold public hearings when expanding or proposing projects. In addition to increasing regulations on data centers, voters also backed anti-AI candidates, electing officials vowing crackdowns in key states building out the most data center capacity in the US. Most notably, Democratic challenger Gina Hinojosa won the Texas governor"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+   "deck": "ai",
+   "section": "Money & deals",
+   "headline": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
    "source": "The Verge",
-   "blurb": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgia, the country's first Native American woman governor elected in New Mexico, and a Maine Senator…",
-   "text": "AI companies have a new threat: a wave of Democrats who campaigned against them. AI companies have a new threat: a wave of Democrats who campaigned against them. On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states — with the nation’s first Black woman governor elected in Georgia, the country’s first Native American woman governor elected in New Mexico, and a Maine Senator ceding to a Democrat after 30 years in office. In these and other campaigns, one theme kept coming up : holding AI companies accountable to the American people. Now, the AI industry is left considering the prospect of regulation, data center construction slowdowns, and more. Publicly, most major AI company CEOs have remained silent. OpenAI and Anthropic did not provide comments to The Verge; Elon Musk’s call on X to vote “red” for the midterms — the SpaceX CEO had spent close to $450 million backing Republican campaigns for the election — vanished after results poured in. Privately, CEOs"
+   "blurb": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal …",
+   "text": "CEO Sam Altman said recently that OpenAI is prioritizing safety instead of going ‘guns blazing’ toward an IPO.﻿ CEO Sam Altman said recently that OpenAI is prioritizing safety instead of going ‘guns blazing’ toward an IPO.﻿ OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg . That would make it one of the world’s most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal reports from last week, Bloomberg says OpenAI is still pursuing additional investments that could increase the amount to $20 billion, and that it had initially hoped to raise as much as $30 billion at a higher valuation of $1.4 trillion. That was before tech stocks dropped, and the results of the midterms showed how much public opinion has turned against AI companies and data center projects . OpenAI’s rival Anthropic filed its S-1 to go public last week. Earlier this year, OpenAI CEO Sam Altman said it’s holding"
   },
   {
-   "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
    "deck": "ai",
    "section": "Money & deals",
-   "headline": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+   "headline": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
    "source": "TechCrunch",
-   "blurb": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
-   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. OpenAI co-founder and president Greg Brockman said the company would be ready for an IPO in 2027, noting that its enterprise revenue has been growing. Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads. In response to the interviewer’s question about being IPO-ready next year, Brockman replied, “I think so. Yes.” “We’ve been very clear this year that we want to go public when we feel is the right time for us, and I feel extremely good about the business. I feel like we’ve made so much progress this year, and I’ve honestly never felt more confident in what we’re doing,” Brockman said. He detailed how OpenAI’s trajectory as an enterprise had changed over the course of 2026, noting that the first and second quarters were"
+   "blurb": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. OpenAI has reportedly raised $11 billion so far in a new funding round that values the AI lab at $1.25 trillion. Bloomberg reported on the new funding on Friday, citing sources familiar with the matter. The $11 billion is part of a larger funding round that hasn’t closed yet, according to the outlet. The round is expected to close in the coming weeks and could total about $20 billion, a source told Bloomberg. In late September, Bloomberg reported that OpenAI was looking to raise $30 billion in the upcoming round. The current figures fall well short of that target. TechCrunch has reached out to OpenAI for comment and will update this story if it responds. The news comes only hours after Bloomberg also reported that potential buyers of shares in the IPO of OpenAI’s chief competitor, Anthropic, are eyeing a substantially lower valuation than Anthropic had targeted. Bloomberg writes"
   },
   {
-   "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+   "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
    "deck": "ai",
    "section": "Money & deals",
-   "headline": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+   "headline": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
    "source": "TechCrunch",
-   "blurb": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
-   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. Dropbox is making a big push into AI infrastructure with a $350 million acquisition of cloud technology company Tigris Data, marking what appears to be its largest acquisition to date. Announced Thursday, the deal is expected to strengthen Dropbox’s AI infrastructure capabilities and support the development of DBX Agent Cloud, a new storage platform aimed at businesses and developers building AI models and agents. Dropbox told TechCrunch via email that the transaction is expected to close in the fourth quarter of 2026. The company also said it currently has no plans to reduce headcount as part of the acquisition. The company already cut 9% of its global workforce last month, WSJ reported. DBX Agent Cloud will initially offer object storage as a stand-alone product, allowing businesses to purchase storage independently and use it with existing tools and applications built for Amazon S3 (Simple Storage Service), which is a cloud"
+   "blurb": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
+   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now. Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. Companies are using more AI than ever, but they’re not spending more on it. A new report from Ramp shows AI spending flatlined over late summer even as token volumes rose, a sign that price competition and savvier customers may be capping revenue for OpenAI and Anthropic. According to Ramp’s data, token spend only grew 1.5% across August and September. To compare, in July, it grew 42% from the previous month. As Anthropic gears up for its IPO , the data suggests investors might be wrong to assume AI companies will keep growing at breakneck speed. “Almost the entire spend on AI is from venture-backed, high-growth tech companies,” Ramp’s lead economist Ara Kharazian told TechCrunch. “That’s fine as long as AI spend continues to rise, but if it starts to slow down because of something in the market or some other factor, they will all start to slow down"
   },
   {
-   "url": "https://inc42.com/buzz/venomics-ai-raises-2-7-mn-to-turn-venom-into-medicine/",
+   "url": "https://inc42.com/features/mdr-and-ai-inside-the-two-acronyms-that-could-shape-razorpays-%e2%82%b96000-cr-ipo/",
    "deck": "ai",
    "section": "India AI",
-   "headline": "Venomics AI Raises $2.7 Mn To Turn Venom Into Medicine",
+   "headline": "MDR And AI: Inside The Two Acronyms That Could Shape Razorpay’s ₹6,000 Cr IPO",
    "source": "Inc42",
-   "blurb": "Bengaluru-based biotechnology startup Venomics AI has raised $2.7 Mn (around ₹25.5 Cr) in a pre-seed funding round co-led by Speciale…",
-   "text": "Biotechnology startup Venomics AI has raised $2.7 Mn (around ₹25.5 Cr) in a pre-seed funding round co-led by Speciale Invest and South Park Commons The fresh capital will be used to expand ‘Venom Atlas’, a molecular dataset of venom-derived compounds, and strengthen its AI and laboratory screening capabilities The startup combines venom biology, AI and experimental screening to identify and develop venom-derived molecules into potential therapeutic leads Bengaluru-based biotechnology startup Venomics AI has raised $2.7 Mn (around ₹25.5 Cr) in a pre-seed funding round co-led by Speciale Invest and South Park Commons, with participation from Operators Studio. The startup, spun out of the Indian Institute of Science (IISc), combines venom biology, AI and experimental screening to identify and develop venom-derived molecules into potential therapeutic leads. The fresh capital will be used to expand ‘Venom Atlas’, a molecular dataset of venom-derived compounds, and strengthen its AI and laboratory screening capabilities. The startup also plans to expand its team across venom biology, computational science and drug discovery, while supporting the validation and optimisation of promising molecules. Founded in 2026 by Kartik Sunagar"
+   "blurb": "In March this year, on the sidelines of Razorpay’s annual flagship event FTX, CEO Harshil Mathur told Inc42 that what…",
+   "text": "Razorpay has received SEBI’s approval for a ₹5,000–6,000 Cr IPO at a reported $5 Bn valuation, with a listing expected between January and March 2027. Razorpay is taking a profitability-led pitch to public investors, with its core payments business EBITDA profitable. The 0.4% MDR on large UPI transactions could provide an additional high-margin revenue stream, helping narrow the valuation gap. Analysts estimate MDR could generate ₹192–461 Cr in annual revenue for Razorpay, equivalent to 15–36% of its FY25 gross profit, according to Inc42’s calculations. But the actual upside will depend on revenue-sharing agreements with banks, negotiations with large merchants and how much of its UPI volume qualifies. In March this year, on the sidelines of Razorpay’s annual flagship event FTX, CEO Harshil Mathur told Inc42 that what mattered most to him was how Razorpay stands in the public markets, and not the fact that it went public. Eight months on, that test now has a rough date as the company sets off on the last leg of its IPO journey. Razorpay has received SEBI’s approval for its proposed IPO. The"
+  },
+  {
+   "url": "https://inc42.com/buzz/cashfree-launches-checkout-for-agents-to-enable-ai-led-payments/",
+   "deck": "ai",
+   "section": "India AI",
+   "headline": "Cashfree Launches ‘Checkout For Agents’ To Enable AI-Led Payments",
+   "source": "Inc42",
+   "blurb": "Fintech soonicorn Cashfree Payments has launched ‘Checkout for Agents’, a new tool that enables AI agents to process customer payments…",
+   "text": "Built on the open-source WebMCP, the new tool allows AI agents to read order total and select payment mode while reducing token consumption by over 40% With the new solution, Cashfree aims to streamline agentic commerce and drive a significant share of AI-led traffic to its customers in the future This comes as Indian fintechs bet on agentic commerce. For instance, Razorpay is repositioning itself as an AI-powered business and has rolled out multiple agentic tools Fintech soonicorn Cashfree Payments has launched ‘Checkout for Agents’, a new tool that enables AI agents to process customer payments seamlessly. The new feature is built on the open-source WebMCP (model context protocol). The startup claims that merchants using Cashfree’s checkout page can avail the service without requiring any code changes or technical updates. The new solution aims to address a critical friction point in agentic commerce. While global purchases initiated by AI agents are projected to hit $1.5 Tn by 2030, traditional web interfaces remain optimised for human navigation. Hence, AI agents consume nearly 2 Mn tokens on average to decode the web"
   },
   {
    "url": "https://economictimes.indiatimes.com/tech/information-tech/gccs-ramp-up-hiring-for-ai-data-cybersecurity-professionals-face-talent-shortage-report/articleshow/135575072.cms",
@@ -550,24 +586,6 @@
    "source": "ET Tech",
    "blurb": "India's GCCs are directing a greater share of technology recruitment towards specialists who can deploy AI, manage data and secure enterprise systems, according to the India GCC Tech Talent Landscape - Q2 FY27 Report by staffing and workforce solutions provider Quess Corp.",
    "text": ""
-  },
-  {
-   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/india-flags-chinese-linked-ai-tools-in-hacking-campaign-against-financial-firms/articleshow/135566096.cms",
-   "deck": "ai",
-   "section": "India AI",
-   "headline": "India flags Chinese-linked AI tools in hacking campaign against financial firms",
-   "source": "ET Tech",
-   "blurb": "India's cybersecurity agency named the hacking group behind a wave of AI-driven attacks on financial firms and identified its tools, at least two of them linked to China, adding India to a growing list of countries where",
-   "text": ""
-  },
-  {
-   "url": "https://inc42.com/features/sarvams-prism-enters-indias-growing-ai-decision-model-race/",
-   "deck": "ai",
-   "section": "India AI",
-   "headline": "Sarvam’s Prism Enters India’s Growing AI Decision Model Race",
-   "source": "Inc42",
-   "blurb": "AI models are increasingly being built to do more than answer questions. Some are now designed to make specific decisions,…",
-   "text": "Sarvam AI has launched Prism, an open-weight decision model built on its Sarvam 105B model for fast, structured decisions across enterprise workflows. The launch puts Sarvam alongside Indian builders such as ConvAI Innovations and PurpleTalk’s Sthānika, as well as global players developing models designed to make decisions rather than generate text. Sarvam claims Prism achieves an average score of 71.8 across three evaluation indices, with a median response time of 44 milliseconds on an Nvidia B200 GPU. AI models are increasingly being built to do more than answer questions. Some are now designed to make specific decisions, such as whether a customer query should go to a sales or support team, whether a document needs further review, or whether an AI agent has completed a task correctly. In India, Kerala-based ConvAI Innovations was one of the first to explore this category with Laya, an open-weight decision model intended to run locally on devices such as laptops and phones. Hyderabad-based PurpleTalk’s research lab, Sthānika AI, has also developed Sieve, a family of decision models that returns probabilities for a fixed set"
   }
  ]
 }
