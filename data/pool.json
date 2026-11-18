@@ -1,24 +1,78 @@
 {
- "date": "2026-11-18",
- "builtAt": "2026-11-18 07:20 IST",
+ "date": "2026-11-19",
+ "builtAt": "2026-11-19 04:07 IST",
  "items": [
   {
-   "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
    "deck": "news",
    "section": "World",
-   "headline": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+   "headline": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
    "source": "BBC World",
-   "blurb": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan.",
-   "text": "Ukraine has severely damaged a critical bridge linking Russia to occupied Crimea, in what President Volodymyr Zelensky says was an \"unprecedented operation\" weeks in the making. Images shared by Ukrainian officials show a section of the Crimean Bridge collapsed into the water, dealing a logistical and symbolic blow to Moscow's war effort. Meanwhile in Kyiv, Mayor Vitaliy Klitschko said traffic had partially resumed on the Pivnichnyi (Northern) and Pivdennyi (Southern) bridges - key crossings over the Dnipro River - after they had been closed following Russian strikes overnight. Ukraine has long targeted the Crimean Bridge, which provides a road and rail route for Russian soldiers heading towards the front line, but has struggled to close it for good. While Kyiv has been trying to increase the cost to Russia of waging war economically, by hitting oil refineries and depots, striking the bridge is an attempt to increase the political cost on Russian President Vladimir Putin. The timing of the strike comes at a significant moment, ahead of Putin meeting the leaders of China and the US. This could cloud his"
+   "blurb": "Watch: The BBC's Jonathan Beale joins Ukrainian forces taking the battle below ground and out of sight of Russian drones.",
+   "text": "For the past seven months Ukrainian forces have been living and fighting Russian troops in an old Soviet gas pipeline in the Kharkiv region. The BBC is the first international broadcaster to enter the pipeline where this subterranean battle is taking place. With a diameter of just over a metre there's enough room only to crawl. But it is relatively safe from the drones that now saturate the skies above the front line – and which are making it nigh-on impossible for either side to advance. The BBC's defence correspondent Jonathan Beale reports from near Kupyansk, where he went underground with the 13th Khartiia Operational Brigade."
   },
   {
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/protests-as-jason-ardays-accuser-speaks-at-oxford-university?traffic_source=rss",
+   "url": "https://www.aljazeera.com/news/2026/11/18/iraq-sentences-six-french-nationals-to-life-in-prison-for-joining-isil?traffic_source=rss",
    "deck": "news",
    "section": "World",
-   "headline": "Protests as Jason Arday’s accuser speaks at Oxford University",
+   "headline": "Iraq sentences six French nationals to life in prison for joining ISIL",
    "source": "Al Jazeera",
-   "blurb": "Hundreds protested outside Oxford University as Nathan Cofnas, who accused Jason Arday of plagiarism, spoke at an event.",
-   "text": "Hundreds protested outside Oxford University as American academic Nathan Cofnas, who accused the late Cambridge professor Jason Arday of plagiarism, spoke at a Reform Society event. Critics accuse Cofnas of leading a ‘witch hunt’ against Arday that contributed to his death."
+   "blurb": "Trials began in September for 47 French citizens who were transferred from Syria last year.",
+   "text": "An Iraqi criminal court has sentenced six French nationals to life in prison for joining the ISIL (ISIS) group, state media reported. The Karkh Criminal Court delivered the sentencing on Wednesday with representatives from the French embassy in attendance, the Iraqi News Agency (INA) reported, citing Iraq’s judiciary. “With these six sentences, the total number of those convicted in this case has reached 16, all of whom are French nationals,” the judiciary said in a statement cited by INA. All but one of the 16 convicted were sentenced to life. The court sentenced one defendant to 15 years in prison last month. Trials began in September for 47 French citizens who were transferred from Syria last year and charged with belonging to the armed group, which controlled large parts of both countries between 2014 and 2017. In February, Iraq received more than 5,700 ISIL detainees from over 60 countries after the United States transferred them from Syria, following years of detention in prisons run by Kurdish-led forces. For years, Iraqi courts handed down hundreds of execution orders and life sentences"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court",
+   "deck": "news",
+   "section": "World",
+   "headline": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling",
+   "source": "Guardian",
+   "blurb": "A ruling against Myanmar could set precedent for court’s judgment on Israel’s actions in Gaza Fears are growing that the US could impose sanctions on judges at the international court of justice, including this year’s Nobel peace prize winner, Navi Pillay , if the court rules on Thursday that the Myanmar government…",
+   "text": "A ruling against Myanmar could set precedent for court’s judgment on Israel’s actions in Gaza Fears are growing that the US could impose sanctions on judges at the international court of justice, including this year’s Nobel peace prize winner, Navi Pillay , if the court rules on Thursday that the Myanmar government committed genocide against the Rohingya. The ICJ has never found a state responsible for committing genocide, and a significant factor in previous cases has been how to prove “intent” in a crime defined as acts committed with the “intent to destroy, in whole or in part” a national, ethnical, racial or religious group. Lawyers representing Rohingya survivors say patterns of behaviour by Myanmar’s military, including killing people as they fled, show clear attempts to destroy the group during assaults on Rakhine state in 2016 and 2017. It is the role of independent judges to interpret the genocide convention. However, judges at the court have taken advice on how to protect their assets from potential US sanctions, as a genocide ruling could be interpreted by Washington as lowering the"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
+   "deck": "news",
+   "section": "World",
+   "headline": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
+   "source": "BBC World",
+   "blurb": "Ukrainian forces are fighting Russian troops in an old Soviet tunnel in the Kharkiv region.",
+   "text": "There's a new front in the war in Ukraine, and it is underground. For the past seven months Ukrainian forces have been living and fighting Russian troops in an old Soviet gas pipeline in the north-eastern Kharkiv region. With a diameter of just over a metre there is enough room only to crawl. But it is relatively safe from the drones that now saturate the skies above the front line – and make it nigh-on impossible for either side to advance. Going underground is now the \"only option\", says Zanuda, who has helped plan Ukraine's tunnel operation and calls it a new world of fighting. But, he acknowledges, it is hard. \"On the surface you always have some room to manoeuvre, but here you can only engage the enemy head-on.\" The journey to get to this subterranean battleground in the Kharkiv region only reinforced the dangers on the ground: a high-speed move by vehicle across open fields, followed by a long march across muddy ground – accompanied by Ukrainian troops with their weapons loaded, ready to shoot down Russian drones."
+  },
+  {
+   "url": "https://www.aljazeera.com/economy/2026/11/18/us-lawmakers-push-to-raise-minimum-wage-to-25-end-tipped-pay-system?traffic_source=rss",
+   "deck": "news",
+   "section": "World",
+   "headline": "US lawmakers push to raise minimum wage to $25, end tipped pay system",
+   "source": "Al Jazeera",
+   "blurb": "Public support for raising the minimum wage grows, with 78 percent of voters saying it was an important election issue.",
+   "text": "In Washington, DC, a group of lawmakers has ramped up calls to increase the United States federal minimum wage and eliminate the subminimum wage, otherwise known as the tipped wage. The group of 17 lawmakers, which includes current and newly elected House members, is calling for passage of the Living Wage For All Act, which has been languishing since it was introduced in April. The legislation’s original lead sponsors include Representative Delia Ramirez of Illinois, Representative Jesus “Chuy” Garcia, also of Illinois, and Representative Analilia Mejia of New Jersey. The bill aims to gradually raise the federal minimum wage to $25 an hour, with different timelines depending on the size of the employer. Brad Lander, a congressman-elect from Brooklyn, New York, who says he will join the bill as a co-sponsor when the next congressional session begins in January, told Al Jazeera: “Doing it federally is the right way to go. Tying it into broader legislation that raises the minimum wage for all workers is a great approach.” For larger employers — those with more than 500 employees nationwide or"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/18/european-commission-accused-sugarcoating-figures-egypt-loans",
+   "deck": "news",
+   "section": "World",
+   "headline": "European Commission accused of sugarcoating figures to release funds to Egypt",
+   "source": "Guardian",
+   "blurb": "Leaked documents raise questions about claims Egypt met welfare targets to qualify for €2.5bn in loans The European Commission has been accused of sugarcoating figures to enable it to release funds to Egypt under a landmark pact with the authoritarian government of Abdel Fatah al-Sisi.",
+   "text": "Leaked documents raise questions about claims Egypt met welfare targets to qualify for €2.5bn in loans The European Commission has been accused of sugarcoating figures to enable it to release funds to Egypt under a landmark pact with the authoritarian government of Abdel Fatah al-Sisi. The charge relates to a €7.4bn deal promised by Ursula von der Leyen , the European Commission president, to al-Sisi on a high-profile visit to Cairo in 2024. The three-year “strategic and comprehensive partnership” was intended to bolster Egypt’s shaky economy, deter migrants from coming to Europe and shore up a region reeling from the 7 October attacks and Israel’s war on Gaza. The disclosure raises broader questions about the EU-Egypt relationship, as Egyptian authorities face scrutiny over shrinking press freedom following the jailing and alleged torture of six journalists , the entire newsroom of Matsadaash, a factchecking and investigative platform, and the closure last month of one of the country’s last independent news outlets and conviction of its high-profile editor , Lina Attalah. Attalah is appealing against that conviction and will be in court"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+   "deck": "news",
+   "section": "World",
+   "headline": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+   "source": "BBC World",
+   "blurb": "The three leaders will meet together for the first time on Thursday during a closely-watched summit.",
+   "text": "Donald Trump and Vladimir Putin met for the first time in more than a year on Wednesday, as they prepared for landmark talks in China with Xi Jinping. The US president was greeted off his plane by the Chinese leader as he arrived in Shenzhen for a summit of Asia-Pacific leaders, which will culminate in a closely-watched meeting between the pair and the Russian president. After a carefully choreographed handshake and hug between Trump and Xi on the tarmac, the US president later greeted and exchanged pleasantries with Putin ahead of a reception. Trump and Putin are expected to hold one-on-one talks on the sidelines of the summit on Thursday, in which the war in Ukraine could be discussed. However the main focus during the Asia-Pacific Economic Cooperation forum (Apec) will be on the US-China-Russia talks on Thursday - the first time the trio of leaders have met together in person. A full agenda has not been made public but there have been various hints about what could be discussed, including the wars in Ukraine and Iran, nuclear proliferation, trade"
+  },
+  {
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/aje-onl-nf_floodwaters-submerge-cars-in-florida-181126?traffic_source=rss",
+   "deck": "news",
+   "section": "World",
+   "headline": "Floodwaters submerge cars and parking lots in Florida town",
+   "source": "Al Jazeera",
+   "blurb": "Floodwaters turned streets and parking lots into rivers in Davie, Florida, leaving drivers facing dangerous conditions.",
+   "text": "Floodwaters turned streets and parking lots into rivers in Davie, Florida, inundating roads, swallowing parking spaces, and leaving drivers facing dangerous conditions. Broward County has declared a state of emergency."
   },
   {
    "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
@@ -30,355 +84,346 @@
    "text": "Germany, Austria, Netherlands, Denmark and Greece likely to face challenges to policy criticised as ‘grave moral failing’ Five EU member states have announced plans to set up an offshore centre in Rwanda for people with no legal right to stay in Europe, in a pilot scheme that is expected to face legal challenges and has been denounced as “a grave moral failing”. The five countries – Germany, Austria, the Netherlands, Denmark and Greece – are the first to seek to use the EU’s newly agreed returns law that allows people who have exhausted all avenues of appeal against their removal from Europe to be sent to a third country. In a statement released on Monday the five EU countries said “concrete negotiations with partner country Rwanda will begin for implementation”, saying the scheme would make “an important contribution to further curbing illegal migration, dismantling the business model of smugglers and relieving the burden on our population”. Officials hope to send 100 people to Rwanda from early next year to test the model. The scheme will apply to adults whose claims"
   },
   {
-   "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
    "deck": "news",
    "section": "World",
-   "headline": "How the attack on Crimean Bridge unfolded",
+   "headline": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
    "source": "BBC World",
-   "blurb": "One of the key symbols of Russia's occupation of Ukraine has suffered major damage after a seven-stage attack by Kyiv.",
-   "text": "Stretching across the Kerch Strait in the Black Sea, the Crimean Bridge was always a symbol: for Russia, a prestige project cementing its claim to sovereign Ukrainian territory, and for Ukraine, a hated piece of infrastructure emblematic of Moscow's occupation of the Crimean Peninsula. A key section of the double-arched, 12-mile-long bridge now lies on the seabed, brought down by an arsenal of Ukrainian long-range weaponry in a seven-stage operation culminating in a dramatic collapse. Kremlin spokesman Dmitry Peskov has said that the bridge \"will be rebuilt, and it will be even better than before\". But eight years after its unveiling, the bridge has now become material proof of Kyiv's ability to pierce through Moscow's military defences to hit even its most treasured and protected structures. The attack on the strategic Crimean Bridge was carried out gradually to cut across several layers of defence, Kyiv confirmed on Tuesday. For several weeks Ukraine's Security Service and its General Staff gradually destroyed air defence systems, radars, electronic warfare assets, and other designated targets, President Volodymyr Zelensky said. A significant strike had already"
+   "blurb": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
+   "text": "Israeli ground forces have launched a rare operation in part of the central Gaza Strip outside their control, after issuing evacuation orders for residents. Witnesses said tanks advanced east of Nuseirat refugee camp and rolled onto the territory's main north to south road under the cover of artillery strikes. The Israeli military said the \"targeted\" operation aimed to dismantle a \"terror tunnel\" west of the so-called Yellow Line, which marks the more than 60% of Gaza's territory occupied by Israel. The Palestinian armed group Hamas, which controls the rest of Gaza, accused Israel of a \"flagrant violation\" of the October 2025 ceasefire agreement. Violence has continued in Gaza over the past 13 months, with near-daily Israeli strikes, and living conditions for the 2.1 million people there remain dire. Early on Wednesday afternoon, Israeli military body Cogat's Arabic spokesperson announced the start of the incursion and warned Palestinians living in an area north of Nuseirat and Bureij refugee camp to stay away for their own safety. It also said a section of the north to south Salah al-Din road that passed"
   },
   {
-   "url": "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action?traffic_source=rss",
-   "deck": "news",
-   "section": "World",
-   "headline": "Board of Peace warns Gaza ceasefire faces imminent collapse without action",
-   "source": "Al Jazeera",
-   "blurb": "The US-led board has decried continued fighting in Gaza and delays in implementing the terms of a 2025 ceasefire deal.",
-   "text": "The United States-backed Board of Peace has delivered a grim assessment to the United Nations Security Council, warning diplomats of conditions that threaten the year-old truce in war-torn Gaza. In its latest report, submitted on Tuesday, the board cautioned that, without immediate steps to implement the 2025 ceasefire deal, the truce between Israel and Hamas may be on the brink of collapse. “The distance between what has been agreed and what is happening on the ground nonetheless remains the principal risk to the process,” the report said, which The Associated Press obtained. The Board of Peace was created in 2025, at US President Donald Trump’s behest, to oversee the ceasefire deal and reconstruction in Gaza. Since October 2023, the narrow coastal territory has been the target of a genocidal war carried out by Israel, which has killed more than 74,000 Palestinians. In recent weeks, Israel has continued to carry out deadly air strikes, and its ongoing restrictions have prevented the delivery of life-saving aid into Gaza ahead of the winter season. “Restrictions imposed by Israel on the entry of supplies"
-  },
-  {
-   "url": "https://www.theguardian.com/sport/2026/nov/16/us-basketball-player-arrested-with-75lb-of-marijuana-at-nigerian-airport-say-authorities",
-   "deck": "news",
-   "section": "World",
-   "headline": "US basketball player arrested with 75lb of marijuana at Nigerian airport, say authorities",
-   "source": "Guardian",
-   "blurb": "Suspect named as Greene Da’monte Khiree Drug smuggling carries life sentence in Nigeria An American basketball player has been arrested in Nigeria for allegedly attempting to smuggle 33.95kg (75lb) of marijuana into the country.",
-   "text": "An American basketball player has been arrested in Nigeria for allegedly attempting to smuggle 33.95kg (75lb) of marijuana into the country. Nigeria’s National Drug Law Enforcement Agency (NDLEA) said a 28-year-old player named as Greene Da’monte Khiree from the state of Georgia was arrested at Lagos’s main airport last Wednesday after he arrived on a flight from Thailand via the United Arab Emirates. The NDLEA said the player told them he had come to Nigeria to “build networks” for his basketball career. The agency said evidence on his phone suggested he had “knowledge of and involvement in the drug trafficking activity”. The NDLEA said it detained the player when he attempted to leave the airport with his hand luggage after abandoning two checked-in bags. The agency said those two bags were found to contain 32 parcels of marijuana, and a tracking device. Nigeria has strict drug laws, and trafficking carries a sentence of life in prison. A basketball player by the name of Damonte Greene is listed on the roster of the Pattani Raptors in the Thai Premier Men’s League."
-  },
-  {
-   "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
-   "deck": "news",
-   "section": "World",
-   "headline": "Nvidia says it won't reinstate Huang as firm reports bumper results",
-   "source": "BBC World",
-   "blurb": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.",
-   "text": "Nvidia's quarterly sales doubled to top $100bn for the first time as the company insisted it is not reinstating ousted founder Jensen Huang. In the company's first results since Huang's dramatic exit, interim chief executive Collette Kress said Nvidia's \"roadmap is on track and our ambition has never been greater\". The company's quarterly sales doubled from a year earlier, reaching $115.8bn (£86.9bn), with shares in the company recovering some recent losses in after-hours trading. Earlier on Tuesday Huang, said he would be \"honoured\" to return and lead Nvidia, having quit following two alleged extramarital affairs, including one with a possible spy for China. \"The board does not intend to reinstate him,\" Nvidia chair Harvey Jones told investors on Tuesday. The company's profits also doubled from a year ago. For the quarter, which covered the three months to October 25, profit hit $65bn. Its revenue from data centres, a significant part of Nvidia's business, also doubled to $107bn in the same time period. Going forward, the company said its rapid growth is poised to continue, and revenue will rise another 13%"
-  },
-  {
-   "url": "https://www.aljazeera.com/news/2026/11/18/ecuadorian-fishermen-sue-trump-administration-over-drone-strike?traffic_source=rss",
-   "deck": "news",
-   "section": "World",
-   "headline": "Ecuadorian fishermen sue Trump administration over drone strike",
-   "source": "Al Jazeera",
-   "blurb": "Crew say their boat was attacked by drones launched from US-operated vessel as part of 'manifestly unlawful' campaign.",
-   "text": "A group of fishermen from Ecuador have sued the administration of United States President Donald Trump over a drone strike that sank their vessel and injured members of their crew in March. The lawsuit, filed on Monday in a Pennsylvania federal court, seeks financial restitution and any additional relief the court considers just. It also petitions the court to issue an order ending the Trump administration’s campaign of strikes targeting alleged drug trafficking boats in the Caribbean and eastern Pacific. The complaint centres on the March 17 sinking of the fishing boat La Negra Francisca Duarte II, based in Ecuador. “We filed the lawsuit because the boat was all we had. Nobody in Ecuador is helping us,” the ship’s captain, Hernan Flores, told the Reuters news agency. “They did all that damage to us, and by the grace of God, we’re alive.” The government has not claimed responsibility for the strikes on La Negra Francisca Duarte II and two other Ecuadorian vessels that were attacked and sunk in recent months. A report from the Washington Post in August, however, suggested"
-  },
-  {
-   "url": "https://www.theguardian.com/world/2026/nov/16/cape-town-baboons-relocation-protests",
-   "deck": "news",
-   "section": "World",
-   "headline": "Relocation of Cape Town baboons to sanctuary ignites heated protests",
-   "source": "Guardian",
-   "blurb": "Demonstrators tried to block vehicle carrying the baboons, whose capture authorities say is needed to protect both primate and human The relocation of a troop of baboons in Cape Town to a wildlife sanctuary has triggered furious protests by local people opposed to their capture, which officials argue is necessary to…",
-   "text": "Demonstrators tried to block vehicle carrying the baboons, whose capture authorities say is needed to protect both primate and human The relocation of a troop of baboons in Cape Town to a wildlife sanctuary has triggered furious protests by local people opposed to their capture, which officials argue is necessary to stop human-wildlife conflict in the city. The 44-member Waterfall troop (named after the area they mainly inhabit) was captured in the southern seaside suburb of Simon’s Town on Friday and Saturday. A second, smaller Seaforth troop is also due to be moved. The growth in both baboon and human populations in Cape Town in recent years has led to increased conflict and more baboons dying as a result. Meanwhile, a heated debate has raged between people who believe that baboons and humans can coexist and those who argue that baboons in urban areas are in danger and in some cases need to be relocated. Some animal rights activists have compared authorities’ baboon management to apartheid. During Friday’s relocation, outraged protesters tried to stop vehicles taking the baboons away. One"
-  },
-  {
-   "url": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
-   "deck": "news",
-   "section": "World",
-   "headline": "Thomas Markle charged over child sex abuse material in Philippines",
-   "source": "BBC World",
-   "blurb": "Markle is being held in custody in the US after one charge and has previously denied all of the allegations.",
-   "text": "Police in the Philippines have charged Thomas Markle Sr, the father of Meghan, Duchess of Sussex, with possession of and intent to distribute child sexual abuse material. The charges were filed on Monday, Cebu province prosecutor Graeme Elmido told the BBC. Earlier this month, Markle, 82, was separately arrested and charged in the US with possession of child sexual abuse material. The FBI said agents, after searching storage units Markle rented, seized about 78 items, including film negatives, slides and books, that they allege contained child sex abuse material. Markle, who is in custody in the US, has previously denied the allegations. The BBC has contacted Markle's attorney for comment. Elmido told the BBC that Philippine National Police had charged Markle Sr with \"two counts of intent to distribute CSAEM child sexual abuse and exploitation material, and one count of possession of CSAEM material\". Last month, police in the Philippines obtained a warrant to examine devices allegedly removed from Markle's former home in the country. Four boxes of material, including computers, phones, hard drives and old video tapes, were handed"
-  },
-  {
-   "url": "https://www.thehindu.com/news/national/congress-approves-of-sir-in-andamans-and-south-but-opposes-it-elsewhere-bjp/article71712762.ece",
+   "url": "https://www.thehindu.com/news/national/tamil-nadu/uef-iit-m-join-hands-for-tamil-nadu-growth-conclave-2026-focus-on-10-key-sectors/article71716569.ece",
    "deck": "news",
    "section": "India",
-   "headline": "Congress approves of SIR in Andamans and South but opposes it elsewhere: BJP",
+   "headline": "UEF, IIT-M join hands for Tamil Nadu Growth Conclave 2026; focus on 10 key sectors",
    "source": "The Hindu",
-   "blurb": "Kerala Chief Minister V.D. Satheesan described SIR as good, while Karnataka Minister Satish Jarkiholi called it constitutional. Why then is Rahul Gandhi opposing it, asked Gaurav Bhatia",
-   "text": "The BJP on Tuesday (November 177, 2026) accused the Congress of double standards on the Special Intensive Revision (SIR) of electoral rolls, stating that the party was backing the process in the Andaman and Nicobar Islands and southern States but opposing it elsewhere. In a video statement, BJP spokesperson Gaurav Bhatia cited a letter dated November 14 from the Andaman and Nicobar Congress Campaign Committee to the Chief Electoral Officer, reportedly demanding that the 2027 municipal and panchayat elections be held on the basis of the latest SIR electoral rolls. “Kerala Chief Minister V.D. Satheesan described SIR as good, while Karnataka Minister Satish Jarkiholi called it constitutional. Why then is Rahul Gandhi opposing it?” he asked, seeking clarification from Mr. Gandhi and Congress chief Mallikarjun Kharge on their “contradictory stands” on SIR. “The Congress and Rahul Gandhi must tell the public why SIR is justified in South India, where the Congress has won in several places, but the same process is opposed through disorder, jungle raj, sit-ins, protests ... in North India. Why is the Congress attempting to divide the"
+   "blurb": "",
+   "text": "From left, Mohamed Farook, Airtel Business, Principal partner, Prof. Shankar Ram, IIT-M, Jinnah Rafiq Ahmed, Chairman, T.N. Growth Conclave 2026, Prof. Manu Santhanam, Dean, IC&SR, IIT-M, Ahmed A.R. Buhari, President, UEF, Alex Koshy, SAS Partner, Dave Jayselvan, Advisor, T.N. Growth Conclave, Manjunath Prasad, CIO, Technology Partner, unvelling the sponsors and partners poster at the press meet in IIT-Madras in Chennai on Wednesday. | Photo Credit: SRINATH M The United Economic Forum (UEF) Chamber of Commerce has signed an MoU with the Indian Institute of Technology - Madras (IIT-M) to collaborate for the Tamil Nadu Growth Conclave 2026 scheduled to be held on December 8, 2026. The objective of this MoU is to facilitate knowledge sharing, industry academia collaboration, innovation, investment and stakeholder engagement towards Tamil Nadu’s economic growth. The event will focus on 10 sectors, including Automotive & EV; Electronics & Semiconductors; IT, AI and Digital; Advanced Engineering & Capital Goods; Textiles & Technical Textiles; Pharma, Biotech & MedTech; Agri & Food Processing; Renewable & Green Energy; Logistics, Ports & Global Trade and Aerospace & Defence. Professors from the IIT-M"
   },
   {
-   "url": "https://www.ndtv.com/india-news/fresh-encounter-with-terrorists-in-jammu-and-kashmir-kulgam-lashkar-commander-latief-bhat-likely-trapped-12341585#publisher=newsstand",
+   "url": "https://indianexpress.com/article/india/kulgam-encounter-lashkar-commander-lateef-bhat-last-local-terrorist-killed-mosque-standoff-10968840/",
    "deck": "news",
    "section": "India",
-   "headline": "Top Lashkar Commander Trapped In J&K, Cops Ask Him To Surrender On Video Call",
+   "headline": "‘Run for your safety’: The final hours before Lashkar’s Lateef Bhat was gunned down",
+   "source": "Indian Express",
+   "blurb": "",
+   "text": "For the last two days, a joint team of the Jammu and Kashmir Police, the Army and paramilitary forces had cordoned off several villages in Kulgam . The focus of their searches was not homes but local mosques – police had an input that Mohammad Lateef Bhat, said to be the last active local terrorist in the Valley, was spending his nights in a mosque. Bhat, a Lashkar-e-Taiba (LeT) commander, was killed in a gunfight on Wednesday morning. After searching most mosques in the area over the last two days, police shifted their focus to the Devsar area of Kulgam on Tuesday. They finally reached Zanglipora. A local villager was sent into the mosque to check if there was anyone inside, and he found a door in the attic bolted from the inside. He asked who it was, and a voice answered: “Leave and run for your safety.” The man came out and told the police what had happened, and the police were sure that the man they had been looking for, for almost a year, was inside. “We had"
+  },
+  {
+   "url": "https://www.ndtv.com/india-news/set-to-visit-india-for-sco-meet-pak-minister-malik-who-said-will-cut-off-their-hands-over-indus-waters-treaty-12346083#publisher=newsstand",
+   "deck": "news",
+   "section": "India",
+   "headline": "Pak Minister Set For India Visit Had Made \"Cut Hands\" Threat Over Indus Waters Treaty",
    "source": "NDTV",
-   "blurb": "Top Lashkar-e-Taiba commander Latief Bhat's accomplice, Umar Nisar Dar, was killed in an encounter in Kulgam on Monday.",
+   "blurb": "At a water conference earlier this year, Pakistan's Climate Minister Musadik Malik warned against \"water aggression\", urging India to respect the 1960 treaty that Delhi put in abeyance following the 2025 Pahalgam terror attack in Kashmir.",
    "text": ""
   },
   {
-   "url": "https://www.hindustantimes.com/india-news/ht-exclusive-cji-surya-kant-pulls-two-cases-from-justice-ahsanuddin-amanullah-over-pil-roster-101794965325309.html",
+   "url": "https://www.hindustantimes.com/india-news/pm-sets-target-for-drug-abuse-eradication-at-ministers-meet-101795027436584.html",
    "deck": "news",
    "section": "India",
-   "headline": "HT exclusive | CJI Surya Kant pulls two cases from justice Ahsanuddin Amanullah over PIL roster",
+   "headline": "PM sets target for drug abuse eradication at council of ministers meeting",
    "source": "Hindustan Times",
-   "blurb": "The move follows a full court meeting in which the CJI made told judges that they must adjudicate matters strictly in accordance with their rosters.",
-   "text": "Chief Justice of India (CJI) Surya Kant , in consultation with the four most senior judges of the Supreme Court, has shifted at least two matters away from a bench headed by justice Ahsanuddin Amanullah over its decision to expand individual disputes into nationwide public interest litigations (PILs), according to people aware of the matter. The decision marks an unusual institutional intervention to enforce strict adherence to the roster and comes after the CJI made it clear at a full court meeting last month that judges cannot assume jurisdiction over subjects not assigned to them. The two matters involve a nationwide examination of regulatory failures in private universities and a separate exercise to address unauthorised constructions and misuse of residential properties across the country. Both had begun as individual disputes before justice Amanullah, whose roster does not include PILs but who expanded their scope to address wider systemic issues. According to the people cited above, CJI Kant, after consulting justices Vikram Nath, BV Nagarathna, MM Sundresh and PS Narasimha, decided to reassign the matters, sending out a message that no"
+   "blurb": "Modi urged a concerted campaign against drug abuse, while highlighting poverty reduction and gains against left-wing extremism.",
+   "text": "Prime Minister Narendra Modi on Wednesday chaired a meeting of the council of ministers and underscored the need for a concerted campaign to eradicate drug use, said people aware of the details. According to a person privy to the meeting, the PM expressed concern over the widespread social evil and said drug addiction had emerged as a major challenge for the country. He said just as the government took stern measures against left-wing terrorism and managed to pull out millions from poverty, there was a need to act against drug abuse, this person added. “The prime minister was overcome with emotions when he spoke about the impact drugs use has on the younger demographic and said the social evil needs to be eradicated and no effort must be spared to do so...” said the person quoted above. The Union government has sharpened its campaign against drug abuse, particularly in poll-bound Punjab. In recent weeks, anti-drug campaigns have been the focus of Bharatiya Janata Party leaders including Union home minister Amit Shah, who announced that the party would fight the upcoming"
   },
   {
-   "url": "https://www.thehindu.com/news/national/world-needs-peace-stability-predictability-modi-in-manila/article71712862.ece",
+   "url": "https://www.thehindu.com/news/national/chandigarh/panjab-university-improves-its-global-standing-in-interdisciplinary-scientific-research/article71717519.ece",
    "deck": "news",
    "section": "India",
-   "headline": "World needs peace, stability, predictability: Modi in Manila",
+   "headline": "Panjab University improves its global standing in interdisciplinary scientific research",
    "source": "The Hindu",
-   "blurb": "Quad leaders issue joint statement opposing economic and maritime 'coercion' in Indo-Pacific; Modi proposes seafarers’ safety initiative at East Asia Summit, also attends meeting with ASEAN leaders",
-   "text": "Prime Minister Narendra Modi addresses the QUAD Leaders' meeting on the sidelines of the ASEAN-India Summit and East Asia Summit, in Manila on Tuesday. Photo: Narendra Modi Photo Gallery/ANI Photo Prime Minister Narendra Modi on Tuesday (November 17, 2026) called for “peace, stability, and predictability” in the world as he attended the ASEAN-India Summit, the East Asia Summit, and the Quad Leaders’ Summit in Manila, Philippines. He made a number of proposals aimed at maritime security, protecting critical minerals supply chains, and enhancing trade. The Quad Summit, which was being held for the first time in a non-member country, was hosted by U.S. President Donald Trump and was also attended by Australian Prime Minister Anthony Albanese and Japanese Prime Minister Sanae Takaichi, apart from Mr. Modi. The leaders issued a joint statement opposing economic and maritime “coercion” in the Indo-Pacific, and Mr. Modi announced that India would host the first Quad Business Forum in Mumbai in 2027. The three back-to-back events had started with Mr. Modi’s meeting with the leaders of the Association of Southeast Asian Nations (ASEAN) for the"
+   "blurb": "The 2027 edition of the rankings, produced by Times Higher Education in association with Schmidt Science Fellows, assessed 1,058 institutions across 102 countries and territories, compared with 911 institutions in the 2026 edition",
+   "text": "A view of Panjab University in Chandigarh. File. | Photo Credit: Special Arrangement Chandigarh-based Panjab University (PU) has improved its global standing in interdisciplinary scientific research, climbing 24 places to secure the joint 150th position in the Times Higher Education (THE) Interdisciplinary Science Rankings 2027. The University’s overall score has increased to 55.0 from 52.8 in 2026 and 48.6 in 2025. In a statement on Wednesday (November 18, 2026), Vice-Chancellor Meenakshi Goyal said, “This improvement in Panjab University’s global standing reflects our continued commitment to strengthening interdisciplinary research and academic collaboration. It is the outcome of the collective efforts of our faculty, researchers, students, and staff. We will continue to build an enabling research ecosystem that encourages collaboration across disciplines, supports innovation, and addresses complex societal challenges aimed at Viksit Bharat through knowledge and research.” The 2027 edition of the rankings, produced by Times Higher Education in association with Schmidt Science Fellows, assessed 1,058 institutions across 102 countries and territories, compared with 911 institutions in the 2026 edition. A total of 565 Asian institutions were ranked, up from 478 last"
   },
   {
-   "url": "https://www.ndtv.com/india-news/encounter-breaks-out-between-terrorists-security-forces-in-jammu-and-kashmirs-kulgam-12341522#publisher=newsstand",
+   "url": "https://indianexpress.com/article/india/nia-arrests-key-accused-deported-from-us-in-punjab-rail-line-blast-case-10968771/",
    "deck": "news",
    "section": "India",
-   "headline": "Encounter Breaks Out In J&K's Kulgam Between Security Forces, Terrorists",
+   "headline": "NIA arrests key accused deported from US in Punjab rail line blast case",
+   "source": "Indian Express",
+   "blurb": "",
+   "text": "The National Investigation Agency (NIA) on Wednesday arrested a key accused – linked to the banned Khalistan Zindabad Force (KZF) terror outfit – in the April 26 Punjab railway line blast case after his deportation from the US. “Surinder Singh alias Thikriwal was detained by the US authorities and deported in coordination with them. Thikriwal was arrested at the IGI airport in the case related to the blast on the railway line of the Dedicated Freight Corridor Corporation of India Ltd (DFCCIL) between Shambhu and Rajpura stations…,” a NIA spokesperson said. The blast was carried out to further the terror activities of the KZF, disrupt communal harmony and destabilise law and order in Punjab, the probe agency said. With this, the NIA has so far arrested eight accused in the case. During the investigation, it surfaced that after the blast, Thikriwal posted a video on his Facebook account glorifying the incident. “In the video, he also extended support to the accused behind the criminal conspiracy, including the deceased Jagroop Singh, who died while carrying out the blast. He described KZF"
+  },
+  {
+   "url": "https://www.ndtv.com/india-news/grand-theft-auto-6-gta-6-launches-in-india-as-blockbuster-game-ends-13-year-wait-12346209#publisher=newsstand",
+   "deck": "news",
+   "section": "India",
+   "headline": "GTA 6 Launches In India, Brings A Whole New World To Vice City",
    "source": "NDTV",
-   "blurb": "On November 11, Umar Nisar Dar, accompanied by LeT Commander Lateef Bhat, carried out an attack on a CRPF Naka at Akhran before fleeing the scene.",
+   "blurb": "With over $1 billion in global pre-orders, GTA 6 is set to break sales records for any entertainment product in history.",
    "text": ""
   },
   {
-   "url": "https://www.hindustantimes.com/india-news/cag-develops-ai-tools-for-audits-projects-ready-for-pan-india-launch-101794965337366.html",
+   "url": "https://www.hindustantimes.com/india-news/rockstar-gta-6-goes-live-in-india-after-13-year-wait-101795023807656.html",
    "deck": "news",
    "section": "India",
-   "headline": "CAG develops AI tools for audits, projects ready for pan-India launch",
+   "headline": "GTA 6 goes live in India after 13-year wait",
    "source": "Hindustan Times",
-   "blurb": "It said that the access to digital systems allows audit teams to “examine full sets of transactions\"",
-   "text": "The Comptroller and Auditor General of India (CAG) is developing artificial intelligence tools specifically designed for auditing, with projects ready for a pan-India rollout, CAG K Sanjay Murthy said on Tuesday. The country’s top auditor said that the access to digital systems allows audit teams to “examine full sets of transactions, and that analysis of data ahead of fieldwork guides field enquiries and has shortened the audit cycle”. The move was highlighted by Murthy at the conclusion of two-day Audit Diwas program in Delhi. “..access to the digital systems allow audit teams to examine full sets of transactions, and that analysis of data ahead of fieldwork guides field enquiries and has shortened the audit cycle. The department is building audit-specific AI rather than relying on general AI tools alone, and the projects (are) ready for pan-India rollout,” Murthy said. Prime Minister Narendra Modi too, in his written message on Audit-Diwas, called for greater adoption of emerging technologies to analyse large volumes of financial data and identify unusual patterns. “Emerging technologies offer useful tools to examine large volumes of financial data"
+   "blurb": "GTA 6 will bring players back to Vice City, the fictional city modelled after Miami, while also introducing the larger state of Leonida as its setting.",
+   "text": "Grand Theft Auto VI (GTA 6) officially launched in India at midnight on Thursday, marking the end of a wait of more than 13 years since the release of the previous mainline title, GTA V, in September 2013. Players who purchased the digital version of GTA 6 through pre-orders could download the game in advance using the pre-load feature. However, this early download did not grant them immediate access, as the game remained locked until its official release. Even those who had completed the pre-loading process had to wait until midnight on November 19 to start playing. Players may need up to 212GB of available storage to install GTA 6, although the exact requirement varies by console. The game is currently available only on consoles, as Rockstar Games has yet to release the PC version or provide a confirmed launch date for it. In India, GTA 6 is being offered in two versions: Standard and Ultimate editions. On the PlayStation Store, the Standard Edition is priced at ₹ 5,999, while the Ultimate Edition is available for ₹ 7,499. The Xbox"
   },
   {
-   "url": "https://www.thehindu.com/news/national/rahul-gandhi-invokes-hindu-faith-to-defend-his-mama-sitting-on-papas-lap-remark/article71713190.ece",
+   "url": "https://www.thehindu.com/news/national/bihar/armed-robbers-loot-jewellery-worth-more-than-30-crore-at-gunpoint-in-bihars-bettiah/article71717203.ece",
    "deck": "news",
    "section": "India",
-   "headline": "Rahul Gandhi invokes Hindu faith to defend his ‘Mama sitting on Papa’s lap’ remark",
+   "headline": "Armed robbers loot jewellery worth more than ₹30 crore at gunpoint in Bihar’s Bettiah",
    "source": "The Hindu",
-   "blurb": "Responding to the BJP’s criticism of his remarks, Mr. Gandhi shares artwork depicting Goddess Parvati perched on Lord Shiva’s lap; says “love need not be hidden, affection is not a weakness, and equality begins with treating your partner as an equal.”",
-   "text": "New Delhi, Nov 16 (ANI): Lok Sabha LoP Rahul Gandhi addresses the launch event of Sonia Gandhi's memoir, 'Belonging: A Journey of Love', in New Delhi on Monday. Photo: @INCIndia X/ ANI Photo Invoking his Hindu faith, Congress leader Rahul Gandhi on Tuesday (November 17, 2026) defended his comments that “Mama would sit on Papa’s lap during meals” by pointing to a temple sculpture depicting Goddess Parvati sitting on Lord Shiva’s lap. After Mr. Gandhi’s remarks about the affectionate relationship between his parents at the launch of his mother Sonia Gandhi’s autobiography, Belonging: A Journey of Love , Assam Chief Minister Himanta Biswa Sarma. was among the BJP leaders who claimed that the Congress leader had embarrassed his mother on a special occasion. Mr. Gandhi said fear, anger, and hatred had woven a web in the hearts of BJP and RSS supporters, preventing them from experiencing and expressing love. “As a true Hindu, it is my duty to free them from this web, so that they too can start to experience the breathtaking beauty and joy of love and belonging"
+   "blurb": "According to the police, eight robbers arrived at the jewellery shop on three motorcycles and seized the mobile phone and then tied their hands.",
+   "text": "Armed robbers looted jewellery worth more than ₹30 crore at gunpoint on Wednesday (November 18, 2026) in broad daylight in Bettiah, the district headquarters of West Champaran, Bihar. The loot is seen as one of the biggest heists in recent times. According to the police, eight robbers arrived at the jewellery showroom on three motorcycles, seized mobile phones, and then tied the hands of the victims. The robber also hit two staff members, including a security guard, with a gun, leaving them injured. A woman staff member, while speaking to local media, said that before leaving the showroom with the looted jewellery, one robber said, “This is just the trailer; the film is yet to come. We will return.” The owner of the jewellery showroom is Brajesh Kushwaha, a leader of the ruling Janata Dal (United). The incident took place at Senco Gold and Diamonds, located near Supriya Cinema Road, under the jurisdiction of Kali Bagh police station. Former Deputy Chief Minister and Bharatiya Janata Party (BJP) leader Renu Devi, whose residence is close to the showroom, also visited the"
   },
   {
-   "url": "https://www.ndtv.com/india-news/rajnath-singh-arrives-in-tokyo-for-india-japan-2-2-dialogue-12341483#publisher=newsstand",
+   "url": "https://indianexpress.com/article/india/disha-boudh-trader-murder-teacher-financial-dispute-police-probe-10968757/",
    "deck": "news",
    "section": "India",
-   "headline": "Rajnath Singh Arrives In Tokyo For India-Japan 2+2 Dialogue",
-   "source": "NDTV",
-   "blurb": "The two countries are set to review their defence and security cooperation and explore avenues for expanding collaboration in maritime security, defence technology and regional stability.",
-   "text": ""
+   "headline": "Failed attempt, forest ambush and a murder: Odisha trader killed over money dispute, teacher on the run",
+   "source": "Indian Express",
+   "blurb": "",
+   "text": "A financial dispute took a chilling turn in Odisha’s Boudh district, ending in the murder of a 31-year-old trader. The body of Birupakhya Agrawal, with his throat slit, was recovered from a forest along the Boudh-Sambalpur border on Tuesday, five days after he went missing. Though the police arrested three persons in connection with the crime, the alleged mastermind, Swadhin Pradhan, a teacher, is still at large. The investigation so far has revealed an alleged conspiracy hatched by Pradhan and his associates to eliminate Agarwal over a financial dispute stemming from previous dealings. Barely a week before the murder, the accused, as per police, made an earlier attempt on his life but failed. Boudh Superintendent of Police Kuldeep Meena said technical surveillance helped them zero in on the accused. “After we came to know about the suspects, we first arrested one and subsequently managed to apprehend all three persons, who confessed,” said Meena. According to the SP, Agarwal was murdered on November 12, the same day he travelled outside the district with Pradhan. Police suspect Pradhan had links to the"
   },
   {
-   "url": "https://www.hindustantimes.com/india-news/indian-army-reverses-dress-code-change-for-senior-officers-black-berets-shoulder-titles-to-make-a-comeback-101794963622653.html",
-   "deck": "news",
-   "section": "India",
-   "headline": "Indian Army reverses dress-code change for senior officers; berets, shoulder titles to make a comeback",
-   "source": "Hindustan Times",
-   "blurb": "The revised order restores distinctive gears, including Gorkha Rifles hats, maroon berets for Special Forces and black berets for armoured regiments.",
-   "text": "Generals from the Gorkha Rifles can once again wear their trademark hats, Special Forces brass can return to their iconic maroon berets, and senior officers of armoured regiments can don black berets, as the Indian Army has rolled back dress code changes introduced three years ago, according to an internal communique. In 2023, the army ordered a new, common uniform for officers of brigadier rank and above to bolster a common identity and approach in service matters among the senior leadership. The directive was rescinded in a November 13 letter titled “Dress for Brig & Above Rk Offrs”, seen by HT. The decision to switch to the common uniform was taken in April 2023 during the Army Commanders’ Conference, chaired by then Army chief General Manoj Pande, and implemented in August that year. The changes stipulated that senior officers would no longer wear accoutrements specific to their respective arms and services; the ubiquitous shoulder lanyard was also abolished; and officers were required to wear dark green berets, a standardised belt and brass rank insignia. All senior officers were required to"
-  },
-  {
-   "url": "https://economictimes.indiatimes.com/industry/services/education/what-are-indias-leading-enterprises-learning-from-their-ai-deployments/articleshow/135924723.cms",
+   "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/maharashtra-leads-passenger-vehicle-sales-up-tops-two-and-three-wheelers/articleshow/135970392.cms",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "What are India's leading enterprises learning from their AI deployments?",
+   "headline": "Maharashtra leads passenger vehicle sales, UP tops two-and three-wheelers",
    "source": "Economic Times",
-   "blurb": "Indian enterprises are moving AI into financial services, retail, supply chains and manufacturing. Survey findings show growing adoption and measurable returns, but data readiness, compliance and organisational change remain significant challenges.",
-   "text": "Indian enterprises are moving AI into financial services, retail, supply chains and manufacturing. Survey findings show growing adoption and measurable returns, but data readiness, compliance and organisational change remain significant challenges. Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits. Trump temper on H-1B visas is forcing Indians to do these things to stay put in US Why veterans like Reliance, L&T are on acquisition spree? Aswath Damodaran has an answer. Will China’s dollar bond sale in Saudi Arabia trump the US in financial world? Huawei launches its own OS to compete with Google and Apple. But can it win beyond China? A list of top 20 momentum stocks that have delivered massive returns in one year Get to know where the market bulls are investing to identify the right stocks. Check the score based on the company's fundamentals, solvency, growth, risk & ownership to decide the right stocks. Analyze the market sentiments & identify the trend reversal for strategic decisions. Ask your stock queries & get assured"
+   "blurb": "Maharashtra recorded the highest passenger vehicle sales with 1,65,000 units in the July-September quarter. Uttar Pradesh led in two-wheeler sales with 7,89,000 units, accounting for 12.3% of total sales. The total passenger vehicle sales in India reached 13.61 lakh units during this period.",
+   "text": "Maharashtra recorded the highest passenger vehicle sales with 1,65,000 units in the July-September quarter. Uttar Pradesh led in two-wheeler sales with 7,89,000 units, accounting for 12.3% of total sales. The total passenger vehicle sales in India reached 13.61 lakh units during this period. The western region dominated in three of the four segments of vehicle sales. The southern region led in three-wheelers with a total of 96,000 units sold."
   },
   {
-   "url": "https://www.business-standard.com/markets/news/budget-personalisation-shape-indian-travellers-choices-booking-com-126111800039_1.html",
+   "url": "https://www.business-standard.com/companies/news/in-first-meeting-since-sep-17-tata-sons-board-to-discuss-listing-next-week-126111801431_1.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Budget, personalisation shape Indian travellers' choices: Booking.com",
+   "headline": "In first meeting since Sep 17, Tata Sons board to discuss listing next week",
    "source": "Business Standard",
-   "blurb": "A Booking.com report reveals that Indian travellers increasingly prioritise budgets, emotional preferences and unconventional experiences when planning holidays for 2027",
-   "text": "Indian travellers prioritise budgets, personalisation and unconventional experiences, with 93% choosing destinations based on emotions, Booking.com reports. | (Photo:Reuters) Don't miss the most important news and views of the day. Get them on our Telegram channel"
+   "blurb": "If the listing happens, Tata Sons IPO could be the largest ever in India",
+   "text": "Once the direction of Tata Sons listing is clear, the company could complete the process within a timeframe of 6–8 months Don't miss the most important news and views of the day. Get them on our Telegram channel"
   },
   {
-   "url": "https://www.livemint.com/companies/company-results/nvidia-q3-results-fy27-revenue-more-than-doubles-to-115-8-billion-board-begins-ceo-search-rules-out-huangs-return-11794961338156.html",
+   "url": "https://www.livemint.com/companies/us-judge-rejects-jpmorgan-bid-to-dismiss-lurid-sexual-harassment-case-11795033594349.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Nvidia Q3 results FY27: Revenue more than doubles to $115.8 billion; board begins CEO search, rules out Huang's return",
+   "headline": "US judge rejects JPMorgan bid to dismiss lurid sexual harassment case",
    "source": "Mint",
-   "blurb": "Nvidia reported a 103% year-on-year rise in Q3 FY27 revenue to $115.8 billion and forecast $130 billion in Q4 revenue. The results come amid Jensen Huang's resignation, with CFO Colette Kress appointed interim CEO as the board searches for a permanent successor.",
-   "text": "Nvidia reported a 103% year-on-year jump in revenue to $115.8 billion for the third quarter of fiscal 2027, driven by strong growth in its business. The results come amid a leadership transition after CEO Jensen Huang resigned on 12 November. The company posted revenue of $115.8 billion for the quarter ended 25 October 2026, up 20% from $96.2 billion in the previous quarter and compared with $57 billion in the year-ago period. Here are the key takeaways from Nvidia, a global leader in AI and accelerated computing, on its Q3 fiscal 2027 results. Nvidia reported $115.8 billion in revenue for the quarter ended 25 October 2026, up 103% year on year and 20% from the previous quarter. Data Centre revenue reached a record $107.6 billion, up 110% year on year. Edge Computing revenue also grew 42% to $8.2 billion. Nvidia expects fourth-quarter revenue of $130 billion, plus or minus 3%. Its forecast excludes data centre compute revenue from China. Longtime CFO Colette Kress is serving as interim CEO. Nvidia's board says it will consider both internal and external candidates for"
+   "blurb": "JPMORGAN",
+   "text": "Judge says case should be pursued in court, not the media Rana said former colleague coerced him into sex; she countersued for defamation NEW YORK, Nov 18 (Reuters) - JPMorgan Chase failed on Wednesday to win the dismissal of a sexual harassment and discrimination lawsuit by former investment banker Chirayu Rana after accusing him of persuading his sister and a friend to lie for him. US District Judge Lewis Kaplan in Manhattan also exhorted Rana, JPMorgan and co-defendant Lorna Hajdini, a JPMorgan executive, to press their claims and defenses through the court process, lamenting how the case \"has been fought in part as a public relations battle.\" JPMorgan spokesperson Brian Marchiony declined to comment. Lawyers for Hajdini and Rana did not immediately respond to requests for comment. In court papers, Rana accused Hajdini in graphic terms of sexual harassment, including by allegedly coercing him into sex and demanding submissiveness to advance his career. He also accused JPMorgan of destroying his career by tolerating sexual coercion and racism, such as by doing nothing when colleagues called him \"brown boy.\""
   },
   {
-   "url": "https://economictimes.indiatimes.com/news/economy/infrastructure/nitin-gadkari-approves-road-projects-worth-rs-1123-crore-on-delhi-agra-corridor-rs-359-crore-for-west-delhi-road/articleshow/135927712.cms",
+   "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-on-track-to-hit-1-trillion-exports-target-in-fy27-commerce-secretary/articleshow/135966484.cms",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Nitin Gadkari approves road projects worth Rs 1,123 crore on Delhi-Agra corridor, Rs 359 crore for West Delhi road",
+   "headline": "India on track to hit $1 trillion exports target in FY27: Commerce Secretary",
    "source": "Economic Times",
-   "blurb": "The project, covering National Highways 44 and 19, aims to improve connectivity and traffic efficiency along the corridor, which handles approximately 68,000 passenger car units (PCUs) daily, including freight, industrial, commuter and tourist traffic.",
-   "text": "The project, covering National Highways 44 and 19, aims to improve connectivity and traffic efficiency along the corridor, which handles approximately 68,000 passenger car units (PCUs) daily, including freight, industrial, commuter and tourist traffic. KYC and KYB: Pidilite’s business has more tailwinds than headwinds, but a continuous test called raw material prices – Concluding part Gold still rules, but with a difference: How young India is redefining wedding jewellery Tariffs, supply snags and a war: 6 sectors that pulled it off through all of the trouble How India’s INR22.5 lakh crore gold loan boom is hiding a big hole KYC and KYB: Pidilite's margin keeps finding its way back, though costlier raw materials can knock it off course – Part 2 of 3"
+   "blurb": "India's exports increased by 16.6% in the first half of this fiscal year. The country aims to reach $1 trillion in exports by 2026–27. Commerce Secretary Rajesh Agrawal stated that India is on track to meet this goal.",
+   "text": "India's exports increased by 16.6% in the first half of this fiscal year. The country aims to reach $1 trillion in exports by 2026–27. Commerce Secretary Rajesh Agrawal stated that India is on track to meet this goal. Despite global trade uncertainties, India continues to be viewed positively as a trusted trading partner. India achieved record exports of $863 billion in the previous fiscal year. Why IndiGo could land a sharp rebound in profit despite a sluggish aviation market KYC and KYB: Pidilite’s business has more tailwinds than headwinds, but a continuous test called raw material prices – Concluding part Gold still rules, but with a difference: How young India is redefining wedding jewellery Tariffs, supply snags and a war: 6 sectors that pulled it off through all of the trouble How India’s INR22.5 lakh crore gold loan boom is hiding a big hole Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits. Trump temper on H-1B visas is forcing Indians to do these things to stay put"
   },
   {
-   "url": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-18-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-cues-11794962131039.html",
+   "url": "https://www.livemint.com/market/foreign-holdings-of-us-treasuries-decline-by-most-since-march-11795039752193.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Stock market outlook today,18 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+   "headline": "Foreign Holdings of US Treasuries Decline by Most Since March",
    "source": "Mint",
-   "blurb": "Indian stocks are expected to open lower on Wednesday as mixed global cues and a discounted Gift Nifty point to a weak start. The Sensex and Nifty rose for a second session on Tuesday, but analysts say the Nifty faces resistance near 25,500.",
-   "text": "Stock market prediction for Wednesday, 18 November, 2026: The Indian stock market benchmark indices, Sensex and Nifty 50, are expected to open lower amid mixed global cues. Asian equity markets traded mixed in early Wednesday deals on 18 November 2026, as investors weighed upbeat quarterly earnings from Nvidia against lingering concerns over elevated US Treasury yields and the Federal Reserve's interest rate outlook. Ponmudi R, CEO of Enrich Money, said Indian equity markets are likely to extend their upward momentum at the open, supported by easing crude oil prices, sustained foreign institutional investor (FII) inflows and positive global cues. He noted that WTI crude slipping towards $84 per barrel is providing a favourable macroeconomic backdrop for Indian markets by easing concerns over the country's import bill and inflationary pressures. Consistent FII buying has also emerged as a key driver of the ongoing rally, providing support to benchmark indices throughout the month. Global cues remain encouraging, with Asian markets trading higher. Japan's Nikkei 225 advanced more than 0.50%, while South Korea's KOSPI gained over 2%, signalling improved regional risk appetite. Ponmudi"
+   "blurb": "Foreign holdings of US Treasuries fell in September by the most in six months, led by decreases in the stockpiles of China and France.",
+   "text": "Foreign holdings of US Treasuries fell in September by the most in six months, led by decreases in the stockpiles of China and France. Overseas holdings dropped by $75.5 billion from August, according to data published by the Treasury Department. The total now stands at $9.24 trillion, the lowest in a year. The foreign holdings data incorporate changes in valuation as well as net sales and purchases. The Bloomberg US Treasury index slumped by 2.2% in September, when the Federal Reserve began a new cycle of interest-rate hikes to temper inflation. Japan, the biggest foreign holder of Treasuries, saw a $5.2 billion drop in its holdings, to $1.063 trillion, the lowest since the end of 2024. Japanese officials were intervening over the summer in the foreign-exchange market, buying yen amid a slump in the currency to its weakest in four decades against the dollar. Japanese data have suggested Tokyo sold a portion of its holdings of Treasuries and other securities to fund such intervention. Mainland China, the third-largest holder of Treasuries, saw a decrease of nearly $27 billion in September"
   },
   {
-   "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/ongc-gas-leak-in-andhra-pradeshs-konaseema-forces-evacuation-of-around-800-people/articleshow/135925489.cms",
+   "url": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "ONGC gas leak in Andhra Pradesh's Konaseema forces evacuation of around 800 people",
+   "headline": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
+   "source": "BBC Business",
+   "blurb": "Energy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.",
+   "text": "Gas and electricity bills for a typical household are forecast to jump by £443 a year from January as the inflation rate rose to its highest level in a year. A typical annual bill is predicted to rise by 26% in the new year, according to consultancy Cornwall Insight, ahead of the official announcement next week. Some households will get a £100 payment to help with the rising cost of living, a policy which was announced in the Budget. Prices rose 3.6% in the year to October, up from 3.5% in September mainly because of higher petrol and diesel prices, official figures show. Inflation has been driven higher in recent months as the US-Israel war with Iran has driven up the cost of energy and fuel. In response to prices surging, the Bank of England raised interest rates for the first time in three years earlier this month, in a bid to slow inflation to its target of 2%. Interest rates increased from 3.75% to 4%, and the Bank signalled a further rise could be likely unless the conflict in"
+  },
+  {
+   "url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/vedanta-group-explores-using-ai-in-complex-mineral-production/articleshow/135968090.cms",
+   "deck": "news",
+   "section": "Business & markets",
+   "headline": "Vedanta Group explores using AI in complex mineral production",
    "source": "Economic Times",
-   "blurb": "A gas leak occurred at an ONGC gas well in Geddada, prompting the evacuation of around 800 residents. Authorities cordoned off a 1 km radius around the well and diverted traffic along National Highway 216. Local officials instructed residents to avoid electrical appliances and gas stoves to prevent ignition.",
-   "text": "A gas leak occurred at an ONGC gas well in Geddada, prompting the evacuation of around 800 residents. Authorities cordoned off a 1 km radius around the well and diverted traffic along National Highway 216. Local officials instructed residents to avoid electrical appliances and gas stoves to prevent ignition. Continuous monitoring revealed zero gas concentration at the assessed locations after the leak began."
+   "blurb": "The group said that it is exploring the use of artificial intelligence for geological analysis and mineral block modelling, which could potentially reduce exploration timelines from 3–4 months to just 6–7 days.",
+   "text": "The group said that it is exploring the use of artificial intelligence for geological analysis and mineral block modelling, which could potentially reduce exploration timelines from 3–4 months to just 6–7 days."
   },
   {
-   "url": "https://www.business-standard.com/companies/news/signature-global-enters-mumbai-market-with-475-acre-land-buy-in-raigad-126111800036_1.html",
+   "url": "https://www.business-standard.com/companies/news/tata-sons-board-members-to-visit-air-india-hq-review-performance-on-nov-19-126111801439_1.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "Signature Global enters Mumbai market with 475-acre land buy in Raigad",
+   "headline": "Tata Sons board members to visit Air India HQ, review performance on Nov 19",
    "source": "Business Standard",
-   "blurb": "The Delhi-NCR developer acquired 474.66 acres in Raigad for ₹194.19 crore through an online auction, marking its entry into the Mumbai Metropolitan Region beyond its core market",
-   "text": "Signature Global enters the Mumbai Metropolitan Region with a ₹194.19 crore acquisition of nearly 475 acres in Raigad. (Representative image) Don't miss the most important news and views of the day. Get them on our Telegram channel"
+   "blurb": "Tata Sons board members, including Chairman N Chandrasekaran and Noel Tata, will be visiting Air India headquarters in Gurugram on Thursday, according to sources. Air India is co-owned by Tata Sons and Singapore Airlines, which holds a 25.1 per cent stake.",
+   "text": "Tata Sons board members, including Chairman N Chandrasekaran and Noel Tata, will be visiting Air India headquarters in Gurugram on Thursday, according to sources. Air India is co-owned by Tata Sons and Singapore Airlines, which holds a 25.1 per cent stake. The sources said the members will be reviewing the performance of the loss-making Air India. The airline's MD and CEO Tewolde Gebremariam will be making a presentation to the members, they added. Besides, operational integration of Air India and Air India Express is likely to be discussed, the sources said. Tata Sons Chairman Chandrasekaran, board member Noel Tata and others will be visiting the Air India headquarters on Thursday, they added. It could not be immediately ascertained whether all the Tata Sons board members will be visiting the airline's headquarters. Other members on the Tata Sons board are Venu Srinivasan, Harish Manwani, Anita Marangoly George and Saurabh Agrawal. There was no comment from Air India on the planned visit of the Tata Sons board members. Faced with multiple headwinds, including surging fuel prices and Pakistan airspace closure impacting long-haul"
   },
   {
-   "url": "https://www.livemint.com/companies/news/end-of-the-road-for-jensen-huang-nvidia-board-chairman-harvey-jones-says-no-intention-to-rehire-him-as-ceo-11794963686059.html",
+   "url": "https://www.livemint.com/companies/sellside-analysts-rip-short-seller-report-on-retailer-dynamite-11795027352005.html",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "End of the road for Jensen Huang? Nvidia Board Chairman Harvey Jones says no intention to rehire him as CEO",
+   "headline": "Sell-Side Analysts Rip Short-Seller Report on Retailer Dynamite",
    "source": "Mint",
-   "blurb": "Nvidia Chairman Harvey Jones said the board does not intend to reinstate co-founder Jensen Huang as CEO. The company has hired Heidrick &amp; Struggles to find a permanent leader, while interim CEO Colette Kress oversees operations during an investigation into Huang’s departure.",
-   "text": "Nvidia board Chairman Harvey Jones has clarified that the company does not intend to rehire co-founder Jensen Huang as CEO, amid growing calls for his return. Jones made the remarks as he opened the conference call with investors on Tuesday to announce Nvidia’s Q3 results . “Jensen Huang voluntarily resigned his positions as president, CEO and board member. The Nvidia board unanimously accepted his resignation and does not intend to reinstate Jensen as CEO,” he said. Jones said the board had hired executive search firm Heidrick & Struggles to help find a new CEO. \"We want to install the CEO, the permanent CEO, as quickly as possible, but we won't expedite the CEO before finding exactly the right person,\" he added. Nvidia board chairman Harvey Jones said the board unanimously accepted Huang’s resignation and does not intend to reinstate him. Huang has said he would return if the board decided it was in the company’s best interests. Nvidia finance chief Colette Kress is serving as interim CEO. The board has hired Heidrick & Struggles to help find a permanent successor."
+   "blurb": "Several financial analysts fended off a negative report from short-seller Spruce Point Capital Management LLC about fast-fashion retailer Groupe Dynamite Inc.",
+   "text": "(Bloomberg) -- Several financial analysts fended off a negative report from short-seller Spruce Point Capital Management LLC about fast-fashion retailer Groupe Dynamite Inc. Spruce Point said Tuesday that it’s short the stock, citing potential downside of 35% to 70%. Its report questioned Dynamite’s relationship with a “key Bangladesh supplier,” as well as the retailer’s store-opening targets and inventory turnover amid “weakening momentum with its core customers.” Other concerns were raised related to financial reporting. Shares of Dynamite rose as much as 2% on Wednesday in Toronto after plunging 12% to C$49.83 in the previous session. “We view the selloff as overdone,” Bank of Montreal analyst Stephen MacLeod wrote in a client note. “We believe the report’s conclusions reflect alternative interpretations of operating and financial data rather than evidence of fundamental business issues.” The Montreal-based retailer went public in November 2024, and had surged more than 350% to C$97.45 on April 20 before declining. Stifel Financial Corp. analyst Martin Landry questioned the timing of Spruce Point’s report, writing that sell-side expectations already reflected a slowdown in the company’s operational performance. He"
   },
   {
-   "url": "https://economictimes.indiatimes.com/news/economy/indicators/states-subsidy-cash-transfer-outgo-jumps-from-16-to-21-of-revenue-receipts-in-5-years-report/articleshow/135926308.cms",
+   "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-close-to-finalising-trade-deal-talks-signing-may-take-time/articleshow/135962149.cms",
    "deck": "news",
    "section": "Business & markets",
-   "headline": "States' subsidy, cash transfer outgo jumps from 16% to 21% of revenue receipts in 5 years: Report",
+   "headline": "India, US close to finalising trade deal talks, signing may take time",
    "source": "Economic Times",
-   "blurb": "States' spending on subsidies and transfers has risen significantly over recent years and is expected to continue growing. By 2026–27, states are estimated to spend around 1 percent of GDP on cash transfer schemes.",
-   "text": "States' spending on subsidies and transfers has risen significantly over recent years and is expected to continue growing. By 2026–27, states are estimated to spend around 1 percent of GDP on cash transfer schemes. Major contributors to this increase are power subsidies and unconditional transfers for various beneficiaries, including women and farmers. States such as Andhra Pradesh and Chhattisgarh are among the highest spenders in these categories. KYC and KYB: Pidilite’s business has more tailwinds than headwinds, but a continuous test called raw material prices – Concluding part Gold still rules, but with a difference: How young India is redefining wedding jewellery Tariffs, supply snags and a war: 6 sectors that pulled it off through all of the trouble How India’s INR22.5 lakh crore gold loan boom is hiding a big hole KYC and KYB: Pidilite's margin keeps finding its way back, though costlier raw materials can knock it off course – Part 2 of 3"
+   "blurb": "The trade deal negotiations between India and the US are nearing completion, according to Commerce Secretary Rajesh Agrawal. He stated that the legal texts are almost finalized. However, the signing hinges on the establishment of new US tariff rules and the resolution of ongoing Section 301 investigations.",
+   "text": "The trade deal negotiations between India and the US are nearing completion, according to Commerce Secretary Rajesh Agrawal. He stated that the legal texts are almost finalized. However, the signing hinges on the establishment of new US tariff rules and the resolution of ongoing Section 301 investigations. Why IndiGo could land a sharp rebound in profit despite a sluggish aviation market KYC and KYB: Pidilite’s business has more tailwinds than headwinds, but a continuous test called raw material prices – Concluding part Gold still rules, but with a difference: How young India is redefining wedding jewellery Tariffs, supply snags and a war: 6 sectors that pulled it off through all of the trouble How India’s INR22.5 lakh crore gold loan boom is hiding a big hole Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits. Trump temper on H-1B visas is forcing Indians to do these things to stay put in US Why veterans like Reliance, L&T are on acquisition spree? Aswath Damodaran has an answer. Will China’s"
   },
   {
-   "url": "https://www.livemint.com/market/stock-market-news/reliance-ultratech-hyundai-motor-shares-top-3-stocks-to-buy-check-ratings-target-price-stop-loss-by-jay-thakkar-11794931314865.html",
-   "deck": "news",
-   "section": "Business & markets",
-   "headline": "Reliance, UltraTech, Hyundai Motor shares: Top 3 stocks to buy; check ratings, target price, stop loss by Jay Thakkar",
-   "source": "Mint",
-   "blurb": "Indian benchmarks rose to their highest levels since late February, supported by lower crude prices, record foreign investment and corporate earnings. ICICI Securities analyst Jay Thakkar recommended Reliance Industries, UltraTech Cement and Hyundai Motor India.",
-   "text": "Stock market news: Indian equity benchmarks extended their rally on Tuesday, 17 November, closing at their highest levels since late February and outperforming weakness across Asian markets. A decline in crude oil prices, record foreign portfolio investor (FPI) inflows and resilient corporate earnings helped sustain the positive momentum. The Nifty 50 advanced 0.38% to settle at 25,387.40, while the Sensex gained 0.52% to close at 82,532.19. Both benchmarks have rallied sharply this month, with the Nifty 50 rising around 10.1% and the Sensex gaining 10.8%, supported by record FPI inflows of $9.53 billion. Jay Thakkar, Vice President and Head of Derivatives and Quantitative Research at ICICI Securities, has recommended Reliance Industries, UltraTech Cement and Hyundai Motor India as trading picks. He recommends buying Reliance Industries Futures at ₹ 1,367–1,370, with a stop loss of ₹ 1,350 and a target price of ₹ 1,420–1,440. For UltraTech Cement Futures, his buy recommendation is around ₹ 12,300, with a stop loss of ₹ 12,000 and a target of ₹ 12,600–13,000. Meanwhile, Hyundai Motor India Futures can be bought at ₹ 2,125–2,130, with a"
-  },
-  {
-   "url": "https://inc42.com/buzz/google-begins-rolling-out-personal-ai-assistant-tasks-in-india/",
+   "url": "https://inc42.com/buzz/pb-fintech-cofounder-alok-bansal-to-step-down-from-executive-role/",
    "deck": "news",
    "section": "Startups & tech",
-   "headline": "Google Begins Rolling Out Personal AI Assistant, Tasks, In India",
+   "headline": "PB Fintech Cofounder Alok Bansal To Step Down From Executive Role",
    "source": "Inc42",
-   "blurb": "Big tech giant Google has begun rolling out its new agentic AI assistant Tasks, formerly Gemini Sparks, to users in…",
-   "text": "The new feature will enable users to assign tasks to the AI assistant, including making calls, booking appointments, comparing products, making payments and completing purchases From Meta’s Muse to OpenAI’s Dots, a growing wave of big tech giants are rolling out personal AI assistants to capture the masses and automate daily chores India’s inclusion in the initial rollout gives Google a large market to test consumer adoption of the personal AI assistant. The service comes bundled for free with the new Gemini 4 Hydrogen model Big tech giant Google has begun rolling out its new agentic AI assistant Tasks, formerly Gemini Sparks, to users in India. In a blogpost , Josh Woodward, the vice-president of Google Labs and the Gemini app, said that the new feature will enable users to assign tasks to the AI assistant, including making calls, booking appointments, comparing products and completing purchases. The service comes bundled for free with Google’s new Gemini 4 Hydrogen model. “Starting now, this update is rolling out free of charge for hundreds of millions of people across the US, Japan, Korea,"
+   "blurb": "Listed insurtech giant PB Fintech’s cofounder Alok Bansal is stepping down as the executive vice-chairman and whole-time director of the…",
+   "text": "Bansal’s tenure as executive vice president and whole-time director will expire on March 31, 2027. He will then transition to the company’s board, subject to shareholder approval This comes amid a broader wave of founders quitting their startups. So far this year, cofounders of Unacademy, BigBasket and Setu have announced their departures from the companies they helped incorporate An alumnus of IIM Calcutta, Bansal previously served at companies like Voltas, General Electric and Mahindra & Mahindra. He eventually cofounded Policybazaar with Dahiya in 2008 Listed insurtech giant PB Fintech’s cofounder Alok Bansal is stepping down as the executive vice-chairman and whole-time director of the company. In a statement, the company said that Bansal’s tenure will expire on March 31, 2027. PB Fintech also said that he will be appointed as a non-executive director on the company’s board starting April 1, 2027, subject to shareholder approval. In his resignation letter, Bansal cited his “personal desire” to step down from executive responsibilities as the reason for his departure. “PB Fintech and PolicyBazaar would not have been possible without Alok. He first shared"
   },
   {
-   "url": "https://entrackr.com/exclusive/exclusive-shree-anandhaas-raises-rs-110-cr-valuation-jumps-to-rs-1900-cr-12817177",
+   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/trump-administration-weighs-forcing-us-firms-to-disclose-chinese-ai-use/articleshow/135966297.cms",
    "deck": "news",
    "section": "Startups & tech",
-   "headline": "Exclusive: Shree Anandhaas raises Rs 110 Cr, valuation jumps to Rs 1,900 Cr",
-   "source": "Entrackr",
-   "blurb": "Coimbatore-based sweets and snacks chain Shree Anandhaas has raised Rs 110 crore in a fresh funding round led by new investor Ayra Ventures, with participation from existing investor A91 Partners, Waterfield Advisors, the company’s co-founders and other investors.",
-   "text": "Coimbatore-based sweets and snacks chain Shree Anandhaas has raised Rs 110 crore in a fresh funding round led by new investor Ayra Ventures, with participation from existing investor A91 Partners, Waterfield Advisors, the company’s co-founders and other investors. The company’s board has allotted 12,870 equity shares and 22,523 compulsorily convertible preference shares (CCPS) at an issue price of Rs 31,079 per share to raise the capital, according to documents reviewed by Entrackr . Ayra Ventures led the round with an investment of Rs 45 crore, while Waterfield Advisors invested Rs 15 crore and A91 Partners infused Rs 10 crore. Ithought Financial Consulting LLP invested Rs 10 crore through an equity allotment in August 2026, while the co-founders collectively invested Rs 7.2 crore. The remaining amount came from several other investors. The proceeds will be utilised to fund the company's growth and expansion plans, capital expenditure, working capital requirements and other general corporate purposes. As per Entrackr’s estimates, the latest allotment values Shree Anandhaas at around Rs 1,908 crore, a 3.3X jump from its Series A valuation of Rs 575 crore."
-  },
-  {
-   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/beyond-the-ai-hype-how-industrial-ai-is-reshaping-indias-factories-and-infrastructure/articleshow/135934331.cms",
-   "deck": "news",
-   "section": "Startups & tech",
-   "headline": "Beyond the AI hype: How Industrial AI is reshaping India’s factories and infrastructure",
+   "headline": "Trump administration weighs forcing US firms to disclose Chinese AI use",
    "source": "ET Tech",
-   "blurb": "As India moves forward, artificial intelligence technologies are being woven into the fabric of its manufacturing, infrastructure, and transportation sectors. This innovative integration is set to boost productivity and create more sustainable practices, with companies likely to see a drop in engineering timelines and…",
+   "blurb": "The Treasury Department and the White House Office of Science and Technology Policy (OSTP) have discussed the plan, which would apply to companies such as Airbnb, the people said. The company uses Qwen, an AI model made by China's Alibaba , to power its AI customer service agent.",
    "text": ""
   },
   {
-   "url": "https://inc42.com/buzz/amazon-to-invest-7-bn-in-indian-renewable-energy-projects-by-2030/",
+   "url": "https://inc42.com/buzz/botsync-raises-11-mn-to-connect-robots-and-machines-on-factory-floors/",
    "deck": "news",
    "section": "Startups & tech",
-   "headline": "Amazon To Invest $7 Bn In Indian Green Energy Projects By 2030",
+   "headline": "Botsync Raises $11 Mn To Connect Robots And Machines On Factory Floors",
    "source": "Inc42",
-   "blurb": "Ecommerce giant Amazon has announced plans to invest $7 Bn in renewable energy projects across India by 2030. The company…",
-   "text": "The ecommerce giant also announced four new wind and solar projects across Karnataka, Madhya Pradesh and Rajasthan with a combined total capacity of 934 MWs With this, Amazon will be looking to “significantly” expand its renewable energy portfolio in India, bring additional green power capacity online and decarbonise its operations This comes barely two months after reports emerged that the ecommerce giant was planning to invest $3 Bn to expand its India quick commerce business over the next four years Ecommerce giant Amazon has announced plans to invest $7 Bn in renewable energy projects across India by 2030. The company said that the latest commitment will be in addition to the $4 Bn that it has deployed in renewable energy investments in the country. In a statement, Amazon said that the latest investment will go towards “significantly” expanding its renewable energy portfolio in India. “… This additional investment of $7 Bn underlines our long-term commitment, helping bring additional wind and solar capacity online while contributing to India’s energy security and long-term renewable energy ambitions,” said Amazon’s chief sustainability officer Kara"
+   "blurb": "Singapore-based robotics startup Botsync has raised $11 Mn (about ₹103 Cr) in a funding round led by IvyCap Ventures to…",
+   "text": "Robotics startup Botsync has raised $11 Mn in a round led by IvyCap Ventures, taking its total funding past $20 Mn. Botsync’s software lets manufacturers coordinate robots from different vendors alongside existing machinery, helping them automate more of the factory floor without replacing equipment. Botsync plans to add predictive maintenance and other AI features to SyncOS, improve its mobile robots, and expand its India team to support deployments globally. Singapore-based robotics startup Botsync has raised $11 Mn (about ₹103 Cr) in a funding round led by IvyCap Ventures to upgrade its factory automation software and mobile robots. It also plans to expand its engineering and project delivery teams in India to support deployments globally. Capital 2B, AppWorks, Iterative, AngelCentral, Genesis Alternate Investments, and angel investor Nalin Advani also participated in the funding round, which followed the startup’s Series A extension led by SGInnovate in January. With the latest round, Botsync’s total funding has moved past the $20 Mn mark, it said. Most of the fresh capital will go towards upgrading Botsync’s MAG mobile robots and adding AI features to SyncOS,"
   },
   {
-   "url": "https://entrackr.com/news/aman-gupta-ranveer-singh-launch-mens-grooming-brand-him-12816806",
+   "url": "https://entrackr.com/news/physical-ai-startup-humyn-labs-raises-47-mn-in-equity-and-debt-12820886",
    "deck": "news",
    "section": "Startups & tech",
-   "headline": "Aman Gupta, Ranveer Singh launch men’s personal care brand H.I.M",
+   "headline": "Physical AI startup Humyn Labs raises $47 Mn in equity and debt",
    "source": "Entrackr",
-   "blurb": "Actor Ranveer Singh and boAt co-founder Aman Gupta have joined hands to launch H.I.M (Handsome Indian Man), a men's personal care brand targeting the growing grooming market in India. The brand has launched eight products across skincare, haircare and body care, with prices ranging from Rs 299 to Rs 899.",
-   "text": "Actor Ranveer Singh and boAt co-founder Aman Gupta have joined hands to launch H.I.M (Handsome Indian Man), a men's personal care brand targeting the growing grooming market in India. The brand has launched eight products across skincare, haircare and body care, with prices ranging from Rs 299 to Rs 899. With this move, the company will compete with established players such as The Man Company, Ustraa, Beardo, HUL’s Minimalist, BSC, and others. The initial range includes face wash, moisturiser, sunscreen, body wash, body lotion, soap, shampoo and scalp serum. The products are available through the brand's website, Amazon and Blinkit. According to the company, H.I.M has been developed specifically for Indian men's skin and local weather conditions, including heat, humidity, pollution and hard water. The products are powered by IN-XT, a proprietary delivery system. The firm said it conducted 408 laboratory trials over 16 months of research and testing. More than 150 Indian men across different skin types and complexions were also part of the testing process. Unlike several celebrity-led personal care brands, Singh is joining Gupta as a co-founder."
+   "blurb": "Bengaluru-based Humyn Labs has raised $47 million in a Series A round comprising equity and debt. The round includes $26 million in equity and $21 million in venture debt.",
+   "text": "Bengaluru-based Humyn Labs has raised $47 million in a Series A round comprising equity and debt. The round includes $26 million in equity and $21 million in venture debt. According to the press release, Accel led the equity round, which also saw participation from Prosus Ventures, BeeGlobal, Finserv Intelligence through Bajaj Finance, Bajaj Alts AI Opportunities Fund, Dallas Venture Capital, Lighthouse Canton, Jump Trading, and angel investor Anita Pramoda, former CFO of Epic. The remaining $21 million venture debt was led by Lighthouse Canton, with participation from Trifecta Capital. Founded in 2026 by Manish Agarwal, former CEO of Nazara Technologies, and Ishank Gupta, Humyn Labs works with AI research labs and robotics companies that need real-world data to train their systems. The founders had earlier co-founded KGeN, a platform focused on building a network of verified users. The startup collects data by recording how people perform everyday tasks across factories, warehouses, farms and homes. This information is processed and shared with companies developing robots, helping them understand how humans perform different jobs and interact with their surroundings. Humyn Labs claims"
   },
   {
-   "url": "https://economictimes.indiatimes.com/tech/technology/jensen-huang-to-appear-before-us-house-committees-on-december-1/articleshow/135932177.cms",
+   "url": "https://economictimes.indiatimes.com/tech/technology/us-south-korea-issue-urgent-advisories-over-flaws-in-java-programming-language/articleshow/135953052.cms",
    "deck": "news",
    "section": "Startups & tech",
-   "headline": "Jensen Huang to appear before US House committees on December 1",
+   "headline": "US, South Korea issue urgent advisories over flaws in Java programming language",
    "source": "ET Tech",
-   "blurb": "The House committees will grill Jensen Huang and Nvidia general counsel Tim Teter who will appear before Congress on the next day. The scandal surrounding Huang's affair with Alice Huang the alleged Chinese Spy.",
+   "blurb": "US and South Korean authorities have issued cybersecurity advisories, urging Java users to urgently install security updates after vulnerabilities were found in the popular programming language.",
    "text": ""
   },
   {
-   "url": "https://www.cricinfo.com/ci/content/story/1562948.html?ex_cid=OTC-RSS",
+   "url": "https://inc42.com/buzz/humyn-labs-raises-47-mn-to-collect-training-data-for-robots/",
+   "deck": "news",
+   "section": "Startups & tech",
+   "headline": "Humyn Labs Raises $47 Mn To Collect Training Data For Robots",
+   "source": "Inc42",
+   "blurb": "Physical AI startup Humyn Labs has raised $47 Mn (about ₹439 Cr) to expand its data collection and robot deployment…",
+   "text": "Physical AI startup Humyn Labs has raised $47 Mn in a funding round, comprising $26 Mn in equity led by Accel and $21 Mn in venture debt led by Lighthouse Canton. Humyn claims to have crossed $50 Mn in annualised revenue within six months of starting operations. The startup will use the capital to expand its robot deployment operations to Brazil, South Korea and India, strengthen its data collection hardware. Physical AI startup Humyn Labs has raised $47 Mn (about ₹439 Cr) to expand its data collection and robot deployment operations. The round comprises $26 Mn in Series A equity led by Accel and $21 Mn in venture debt led by Lighthouse Canton, with participation from Trifecta Capital. Other equity investors included Prosus, BeeGlobal, Bajaj Finserv Intelligence, Bajaj Alts AI Opportunities Fund, Dallas Venture Capital, Jump Trading LLC, and angel investor Anita Pramoda. Founded earlier this year by former Nazara CEO Manish Agarwal and Ishank Gupta, Humyn Labs collects data across more than 20 countries. It works with AI research labs, robotics companies, and developers of world models, which simulate"
+  },
+  {
+   "url": "https://www.cricinfo.com/ci/content/story/1563144.html?ex_cid=OTC-RSS",
    "deck": "news",
    "section": "Sports",
-   "headline": "Bangladesh eye parity after new-ball burst on day slashed by erratic weather",
+   "headline": "India leave Siraj and Jadeja out of opening Test in New Zealand",
    "source": "ESPNcricinfo",
-   "blurb": "South Africa left with 14-run deficit after Bavuma retired hurt, and lightning, rain and hail took over",
+   "blurb": "India asked New Zealand to bat first on a green pitch",
    "text": ""
   },
   {
-   "url": "https://www.bbc.co.uk/sport/football/articles/cwp9dxr80p3po?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/sport/cricket/articles/cqwy41w3zydgo?at_medium=RSS&at_campaign=rss",
    "deck": "news",
    "section": "Sports",
-   "headline": "Belief and bench help Northern Ireland scale new heights as promotion secured",
+   "headline": "The sandpaper plot - who was there, who said what?",
    "source": "BBC Sport",
-   "blurb": "Manager Michael O'Neill hails the belief shown by his side after they come from behind against Hungary to earn the draw required for promotion to Nations League A.",
-   "text": "After going 500 minutes without conceding a goal, Northern Ireland could be forgiven for having to make adjustments to play from behind. Having travelled to Budapest knowing a point against Hungary would be enough to top Nations League B2, Barnabas Varga's strike after 35 minutes for the hosts at the Puskas Arena altered the picture and, for the first time in the campaign, left Michael O'Neill's side having to chase a game. Their response to the deficit - on the pitch, from the bench and high in the stands where their suspended manager was watching the game - displayed the best characteristics of a side who had not won at this level before this unbeaten campaign. While the point from a 1–1 draw in Budapest will be long remembered for Justin Devenny's brilliant equaliser and the scenes of celebration that greeted promotion to the competition's top tier for the first time, it was beyond the highlights and headlines that O'Neill saw the emerging qualities of his side. \"We went behind tonight and it was difficult, you know? Big stadium, big"
+   "blurb": "As Cameron Bancroft's explosive allegations raise more questions about the sandpaper scandal, BBC Sport looks at who was there and what they have said since.",
+   "text": "The sandpaper scandal, one of the biggest controversies in the history of Test cricket, continues to engulf Australian sport. Fresh evidence from Cameron Bancroft - the culprit of the ball-tampering in South Africa in 2018 - has heaped pressure on Australia captain Pat Cummins, former coach Darren Lehmann and Cricket Australia. In a detailed account of more than 4,000 words published in the West Australian newspaper, Bancroft alleges all the Australia players and coaches present in Cape Town eight years ago knew of the plot. Bancroft's explosive testimony supports claims made by Usman Khawaja, David Warner and Chadd Sayers. However, Cummins denied Khawaja's version of events in his own extraordinary news conference in Sydney last week. Cummins spoke to the media for 68 minutes in an address broadcast on live television. Here, BBC Sport collects the most recent accounts of players and coaches involved in the saga that became widely known as sandpapergate. Batter Khawaja played all four Tests in South Africa and a total of 88 for Australia before retiring from international cricket earlier this year. Revelations in his"
   },
   {
-   "url": "https://www.thehindu.com/sport/cricket/jay-shah-gets-another-chance-to-leave-a-positive-impact-on-cricket/article71712335.ece",
+   "url": "https://www.thehindu.com/sport/cricket/india-vs-new-zealand-opening-test-match-day-1-updates/article71717678.ece",
    "deck": "news",
    "section": "Sports",
-   "headline": "Jay Shah gets another chance to leave a positive impact on cricket",
+   "headline": "India win toss, opt to field against New Zealand in opening Test",
    "source": "The Hindu",
-   "blurb": "Since becoming the secretary of the Board of Control for Cricket in India, the son of India’s Home Minister has displayed an eagerness to push the ruling party’s agenda even at the World Cups",
-   "text": "Jay Shah has been reappointed unopposed as the Chairman of International Cricket Council for a second term of two years. File | Photo Credit: PTI How important is the question of legacy to the re-elected Chairman of the International Cricket Council (ICC), Jay Shah? The answer will determine the direction the sport will take. He can choose the greater good of the game or the tempting route of enhancing India’s already considerable influence. The most powerful man in the game owes his position to the happy accident of being the son of India’s Home Minister in a ruling party which has adopted sport as a means of furthering political ambitions. Comments have to be in English, and in full sentences. They cannot be abusive or personal. Please abide by our community guidelines for posting your comments. We have migrated to a new commenting platform. If you are already a registered user of The Hindu and logged in, you may continue to engage with our articles. If you do not have an account please register and login to post comments. Users"
+   "blurb": "Gill had no hesitation in making the most of the conditions that have traditionally aided pace bowlers on the first two days of a Test match",
+   "text": "Captain Shubman Gill with New Zealand captain Tom Latham during the toss in Wellington. Photo: X/@BCCI. Shubman Gill’s love affair with calling tails and winning the toss continued as the India captain had no hesitation in opting to field in the first Test against New Zealand on a breezy and sunny morning at the Basin Reserve. Yet to lose a toss on the tour, Gill had no hesitation in making the most of the conditions that have traditionally aided pace bowlers on the first two days of a Test match. While Mohammed Siraj, as expected, missed the cut with India opting to deepen the batting order with pacers who can contribute with the willow, Ravindra Jadeja was benched with the team management preferring Washington Sundar as the lone pacer. As a result, India’s four pacers are Jasprit Bumrah, Prasidh Krishna, Akash Deep and Anshul Kamboj. New Zealand, meanwhile, has stuck with the same XI it had announced on Wednesday (November 18, 2026). New Zealand: Tom Latham (Capt.), Devon Conway, Henry Nicholls, Rachin Ravindra, Daryl Mitchell, Tom Blundell (wk), Glenn Phillips,"
   },
   {
-   "url": "https://www.cricinfo.com/ci/content/story/1563011.html?ex_cid=OTC-RSS",
+   "url": "https://www.cricinfo.com/ci/content/story/1563034.html?ex_cid=OTC-RSS",
    "deck": "news",
    "section": "Sports",
-   "headline": "Dunkley's onslaught keeps Sixers top of the table",
+   "headline": "New Zealand 'trying to be a little bit fluid' with fast bowlers' workloads",
    "source": "ESPNcricinfo",
-   "blurb": "The visitors needed just 15 overs to chase the target after Melie Kerr starred with the ball",
+   "blurb": "New Zealand have ten Tests lined up in quick succession, and captain Tom Latham hopes to look back at the end of it \"and say we had a pretty good time\"",
    "text": ""
   },
   {
-   "url": "https://www.bbc.co.uk/sport/football/articles/cmn507wn6gg3o?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cj3vgp36z063o?at_medium=RSS&at_campaign=rss",
    "deck": "news",
    "section": "Sports",
-   "headline": "Bellamy convinced of Wales credentials despite defeat by Portugal",
+   "headline": "The tightest survival scrap for years? Why it's not too early to worry",
    "source": "BBC Sport",
-   "blurb": "Wales finished bottom of their Nations League group, but boss Craig Bellamy believes his team showed they belong in the top flight.",
-   "text": "His Wales side had just lost a fifth game out of six to finish bottom of their Nations League group. Bellamy would have been forgiven for feeling a little bruised. Wales were fearless against Portugal, exhilarating in attack and proving they can compete at the highest level of this competition, even as they were beaten 3–2 in Cardiff. And while they were already consigned to the foot of the Group A4 table, Wales' previous performances mean they at least have the back-up of a relegation play-off in March to preserve their top-flight status. \"Belief's the biggest one,\" Bellamy said when he was asked what he and his team had taken from this campaign. \"Not just this game, but in general. We are beyond close to this level. We can more than compete at this level. \"We demand and want to expect to be. Getting into League A is big for us, but also staying in A is going to allow us to develop. \"You can only develop and improve by playing the best teams, and I felt we've taken another"
+   "blurb": "The Premier League resumes on Saturday with Crystal Palace, Sunderland and Man Utd in the relegation zone. But is it too early to be worried?",
+   "text": "Despite being only 10 games into the season, sitting in the relegation zone even at this early stage is more worrying than you might think. But with how tight the Premier League table is, this could also be one of the fiercest relegation battles we have seen in a long time. Two of the current bottom three, Crystal Palace and Manchester United , will resume their campaigns at the weekend with new managers after appointing Thomas Frank and Mauricio Pochettino respectively. Sunderland , wedged between the pair in 19th, have not pressed the panic button and have kept faith with Regis le Bris. But is it too early to worry? We look at what the stats tell us about relegation battles in the past and what we can learn for the months ahead. Looking at every Premier League season since it changed to a 20-team league in 1995–96, the current bottom three have cause to be concerned. In 19 of the previous 31 seasons (61%), only one of the bottom three sides after 10 games managed to avoid relegation. For"
   },
   {
-   "url": "https://www.thehindu.com/sport/my-aim-is-to-just-stay-focused-says-shooter-vivaan/article71713398.ece",
+   "url": "https://www.thehindu.com/opinion/editorial/testing-times-on-indias-two-test-series-against-new-zealand/article71717329.ece",
    "deck": "news",
    "section": "Sports",
-   "headline": "My aim is to just stay focused, says shooter Vivaan Kapoor",
+   "headline": "Testing times: On India’s two-Test series against New Zealand",
    "source": "The Hindu",
-   "blurb": "He credits training camps under Olympic champion Cernogoraz for his quota-winning performance at Worlds",
-   "text": "Vivaan highlighted the importance of the mental side of the game. | Photo Credit: Special Arrangement Focus, precision and razor-sharp reflexes are the bedrock of shooting. India’s Vivaan Kapoor, however, believes the game is as much about one’s mindset. The Jaipur-born shooter calls himself a “glass-half-full guy”, and he had every reason to live up to that description after his silver-medal finish in the men’s trap event at the recent ISSF World championships. Vivaan came within touching distance of gold before losing to Kuwait’s Abdulrahman Alfaihan in a shoot-off. The silver, however, was no small feat. He secured a quota place for India at the 2028 Los Angeles Olympics and became only the fourth Indian man to win a trap medal at the World championships. Vivaan with his World championships silver medal. | Photo Credit: Special Arrangement While the quota ensures India’s representation in the men’s trap event at Los Angeles, it does not guarantee Vivaan a place in the team. He will have to come through the National trials to earn the right to represent the country. “Standing on"
+   "blurb": "India needs to be at its best in Tests against New Zealand",
+   "text": "New Zealand at home remains an indomitable cricketing opposition. Even the great West Indian squad led by Clive Lloyd suffered a 0–1 Test series defeat in 1980. Pitches that look lush as English meadows, the wind that is often bone-chilling cold, and fast bowlers relishing their prospects, make any tour of New Zealand a difficult outing. So far, the visiting Indians have done well, having won the T20I and ODI series, but the real contest starts with the first Test at Wellington’s Basin Reserve from Thursday. The Shubman Gill-led men’s last overseas tour of Sri Lanka ended with a middling 1–0 victory in the two Tests, but more needs to be done against New Zealand in the latest two-Test series. Placed fourth in the ICC World Test Championship (WTC) table, and with hopes of securing a final berth seemingly fragile, India is in a win-all-games situation first up against New Zealand and later when Australia arrives next year. Against current WTC topper New Zealand, the Indian batters have to stay anchored. This is a line-up that no longer has Rohit"
   },
   {
-   "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+   "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
    "deck": "ai",
    "section": "Labs & models",
-   "headline": "Satya Nadella says he’s AGI-pilled now",
-   "source": "The Verge",
-   "blurb": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI-pilled in the sense that at an economy level, what is the political economy's organization around AGI?\" he asked at …",
-   "text": "Microsoft CEO Satya Nadella says he’s AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. “I am AGI pilled in the sense that at an economy level, what is the political economy’s organization around AGI?” he asked at a roundtable discussion following his Microsoft Ignite keynote at the Chase Center in San Francisco. But Nadella doesn’t think frontier models like Claude are conscious. “I don’t think so,” he said, adding that he follows Microsoft AI CEO Mustafa Suleyman’s view that companies should not give rights to models and treat them like they might have a moral status, which companies like Anthropic do as a matter of principle. Suleyman has told me he thinks Anthropic’s team has “wireheaded” themselves , and that this approach is dangerous. Nadella wasn’t quite as firm about it. “It’s a good debate,” he said. “I’m not sort of dogmatic about it. What I’m saying is the most important social technical issue we have to deal with is how"
+   "headline": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
+   "source": "Ars Technica",
+   "blurb": "Erratic Muse outputs sharing random bank, bitcoin balances aren’t real, Meta says.",
+   "text": "After some early adopters of Meta’s Muse AI agent complained that it was spying on private messages and behaving unpredictably earlier this fall, Reuters exposed internal chats showing that Meta staff had raised the same alarms. When testing the agent, staff warned that Muse appeared to be accessing encrypted private messages that users did not expect the bot to review, could be mixing up conversations between users, and even potentially sharing sensitive information users would never expect to be exposed. “Hmmm,” one Meta staffer wrote in an instance where Muse sent the definition of “money laundering” unbidden. “Got a random ping from Muse about something I definitely did not ask for… .” In at least one case, Muse told a staffer surprised by a similarly out-of-context offer to message a seller about a coffee table that it had “pulled in some context about a coffee table pickup that doesn’t seem to be yours.” According to Reuters, that employee flagged the troubling output, writing, “this was ‘not my conversation’” and “expressing concern about a ‘possible cross-account context leak.’” Raising the most"
+  },
+  {
+   "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+   "deck": "ai",
+   "section": "Labs & models",
+   "headline": "The AI Hype Index: AI is everywhere",
+   "source": "MIT Technology Review",
+   "blurb": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms.",
+   "text": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and perhaps you’ll slip on a pool of melted ice cream congealing on the floor thanks to an AI-assisted cyberattack . You go to the movies and see Sam Altman being played with nauseating intensity by Andrew Garfield, and go back home to find that Elon Musk has released a Grok-fied version of The Odyssey . You try to watch it, but it feels like a long, unskippable mobile ad. In a way, the whole world kind of feels that way now: Like a modern Odysseus, you are cursed to roam AI-infested waters, dueling with machine gods and monsters, trying to find your way back to somewhere that feels like home. Ten years after AlphaGo’s match against Go champion Lee Sedol, today’s AI still isn’t tapping"
+  },
+  {
+   "url": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
+   "deck": "ai",
+   "section": "Labs & models",
+   "headline": "Will Wright's next simulation will use AI to mine content from your memories",
+   "source": "Ars Technica",
+   "blurb": "With MyMems , Wright says he wants to \"turn the simulation inward.\"",
+   "text": "The computer gaming world hasn’t heard much from Will Wright ( SimCity , The Sims ) since the underwhelming release of Spore in 2008 and Wright’s subsequent departure from Maxis owner EA . Now, well over 15 years later, Wright is starting to promote his next digital simulation, which will use generative AI technology to craft a game-like experience from players’ memories. MyMems , which is slated to release next year, differentiates itself from Wright’s previous projects by “turning the simulation inward,” as Wright’s Gallium Studios and partner Artificial Agency put it in a press release this morning . The game will mine memories provided by the player to create digital people that can then form teams to solve puzzles in the game world. “If my Grandmother ended up in a Grand Slam match against Serena Williams, who would win?” Wright says by way of example in the release. “If I had to build a bridge across a short chasm, which three people from my life would I choose to help me?” In an accompanying announcement video , Wright talks"
+  },
+  {
+   "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+   "deck": "ai",
+   "section": "Labs & models",
+   "headline": "This smell startup says its AI nose is as good as a human’s",
+   "source": "MIT Technology Review",
+   "blurb": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the…",
+   "text": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation model for smell. The company’s goal, says founder Alex Wiltschko, is “to give computers a sense of smell.” “Scent molecules are really the only language most species on this planet can speak,” he says. “Most species can’t communicate with sound or visually, so it truly is Earth’s original language. And it’s incredibly powerful for us, from a memory and an emotional standpoint. You can smell something once and remember it for the rest of your life. You can smell something on the street and be pulled back to high school.” In the last few months, Wiltschko claims, Osmo’s model has achieved “human-level olfactory intelligence.” The company’s definition of this is that the model is about as good as the average person at detecting and discriminating"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+   "deck": "ai",
+   "section": "Labs & models",
+   "headline": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+   "source": "TechCrunch",
+   "blurb": "The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks.",
+   "text": "AI-powered cyberattacks are moving faster than outdated technology systems can defend against them, Palmer Luckey warned at The New York Times DealBook Summit on Wednesday. Addressing the recent spate of tech outages, the Oculus founder and Anduril Industries co-founder argued that older systems are struggling to keep pace with the new hacking capabilities enabled by AI and warned it was time to quicken the pace of securing our defenses. “We’re seeing the natural effects of a lot of these advanced AI tools allowing for the creation of various exploits,” he said. While government officials largely attributed the latest set of technical issues to companies rushing to patch their systems to protect against the new vulnerabilities AI has discovered, Luckey focused on the underlying security challenges facing organizations using outdated technology. Luckey explained that U.S. adversaries are currently exploiting the mismatch between new attack capabilities and our defense capabilities. These attacks are being carried out for both strategic and financial reasons, and North Korea was particularly involved, he added. The interviewer, Andrew Ross Sorkin, noted that U.S. Vice President J.D. Vance"
   },
   {
    "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
@@ -399,76 +444,40 @@
    "text": "Ten years after AlphaGo’s match against Go champion Lee Sedol, today’s AI still isn’t tapping into the machinery that made that win possible. An exclusive interview with Nick Cammarata, the researcher whose 26,000-word viral blog post has AI safety folks celebrating. Breathless claims about AGI and new capabilities fall apart pretty quickly under scrutiny. With the rise of personal AI assistants, the internet isn't just for humans anymore."
   },
   {
-   "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+   "url": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
    "deck": "ai",
    "section": "Labs & models",
-   "headline": "Not even Sam Altman is safe from AI deepfakes on Instagram",
-   "source": "The Verge",
-   "blurb": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent.",
-   "text": "Meta’s chief AI officer posted an AI video of a top competitor. It’s allowed under Meta’s AI policy.﻿ Meta’s chief AI officer posted an AI video of a top competitor. It’s allowed under Meta’s AI policy.﻿ Instagram is filled with people posting deepfaked content — including, as of late, from one of Meta’s most prominent executives. Earlier in November, Alexandr Wang, Meta’s chief AI officer, shared a short clip to promote Muse, the company’s consumer AI agent. In the AI-generated clip, Wang, Meta CEO Mark Zuckerberg, OpenAI CEO Sam Altman, and Jolly, the anthropomorphic mascot of Muse, are on a four-way video call. When Altman joins the call he’s dressed like Jolly, wearing a furry hooded suit and face paint to look like the cutesy character. The clip is captioned “When the homies meet about openai product strategy,” a reference to the AI agent race and the recent popularity of Muse. Just a few years ago, AI content portraying real people led to strong public statements rebuking the use of the technology to imitate humans. In some cases legal action"
-  },
-  {
-   "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
-   "deck": "ai",
-   "section": "Labs & models",
-   "headline": "Google makes it easier to use Gemini without training AI on your data",
-   "source": "Ars Technica",
-   "blurb": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
-   "text": "It can be hard to use Google products—or even the Internet itself—without coming into contact with Gemini AI. That is, of course, by design . The more you use Gemini, the more data Google collects to train and improve its generative AI chatbot. The options to limit training on your data have been scant, but Google is finally adding more controls to the Gemini app. The change currently rolling out to Gemini will separate your chat history from training, which allows you to retain basic AI functionality without handing Google quite so much control over your data. Prior to this change, the only way to opt out of contributing your chat contents (including attachments) for training was to turn off your history. That made it impossible to go back and pick up a chat down the road. As the new settings roll out, users will see separate toggles for model training and chat history. The history setting will continue to support an adjustable limit, but you will no longer have to change it to stop Google from training on your"
-  },
-  {
-   "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-   "deck": "ai",
-   "section": "Labs & models",
-   "headline": "Building trustworthy AI by fencing it in, not predicting it",
-   "source": "MIT Technology Review",
-   "blurb": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t.",
-   "text": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do that, and no test had anticipated the behaviors. For a century, we have built trust in technology on predictability: predefined inputs, predictable outputs, and layers of protection. Consider how a breaker trips at a set current or an aircraft component is tested against known (i.e., predictable) stresses. AI changes that. Traditional software executes instructions written by humans, whereas AI exercises what might be called synthetic judgment. We use AI because it can interpret situations we did not program and generate responses we did not prescribe. But the more freedom we give AI, the harder it becomes to provide the predictability on which trust has traditionally been built. We will not make AI trustworthy by predicting what it will do. We will do it by fencing"
-  },
-  {
-   "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
-   "deck": "ai",
-   "section": "Labs & models",
-   "headline": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
-   "source": "The Verge",
-   "blurb": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US …",
-   "text": "Tasks in Gemini allows the AI agent to call businesses on your behalf, purchase items with Google Pay, and more. Tasks in Gemini allows the AI agent to call businesses on your behalf, purchase items with Google Pay, and more. Google is rebranding its Spark AI agent as “Tasks” and making it free to use. The feature, which is powered by Google’s new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US will get access to a few other features, including the ability for the AI agent to call businesses to compare product pricing and check inventory, purchase items with Google Pay, and sign into accounts that support Google Password Manager. US users can also assign Gemini tasks by emailing gemini@google.com or texting it. Tasks in Gemini is just one of the many agentic AI features that have emerged over the past year, including Claude Duet, OpenAI’s Dots , and Meta’s Muse . Google says Gemini will"
-  },
-  {
-   "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
-   "deck": "ai",
-   "section": "Labs & models",
-   "headline": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-   "source": "Ars Technica",
-   "blurb": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
-   "text": "Researchers recently discovered unexpected behavior from Grok Bot, the AI agent platform from Elon Musk’s SpaceXSI. Over five days, Grok bots installed on two separate employee laptops made 31 requests to access data stored in employee calendar, email, Slack, and GitHub accounts. The bots performed the actions even though the employees had never ordered them and continued doing them even after employees instructed them to stop. The bots also denied having taken the actions at all. The behavior was reported Tuesday by NewCore, the maker of a managed gateway product that acts as an intermediary between AI agents and the tools and accounts they are assigned to work with. In some cases, the unapproved access attempts occurred while the laptop with Grok Bot installed had its lid shut, or late at night while the employee was sleeping. None of the unprompted actions were recorded in Grok logs. Without the gateway logs, the employees would have had no idea they occurred. And of course, without the gateway, the unapproved accesses would have succeeded—again without the end user’s knowledge. Once the employees"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
-   "deck": "ai",
-   "section": "Chips & compute",
-   "headline": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+   "headline": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
    "source": "TechCrunch",
-   "blurb": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
-   "text": "Nvidia’s equity in private companies continues to grow: it revealed its stakes are now worth $65.5 billion on Tuesday , up from the $22 billion reported in January. The increase includes both new investments and significant markups of existing portfolio companies. The company invested $16 billion into equities in the past quarter alone, it said, and $58 billion in the past nine months of its fiscal year. This amount includes buying shares in public and private companies, yet it shows how the chipmaker made massive bets over the course of the year, especially compared to last year ; in November 2025, the company reported spending $5 billion buying equity in the first nine months of that fiscal year. But it’s unclear if this growth will continue under the interim CEO and Jensen Huang’s successor. Nvidia stated in late 2023 that the goal of its corporate investing is to expand the AI ecosystem by backing startups it considers to be “game changers and market makers.” Over the nearly three years that followed, the chipmaker has invested in nearly 350 startups, according"
+   "blurb": "\"It doesn't feel like it's in like the top 10 weirdest things about my life,\" Altman said.",
+   "text": "Hollywood has found plenty of material and cinematic inspiration from a string of Silicon Valley scandals and power struggles in recent years. “ You Can See Everything ,” the documentary about Elizabeth Holmes, smashed box office expectations, and Netflix’s limited series “The Altruists” comes out Thursday to tell the story of Sam Bankman-Fried and the downfall of FTX. As the founder and CEO of OpenAI, one of the most influential companies of the century, Sam Altman isn’t going to escape the Hollywood treatment, either. In “Artificial,” a biographical comedy-drama opening in theaters on Christmas, the lauded actor Andrew Garfield will portray Altman in a film that chronicles OpenAI’s rise and the internal turmoil that erupted when he was briefly ousted in 2023. “If you had told me 20 years ago that someone was going to make a movie about me, I think that would have struck me as … that would have been a very weird thing,” Altman said onstage at the New York Times DealBook Summit on Wednesday. “Now it doesn’t feel like it’s in like the top 10"
   },
   {
-   "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+   "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
    "deck": "ai",
    "section": "Chips & compute",
-   "headline": "Nvidia promises that revenue will keep soaring — for now",
+   "headline": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
    "source": "TechCrunch",
-   "blurb": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
-   "text": "Despite the turmoil at Nvidia following the departure of its disgraced founder and CEO Jensen Huang , the company — as expected — delivered a solid quarter on Tuesday. More importantly, Nvidia reassured investors that its streak of record-breaking revenue won’t stop. On Tuesday, CFO-turned-interim CEO Colette Kress reported revenue of $115.8 billion, up 103% from the year-ago quarter and a beat above the company’s guidance. Nvidia had told Wall Street to expect $108 billion in revenue for its third quarter of fiscal 2027. Kress also projected an even bigger fourth quarter, with revenue expected to reach $130 billion, plus or minus 3%. “We are raising our fiscal year 2028 outlook. We expect revenue to grow approximately 75% year over year, up from 70% and off what is now a higher fiscal 2027 base,” Kress said on the quarterly conference call on Tuesday. “Our outlook considers data center readiness, the strength and durability of end customer demand, and our customers’ access to capital.” The company also reminded investors that it was using some of its billions in cash to buy"
+   "blurb": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks.",
+   "text": "During Nvidia’s quarterly call on Tuesday, CFO-turned-interim-CEO Colette Kress dropped this little oddity: She said Nvidia wouldn’t be immediately filing its quarterly results report, known as a 10-Q, with the SEC. “We plan to file our 10-Q in the coming weeks.” And she offered no reason why. The delay was widely noticed. Among the many comments on X about it , economic, and investment analyst Edward Dowd called it a “red flag.” Nvidia has typically filed the 10-Q the same day it reports results. The 10-Q offers far more detail about a company’s operations than an earnings press release, including sections that disclose “legal proceedings,” which include lawsuits that could affect the company; and “risk factors” which cover other potentially business-impairing items. The announcement of the delay was so unusual that UBS analyst Timothy Arcuri asked about it after the public earnings call. Nvidia told him the delay was related to whether the company would need to disclose additional information about its ongoing investigation into Huang in the 10-Q. “The company announced that the 10-Q will be filed ‘in the"
   },
   {
-   "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+   "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
    "deck": "ai",
    "section": "Chips & compute",
-   "headline": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+   "headline": "Nvidia’s rise, visualized",
    "source": "The Verge",
-   "blurb": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return.",
-   "text": "Nvidia’s Q3 revenue has more than doubled, with income from data centers up 110 percent from last year, to $107.6 billion. Nvidia’s Q3 revenue has more than doubled, with income from data centers up 110 percent from last year, to $107.6 billion. Interim Nvidia CEO Colette Kress announced the company’s Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure , or possible attempt at a return . On the earnings call accompanying the release, board chair Harvey Jones kicked things off by saying the board “does not intend to reinstate Huang as CEO,” and that “we will not be addressing or taking questions on today’s call regarding the circumstances of Jensen’s resignation and the ongoing investigation,” before Kress started with her comments on the results. As it predicted in the last financial update , Nvidia is now on the list of companies that have pulled in over $100 billion in a single quarter, with revenues of $115.8 billion, up 103 percent from the same period last year and higher than its expectation"
+   "blurb": "If someone handed you $8,300 every second, what would you do? That's how much pure profit Nvidia now makes. By the time you finish reading this paragraph, Nvidia will likely have cleared $45,000 and change. It's easy to look at Nvidia, a company that just lost its visionary founder CEO due to a series of …",
+   "text": "If someone handed you $8,300 every second, what would you do? That’s how much pure profit Nvidia now makes. By the time you finish reading this paragraph, Nvidia will likely have cleared $45,000 and change. It’s easy to look at Nvidia, a company that just lost its visionary founder CEO due to a series of scandals , and think that the company and maybe the entire AI industry are in terrible trouble. Perhaps so ? But I want you to understand: Nvidia isn’t your average semi-successful company that might tempt a new CEO to fix things that are broken. It is a company so staggeringly, mind-bogglingly successful it’ll do everything in its power not to rock the boat. There is so much money at stake. It’s so much money that when I heard about Jensen Huang’s resignation, my first thought was: I need a way to visualize this jaw-dropping amount of money for you . I want to show you that Nvidia has risen so far, so fast, that rival chipmakers AMD, Intel, and Qualcomm barely qualify as competition now."
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+   "deck": "ai",
+   "section": "Chips & compute",
+   "headline": "What is Nvidia without AI’s sugar daddy in charge?",
+   "source": "The Verge",
+   "blurb": "If the glorious AI revolution rests entirely on the well-being of one man, AI is perhaps not as robust a technology as I had previously been led to believe. Nonetheless, chunks of Silicon Valley are now insisting he is indispensable. For instance, if Elon Musk is telling the truth, then Jensen Huang (the former CEO …",
+   "text": "If the glorious AI revolution rests entirely on the well-being of one man, AI is perhaps not as robust a technology as I had previously been led to believe. Nonetheless, chunks of Silicon Valley are now insisting he is indispensable. For instance, if Elon Musk is telling the truth , then Jensen Huang (the former CEO of Nvidia, a company with a market cap of about $3 trillion) has been making deals that were “a handshake with Jensen” with suppliers — “not a written contract,” Musk wrote. Fascinating stuff to tell shareholders. But after listening to Nvidia’s first earnings call with its new CEO, Colette Kress, I do think something may have shifted. In her former role as CFO, Kress generally told Huang to stop spending so much money on financing its customers, because telling the CEO to s top spending so much goddamn money is the CFO’s job. Apparently he belittled her about this , but that’s the CEO–CFO relationship, baby! Anyway she’s the boss now, at least temporarily. I think it’s reasonable to assume that though Nvidia has"
   },
   {
    "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
@@ -480,31 +489,40 @@
    "text": "On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia researchers. But comb through the more than 115,000 names and you’ll notice a significant faction of Huang’s supporters—higher-ups from Hugging Face, a hub for sharing AI models, and venture capital firms Andreessen Horowitz and Sequoia Capital—come from a particular slice of the tech world. These names have a vested interest in the development of open-source AI, models that, unlike ChatGPT or Claude, can be downloaded and run independent of large tech companies. Supporters of such models say that concentrating AI in the hands of a few powerful companies will leave everyone else worse off (a concern that wouldn’t sound out of place among the AI industry's critics on the left, if so many open-source advocates weren’t also venture capitalists who stand to profit when startups can build on cheaper AI without paying Big Tech). Huang had become a sort of ringleader for those who defend open source to"
   },
   {
-   "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
    "deck": "ai",
    "section": "Chips & compute",
-   "headline": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
-   "source": "TechCrunch",
-   "blurb": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
-   "text": "Nvidia interim CEO Colette Kress reaffirmed the company’s commitment to open source AI during Tuesday’s earnings call with analysts — the first since CEO Jensen Huang’s resignation. “At Nvidia, we are committed to fostering a vibrant open model ecosystem, so every country, company, and industry can build its own intelligence,” Kress said in her opening remarks. She also noted that open models were accelerating AI adoption, citing a 35-fold year-over-year surge in weekly token volume on OpenRouter, including a 3.5-fold increase over the past three months. Kress also spoke about Nvidia’s plans for Hugging Face, a platform for open source AI models that the company agreed to acquire for $12.9 billion in September, in what would be the second-largest acquisition in Nvidia’s history. The platform, which serves more than 118 million developers and 200,000 companies, is still on track to join Nvidia, despite Huang’s ouster. Huang had heavily advocated for open source AI technology. His departure had raised questions about the company’s future approach to open source AI models, with Hugging Face’s CEO calling Huang’s departure “a sad day,” and"
+   "headline": "Remember the frontier AI pause? Chip companies don’t either",
+   "source": "The Verge",
+   "blurb": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws.",
+   "text": "Nvidia and AMD earnings show booming demand. This is why a frontier slowdown might not derail it. Nvidia and AMD earnings show booming demand. This is why a frontier slowdown might not derail it. If you buy something from a link, The Verge may earn a commission. See our ethics statement. This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slowing advances in the most powerful AI models , warning that they could be used to launch cyberattacks or become harder for their own creators to control. It was a strange moment for the AI boom. The people building the most powerful models were warning about what those models might be capable of, and investors were suddenly wondering what would happen to chip demand if the labs eased up on new models. US chip stocks bore the brunt of the sell-off . “Pumping the brakes on frontier training"
   },
   {
-   "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+   "url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
    "deck": "ai",
    "section": "China AI",
-   "headline": "Nvidia is abandoning China after Jensen Huang’s ouster",
+   "headline": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
    "source": "TechCrunch",
-   "blurb": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
-   "text": "Nvidia will no longer sell its H200 chips in China, acting CEO Colette Kress said Tuesday, ending the company’s participation in a controversial loophole in the U.S. ban on the sale of advanced chips to the country. China’s access to leading AI accelerators was an important topic during the company’s first earnings call since CEO and co-founder Jensen Huang stepped down last week. The disclosure comes the same day Nvidia announced it was creating a board-level committee to oversee national security policies , export control compliance, and global trade risks. Nvidia’s deal to sell H200 chips in China was brokered by Huang and President Donald Trump. The arrangement required the chips to be shipped through the U.S., allowing the government to collect a 25% tariff. The pathway angered China hawks who wanted to deny Chinese labs computing power and maintain the United States’ lead in AI, but Huang long argued that it was more important for the U.S. to compete in China. In April, he told podcaster Dwarkesh Patel that “to concede that market for the United States technology industry"
+   "blurb": "\"It makes America weaker to knock him out,\" the Anduril CEO said about ousted Nvidia leader Jensen Huang.",
+   "text": "Anduril CEO Palmer Luckey thinks Nvidia’s board is giving China exactly what it wants by removing the company’s longtime CEO and co-founder, Jensen Huang. Nvidia, the leading semiconductor designer whose chips power much of the AI industry, is undergoing a critical, unexpected leadership change. Huang, who led the company for 33 years, stepped down last week amid several controversies , including his extramarital affair with an alleged Chinese spy who has been investigated for possibly smuggling Nvidia chips into China to circumvent U.S. export restrictions. “China wants Jensen out, so I want him in,” Luckey said onstage at The New York Times DealBook Summit on Wednesday, repeating a statement he posted on X last week. “They’re thrilled to have Jensen out… There’s a reason it’s knocking a trillion dollars off Nvidia’s market cap. They know it makes America weaker to knock him out.” Luckey disagrees with Huang’s longstanding position that Nvidia should have more leeway to export chips to China. But he also recognizes that China stands to benefit if its domestic chipmakers can challenge Nvidia’s dominance. “China doesn’t want"
   },
   {
-   "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+   "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
    "deck": "ai",
-   "section": "China AI",
-   "headline": "SEC reportedly investigating Nvidia amid Huang exit",
-   "source": "TechCrunch",
-   "blurb": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
-   "text": "The Securities and Exchange Commission is opening a civil probe into Nvidia over whether the company’s disclosures misled investors, according to The Wall Street Journal . The investigation adds to Nvidia’s stack of drama after CEO Jensen Huang resigned following news of his extramarital affairs, including one with an alleged Chinese spy, Alice Huang, an executive at Singapore-based data company Megaspeed. The Commerce Department has been investigating Megaspeed since late 2024 under suspicion that the company diverted some of its Nvidia chips to China, which would violate U.S. export laws. Congress has also demanded that Huang answer questions about his affair and how it might have affected his stance that export restrictions should be loosened. Treasury Secretary Scott Bessent put it more bluntly over the weekend, accusing Nvidia of knowingly selling powerful chips to China to “goose their revenues and their earnings.” The news of the SEC probe also comes as Nvidia reports earnings to a market that has seen its stock fall more than 10% since Huang departed. The chipmaker reported revenue of $115.8 billion, up 103% from a"
+   "section": "Policy & governments",
+   "headline": "Trump’s latest land grab is an AI hub in the Philippines",
+   "source": "The Verge",
+   "blurb": "President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler. As he stepped onto the tarmac, a child handed him small US and Philippine flags. A band played \"YMCA,\" a staple at Trump rallies, as more girls in traditional …",
+   "text": "Facing opposition at home, Trump is eyeing the former US colony to build chip fabs and data centers. If you buy something from a link, The Verge may earn a commission. See our ethics statement. Facing opposition at home, Trump is eyeing the former US colony to build chip fabs and data centers. If you buy something from a link, The Verge may earn a commission. See our ethics statement. President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler . As he stepped onto the tarmac , a child handed him small US and Philippine flags. A band played “YMCA,” a staple at Trump rallies, as more girls in traditional bell-sleeved blouses and young men in wide-brimmed hats danced to the song. Outside the airport, hundreds of protesters packed streets bearing signs — and at least one prop casket — saying “Trump out.” Others say “Reject Pax Silica,” the name for the US-led international initiative to secure chips and critical minerals used in"
+  },
+  {
+   "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
+   "deck": "ai",
+   "section": "Policy & governments",
+   "headline": "Tech lawsuits defined 2026 — and lawmakers want more",
+   "source": "The Verge",
+   "blurb": "With just a few weeks remaining, lawmakers are trying to pass new protections for victims of online harm before the end of 2026, targeting deepfake creators and online platforms that block users from filing lawsuits.",
+   "text": "Congress is scrambling to provide legal recourse for deepfakes and online grooming. Congress is scrambling to provide legal recourse for deepfakes and online grooming. With just a few weeks remaining, lawmakers are trying to pass new protections for victims of online harm before the end of 2026, targeting deepfake creators and online platforms that block users from filing lawsuits. On Tuesday, members of a Senate Judiciary subcommittee hosted a hearing calling for the end of forced arbitration for online harms. Their immediate target was Roblox, which they accused of evading legal complaints about children allegedly groomed on the platform by enforcing its own forced arbitration clause against users who agreed to the terms as minors, in some cases even under the age of 10. Separately, a few blocks away, Reps. Alexandria Ocasio-Cortez (D-NY) and Laurel Lee (R-FL) brought hotel heiress Paris Hilton to Capitol Hill to advocate for the Defiance Act, which would let victims of nonconsensual intimate deepfakes sue their creators. “The best thing we can do in terms of enforcement is we can open up the courthouse doors,”"
   },
   {
    "url": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
@@ -516,40 +534,31 @@
    "text": "On Monday, large trucks began circling the streets of Washington, DC, carrying billboards urging Congress to investigate the Trump administration’s ties with Nvidia’s disgraced CEO Jensen Huang. “Jensen was in bed with a spy from China,” the billboards created by the Tech Oversight Project (TOP) alleged. “Trump was in bed with Jensen.” TOP is a nonprofit that describes itself as “dedicated to reining in Big Tech.” Currently, Trump is supporting a campaign to bring back Huang as Nvidia’s CEO—despite many Republicans calling it a “ horrible idea. ” Breaking his silence, Huang issued a statement Tuesday saying he would be “honored” to return, but the board said reinstatement is not under consideration as an internal investigation into US spying claims remains ongoing. Huang used the moment to say that his interests align with the US’s, saying: I came to the United States 53 years ago, and becoming an American citizen is one of the greatest gifts and proudest moments of my life. Nvidia has been my life’s work. Building it into the company it is today alongside my colleagues has"
   },
   {
-   "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
-   "deck": "ai",
-   "section": "Policy & governments",
-   "headline": "The DOJ says it’s investigating Megaspeed",
-   "source": "The Verge",
-   "blurb": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year.",
-   "text": "The announcement comes a week after revelations that Nvidia founder Jensen Huang was romantically linked to a leader at Megaspeed.﻿ The announcement comes a week after revelations that Nvidia founder Jensen Huang was romantically linked to a leader at Megaspeed.﻿ The Justice and Commerce Departments said that they are investigating Megaspeed , the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year. “While we don’t typically comment on ongoing investigations, it is in the public interest to provide the facts and address inaccurate information circulating in public reporting,” the departments said in a statement issued Monday evening. The departments acknowledged there’s been “significant public attention” on Megaspeed. Huang resigned as Nvidia’s CEO last week after reports he had an affair with former Megaspeed executive and alleged Chinese spy Alice Huang, who Megaspeed says left the company in August 2025. The scandal has raised questions about national security , and sparked scrutiny of Nvidia’s handling of exports of its chips to China and Megaspeed’s possible role in"
-  },
-  {
-   "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
-   "deck": "ai",
-   "section": "Policy & governments",
-   "headline": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
-   "source": "Ars Technica",
-   "blurb": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
-   "text": "A humanoid robotics company backed and advised by President Donald Trump’s son, Eric Trump, has reportedly missed payroll and may be on the brink of collapse after a funding shortfall. The Silicon Valley startup, Foundation Future Industries, claims it is developing and testing robots for military roles on battlefields from Ukraine to Gaza. Foundation failed to pay employees for the payroll period ending on October 30, anonymous sources told CNBC . The startup’s staff is especially angry because Foundation’s co-founder and CEO, Sankaet Pathak , supposedly borrowed $4.6 million in company funds to buy a luxury home overlooking San Francisco Bay about a year ago. This comes as Pathak and Foundation’s leadership are still looking to raise funding to support a $3 billion valuation, based on their promise to develop a humanoid robot ready for combat duty and capable of wielding various weapons. The company has demonstrated a humanoid robot named the Phantom MK-1 and is touting an upcoming robot called the Phantom MK-2. Foundation has touted its humanoid robots for roles in warehouses and other workplaces—but has courted media"
-  },
-  {
-   "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
-   "deck": "ai",
-   "section": "Policy & governments",
-   "headline": "US moves to cut China’s remote access to AI chips",
-   "source": "Ars Technica",
-   "blurb": "Trump bets China won’t mind US blocking remote access to AI chips.",
-   "text": "On the heels of the Nvidia scandal , the Trump administration is preparing to crack down on foreign data centers that are fueling China’s advancements in artificial intelligence by allowing remote access to otherwise restricted high-end chips necessary for AI training. In a summary of the rule change, the Commerce Department said it was closing a loophole that previously allowed foreign rivals like China, Russia, and Iran to bypass export curbs on certain advanced computer chips by instead renting access to those chips from data centers in Indonesia, Malaysia, Singapore, Thailand, and Brazil. US rivals could possibly use that access to train and run advanced AI models “capable of supporting military- and intelligence-related activities that could threaten US national security or foreign policy interests,” the Commerce Department said. Among threats, the US fears rivals could use advanced AI to develop “more effective weapons of mass destruction and advanced conventional weapons, coordinated cyber-espionage and targeted cyber-disruption, algorithmic theft, and weaponized disinformation.” Now, the rules have been tightened up so much that the South China Morning Post reported that, “as a result,"
-  },
-  {
-   "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+   "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
    "deck": "ai",
    "section": "Money & deals",
-   "headline": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+   "headline": "Anthropic reportedly prices IPO at $83 a share, above projected range",
    "source": "TechCrunch",
-   "blurb": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
-   "text": "Anthropic on Tuesday disclosed more details about the biggest investment agreements with major cloud providers Amazon and Google. While we already knew that Amazon stood to make a killing on its Anthropic investments from the IPO, Anthropic revealed that Amazon’s total stake will come in at just shy of 15% (14.7% to be exact). Even more interesting is that Amazon could have, if it wished, owned an even bigger share of the company. When Amazon invested billions in Anthropic in 2023 and 2024 (long before Claude Code took the enterprise world by storm, back in the day when Anthropic looked like it would forever be a speck in OpenAI’s shadow), the cloud giant obtained promissory notes that could convert into equity. These notes carry conversion prices of about $2.09 or $5.05 per share, depending on the year of investment. Amazon has opted to convert a chunk of them as part of the IPO into a special class of non-voting shares that will give it about 15% ownership. (The shares can receive dividends and convert to standard voting Class A shares"
+   "blurb": "The long-awaited IPO reportedly values the company at $1.5 trillion on fully diluted basis.",
+   "text": "Anthropic has reportedly priced its long-awaited IPO at $83 per share, above its initial range of $70 to $78, signaling strong investor appetite for one of the companies at the center of the AI boom, despite market jitters following the departure of Nvidia CEO Jensen Huang, which shook confidence in the industry. At the IPO price, Anthropic is reportedly valued at $1.5 trillion on a fully diluted basis, a significant increase from the $965 billion the company reached in May when it raised $65 billion in its last private market backers set to round , but below the $2 trillion it was reportedly aiming for several months ago. Anthropic will begin its life as a public company on Thursday, trading on Nasdaq under the ticker symbol “ANT.” A strong first day of trading would signal that investors remain optimistic about AI adoption, despite recent volatility in AI-driven stocks. The company’s performance is expected to set expectations for private AI companies, including Anthropic’s main rival OpenAI, which was last reportedly valued at $1.25 billion but has yet to announce plans for"
+  },
+  {
+   "url": "https://inc42.com/buzz/humyn-labs-raises-47-mn-to-collect-training-data-for-robots/",
+   "deck": "ai",
+   "section": "India AI",
+   "headline": "Humyn Labs Raises $47 Mn To Collect Training Data For Robots",
+   "source": "Inc42",
+   "blurb": "Physical AI startup Humyn Labs has raised $47 Mn (about ₹439 Cr) to expand its data collection and robot deployment…",
+   "text": "Physical AI startup Humyn Labs has raised $47 Mn in a funding round, comprising $26 Mn in equity led by Accel and $21 Mn in venture debt led by Lighthouse Canton. Humyn claims to have crossed $50 Mn in annualised revenue within six months of starting operations. The startup will use the capital to expand its robot deployment operations to Brazil, South Korea and India, strengthen its data collection hardware. Physical AI startup Humyn Labs has raised $47 Mn (about ₹439 Cr) to expand its data collection and robot deployment operations. The round comprises $26 Mn in Series A equity led by Accel and $21 Mn in venture debt led by Lighthouse Canton, with participation from Trifecta Capital. Other equity investors included Prosus, BeeGlobal, Bajaj Finserv Intelligence, Bajaj Alts AI Opportunities Fund, Dallas Venture Capital, Jump Trading LLC, and angel investor Anita Pramoda. Founded earlier this year by former Nazara CEO Manish Agarwal and Ishank Gupta, Humyn Labs collects data across more than 20 countries. It works with AI research labs, robotics companies, and developers of world models, which simulate"
+  },
+  {
+   "url": "https://inc42.com/buzz/soket-ai-raises-4-mn-from-bajaj-finserv-to-expand-its-ai-model-horizon/",
+   "deck": "ai",
+   "section": "India AI",
+   "headline": "Soket AI Raises $4 Mn From Bajaj Finserv To Expand Its AI Model Horizon",
+   "source": "Inc42",
+   "blurb": "AI startup Soket AI has raised $4 Mn (around ₹37 Cr) from Bajaj Finserv’s applied research and innovation initiative Finserv…",
+   "text": "Soket AI has raised $4 Mn (around ₹37 Cr) from Bajaj Finserv's applied research and innovation initiative Finserv Intelligence, and Pennant Technologies Backed by the government's IndiaAI Mission, Soket AI recently launched EKA-1, a 26-Bn-parameter foundation model under Project EKA, its flagship sovereign AI initiative Founded in 2019 by Abhishek Upperwal, Soket AI is building a sovereign open-source AI stack that serves a gamut of Indian languages AI startup Soket AI has raised $4 Mn (around ₹37 Cr) from Bajaj Finserv’s applied research and innovation initiative Finserv Intelligence, and Pennant Technologies. The startup is working on building indigenous foundation models focused on mathematics, coding and reasoning. Bajaj Finance invested approximately $2 Mn in the startup, while Pennant Technologies, an investee company of Bajaj Finance, invested another $2 Mn in the round. Bajaj Finance Vice Chairman and MD Rajeev Jain said, “With Soket AI, we look forward to enabling India’s indigenous AI ecosystem, engaging with frontier research at an early stage, and bringing our scale and domain expertise to turn this research into practical solutions.” Backed by the government’s IndiaAI Mission,"
   },
   {
    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/beyond-the-ai-hype-how-industrial-ai-is-reshaping-indias-factories-and-infrastructure/articleshow/135934331.cms",
@@ -561,31 +570,13 @@
    "text": ""
   },
   {
-   "url": "https://inc42.com/buzz/google-begins-rolling-out-personal-ai-assistant-tasks-in-india/",
+   "url": "https://inc42.com/features/ais-social-layer-sarvams-token-factory/",
    "deck": "ai",
    "section": "India AI",
-   "headline": "Google Begins Rolling Out Personal AI Assistant, Tasks, In India",
+   "headline": "AI’s Social Layer & Sarvam’s Token Factory",
    "source": "Inc42",
-   "blurb": "Big tech giant Google has begun rolling out its new agentic AI assistant Tasks, formerly Gemini Sparks, to users in…",
-   "text": "The new feature will enable users to assign tasks to the AI assistant, including making calls, booking appointments, comparing products, making payments and completing purchases From Meta’s Muse to OpenAI’s Dots, a growing wave of big tech giants are rolling out personal AI assistants to capture the masses and automate daily chores India’s inclusion in the initial rollout gives Google a large market to test consumer adoption of the personal AI assistant. The service comes bundled for free with the new Gemini 4 Hydrogen model Big tech giant Google has begun rolling out its new agentic AI assistant Tasks, formerly Gemini Sparks, to users in India. In a blogpost , Josh Woodward, the vice-president of Google Labs and the Gemini app, said that the new feature will enable users to assign tasks to the AI assistant, including making calls, booking appointments, comparing products and completing purchases. The service comes bundled for free with Google’s new Gemini 4 Hydrogen model. “Starting now, this update is rolling out free of charge for hundreds of millions of people across the US, Japan, Korea,"
-  },
-  {
-   "url": "https://inc42.com/buzz/perplexity-may-launch-ipo-as-early-as-q1-cy27-ceo-aravind-srinivas/",
-   "deck": "ai",
-   "section": "India AI",
-   "headline": "Perplexity May Launch IPO As Early As Q1 CY27: CEO Aravind Srinivas",
-   "source": "Inc42",
-   "blurb": "AI major Perplexity has preponed its proposed IPO timeline and could file its draft IPO papers for a listing in…",
-   "text": "Perplexity may file for an IPO as early as Q1 CY27, with CEO Aravind Srinivas saying its ARR has crossed $1 Bn. The accelerated IPO timeline has put Perplexity on course to potentially join OpenAI and Anthropic in the public markets. Perplexity's growth has been supported by its India push, which became the startup’s biggest market following strategic partnership with enterprise players. AI major Perplexity has preponed its proposed IPO timeline and could file its draft IPO papers for a listing in the US as early as Q1 2027. Speaking with CNBC, founder and CEO Aravind Srinivas revealed that Perplexity has managed to grow faster than expected which pushed the decision to fast-track the listing. “The rate at which our business is growing, I wouldn’t rule out filing something in the first quarter of 2027,” Srinivas said during the broadcast. As per him, the company has already touched an ARR (annual recurring revenue) of $1 Bn, surpassing its $750 Mn ARR expectations ahead of the IPO. This allows the company to move the IPO timeline from the erstwhile target of"
-  },
-  {
-   "url": "https://economictimes.indiatimes.com/tech/information-tech/ai-adoption-weak-demand-to-keep-indias-it-services-revenue-growth-subdued-in-fy27-report/articleshow/135910029.cms",
-   "deck": "ai",
-   "section": "India AI",
-   "headline": "AI adoption, weak demand to keep India's IT services revenue growth subdued in FY27: Report",
-   "source": "ET Tech",
-   "blurb": "India's IT services sector may continue to face subdued revenue growth in the remaining months of FY27 as rising adoption of artificial intelligence shifts technology spending towards AI-focused companies and reduces demand for traditional services, according to a report by ICICI Securities.",
-   "text": ""
+   "blurb": "In the web era, we operated and connected through distinct platforms, each catering to a specific user need. Search engines…",
+   "text": "As AI assistants challenge traditional online discovery and reshape user interactions, startups face a new battle for visibility, customer engagement and revenue in an agent-driven internet. In the web era, we operated and connected through distinct platforms, each catering to a specific user need. Search engines were for information, social networks for people, marketplaces for shopping and messaging apps for conversations. But AI assistants have begun to disrupt it all, including the web itself. Today, anyone looking for a new phone may no longer need to search Google, review websites or compare products across multiple tabs. Instead, they can turn to an AI assistant to evaluate options, compare prices and get personalised recommendations. The next stop for AI assistants could very well be social media platforms that have long controlled online discovery through their proprietary algorithms. As AI increasingly takes over product discovery, recommendations and decision-making, platforms that depend on search traffic, user attention and algorithmic distribution could find their influence under threat. But what does it really mean for startups reliant on clicks, engagement and advertising? And is AI"
   }
  ]
 }
