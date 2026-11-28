@@ -986,5 +986,24 @@
    "turns": 5
   },
   "tokenSource": "transcript"
+ },
+ {
+  "date": "2026-11-28",
+  "deck": "summaries",
+  "model": "claude-sonnet-5",
+  "startedAt": "2026-11-28T01:45:43Z",
+  "finishedAt": "2026-11-28T01:49:29Z",
+  "durationSec": 226,
+  "searches": 0,
+  "stories": 56,
+  "tokens": {
+   "input": 10,
+   "output": 23920,
+   "cacheRead": 329739,
+   "cacheWrite": 73188,
+   "total": 426857,
+   "turns": 5
+  },
+  "tokenSource": "transcript"
  }
 ]
